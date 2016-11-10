@@ -6,6 +6,7 @@ os.environ["webdriver.chrome.driver"] = chromedriver
 driver1 = webdriver.Chrome(chromedriver)
 
 file = open("/Users/wanghezhi/Desktop/restaurants_data.txt", "w")
+result = {}
 for i in range(3):
     a = str(i * 10)
     url1 = "https://www.yelp.com/search?find_loc=New+York,+NY"
