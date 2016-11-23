@@ -1,6 +1,3 @@
 myData = [
-[40.75857,-73.989723, '300 W 44th St, New York, NY 10036, USA'],
-[40.7635061,-73.9806361, '151 W 54th St, New York, NY 10019, USA'],
-[40.7497853,-73.9862035, '42 W 35th St, New York, NY 10001, USA'],
-[40.7398532,-74.00573349999999, '18 9th Ave, New York, NY 10014, USA']
+[40.782493,-73.9654237, '50 85th St Transverse, New York, NY 10128, USA']
 ];

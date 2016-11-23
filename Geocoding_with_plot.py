@@ -2,7 +2,7 @@
 
 # Input: formatted street address
 
-file = '../desktop/addr.txt'  # address book for test
+file = 'addr.txt'  # address book for test
 f = open(file)
 f = f.readlines()
 
