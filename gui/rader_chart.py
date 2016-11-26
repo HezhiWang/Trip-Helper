@@ -29,15 +29,6 @@ def _scale_data(data, ranges):
                      * (x2 - x1) + x1)
     return sdata
 
-"""
-def distance_between_twopoints(lat1, lng1, lat2, lng2):
-    newport_ri = (lat1, lng1)
-    cleveland_oh = (lat2, lng2)
-    d = vincenty(newport_ri, cleveland_oh).miles
-
-    return d
-"""
-
 class ComplexRadar():
     def __init__(self, fig, variables, ranges,
                  n_ordinate_levels=6):
@@ -89,11 +80,14 @@ def draw(lat1, logi1):
 
     fig1 = plt.figure(figsize=(8, 8))
     radar = ComplexRadar(fig1, variables, ranges)
+    print(radar)
+    print(data)
     radar.plot(data)
     radar.fill(data, alpha=0.3)
     plt.show()  
-"""
 
+draw(40.74, -73.98)
+"""
 
 
 

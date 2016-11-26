@@ -171,9 +171,40 @@ class Restaurant(tk.Frame):
         label = tk.Label(self, text="Restaurants!!!", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
-        button1 = tk.Button(self, text="Back to Home",
+        label1 = tk.Label(self, text="Please choose the category of the restaurant you want to search, then click 'search'", font=("Verdana", 16), anchor='w')
+        label1.pack(pady=40,padx=40)
+
+        w = tk.Listbox(self)
+        w.pack()
+        w.insert(1, 'American(New)')
+        w.insert(2, '')
+        w.insert(3, 'Luxury hotel')
+
+        button1 = tk.Button(self, text="Show", width = 20,
+                            command =
+                            lambda: 
+                            page.page_creator(lat, logi, 'Price', 1)
+                            if w.get(w.curselection()) == 'Economy hotel'           
+                            else
+                                page.page_creator(lat, logi, 'Price', 2)
+                            if w.get(w.curselection()) == 'Commercial hotel'
+                            else 
+                                page.page_creator(lat, logi, 'Price', 3)
+                            if w.get(w.curselection()) == 'Luxury hotel'
+                            else 
+                                print('haha'))
+        #draw(lat, logi)
+        button1.pack(side = LEFT, pady=10,padx=10)
+
+
+        button2 = tk.Button(self, text="Back to Search", width = 20,
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button1.pack(pady=20,padx=20)
+        button2.pack(side = RIGHT, pady=10,padx=10)
+
+
+
+
+
 
 class Hotel(tk.Frame):
 
