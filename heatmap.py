@@ -4,31 +4,6 @@ import pandas as pd
 import numpy as np
 from geopy.geocoders.base import GeocoderServiceError
 
-def get_coordinates(places):
-    
-    for index, row in places.iterrows():
-        
-        timeouts = True 
-        while timeouts:
-            
-            try:
-                geolocator = geopy.geocoders.Nominatim()
-                location = geolocator.geocode(row["Address"])
-                places.loc[index, "Lat"] = location.latitude
-                places.loc[index, "Lng"] = location.longitude
-            except AttributeError:
-                places.loc[index, "Lat"] = np.nan
-                places.loc[index, "Lng"] = np.nan
-                timeouts = False
-            except OSError:
-                pass
-            except GeocoderServiceError:
-                pass
-            else:
-                timeouts = False
-            
-    return places
-
 
 def get_lat(address):
     geolocator = geopy.geocoders.Nominatim()
@@ -65,13 +40,13 @@ def rank_coordinates(places):
     
     return high_coordinates, med_coorditates, low_coordinates 
 
-def draw_heatmap(places, bour):
-    get_coordinates(places)
+def draw_heatmap(csv_name):
+    places = pd.read_csv(csv_name + ".csv", header = 0, index_col = 0)
     high_gradient = [(255, 255, 255,0),(255, 255, 0, 1),(255, 170, 0, 1),(255, 85, 0, 1), (255, 0, 0,1)]
     med_gradient = [(255, 255, 255,0),  (255, 255, 0, 1), (170, 255, 0, 1), (85,255,0,1), (0,255,0,1)]
     low_gradient = [(255, 255, 255,0),  (0,255,255,1), (0,170,255,1), (0,85,255,1), (0,0,255,1)]
-    center_lat = get_lat(bour + ", New York")
-    center_long = get_long(bour + ", New York")
+    center_lat = get_lat("New York City")
+    center_long = get_long("New York City")
     the_map = gmplot.GoogleMapPlotter(center_lat, center_long, 11)
     high_coordinates, med_coordinates, low_coordinates = rank_coordinates(places)
     
@@ -84,11 +59,7 @@ def draw_heatmap(places, bour):
     
     if len(low_coordinates[0]) > 0 :
         the_map.heatmap(low_coordinates[0], low_coordinates[1], threshold=10, radius=25, gradient=low_gradient)
-    the_map.draw("./"+ bour + "_heatmap.html")
+    the_map.draw("./" + csv_name + "_heatmap.html")
     
-bour_list = ["Manhattan", "Brooklyn", "Queens"]
 
-for bour in bour_list:
-    places = pd.read_csv("booking" + bour + ".csv", header = 0, index_col = 0)
-    draw_heatmap(places, bour)
-    
+draw_heatmap("hotels")
