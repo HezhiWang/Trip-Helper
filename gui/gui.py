@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import *
 #from rader_chart import *
 #from fibb import *]
-import ex
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot
@@ -158,11 +157,35 @@ class Overview(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         label = tk.Label(self, text="Overview!!!", font=("Verdana", 20))
-        label.pack(pady=100,padx=100)
+        label.pack(pady=100,padx=100)   
+        """
+        w = tk.Listbox(self)
+        w.pack()
+        w.insert(1, 'Hotel')
+        w.insert(2, 'Restaurant')
+        w.insert(3, 'Attractions')
+        w.insert(4, 'Museums')
 
-        button1 = tk.Button(self, text="Back to Home",
-                            command=lambda: controller.show_frame(StartPage, 0, 0))
+        button1 = tk.Button(self, text="Show the heatmap", width = 20,
+                            command =
+                            lambda: 
+                                page.heatmap_creator('Hotel')
+                            if w.get(w.curselection()) == 'Hotel'           
+                            else
+                                page.heatmap_creator('Restaurant')
+                            if w.get(w.curselection()) == 'Restaurant'
+                            else 
+                                page.heatmap_creator('Attractions')
+                            if w.get(w.curselection()) == 'Attractions'
+                            else 
+                                page.heatmap_creator('Museums')
+                            if w.get(w.curselection()) == 'Museums'
+                                print('haha'))
         button1.pack(pady=20,padx=20) 
+        """
+        button2 = tk.Button(self, text="Back to Home",
+                            command=lambda: controller.show_frame(StartPage, 0, 0))
+        button2.pack(pady=20,padx=20) 
         
 class Restaurant(tk.Frame):
 
@@ -176,21 +199,56 @@ class Restaurant(tk.Frame):
 
         w = tk.Listbox(self)
         w.pack()
-        w.insert(1, 'American(New)')
-        w.insert(2, '')
-        w.insert(3, 'Luxury hotel')
+        w.insert(1, 'Chinese')
+        w.insert(2, 'Japanese')
+        w.insert(3, 'Asian')
+        w.insert(4, 'Italian')
+        w.insert(5, 'French')
+        w.insert(6, 'US')    
+        w.insert(7, 'European')
+        w.insert(8, 'LatinAmerican')
+        w.insert(9, 'Cafe_bar')
+        w.insert(10, 'African')
+        w.insert(11, 'MiddleEa')
+        w.insert(12, 'Other')  
 
         button1 = tk.Button(self, text="Show", width = 20,
-                            command =
-                            lambda: 
-                            page.page_creator(lat, logi, 'Price', 1)
-                            if w.get(w.curselection()) == 'Economy hotel'           
+                            command = lambda: 
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Chinese')
+                            if w.get(w.curselection()) == 'Chinese'           
                             else
-                                page.page_creator(lat, logi, 'Price', 2)
-                            if w.get(w.curselection()) == 'Commercial hotel'
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Japanese')
+                            if w.get(w.curselection()) == 'Japanese'
                             else 
-                                page.page_creator(lat, logi, 'Price', 3)
-                            if w.get(w.curselection()) == 'Luxury hotel'
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Asian')
+                            if w.get(w.curselection()) == 'Asian'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Italian')
+                            if w.get(w.curselection()) == 'Italian'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'French')  
+                            if w.get(w.curselection()) == 'French' 
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'US')
+                            if w.get(w.curselection()) == 'US'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'European')
+                            if w.get(w.curselection()) == 'European'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'LatinAmerican')
+                            if w.get(w.curselection()) == 'LatinAmerican'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Cafe_bar')
+                            if w.get(w.curselection()) == 'Cafe_bar'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'African')
+                            if w.get(w.curselection()) == 'African'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'MiddleEa')
+                            if w.get(w.curselection()) == 'MiddleEa'
+                            else
+                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Other') 
+                            if w.get(w.curselection()) == 'Other'  
                             else 
                                 print('haha'))
         #draw(lat, logi)
@@ -225,13 +283,13 @@ class Hotel(tk.Frame):
         button1 = tk.Button(self, text="Show", width = 20,
                             command =
                             lambda: 
-                            page.page_creator(lat, logi, 'Price', 1)
+                            page.Hotel_page_creator(lat, logi, 'Price', 1)
                             if w.get(w.curselection()) == 'Economy hotel'           
                             else
-                                page.page_creator(lat, logi, 'Price', 2)
+                                page.Hotel_page_creator(lat, logi, 'Price', 2)
                             if w.get(w.curselection()) == 'Commercial hotel'
                             else 
-                                page.page_creator(lat, logi, 'Price', 3)
+                                page.Hotel_page_creator(lat, logi, 'Price', 3)
                             if w.get(w.curselection()) == 'Luxury hotel'
                             else 
                                 print('haha'))

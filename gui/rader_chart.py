@@ -56,7 +56,6 @@ class ComplexRadar():
             gridlabel[0] = "" # clean up origin
             ax.set_rgrids(grid, labels=gridlabel,
                          angle=angles[i])           
-            #ax.spines["polar"].set_visible(False)
             ax.set_ylim(*ranges[i])
         # variables for plotting
         self.angle = np.deg2rad(np.r_[angles, angles[0]])
