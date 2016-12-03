@@ -2,6 +2,7 @@ import gmplot
 import geopy
 import pandas as pd
 import numpy as np
+import os
 from geopy.geocoders.base import GeocoderServiceError
 
 
@@ -41,7 +42,12 @@ def rank_coordinates(places):
     return high_coordinates, med_coorditates, low_coordinates 
 
 def draw_heatmap(csv_name):
-    places = pd.read_csv(csv_name + ".csv", header = 0, index_col = 0)
+
+
+    path = os.getcwd() + '/Data/' + csv_name + '.csv'
+    data_restaurant = pd.read_csv(path, encoding = 'latin1')
+
+    places = pd.read_csv(path, encoding = 'latin1', header = 0, index_col = 0)
     high_gradient = [(255, 255, 255,0),(255, 255, 0, 1),(255, 170, 0, 1),(255, 85, 0, 1), (255, 0, 0,1)]
     med_gradient = [(255, 255, 255,0),  (255, 255, 0, 1), (170, 255, 0, 1), (85,255,0,1), (0,255,0,1)]
     low_gradient = [(255, 255, 255,0),  (0,255,255,1), (0,170,255,1), (0,85,255,1), (0,0,255,1)]
@@ -62,4 +68,4 @@ def draw_heatmap(csv_name):
     the_map.draw("./" + csv_name + "_heatmap.html")
     
 
-draw_heatmap("hotels")
+#draw_heatmap("hotels")

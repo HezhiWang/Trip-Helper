@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot
 import pandas as pd
-import page
+from search import * 
 
 """
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
@@ -158,7 +158,7 @@ class Overview(tk.Frame):
         tk.Frame.__init__(self, parent)
         label = tk.Label(self, text="Overview!!!", font=("Verdana", 20))
         label.pack(pady=100,padx=100)   
-        """
+        
         w = tk.Listbox(self)
         w.pack()
         w.insert(1, 'Hotel')
@@ -166,23 +166,27 @@ class Overview(tk.Frame):
         w.insert(3, 'Attractions')
         w.insert(4, 'Museums')
 
+        p = Page_creator()
+
         button1 = tk.Button(self, text="Show the heatmap", width = 20,
                             command =
                             lambda: 
-                                page.heatmap_creator('Hotel')
+                                p.heatmap_creator('hotels')
                             if w.get(w.curselection()) == 'Hotel'           
                             else
-                                page.heatmap_creator('Restaurant')
+                                p.heatmap_creator('Restaurant')
                             if w.get(w.curselection()) == 'Restaurant'
                             else 
-                                page.heatmap_creator('Attractions')
+                                p.heatmap_creator('Attractions')
                             if w.get(w.curselection()) == 'Attractions'
                             else 
-                                page.heatmap_creator('Museums')
+                                p.heatmap_creator('Museums')
                             if w.get(w.curselection()) == 'Museums'
+                            else
                                 print('haha'))
+
         button1.pack(pady=20,padx=20) 
-        """
+        
         button2 = tk.Button(self, text="Back to Home",
                             command=lambda: controller.show_frame(StartPage, 0, 0))
         button2.pack(pady=20,padx=20) 
@@ -212,42 +216,44 @@ class Restaurant(tk.Frame):
         w.insert(11, 'MiddleEa')
         w.insert(12, 'Other')  
 
+        p = Page_creator()
+
         button1 = tk.Button(self, text="Show", width = 20,
                             command = lambda: 
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Chinese')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'Chinese')
                             if w.get(w.curselection()) == 'Chinese'           
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Japanese')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'Japanese')
                             if w.get(w.curselection()) == 'Japanese'
                             else 
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Asian')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'Asian')
                             if w.get(w.curselection()) == 'Asian'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Italian')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'Italian')
                             if w.get(w.curselection()) == 'Italian'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'French')  
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'French')  
                             if w.get(w.curselection()) == 'French' 
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'US')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'US')
                             if w.get(w.curselection()) == 'US'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'European')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'European')
                             if w.get(w.curselection()) == 'European'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'LatinAmerican')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'LatinAmerican')
                             if w.get(w.curselection()) == 'LatinAmerican'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Cafe_bar')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'Cafe_bar')
                             if w.get(w.curselection()) == 'Cafe_bar'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'African')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'African')
                             if w.get(w.curselection()) == 'African'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'MiddleEa')
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'MiddleEa')
                             if w.get(w.curselection()) == 'MiddleEa'
                             else
-                                page.Restaurant_page_creator(lat, logi, 'ctg', 'Other') 
+                                p.Restaurant_page_creator(lat, logi, 'ctg', 'Other') 
                             if w.get(w.curselection()) == 'Other'  
                             else 
                                 print('haha'))
@@ -258,10 +264,6 @@ class Restaurant(tk.Frame):
         button2 = tk.Button(self, text="Back to Search", width = 20,
                             command=lambda: controller.show_frame(Search, 0, 0))
         button2.pack(side = RIGHT, pady=10,padx=10)
-
-
-
-
 
 
 class Hotel(tk.Frame):
@@ -280,16 +282,18 @@ class Hotel(tk.Frame):
         w.insert(2, 'Commercial hotel')
         w.insert(3, 'Luxury hotel')
 
+        p = Page_creator()
+
         button1 = tk.Button(self, text="Show", width = 20,
                             command =
                             lambda: 
-                            page.Hotel_page_creator(lat, logi, 'Price', 1)
+                                p.Hotel_page_creator(lat, logi, 'Price', 1)
                             if w.get(w.curselection()) == 'Economy hotel'           
                             else
-                                page.Hotel_page_creator(lat, logi, 'Price', 2)
+                                p.Hotel_page_creator(lat, logi, 'Price', 2)
                             if w.get(w.curselection()) == 'Commercial hotel'
                             else 
-                                page.Hotel_page_creator(lat, logi, 'Price', 3)
+                                p.Hotel_page_creator(lat, logi, 'Price', 3)
                             if w.get(w.curselection()) == 'Luxury hotel'
                             else 
                                 print('haha'))
@@ -300,8 +304,7 @@ class Hotel(tk.Frame):
         button2 = tk.Button(self, text="Back to Search", width = 20,
                             command=lambda: controller.show_frame(Search, 0, 0))
         button2.pack(side = RIGHT, pady=10,padx=10)
-
-        
+       
 class Attractions(tk.Frame):
 
     def __init__(self, parent, controller):
@@ -309,9 +312,15 @@ class Attractions(tk.Frame):
         label = tk.Label(self, text="Attractions!!!", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
-        button1 = tk.Button(self, text="Back to Home",
+        p = Page_creator()
+
+        button1 = tk.Button(self, text="Show the recommendations",
+                            command=lambda: p.Attraction_rtf_creator())
+        button1.pack(pady=20,padx=20) 
+
+        button2 = tk.Button(self, text="Back to Home",
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button1.pack(pady=20,padx=20)
+        button2.pack(pady=20,padx=20)
 
 class Museums(tk.Frame):
 
@@ -320,9 +329,15 @@ class Museums(tk.Frame):
         label = tk.Label(self, text="Museums!!!", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
-        button1 = tk.Button(self, text="Back to Home",
+        p = Page_creator()
+
+        button1 = tk.Button(self, text="Show the recommendations",
+                            command=lambda: p.Museum_rtf_creator())
+        button1.pack(pady=20,padx=20) 
+
+        button2 = tk.Button(self, text="Back to Home",
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button1.pack(pady=20,padx=20)
+        button2.pack(pady=20,padx=20)
 
 
 def main():

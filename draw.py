@@ -27,7 +27,7 @@ def draw_rader_chart_hotel(lat, lng, df):
         text = 'Hotel Name: ' + str(information[i][0])
         fig.text(0, 0.9, text, fontsize=15, fontweight='bold', color = 'blue')
         pp.savefig(bbox_inches='tight')
-
+        plt.clf()
     pp.close()
 
 
@@ -35,8 +35,8 @@ def draw_rader_chart_restaurant(lat, lng, df):
     variables_restaurant = ('number_of_price', 'Reviews', 'score_of_review', 'Distance')
     ranges_restaurant = [(0.00001, 5), (0.00001, 5), (0.00001, 5), (0.00001, 10)]
 
-    data = list(zip(df['number_of_price'], df['Reviews'], df['score_of_review'], df['Distance']))
-    information = list(zip(df['restaurant_name']))
+    data = list(zip(df['number_of_price'], df['Reviews'], df['Avgscore'], df['Distance']))
+    information = list(zip(df['Name']))
 
     pp = PdfPages('Recommendation_restaurants.pdf')
 
@@ -48,6 +48,24 @@ def draw_rader_chart_restaurant(lat, lng, df):
         text = 'Restaurant Name: ' + str(information[i][0])
         fig.text(0, 0.9, text, fontsize=15, fontweight='bold', color = 'blue')
         pp.savefig(bbox_inches='tight')
-
+        plt.clf()
     pp.close()
+
+def print_to_rtf(df, filename):
+    '''print sorted museums/attractions to rtf file ,filename =='museum' or 'attraction' '''
+    
+    # replace - "-999" -> "NA"
+    df = df.replace(to_replace= '-999', value='N.A.')
+    # open file
+    rtf = open(filename+'.rtf', 'w')
+    # header info
+    rtf.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
+    for i in range(df.shape[0]):
+        rtf.write(r'\ \b {} \b0 \line \ \b Rating:\b0 {} \t \b Reviews:\b0 {} \line'.format(df['name'].iloc[i],
+               df['rating'].iloc[i], df['total_review'].iloc[i]))
+        rtf.write(r'\ \b Details: \b0 {} \line\ \b Description: \b0 {} \line'.format(df['detail'].iloc[i],
+                                                                    df['description'].iloc[i]))
+        rtf.write(r'\line')
+    rtf.write(r'}\n\x00')
+    rtf.close()
 

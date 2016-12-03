@@ -1,6 +1,7 @@
 from draw import *
 from sort import *
 from yelp_sort import *
+from heatmap import *
 import os
 
 
@@ -25,11 +26,6 @@ def Restaurant_page_creator(lat, lng, category, value):
 	df = sort_within(data_restaurant, lat, lng, 3, category, value)
 	draw_rader_chart_restaurant(lat, lng, df)
 
-
-
-
-"""
 def heatmap_creator(given_filter):
-	places = pd.read_csv("booking.csv", header = 0, index_col = 0)
-	draw_heatmap(places, 'Manhattan')	
-"""
+	draw_heatmap(given_filter)	
+
