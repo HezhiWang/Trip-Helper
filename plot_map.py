@@ -1,9 +1,9 @@
 import codecs
-
+import urllib.request
 
 def plot_map(f):
 	'''f is the dataframe(sorted nearby locations) with lat & lng'''
-	fhand = codecs.open('wheref.js','w', "utf-8")
+	fhand = codecs.open('location.js','w', "utf-8")
 	fhand.write("myData = [\n")
 	count = 0
 	output= []
@@ -24,3 +24,7 @@ def plot_map(f):
 
 	fhand.write("\n];\n")
 	fhand.close()
+
+    page = urllib.request.urlopen('hotel_addr_plot.html')
+
+

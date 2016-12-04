@@ -10,6 +10,7 @@ def plot_review_density(df,filename):
     plt.ylabel('density')
     plt.title(filename+'_reviews_density_plot')
     plt.text(60000, 0.00010,'mean={:.2f} \n std={:.2f} \n median={:.2f}'.format(mean,std,median))
+    plt.show()
     plt.savefig(filename+'_reviews_density.png')
 
 def plot_rating_bar(df,filename):
@@ -25,6 +26,7 @@ def plot_rating_bar(df,filename):
     plt.ylabel('ratio')
     plt.text(0.5, 0.5,'mean={:.2f}, std={:.2f}'.format(mean,std))
     plt.title(filename+' ratings')
+    plt.show()
     plt.savefig(filename+'_ratings_bar.png')
 
 

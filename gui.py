@@ -27,13 +27,13 @@ class Advisor(tk.Tk):
         
         tk.Tk.__init__(self, *args, **kwargs)
 
-        container = tk.Frame(self, width = 10000, height = 15000)
+        container = tk.Frame(self, width = 20000, height = 15000)
 
         container.pack(fill="both", expand = True)
-        container.grid()
-        container.config()
-        container.grid_rowconfigure(0, weight=1)
-        container.grid_columnconfigure(0, weight=1)
+        #container.grid()
+        #container.config()
+        #container.grid_rowconfigure(0, weight=1)
+        #container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
 
@@ -131,11 +131,11 @@ class Search(tk.Frame):
                             else
                                 controller.show_frame(Museums, lat, logi))
 
-        button1.pack(side = LEFT, pady=20,padx=20)
+        button1.pack(side = LEFT, pady=20,padx=70)
 
         button1 = tk.Button(self, text="Back to Home",
                             command=lambda: controller.show_frame(StartPage, 0, 0))
-        button1.pack(side = RIGHT, pady=20,padx=20) 
+        button1.pack(side = RIGHT, pady=20,padx = 70) 
 
     def fetch(self, entries):
         global lat 
@@ -160,11 +160,13 @@ class Overview(tk.Frame):
         label.pack(pady=100,padx=100)   
         
         w = tk.Listbox(self)
-        w.pack()
+
         w.insert(1, 'Hotel')
         w.insert(2, 'Restaurant')
         w.insert(3, 'Attractions')
         w.insert(4, 'Museums')
+        w.pack(pady=50,padx=100, anchor = CENTER)
+
 
         p = Page_creator()
 
@@ -185,11 +187,11 @@ class Overview(tk.Frame):
                             else
                                 print('haha'))
 
-        button1.pack(pady=20,padx=20) 
+        button1.pack(pady=10,padx=20) 
         
         button2 = tk.Button(self, text="Back to Home",
                             command=lambda: controller.show_frame(StartPage, 0, 0))
-        button2.pack(pady=20,padx=20) 
+        button2.pack(pady=10,padx=20) 
         
 class Restaurant(tk.Frame):
 
@@ -218,7 +220,49 @@ class Restaurant(tk.Frame):
 
         p = Page_creator()
 
-        button1 = tk.Button(self, text="Show", width = 20,
+        button1 = tk.Button(self, text="Show the map", width = 10,
+                            command=lambda: 
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Chinese')
+                            if w.get(w.curselection()) == 'Chinese'           
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Japanese')
+                            if w.get(w.curselection()) == 'Japanese'
+                            else 
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Asian')
+                            if w.get(w.curselection()) == 'Asian'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Italian')
+                            if w.get(w.curselection()) == 'Italian'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'French')  
+                            if w.get(w.curselection()) == 'French' 
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'US')
+                            if w.get(w.curselection()) == 'US'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'European')
+                            if w.get(w.curselection()) == 'European'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'LatinAmerican')
+                            if w.get(w.curselection()) == 'LatinAmerican'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Cafe_bar')
+                            if w.get(w.curselection()) == 'Cafe_bar'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'African')
+                            if w.get(w.curselection()) == 'African'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'MiddleEa')
+                            if w.get(w.curselection()) == 'MiddleEa'
+                            else
+                                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Other') 
+                            if w.get(w.curselection()) == 'Other'  
+                            else 
+                                print('haha'))
+
+        button1.pack(side = LEFT, pady=20,padx=60)
+
+        button2 = tk.Button(self, text="Show the recommendations", width = 20, anchor=CENTER,
                             command = lambda: 
                                 p.Restaurant_page_creator(lat, logi, 'ctg', 'Chinese')
                             if w.get(w.curselection()) == 'Chinese'           
@@ -257,14 +301,13 @@ class Restaurant(tk.Frame):
                             if w.get(w.curselection()) == 'Other'  
                             else 
                                 print('haha'))
-        #draw(lat, logi)
-        button1.pack(side = LEFT, pady=10,padx=10)
 
+        button2.pack(side = LEFT, pady=20,padx=60)
 
-        button2 = tk.Button(self, text="Back to Search", width = 20,
+        button3 = tk.Button(self, text="Back to Search", width = 10,
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button2.pack(side = RIGHT, pady=10,padx=10)
 
+        button3.pack(side = LEFT, pady=20,padx=60)
 
 class Hotel(tk.Frame):
 
@@ -284,7 +327,49 @@ class Hotel(tk.Frame):
 
         p = Page_creator()
 
-        button1 = tk.Button(self, text="Show", width = 20,
+        button1 = tk.Button(self, text="Show the map", width = 10,
+                            command=lambda: 
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'Chinese')
+                            if w.get(w.curselection()) == 'Chinese'           
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'Japanese')
+                            if w.get(w.curselection()) == 'Japanese'
+                            else 
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'Asian')
+                            if w.get(w.curselection()) == 'Asian'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'Italian')
+                            if w.get(w.curselection()) == 'Italian'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'French')  
+                            if w.get(w.curselection()) == 'French' 
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'US')
+                            if w.get(w.curselection()) == 'US'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'European')
+                            if w.get(w.curselection()) == 'European'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'LatinAmerican')
+                            if w.get(w.curselection()) == 'LatinAmerican'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'Cafe_bar')
+                            if w.get(w.curselection()) == 'Cafe_bar'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'African')
+                            if w.get(w.curselection()) == 'African'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'MiddleEa')
+                            if w.get(w.curselection()) == 'MiddleEa'
+                            else
+                                p.plot_recommendations_for_hotels_in_map(lat, logi, 'ctg', 'Other') 
+                            if w.get(w.curselection()) == 'Other'  
+                            else 
+                                print('haha'))
+
+        button1.pack(side = LEFT, pady=20,padx=60)
+
+        button2 = tk.Button(self, text="Show the recommendations", width = 20,
                             command =
                             lambda: 
                                 p.Hotel_page_creator(lat, logi, 'Price', 1)
@@ -297,13 +382,12 @@ class Hotel(tk.Frame):
                             if w.get(w.curselection()) == 'Luxury hotel'
                             else 
                                 print('haha'))
-        #draw(lat, logi)
-        button1.pack(side = LEFT, pady=10,padx=10)
+        
+        button2.pack(side = LEFT, pady=20,padx=60)
 
-
-        button2 = tk.Button(self, text="Back to Search", width = 20,
+        button3 = tk.Button(self, text="Back to Search", width = 10,
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button2.pack(side = RIGHT, pady=10,padx=10)
+        button3.pack(side = LEFT, pady=20,padx=60)
        
 class Attractions(tk.Frame):
 
@@ -316,11 +400,15 @@ class Attractions(tk.Frame):
 
         button1 = tk.Button(self, text="Show the recommendations",
                             command=lambda: p.Attraction_rtf_creator())
-        button1.pack(pady=20,padx=20) 
+        button1.pack(pady=30,padx=20) 
 
-        button2 = tk.Button(self, text="Back to Home",
+        button2 = tk.Button(self, text="Show the map",
+                            command=lambda: p.plot_recommendations_for_attractions_in_map())
+        button2.pack(pady=30,padx=20)
+
+        button3 = tk.Button(self, text="Back to Search",
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button2.pack(pady=20,padx=20)
+        button3.pack(pady=30,padx=20)
 
 class Museums(tk.Frame):
 
@@ -333,11 +421,15 @@ class Museums(tk.Frame):
 
         button1 = tk.Button(self, text="Show the recommendations",
                             command=lambda: p.Museum_rtf_creator())
-        button1.pack(pady=20,padx=20) 
+        button1.pack(pady=30,padx=20) 
 
-        button2 = tk.Button(self, text="Back to Home",
+        button2 = tk.Button(self, text="Show the map",
+                            command=lambda: p.plot_recommendations_for_museums_in_map())
+        button2.pack(pady=30,padx=20)
+
+        button3 = tk.Button(self, text="Back to Search",
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button2.pack(pady=20,padx=20)
+        button3.pack(pady=30,padx=20)
 
 
 def main():

@@ -3,6 +3,7 @@ import geopy
 import pandas as pd
 import numpy as np
 import os
+import webbrowser
 from geopy.geocoders.base import GeocoderServiceError
 
 
@@ -66,6 +67,9 @@ def draw_heatmap(csv_name):
     if len(low_coordinates[0]) > 0 :
         the_map.heatmap(low_coordinates[0], low_coordinates[1], threshold=10, radius=25, gradient=low_gradient)
     the_map.draw("./" + csv_name + "_heatmap.html")
+    new = 2
+    url = "./" + csv_name + "_heatmap.html"
+    webbrowser.open(url,new=new)
     
 
 #draw_heatmap("hotels")

@@ -2,7 +2,10 @@ from rader_chart import *
 from sort import *
 import os
 import numpy as np
+import codecs
 import matplotlib
+import os
+from selenium import webdriver
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
@@ -61,11 +64,42 @@ def print_to_rtf(df, filename):
     # header info
     rtf.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
     for i in range(df.shape[0]):
-        rtf.write(r'\ \b {} \b0 \line \ \b Rating:\b0 {} \t \b Reviews:\b0 {} \line'.format(df['name'].iloc[i],
+        rtf.write(r'\ \b {} \b0 \line \ \b Rating:\b0 {} \t \b Reviews:\b0 {} \line'.format(df['Name'].iloc[i],
                df['rating'].iloc[i], df['total_review'].iloc[i]))
         rtf.write(r'\ \b Details: \b0 {} \line\ \b Description: \b0 {} \line'.format(df['detail'].iloc[i],
                                                                     df['description'].iloc[i]))
         rtf.write(r'\line')
     rtf.write(r'}\n\x00')
     rtf.close()
+
+def plot_map(f):
+        '''f is the dataframe(sorted nearby locations) with lat & lng'''
+        fhand = codecs.open('location.js','w', "utf-8")
+        fhand.write("myData = [\n")
+        count = 0
+        output= []
+
+        for i in range(f.shape[0]):
+        
+            lat = f['Lat'].iloc[i]
+            lng = f['Lng'].iloc[i]
+            name = f['Name'].iloc[i]
+            address = f['Address'].iloc[i].strip()
+            try:
+                count += 1
+                if count > 1 : fhand.write(",\n")
+                output = "["+str(lat)+","+str(lng)+", \""+name+"\", "+ "\""+str(address)+"\"]"
+                fhand.write(output)
+            except:
+                continue
+
+        fhand.write("\n];\n")
+        fhand.close()
+
+        chromedriver = "/Users/wanghezhi/Downloads/chromedriver"
+        os.environ["webdriver.chrome.driver"] = chromedriver
+        driver = webdriver.Chrome(chromedriver)
+        base = os.getcwd()
+        link = 'file://'+base+ '/hotel_addr_plot.html'
+        driver.get(link)
 
