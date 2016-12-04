@@ -1,0 +1,811 @@
+,Address,Avgscore,Cleanliness,Comfort,Facilities,Free Wifi,Lat,Lng,Location,Name,Price,Staff,Total_review,Value for money
+0,"310 West Broadway, SoHo, New York City, NY 10013, United States of America",8.5,8.6,8.5,8.2,9.0,40.7017797869427,-74.0084931626915,9.3,Soho Grand Hotel,5,8.6,2213,7.5
+1,"49 West 32nd Street, New York City, NY 10001, United States of America",8.2,8.4,8.2,7.9,7.5,40.7314318258351,-74.00037109851841,9.2,Radisson Martinique on Broadway,3,8.1,7118,7.5
+2,"9 Crosby Street, SoHo, New York City, NY 10013, United States of America",8.2,8.7,8.3,7.8,8.7,40.691417622164,-74.0121614187957,9.1,Nomo Soho,5,7.8,1694,7.3
+3,"1414 Avenue of the Americas, New York City, NY 10019, United States of America",9.1,9.5,9.1,9.0,9.5,40.7411292,-73.9877709,9.7,1 Hotel Central Park,5,9.3,1309,8.1
+4,"485 5th Avenue, New York City, NY 10017, United States of America",8.7,8.9,8.9,8.5,9.3,40.7405643453337,-73.98677498102191,9.4,Andaz 5th Avenue,5,8.6,393,7.6
+5,"355 West 16th Street, Chelsea, New York City, NY 10011, United States of America",8.1,8.4,8.0,8.1,7.9,40.721903555600704,-74.02331002056609,9.1,Dream Downtown,5,8.1,1521,6.9
+6,"400 Fifth Avenue, New York City, NY 10018, United States of America",9.2,9.5,9.5,9.0,9.4,40.735375883270294,-73.9918845891953,9.5,"Langham Place, New York, Fifth Avenue",5,9.5,922,8.3
+7,"525 Greenwich Street, SoHo, New York City, NY 10013, United States of America",8.2,8.5,8.2,8.1,9.1,40.687777260653895,-74.04250860214229,8.4,Hotel Hugo,4,8.4,744,7.4
+8,"848 Washington Street, Greenwich Village, New York City, NY 10014, United States of America",8.3,8.7,8.2,8.2,8.5,40.7198188804501,-74.0278535337559,9.3,"The Standard, High Line New York",5,8.2,2330,6.9
+9,"36 Central Park South, New York City, NY 10019, United States of America",7.7,7.6,7.8,7.0,7.5,40.7482201387361,-73.987877368927,9.4,Park Lane Hotel on Central Park,4,7.6,7344,6.9
+10,"52 West 13th Steet, Greenwich Village, New York City, NY 10011, United States of America",8.7,9.1,8.5,8.4,9.0,40.7043163565249,-74.00823533535,9.4,Walker Hotel Greenwich Village,5,9.1,1552,7.7
+11,"42 West 58th Street, New York City, NY 10019, United States of America",8.7,8.5,8.7,8.5,9.6,40.7482201387361,-73.987877368927,9.6,AKA Central Park,5,9.0,1105,7.8
+12,"123 West 44th Street, New York City, NY 10036, United States of America",8.8,8.8,9.0,8.6,9.5,40.7482201387361,-73.99287533015008,9.5,AKA Times Square,5,9.2,832,7.9
+13,"One United Nations Plaza, Midtown East, New York City, NY 10017, United States of America",7.7,8.0,8.0,7.3,7.0,40.736111444152606,-73.9933524280787,8.4,ONE UN New York - Millennium Hotels and Resorts,4,7.6,1711,7.1
+14,"120 East 39th Street, Murray Hill, New York City, NY 10016 , United States of America",8.6,8.7,9.0,8.2,8.8,40.734388355909296,-73.987877368927,9.3,The Tuscany - A St Giles Signature Hotel,4,8.5,724,8.1
+15,"151 West 54th Street, New York City, NY 10019 , United States of America",8.5,8.7,8.8,8.1,8.4,40.7411292,-73.9877709,9.3,The London NYC,5,8.3,1578,7.6
+16,"120 West 57th Street, New York City, NY 10019, United States of America",8.3,8.5,8.2,7.8,6.3,40.762369495120794,-73.9815103606645,9.2,Viceroy Central Park New York,5,8.6,1731,7.2
+17,"118 East 40th Street, Murray Hill, New York City, NY 10016, United States of America",8.6,8.8,8.8,8.1,8.7,40.735603460552504,-73.987877368927,9.4,The Renwick,4,8.5,1468,8.1
+18,"2 Avenue of the Americas, Tribeca, New York City, NY 10013, United States of America",8.8,9.0,8.7,8.5,8.8,40.6899417506395,-74.0219789743423,9.3,The Roxy Hotel Tribeca,5,9.2,973,7.9
+19,"1535 Broadway, New York City, NY 10036, United States of America",8.2,8.3,8.4,8.0,4.9,40.7482201387361,-73.99208575487141,9.4,New York Marriott Marquis,5,8.1,6110,7.0
+20,"70 West 45th Street, New York City, NY 10036, United States of America",8.7,9.0,8.6,8.0,8.4,40.7477031025323,-73.994512,9.5,Cassa Hotel 45th Street,4,9.0,1565,7.8
+21,"300 West 44th Street, Hell's Kitchen, New York City, NY 10036, United States of America",8.0,8.4,8.3,7.8,5.6,40.7482201387361,-74.003348350525,8.9,InterContinental New York Times Square,5,7.6,3211,7.0
+22,"123 West 28th Street, Chelsea, New York City, NY 10001, United States of America",8.8,8.9,9.0,8.6,9.2,40.7283309546075,-74.0078115463256,9.1,CAMBRiA Hotel & Suites New York - Chelsea,3,9.1,1694,8.3
+23,"130 East 39th Street, Murray Hill, New York City, NY 10016, United States of America",7.9,7.7,7.9,7.4,8.3,40.7340815300715,-73.9884627610444,8.9,The Court - A St Giles Hotel,3,8.1,1467,7.4
+24,"132 West 27th Street, Chelsea, New York City, 10001, United States of America",8.8,8.9,8.9,8.7,8.7,40.735502383498,-74.00781221687791,9.1,INNSIDE New York NoMad,4,9.0,692,8.0
+25,"30 Kenmare Street, New York City, NY 10012, United States of America",8.7,9.1,8.6,8.3,8.2,40.704871794530796,-74.0079333214264,9.2,Nolitan Hotel SoHo - New York,4,9.0,932,7.7
+26,"101 West 57th Street at Sixth Avenue, New York City, NY 10019, United States of America",8.7,9.1,8.8,8.4,9.3,40.7555831,-73.98627009999998,9.5,The Quin,5,8.9,1815,7.7
+27,"311 West 39th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.4,8.4,8.4,8.2,8.0,40.7482201387361,-74.0008927881718,9.0,Element Times Square West,2,8.5,7750,7.9
+28,"1033 Avenue of the Americas, New York City, NY 10018, United States of America",8.3,8.3,8.2,8.1,8.5,40.741555821681104,-73.9890225410727,9.3,Residence Inn by Marriott New York Manhattan/Times Square,4,8.3,2874,7.5
+29,"60 Thompson Street, SoHo, New York City, NY 10012, United States of America",8.7,9.2,8.8,8.5,8.6,40.6830741012963,-74.0293498997397,9.5,SIXTY SoHo,5,8.9,733,7.6
+30,"18 9th Avenue, Greenwich Village, New York City, NY 10014, United States of America",8.3,8.7,8.4,8.3,8.9,40.7198188804501,-74.0273910015824,9.2,Gansevoort Meatpacking,5,8.3,1105,7.0
+31,"65 West 54th street, New York City, NY 10019, United States of America",8.7,8.9,8.8,8.2,5.3,40.7482201387361,-73.987877368927,9.5,Warwick New York,4,8.6,2978,7.9
+32,"1335 Avenue of Americas, New York City, NY10019, United States of America",7.9,8.0,7.9,7.5,5.6,40.7482201387361,-73.987877368927,9.1,New York Hilton Midtown,4,7.7,6990,6.9
+33,"38 West 36th Street, New York City, NY 10018, United States of America",8.7,8.9,8.7,8.2,9.1,40.7356631499383,-73.9954443353403,9.3,Executive Hotel Le Soleil New York,3,8.9,2518,7.9
+34,"109 East 42nd Street, Park Avenue at Grand Central Terminal, Midtown East, New York City, NY 10017, United States of America",7.7,7.7,7.8,7.5,7.9,40.7386371098045,-73.9893659949303,8.9,Grand Hyatt New York,4,7.7,2466,6.8
+35,"45 West 44th Street, New York City, NY 10036, United States of America",8.6,8.9,8.9,8.4,8.4,40.7198188804501,-74.00001939386141,9.3,Sofitel New York,5,8.8,1099,7.5
+36,"5 Madison Avenue, New York City, NY 10010, United States of America",9.0,9.4,9.1,8.8,9.2,40.7172499483629,-74.00781221687791,9.5,The New York EDITION,5,9.1,629,7.8
+37,"218 West 50th Street, New York City, NY 10019, United States of America",9.1,9.4,8.9,9.1,9.4,40.7482201387361,-73.994659649025,9.6,citizenM New York Times Square,4,9.2,5940,8.1
+38,"226 West 52nd Street, New York City, NY 10019, United States of America",8.6,8.9,8.8,8.4,8.1,40.7482201387361,-73.9893659949303,9.5,Novotel New York Times Square,4,8.3,3188,7.6
+39,"1717 Broadway, New York City, NY 10019, United States of America",8.2,8.6,8.3,8.0,8.8,40.7482201387361,-73.99022698402409,9.2,Courtyard by Marriott New York Manhattan/Central Park,4,7.9,5328,7.4
+40,"145 West 44th Street, New York City, NY 10036, United States of America",7.9,7.8,7.8,7.4,6.8,40.7482201387361,-73.9884627610444,9.3,Millennium Broadway Hotel Times Square,4,8.0,2709,7.1
+41,"6 Times Square, New York City, NY 10036, United States of America",9.0,9.4,9.3,8.8,9.4,40.7461577483629,-73.9984775486043,9.6,The Knickerbocker,5,8.9,2498,8.0
+42,"30 West 46th Street, New York City, NY 10036, United States of America",8.9,9.2,9.0,8.6,9.0,40.74666970312229,-73.9945721626281,9.5,"CAMBRiA Hotel & Suites, New York – Times Square",3,8.6,1807,8.4
+43,"234 West 48th Street, New York City, NY 10036, United States of America",7.4,7.3,7.0,6.7,7.3,40.749965605561705,-73.9911483228207,9.1,The Gallivant Times Square,3,7.2,6003,6.8
+44,"131 Madison Avenue, New York City, NY 10016, United States of America",8.5,8.8,8.5,8.1,8.5,40.723225372945,-74.0079333214264,9.1,The Roger,3,8.8,2614,7.7
+45,"84 William Street, Wall Street - Financial District, New York City, NY 10038, United States of America",8.9,9.2,9.1,8.9,9.1,40.6679304513158,-74.0278387894089,9.0,AKA Wall Street,4,9.0,95,8.2
+46,"210 West 55th Street, New York City, NY 10019, United States of America",8.3,8.8,8.2,7.8,8.1,40.7482201387361,-73.9884627610444,9.3,Dream Midtown,3,8.5,1262,7.4
+47,"224 West 49th Street, New York City, NY 10019, United States of America",8.0,8.1,7.7,7.4,8.7,40.7482201387361,-73.9953473210334,9.2,The Time New York,4,8.4,2634,7.3
+48,"142 West 49th Street, New York City, NY 10019, United States of America",8.3,8.4,8.0,7.8,8.3,40.7482201387361,-73.9918007701635,9.6,Radio City Apartments,2,8.2,4519,8.1
+49,"145 East 47th Street, Midtown East, New York City, 10017, United States of America",9.6,9.8,9.8,9.8,6.9,40.724398960613996,-74.0079333214264,9.3,The Bernic Hotel,4,10.0,9,9.3
+50,"124 East 28th Street, New York City, NY 10016, United States of America",8.5,8.9,8.4,8.2,8.5,40.7291754328611,-73.994512,9.0,Park South Hotel,4,9.0,345,7.8
+51,"34 East 32nd Street, New York City, NY 10016, United States of America",8.7,9.1,8.7,8.2,9.4,40.7417924985042,-73.9887873083352,9.2,HGU New York,3,9.1,280,7.9
+52,"700 Fifth Avenue at 55th Street, New York City, NY 10019, United States of America",8.5,9.0,8.7,8.4,8.1,40.7411292,-73.9877709,9.4,The Peninsula New York,5,8.5,127,7.0
+53,"16 East 46th Street, Midtown East, New York City, NY 10017, United States of America",8.2,8.2,8.3,7.6,8.6,40.7427969076679,-73.987877368927,9.1,The Gotham Hotel,4,8.5,574,7.4
+54,"231 Hudson Street, SoHo, New York City, NY 10013, United States of America",8.7,9.4,8.4,8.7,9.2,40.680553386509295,-74.0404830035172,8.8,Arlo Hudson Square,3,9.0,453,7.9
+55,"52 West 36th Street, New York City, NY 10018, United States of America",8.4,8.7,8.4,8.1,8.8,40.7453045594735,-73.9945721626281,9.1,Hyatt Place New York,2,8.5,2041,7.7
+56,"370 Canal Street, Tribeca, New York City, NY 10013, United States of America",7.8,7.9,7.8,7.5,7.8,40.676658097685,-74.0330846607686,8.2,Sheraton Tribeca New York Hotel,3,8.3,2624,7.3
+57,"60 West 36th Street , New York City, NY 10018, United States of America",8.4,8.7,8.3,8.1,8.9,40.7391439414276,-73.9931857958437,9.2,Holiday Inn Express - Times Square South,3,8.4,2188,7.8
+58,"136 West 55th Street, New York City, NY 10019, United States of America",8.6,8.8,8.6,8.1,8.8,40.7482201387361,-73.987877368927,9.5,Blakely New York Hotel,4,8.8,2370,7.9
+59,"161 Lexington Ave, Kips Bay, New York City, NY 10016, United States of America",7.7,7.9,7.7,7.2,7.9,40.6947192942478,-73.9911483228207,8.4,Ramada New York Eastside,2,7.3,2366,7.4
+60,"157 West 47th Street, New York City, NY 10036, United States of America",7.5,7.8,6.8,6.9,5.1,40.7482201387361,-73.9911483228207,9.2,Night Hotel Times Square,2,7.8,4189,6.8
+61,"215 E. 64th Street, Upper East Side, New York City, NY 10065, United States of America",8.1,8.2,8.4,7.7,5.5,40.748016895228204,-73.9916807413102,8.7,Gardens NYC-an Affinia hotel,5,8.5,298,7.4
+62,"515 Ninth Avenue, Hell's Kitchen, New York City, NY 10018, United States of America",8.7,8.9,8.7,8.3,9.4,40.7477413483628,-74.01364036066441,8.8,Cassa Hotel Times Square,3,9.4,3935,8.2
+63,"25 West 51st Street, New York City, NY 10019, United States of America",8.0,8.1,7.8,7.5,9.0,40.7530843334648,-73.9884627610444,9.4,"Club Quarters Hotel, Opposite Rockefeller Center",3,8.0,1117,7.2
+64,"30-32 West 31st Street, New York City, NY 10001, United States of America",8.5,8.7,8.3,8.1,8.7,40.729193120101,-73.999805904181,9.0,Hyatt Herald Square Midtown,4,8.9,1542,7.7
+65,"237 West 54th Street, New York City, NY 10019, United States of America",8.3,8.5,8.2,7.9,8.4,40.7482201387361,-73.988439,9.2,Hilton Garden Inn Central Park South,2,8.4,4410,7.6
+66,"12 East 31st Street, New York City, NY 10016, United States of America",8.6,8.9,8.3,8.1,9.1,40.724398960613996,-74.0079333214264,9.1,Hotel Chandler,3,9.1,1281,7.7
+67,"102 North End Avenue, New York City, NY 10282, United States of America",9.0,9.6,9.5,9.1,8.4,40.6651090404628,-74.05633002519609,9.1,Conrad New York,5,8.7,866,8.3
+68,"235 West 46th Street, New York City, NY 10036, United States of America",6.9,6.8,6.3,6.3,6.6,40.749965605561705,-73.9931438863277,8.9,Paramount Times Square,3,7.2,1997,5.9
+69,"231 East 43rd Street, Midtown East, New York City, NY 10017, United States of America",8.7,9.0,8.5,8.4,8.8,40.7237396622533,-74.0052051097155,9.1,Hampton Inn Manhattan Grand Central,2,9.2,2241,8.1
+70,"326 West 40th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.3,8.5,8.1,7.9,8.7,40.707497,-74.0091875195503,8.8,Four Points by Sheraton Midtown - Times Square,3,8.7,2341,7.7
+71,"206 West 41th Street, New York City, NY 10036, United States of America",8.1,8.4,7.4,7.5,8.9,40.7482201387361,-73.9932605624199,9.4,"Hotel Shocard, New York",2,8.8,551,7.3
+72,"341 Broome Street, New York City, NY 10013, United States of America",8.1,8.4,7.6,7.4,8.9,40.670746772072796,-74.0079333214264,8.7,Sohotel,3,8.9,1606,7.5
+73,"232 West 29th Street, Chelsea, New York City, NY 10001, United States of America",8.0,8.2,7.7,7.6,8.6,40.732494399782794,-74.0084552764891,8.8,Holiday Inn Express New York City Chelsea,2,8.3,3446,7.5
+74,"32 West 29th Street, Chelsea, New York City, NY 10001, United States of America",7.8,8.2,7.5,7.4,8.3,40.730223070448105,-73.99557769315291,8.6,"The Paul, an Ascend Hotel Collection Member",2,8.0,591,7.2
+75,"871 Seventh Avenue at 55th Street, New York City, NY 10019, United States of America",7.5,7.5,7.3,6.7,4.1,40.749965605561705,-73.9911483228207,9.1,Wellington Hotel,2,7.5,5374,7.0
+76,"152 West 51st Street, New York City, NY 10019, United States of America",9.0,9.3,9.3,8.6,7.0,40.7555831,-73.9897716790438,9.6,Michelangelo Hotel,5,8.8,1383,8.1
+77,"220 West 41st Street, New York City, NY 10036, United States of America",8.7,9.0,8.7,8.4,8.7,40.7482201387361,-73.9944053557792,9.5,Hampton Inn Times Square Central,4,8.8,2249,8.0
+78,"305 West 39th Street, Hell's Kitchen, New York City, NY 10018, United States of America",7.7,7.6,7.2,6.9,8.5,40.7482201387361,-74.00056287646291,8.7,Comfort Inn Times Square South Area,2,8.6,1091,7.2
+79,"1717 Broadway, New York City, NY 10019, United States of America",8.6,8.9,8.8,8.5,9.0,40.7482201387361,-73.9897927283708,9.5,Residence Inn by Marriott New York Manhattan/Central Park,4,8.2,2175,7.8
+80,"18 West 25th Street, Chelsea, New York City, NY 10010, United States of America",7.1,7.0,6.6,6.5,7.7,40.693467242842296,-74.00784781083591,8.6,Heritage Hotel New York City,1,7.3,646,6.7
+81,"123 Nassau Street, Tribeca, New York City, NY 10038, United States of America",9.1,9.5,9.4,9.0,9.7,40.6816280148929,-74.0167678283916,8.6,"The Beekman, a Thompson Hotel",5,9.5,52,8.5
+82,"32 East 32nd Street, New York City, NY 10016, United States of America",8.1,8.4,8.1,7.6,8.8,40.7365649326134,-73.9918007701635,8.8,Hotel 32 32,3,8.3,1664,7.4
+83,"345 West 35 Street, Hell's Kitchen, New York City, NY 10001, United States of America",8.5,8.6,8.7,8.3,8.4,40.719495653395796,-74.0065924823284,8.9,TRYP by Wyndham Times Square South,1,8.4,3773,8.1
+84,"54 Watts Street, SoHo, New York City, NY 10013, United States of America",8.1,8.3,8.0,7.7,8.6,40.699259185770394,-74.02253285050399,8.6,Hampton Inn Manhattan-SoHo,2,8.3,1827,7.6
+85,"1605 Broadway Avenue, New York City, NY 10019, United States of America",8.1,8.3,8.3,7.9,8.0,40.7568962212921,-73.9893659949303,9.4,Crowne Plaza Times Square,4,7.8,6568,7.1
+86,"Two East 61st Street at 5th Avenue, Upper East Side, New York City, NY 10065, United States of America",8.9,9.3,8.9,8.7,8.2,40.738556759131896,-73.985712826252,9.7,"The Pierre, A Taj Hotel, New York",5,9.3,283,7.7
+87,"7 East 27th Street, New York City, NY 10016, United States of America",8.1,8.5,7.9,7.3,8.4,40.71947816841271,-73.998768478632,9.0,The Evelyn,2,8.5,2923,7.6
+88,"11 West 51 Street, New York City, NY 10019, United States of America",8.6,8.8,8.3,8.2,9.1,40.7482201387361,-73.987877368927,9.6,The Jewel Facing Rockefeller Center,4,8.9,1143,7.8
+89,"371 Seventh Avenue, Chelsea, New York City, NY 10001, United States of America",7.8,7.7,7.5,7.3,4.7,40.7363554984911,-74.012265354395,8.9,Manhattan NYC-an Affinia hotel,3,8.1,1951,7.0
+90,"42 West 35th Street, New York City, NY 10001, United States of America",8.1,8.2,7.9,7.3,7.4,40.7347439478821,-73.99679571390159,9.1,The Gregory,3,8.4,1617,7.4
+91,"128 East 45th Street, Midtown East, New York City, NY 10017, United States of America",8.6,9.0,8.5,8.4,9.2,40.706732520866495,-74.00898031890391,9.4,"Club Quarters Hotel, Grand Central",2,8.5,624,7.9
+92,"447 Lexington Avenue, Midtown East, New York City, NY 10017, United States of America",8.5,9.0,8.5,8.3,9.3,40.706732520866495,-74.00898031890391,9.3,Hotel Boutique at Grand Central,2,8.3,1629,7.9
+93,"851 Eighth Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",8.3,8.3,8.3,7.9,8.5,40.7482201387361,-73.9885570539673,9.2,Hampton Inn Manhattan-Times Square North,3,8.3,2039,7.7
+94,"147 First Avenue, East Village, New York City, NY 10003, United States of America",8.2,8.2,8.0,7.9,8.7,40.719495653395796,-74.0052051097155,9.0,East Village Hotel,3,8.1,639,7.9
+95,"420 Park Avenue South, New York City, NY 10016, United States of America",8.8,9.2,9.1,8.8,8.8,40.7198188804501,-74.00781221687791,9.1,Gansevoort Park Hotel NYC,5,8.7,828,7.8
+96,"300 West 22nd Street, Chelsea, New York City, NY 10011, United States of America",8.0,8.4,7.2,7.3,8.6,40.7211749904845,-74.02075320482241,9.0,The GEM Hotel - Chelsea,2,8.7,802,7.3
+97,"342 West 40 Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.8,9.1,8.8,8.3,9.2,40.7496984037732,-74.0073354542255,9.0,Distrikt Hotel New York City,3,9.1,1907,8.2
+98,"147 Mercer Street, SoHo, New York City, NY 10012, United States of America",8.8,9.2,8.9,8.5,9.1,40.684724157036904,-74.02162224054341,9.7,The Mercer,5,9.0,266,7.4
+99,"119 West 56th Street, New York City, NY 10019, United States of America",7.9,8.1,7.8,7.6,7.5,40.75635577708471,-73.98823226747879,9.2,Le Parker Méridien New York,5,8.0,462,6.7
+100,"45 East 33rd Street, New York City, NY 10016, United States of America",8.6,9.0,8.6,8.4,8.6,40.7315759779107,-73.9918007701635,9.1,Hilton Garden Inn New York/Midtown Park Avenue,3,8.8,3612,7.9
+101,"228 West 47th Street, New York City, NY 10036, United States of America",7.5,7.6,7.2,6.6,4.0,40.7482201387361,-73.9911483228207,9.2,Hotel Edison,2,7.6,10415,6.8
+102,"851 Avenue of the Americas, Chelsea, New York City, NY 10001, United States of America",8.9,9.2,9.1,8.8,7.7,40.7298018963934,-74.0081977844239,9.1,Kimpton Hotel Eventi,5,8.9,1118,8.1
+103,"540 Park Avenue, Upper East Side, New York City, NY 10065, United States of America",8.8,9.1,9.2,8.6,8.4,40.7527863984854,-73.9810793101788,9.5,Loews Regency New York Hotel,5,8.8,289,7.8
+104,"307-311 46th Street, Hell's Kitchen, New York City, NY 10036, United States of America",8.5,8.7,8.5,8.1,8.1,40.7482201387361,-73.9941692478446,9.3,RIU Plaza New York Times Square,3,8.2,1319,7.9
+105,"66 Charlton Street, SoHo, New York City, NY 10014, United States of America",8.1,8.3,7.9,7.6,8.9,40.6975891069656,-74.0244137495757,8.6,Four Points by Sheraton Manhattan SoHo Village,2,8.7,659,7.6
+106,"20 West 29th Street, Chelsea, New York City, NY 10001, United States of America",8.6,8.9,8.5,8.5,9.3,40.721761,-74.00781221687791,9.1,Ace Hotel,4,8.9,1374,7.7
+107,"29 East 29th Street, New York City, NY 10016, United States of America",8.1,8.5,8.0,7.7,8.1,40.7241082889388,-73.9994692057371,8.9,The Redbury New York,2,8.1,2048,7.5
+108,"125 Canal Street, Chinatown, New York City, NY 10002, United States of America",8.5,8.9,8.8,8.0,8.3,40.6700379947131,-74.0079333214264,8.3,Leon Hotel,2,8.8,890,8.4
+109,"321 West 35th Street, Hell's Kitchen, New York City, NY 10001, United States of America",9.1,9.4,9.1,9.0,8.9,40.71505874605,-74.0158568322659,9.1,EVEN Hotel New York Times Square South,4,9.3,670,8.3
+110,"114 West 40th Street, New York City, NY 10018, United States of America",8.5,8.7,8.5,8.1,8.5,40.7437806890691,-73.9926168322563,9.5,Courtyard New York Manhattan/Times Square,4,8.4,1018,7.8
+111,"33 West 55th Street, New York City, NY 10019, United States of America",7.6,7.7,7.1,6.9,4.8,40.7496984037732,-73.98270875215529,9.1,Shoreham Hotel,3,7.9,988,6.9
+112,"49-53 Ann Street, Wall Street - Financial District, New York City, NY 10038, United States of America",8.0,8.5,8.1,7.7,8.8,40.6723678612639,-74.025592631073,8.4,Aloft Manhattan Downtown - Financial District,3,8.1,620,7.4
+113,"85 West Broadway, Tribeca, New York City, NY 10007, United States of America",8.6,9.0,8.7,8.3,8.9,40.683202056792496,-74.0283673256635,9.1,Smyth - A Thompson Hotel,5,8.8,222,7.5
+114,"160 Central Park South, New York City, NY 10019, United States of America",7.8,8.0,8.0,7.4,5.6,40.7564903806111,-73.9847244322301,9.2,JW Marriott Essex House New York,5,8.0,772,6.4
+115,"301 Park Avenue, Midtown East, New York City, NY 10022, United States of America",7.9,8.0,8.0,7.5,5.2,40.7482201387361,-73.9893659949303,9.1,Waldorf Astoria New York,5,8.0,5703,6.8
+116,"49 West 44th Street, New York City, NY 10036, United States of America",8.9,9.2,8.8,8.5,9.3,40.7482201387361,-73.991259,9.7,The Iroquois New York,4,9.3,1221,8.0
+117,"373 Fifth Avenue, New York City, NY 10016 , United States of America",7.8,8.1,6.9,6.8,8.5,40.7362073661752,-73.9933524280787,9.3,Hotel 373 Fifth Avenue,2,8.4,1683,7.1
+118,"52 William Street, Wall Street - Financial District, New York City, NY 10005, United States of America",8.1,8.3,8.0,7.8,9.0,40.66038070826821,-74.04326480711941,8.8,Club Quarters Hotel Wall Street,2,8.1,1480,7.5
+119,"440 West 57th Street, Hell's Kitchen, New York City, NY 10019, United States of America",7.6,7.7,7.6,7.2,8.2,40.7436318353478,-74.0026006847619,8.3,Holiday Inn - Midtown - 57th Street,3,7.5,3919,7.2
+120,"66 Park Avenue, Murray Hill, New York City, NY 10016, United States of America",8.8,9.1,9.0,8.3,4.9,40.717039340397896,-73.9856410771609,9.2,The Kitano Hotel New York,4,9.1,472,7.8
+121,"307 West 37th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.7,9.1,8.7,8.4,9.0,40.7446348657588,-74.00252491235729,8.9,Courtyard by Marriott Times Square West,3,8.9,2254,8.0
+122,"330 West 40th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.2,8.5,8.1,7.9,8.9,40.7482201387361,-74.0022566914558,8.8,Fairfield Inn & Suites By Marriott New York Manhattan/Times Square,3,8.4,4847,7.7
+123,"190 Allen Street, Lower East Side, New York City, NY 10002, United States of America",8.6,8.7,8.7,8.4,8.2,40.6968469231118,-74.0042562782764,8.9,Sixty LES,5,9.0,912,7.6
+124,"6 Platt Street, Wall Street - Financial District, New York City, NY 10038, United States of America",8.2,8.6,8.2,7.9,8.6,40.665028394438295,-74.0216676771793,8.5,Four Points by Sheraton New York Downtown,2,8.5,1351,7.7
+125,"511 Lexington Avenue at 48th Street, Midtown East, New York City, NY 10017 , United States of America",7.9,8.2,7.8,7.5,5.2,40.745039447146,-73.9884627610444,8.8,"The Lexington New York City, Autograph Collection",2,7.8,2055,7.1
+126,"25 Cooper Square, East Village, New York City, NY 10003, United States of America",8.6,9.0,8.7,8.4,8.7,40.6993092479852,-74.00781221687791,9.2,The Standard - East Village,5,8.9,457,7.4
+127,"170 Broadway, Wall Street - Financial District, New York City, NY 10007, United States of America",9.0,9.2,9.1,8.9,9.0,40.6543909418922,-74.0482389526215,9.2,Residence Inn by Marriott New York Downtown Manhattan/World Trade Center Area,4,9.1,1536,8.3
+128,"163 Orchard Street, Lower East Side, New York City, NY 10003, United States of America",8.2,8.6,7.6,7.4,8.7,40.6925908405027,-74.00898031890391,8.8,Orchard Street Hotel,2,9.1,900,7.6
+129,"144 Washington Street, Wall Street - Financial District, New York City, NY 10006, United States of America",8.6,8.9,8.7,8.5,9.3,40.6665444212652,-74.053007931366,9.0,World Center Hotel,2,8.4,1036,8.1
+130,"25 East 77th Street, Upper East Side, New York City, NY 10075, United States of America",9.1,9.6,9.5,9.0,9.1,40.7565884124419,-73.9844357594848,9.5,The Mark New York,5,9.1,344,7.9
+131,"93 Bowery Street, Chinatown, New York City, NY 10002, United States of America",8.2,8.8,8.4,7.9,9.0,40.6858474428841,-74.00556999999999,8.2,Wyndham Garden Chinatown,3,8.2,871,7.7
+132,"358 West 58th Street, Hell's Kitchen, New York City, NY 10019, United States of America",7.2,7.5,6.5,6.9,7.2,40.7482201387361,-73.9944863319398,8.8,"Hudson New York, Central Park",3,7.6,6952,6.3
+133,"569 Lexington Avenue, Midtown East, New York City, NY 10022, United States of America",7.8,8.1,7.9,7.3,7.4,40.7482201387361,-73.9911483228207,8.8,DoubleTree by Hilton Metropolitan New York City,2,7.5,3071,7.2
+134,"129 Front Street, Wall Street - Financial District, New York City, NY 10005, United States of America",7.8,7.6,7.8,7.2,8.7,40.6483137903747,-74.029668867588,8.4,Eurostars Wall Street,1,8.3,793,7.4
+135,"1155 Broadway, Chelsea, New York City, NY 10001, United States of America",8.2,8.5,8.3,7.4,7.2,40.729858100618,-74.0089297934264,8.6,Broadway Plaza Hotel,3,8.3,1116,7.7
+136,"63 West 38th Street, New York City, NY 10018, United States of America",8.9,9.2,9.0,8.8,9.3,40.7414711962032,-73.9931351691484,9.4,Refinery Hotel - New York,5,9.2,1145,8.0
+137,"121 West 28th Street, Chelsea, New York City, NY 10001, United States of America",8.2,8.4,8.1,7.9,7.7,40.732726198401,-74.00056592119121,8.8,Hilton Garden Inn New York/Manhattan-Chelsea,2,8.6,1143,7.5
+138,"135 West 30th Street, Chelsea, New York City, NY 10001, United States of America",8.6,9.1,8.7,8.3,8.7,40.7320258788684,-74.0003857202377,9.1,Courtyard by Marriott New York Manhattan/Chelsea,4,8.4,1664,7.8
+139,"40 West 45th Street, New York City, NY 10036, United States of America",8.1,8.1,7.5,7.7,9.1,40.706732520866495,-74.00898031890391,9.3,Club Quarters Hotel Midtown - Times Square,2,8.5,787,7.3
+140,"161 Front Street, Wall Street - Financial District, New York City, NY 10038, United States of America",8.4,8.9,8.2,8.2,8.7,40.662594394438294,-74.0232626310731,8.5,Fairfield Inn by Marriott New York Manhattan/Financial District,2,8.9,1575,7.8
+141,"2178 Broadway, Upper West Side, New York City, NY 10024, United States of America",8.3,8.4,8.4,7.9,6.9,40.7650084516372,-73.9852890372277,8.9,NYLO New York City,4,8.3,1569,7.5
+142,"250 West 77th Street, Upper West Side, New York City, NY 10024, United States of America",7.8,8.1,7.5,7.2,7.4,40.7650084516372,-73.9870887994768,8.7,Hotel Belleclaire,3,8.3,2318,7.1
+143,"59 West 35th Street, New York City, NY 10001, United States of America",8.5,8.6,8.3,8.0,8.4,40.7446158681062,-74.00061551481491,9.4,Hampton Inn Manhattan-35th Street/Empire State Building,2,8.7,3106,7.9
+144,"481 Eighth Avenue, Hell's Kitchen, New York City, NY 10001 , United States of America",7.7,7.9,7.5,7.2,7.6,40.740668909882295,-74.0057677030564,9.0,Wyndham New Yorker Hotel,3,7.9,6541,6.9
+145,"31 West 71st Street, Upper West Side, New York City, NY 10023, United States of America",7.4,7.7,6.8,6.7,8.8,40.7476816560211,-73.9911483228207,8.7,La Quinta Inn & Suites New York City Central Park,1,8.1,290,6.6
+146,"44 West 44th Street, New York City, NY 10036, United States of America",8.1,8.4,8.0,7.7,4.8,40.71505874605,-74.0158568322659,9.2,Royalton Times Square,4,8.2,613,7.2
+147,"2296 Frederick Douglas Boulevard, Harlem, New York City, NY 10027, United States of America",8.5,9.0,8.7,8.5,9.0,40.70394281707821,-74.012379348278,8.2,Aloft Harlem,2,8.8,431,7.8
+148,"866 Third Avenue, Midtown East, New York City, NY 10022, United States of America",8.5,8.8,8.6,8.1,8.6,40.724398960613996,-74.0079333214264,9.1,Courtyard New York Manhattan/Midtown East,4,8.4,644,7.9
+149,"125 West 45th Street, New York City, NY 10036, United States of America",8.7,8.8,8.4,8.4,8.8,40.7518293290645,-73.9934013783932,9.6,Room Mate Grace Boutique Hotel,3,9.1,322,7.7
+150,"870 7th Avenue at 56th Street, New York City, NY 10019, United States of America",7.8,8.0,8.0,7.3,7.9,40.7482201387361,-73.987877368927,9.2,Park Central,3,7.4,5122,6.9
+151,"116 West 28th Street, Chelsea, New York City, NY 10001, United States of America",8.3,8.5,8.1,8.0,8.7,40.7321480730733,-74.0247737283275,8.9,Fairfield Inn & Suites by Marriott New York Manhattan/Chelsea,3,8.8,1111,7.7
+152,"2 Lexington Avenue, Gramercy, New York City, NY 10010, United States of America",8.2,8.7,8.4,8.0,8.0,40.7119694648786,-74.0000626444817,9.1,Gramercy Park Hotel,5,8.1,366,7.0
+153,"358 West 58th Street, Hell's Kitchen, New York City, NY 10019, United States of America",7.4,7.6,6.6,7.0,7.9,40.7526284209899,-73.9943323606644,8.9,"Hudson Central Park, A Morgans Hotel",2,7.7,971,6.3
+154,"55 Church Street, Wall Street - Financial District, New York City, NY 10007, United States of America",8.2,8.4,8.3,7.9,5.3,40.6581726668732,-74.038207679987,9.0,Millenium Hilton,3,8.1,1603,7.5
+155,"140 Washington Street, Wall Street - Financial District, New York City, NY 10006, United States of America",8.6,9.0,8.7,8.5,9.2,40.6664996914051,-74.0529864736939,9.0,Club Quarters Hotel World Trade Center,2,8.4,871,7.9
+156,"201 West 55th Street, New York City, NY 10019, United States of America",8.2,8.5,8.5,7.9,8.8,40.76157318956471,-73.986396943638,9.1,WestHouse Hotel New York,4,8.4,720,7.0
+157,"1568 Broadway, New York City, NY 10036, United States of America",8.1,8.0,8.1,7.7,6.1,40.7568962212921,-73.9893659949303,9.4,DoubleTree Suites by Hilton NYC - Times Square,4,8.1,2035,7.2
+158,"235 West 35th Street, New York City, NY 10001, United States of America",7.7,7.6,7.7,7.2,7.7,40.707497,-74.006408,8.8,Wingate by Wyndham Manhattan Midtown,3,7.7,866,7.3
+159,"125 West 26th Street, Chelsea, New York City, NY 10001, United States of America",7.7,7.9,7.2,7.2,7.7,40.70394281707821,-74.012379348278,8.5,Holiday Inn Manhattan 6th Ave - Chelsea,2,8.3,2535,7.0
+160,"522 W 38th Street, Hell's Kitchen, New York City, NY 10018, United States of America",7.0,7.1,6.7,6.7,7.8,40.729447038113705,-74.02816659648141,7.3,Magnuson Convention Center Hotel NYC,1,7.5,1192,6.7
+161,"9 West 26th Street , Chelsea, New York City, NY 10010, United States of America",7.9,8.0,7.8,7.3,8.8,40.709814377365,-74.01385188102721,8.8,Flatiron Hotel,3,8.2,330,7.1
+162,"159 Grand Street, SoHo, New York City, NY 10013, United States of America",8.0,8.1,7.6,7.1,8.3,40.7052161930883,-74.0079333214264,8.8,Solita Soho Hotel,2,8.7,549,7.5
+163,"19 West 31st Street, New York City, NY 10001, United States of America",7.7,8.0,7.4,6.8,7.7,40.732084428631396,-74.00510630447579,9.0,Herald Square Hotel,2,7.6,3258,7.3
+164,"132 West 47th Street, New York City, NY 10036, United States of America",8.8,9.1,8.5,8.4,8.9,40.7482201387361,-73.9885570539673,9.6,Sanctuary Hotel New York,4,9.4,1515,8.1
+165,"237 Madison Avenue, Murray Hill, New York City, NY 10016, United States of America",8.5,8.6,8.4,8.0,8.5,40.7314123630497,-73.994512,9.1,Morgans Hotel - A Morgans Original,3,8.8,732,7.7
+166,"55 West 44th Street, New York City, NY 10036, United States of America",8.6,8.8,8.3,8.0,8.7,40.74333126445,-73.9946506172419,9.5,City Club Hotel,5,8.9,1241,7.9
+167,"341 West 36th Street, Hell's Kitchen, New York City, NY 10018, United States of America",7.6,7.9,7.5,7.2,8.2,40.746402400947204,-74.0165106207132,8.1,DoubleTree by Hilton New York Times Square South,2,8.2,1885,7.0
+168,"401 7th Avenue, New York City, NY 10001, United States of America",6.0,5.4,5.2,5.1,4.9,40.706696139028296,-74.01005320250991,8.6,Hotel Pennsylvania,1,5.9,20550,5.7
+169,"99 Washington Street, Wall Street - Financial District, New York City, NY 10006, United States of America",8.1,8.5,8.0,7.6,8.6,40.70394281707821,-74.02278547486871,8.6,Holiday Inn Manhattan Financial District,2,8.2,2434,7.4
+170,"790 7th Avenue, New York City, NY 10019, United States of America",7.1,6.6,6.8,6.4,7.8,40.7482201387361,-73.9911483228207,9.1,The Manhattan at Times Square,2,7.4,6659,6.3
+171,"136 West 42nd Street, New York City, NY 10036, United States of America",8.4,8.7,8.4,8.0,8.5,40.7482201387361,-73.9888577163219,9.4,Hilton Garden Inn Times Square Central,3,8.2,1911,7.5
+172,"206 East 52nd Street, Midtown East, New York City, NY 10022, United States of America",8.3,8.6,8.4,8.0,8.4,40.746860999999996,-73.98229599999999,8.7,Hilton Garden Inn New York Manhattan Midtown East,3,8.5,956,7.6
+173,"700 8th Avenue, New York City, NY 10036, United States of America",7.2,7.2,6.9,6.9,7.7,40.7482201387361,-73.9942167699336,8.9,Row NYC at Times Square,2,7.2,9891,6.4
+174,"215 West 94th Street, Upper West Side, New York City, NY 10025, United States of America",7.0,6.9,6.7,6.2,6.5,40.749965605561705,-73.9911483228207,8.0,Days Hotel Broadway at 94th Street,1,7.4,4672,6.6
+175,"132 West 45th Street, New York City, NY 10036, United States of America",8.1,8.4,7.6,7.5,7.6,40.7523077471783,-73.9884627610444,9.4,"Night Hotel Theater District, Times Square",4,8.4,1091,7.4
+176,"22 East 38th Street, Murray Hill, New York City, NY 10016, United States of America",7.2,7.3,6.9,6.5,7.2,40.7068891740129,-73.9933524280787,8.8,NH New York Jolly Madison Towers,2,7.1,1756,6.7
+177,"95 West Broadway, Tribeca, New York City, NY 10007, United States of America",8.0,8.5,7.4,7.2,8.2,40.6813594919624,-74.0266896039248,8.8,Cosmopolitan Hotel Tribeca,2,8.4,1130,7.4
+178,"181 Varick Street, SoHo, New York City, NY 10014, United States of America",8.6,9.0,8.4,8.0,9.1,40.6998854431595,-74.0384946763515,9.2,Courtyard by Marriott New York Manhattan / Soho,3,9.2,218,7.6
+179,"120 West 44th Street, New York City, 10036, United States of America",8.1,8.2,7.7,7.4,7.5,40.750911943268704,-73.9884627610444,9.4,Hotel Mela Times Square,3,8.3,1189,7.3
+180,"8 Stone Street, Wall Street - Financial District, New York City, NY 10004, United States of America",7.8,8.1,7.8,7.2,8.2,40.649123796651004,-74.0528786927462,8.3,DoubleTree by Hilton NYC - Financial District,1,8.0,2943,7.2
+181,"16 East 32nd Street, New York City, NY 10016, United States of America",8.4,8.6,8.5,7.9,7.9,40.728857140673796,-74.0000919147225,9.1,Avalon Hotel,2,8.7,1068,7.8
+182,"63 West 35th Street, New York City, NY 10001, United States of America",8.6,8.8,8.5,8.2,8.4,40.7392775054596,-73.991259,9.3,Hilton Garden Inn West 35th Street,4,8.7,1292,7.8
+183,"11 East 31st Street, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.707497,-74.0079333214264,-999.0,Arlo Nomad,3,-999.0,-999,-999.0
+184,"4 West 31st Street, New York City, NY 10001, United States of America",7.8,8.0,7.6,7.0,4.0,40.700141927058,-74.0011026710272,9.0,Hotel Wolcott,3,7.7,1370,7.5
+185,"2688 Broadway, 103rd Street, Upper West Side, New York City, NY 10025, United States of America",7.0,7.0,6.3,6.1,7.4,40.749965605561705,-73.9911483228207,7.9,Hotel Marrakech,1,8.2,2547,6.6
+186,"128 West 29th Street, Chelsea, New York City, NY 10001, United States of America",7.8,7.9,7.7,7.3,8.4,40.70394281707821,-74.012379348278,8.5,DoubleTree by Hilton - Chelsea,2,8.3,1708,7.2
+187,"3 East 40th Street, New York City, NY 10016, United States of America",7.9,8.2,7.8,7.2,8.4,40.7396915341912,-73.9873697608709,9.2,Courtyard by Marriott New York Manhattan/ Fifth Avenue,4,8.0,744,7.3
+188,"33 West 37 Street, New York City, NY 10018, United States of America",8.7,9.1,8.6,8.3,8.8,40.7375215964567,-73.9999164640904,9.4,"Marriott Vacation Club Pulse, New York City",4,9.2,1131,7.8
+189,"2 West Street, New York City, NY 10004, United States of America",8.6,8.9,8.9,8.4,6.1,40.645895662902,-74.0606926381589,9.1,"The Ritz-Carlton New York, Battery Park Hotel",5,8.8,254,7.6
+190,"79 Crosby Street, SoHo, New York City, NY 10012, United States of America",9.4,9.8,9.8,9.5,9.6,40.6812761276529,-74.018023601622,9.7,Crosby Street Hotel,5,9.5,411,8.2
+191,"308 W 58th Street, Hell's Kitchen, New York City, NY 10019, United States of America",7.8,8.1,7.3,7.0,4.9,40.7597568452716,-73.9909565448762,9.2,6 Columbus - A SIXTY Hotel,5,8.2,446,6.8
+192,"144 East 40th Street, Murray Hill, New York City, NY 10016, United States of America",8.5,8.8,8.0,7.8,8.6,40.706732520866495,-74.00898031890391,9.2,Seton Hotel,2,9.1,985,7.9
+193,"777 6th Avenue, Chelsea, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.719495653395796,-74.00362327694891,-999.0,777 Sixth Avenue,-999,-999.0,-999,-999.0
+194,"180 Ludlow Street, Lower East Side, New York City, NY 10002, United States of America",8.8,9.3,8.9,8.8,9.3,40.697738276315,-74.00781221687791,9.1,The Ludlow Hotel,5,8.7,1457,7.9
+195,"218 West 35th Street, New York City, NY 10001, United States of America",8.9,9.3,9.1,8.8,9.0,40.7390368226875,-74.0042516565256,9.4,Renaissance New York Midtown Hotel,4,8.9,586,7.9
+196,"134 Fourth Avenue (corner of 13th Street and Fourth Avenue), New York City, NY 10003, United States of America",8.7,9.1,8.7,8.6,8.9,40.707497,-74.0079333214264,9.3,Hyatt Union Square New York,4,9.0,331,7.4
+197,"5 West 8th Street, Greenwich Village, New York City, NY 10011, United States of America",8.9,9.4,8.6,8.6,9.5,40.719495653395796,-74.00667594381959,9.6,The Marlton Hotel,4,9.1,1567,8.0
+198,"2130 Broadway, Upper West Side, New York City, NY 10023, United States of America",8.9,9.1,9.0,8.6,8.9,40.7482201387361,-73.987877368927,9.5,Hotel Beacon,4,8.8,2685,8.2
+199,"330 East 56th Street, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.00898031890391,-999.0,AKA Sutton Place,5,-999.0,-999,-999.0
+200,"808 Columbus Ave - 14D, Upper West Side, New York City, 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7767285834269,-73.9904861241967,-999.0,NY Away - Central Park UWS 2-Bedroom - 14D,-999,-999.0,-999,-999.0
+201,"11th Ave and 42nd Street , Hell's Kitchen, New York City, NY 10036, United States of America",8.8,8.2,9.1,8.6,10.0,40.707497,-74.0160486102104,9.8,La Casa De Mis Primos BORJA,4,8.9,14,8.0
+202,"335 Bowery, East Village, New York City, NY 10003, United States of America",9.1,9.4,9.3,9.0,9.5,40.710944059955004,-74.00781221687791,9.4,The Bowery Hotel,5,9.4,871,8.0
+203,"135 West 45th Street, New York City, NY 10036, United States of America",8.9,9.2,9.1,8.7,9.1,40.7482201387361,-73.9893659949303,9.6,Hyatt Centric Times Square New York,4,8.9,1483,7.7
+204,"11th Ave and 42nd Street, Hell's Kitchen, New York City, NY 10036, United States of America",9.1,8.9,9.1,9.5,10.0,40.709814377365,-74.01385188102721,9.4,La Casa De Mis Primos SOFIA,4,9.1,17,8.6
+205,"28 West 53rd Street, New York City, NY 10019, United States of America",9.2,9.6,9.6,9.4,9.2,40.7411292,-73.9877709,9.6,Baccarat Hotel and Residences New York,5,9.2,169,8.2
+206,"50 West 36th Street, New York City, NY 10018, United States of America",8.5,8.9,8.1,8.1,8.7,40.7443800820663,-73.9945721626281,9.4,Best Western Premier Herald Square,4,8.6,977,7.8
+207,"24 East 39th Street, Murray Hill, New York City, NY 10016, United States of America",9.1,9.2,9.3,8.8,8.8,40.711153737328,-74.0066764944427,9.6,The William,3,9.3,601,8.4
+208,"100 East 50th Street, Midtown East, New York City, NY 10022, United States of America",8.4,8.7,8.7,8.0,8.0,40.7485483455489,-73.9844357594848,9.3,The Towers of the Waldorf Astoria,5,8.5,380,7.4
+209,"52 East 41st Street, Murray Hill, New York City, NY 10017, United States of America",7.9,7.9,7.7,7.2,8.3,40.724398960613996,-74.0079333214264,9.0,Dylan Hotel NYC,3,8.1,1179,7.4
+210,"233 West 49th Street, New York City, NY 10019, United States of America",8.9,9.3,9.0,8.6,8.9,40.746860999999996,-73.9888936181106,9.6,The Pearl Hotel,5,9.1,1111,7.9
+211,"43 West 32nd Street, New York City, NY 10001, United States of America",7.8,7.9,7.4,7.0,7.8,40.734235321556504,-73.9925014972688,9.1,Hotel Stanford NYC Koreatown,1,8.0,2991,7.3
+212,"127 West 28th Street, Chelsea, New York City, NY 10001, United States of America",8.0,8.2,8.0,7.6,8.6,40.7312228424922,-74.00093704462058,8.6,Hotel Indigo - Chelsea,2,8.3,1126,7.4
+213,"11 Howard, SoHo, New York City, NY 10013, United States of America",8.5,9.0,8.0,7.8,9.2,40.6772975276009,-74.0144895198155,9.3,11 Howard,5,9.1,110,7.5
+214,"201 West 79th Street, Upper West Side, New York City, NY 10024, United States of America",8.5,9.0,8.6,8.1,9.1,40.7482201387361,-73.987877368927,9.2,Hotel Lucerne,4,8.6,1203,7.8
+215,"17 West 32nd Street, New York City, NY 10001, United States of America",8.2,8.5,7.9,7.8,8.4,40.73324471624029,-73.9918912947178,9.1,La Quinta Inn & Suites Manhattan,2,8.0,3952,7.7
+216,"171 Ludlow Street, Lower East Side, New York City, NY 10002, United States of America",8.8,9.4,9.1,8.8,9.0,40.6974633322559,-74.00423415005208,9.1,Hotel Indigo Lower East Side,5,8.7,430,7.9
+217,"111 East 56th Street, Midtown East, New York City, NY 10022, United States of America",8.5,8.7,8.7,8.1,8.4,40.7459826677441,-73.99256916931151,9.2,Lombardy Hotel,5,8.5,733,7.9
+218,"103 Waverly Place, Greenwich Village, New York City, NY 10011, United States of America",8.5,8.7,8.2,7.9,8.8,40.719495653395796,-74.01039674132541,9.6,Washington Square Hotel,4,8.8,1576,7.8
+219,"20 East 76th Street, Upper East Side, New York City, NY 10021, United States of America",8.8,9.2,9.2,8.8,5.3,40.71505874605,-74.0158568322659,9.4,The Surrey,5,8.7,297,7.6
+220,"15 West 56th Street, New York City, NY 10019, United States of America",8.9,9.1,8.8,8.5,9.0,40.7496984037732,-73.9857007563114,9.6,Chambers Hotel,5,9.4,679,8.0
+221,"50 Bowery, Chinatown, New York City, NY 10013, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6668643483628,-74.0181951606644,-999.0,Hotel 50 Bowery,3,-999.0,-999,-999.0
+222,"246 Spring Street, SoHo, New York City, NY 10013, United States of America",8.7,9.1,9.2,8.6,5.3,40.6766296280375,-74.04727522283791,9.1,Trump SoHo,5,8.7,698,7.6
+223,"1170 Broadway , Chelsea, New York City, NY 10001, United States of America",8.9,9.4,9.3,8.9,9.4,40.721761,-74.00781221687791,9.0,The NoMad Hotel,5,9.0,996,8.0
+224,"111 East 48th Street, Midtown East, New York City, 10017, United States of America",9.0,9.5,9.3,8.9,6.2,40.746331548362896,-73.9893659949303,9.4,InterContinental New York Barclay Hotel,3,8.8,462,8.4
+225,"57 East 57th Street, Midtown East, New York City, NY 10022, United States of America",8.5,9.0,8.7,8.4,8.1,40.74666970312229,-73.99159759283059,9.4,Four Seasons Hotel New York,5,8.9,165,7.0
+226,"153 West 57th Street, New York City, NY 10019, United States of America",9.1,9.4,9.5,9.3,9.3,40.750192167453704,-73.9865885674953,9.6,Park Hyatt New York,5,9.2,215,7.6
+227,"231 Grand Street, Chinatown, New York City, NY 10013, United States of America",7.9,8.1,7.7,7.4,8.6,40.6870700567962,-74.00423415005208,8.1,Best Western Bowery Hanbee Hotel,2,8.6,999,7.5
+228,"45 West 38th Street, New York City, NY 10018, United States of America",9.1,9.5,8.9,8.9,9.3,40.7391115483628,-73.99408636066441,9.6,Archer Hotel New York,5,9.4,597,8.1
+229,"129 West 46th St, New York City, NY 10036, United States of America",8.5,8.4,8.2,7.9,9.2,40.7476816560211,-73.9884627610444,9.5,Broadway at Times Square Hotel,3,8.8,3530,7.9
+230,"363 West 16th Street, Chelsea, New York City, NY 10011, United States of America",8.8,9.1,8.6,8.3,9.0,40.7208332746611,-74.0079333214264,9.4,The Maritime Hotel,4,9.1,587,8.0
+231,"155 E. 50th Street, Midtown East, New York City, NY 10022, United States of America",8.4,8.5,8.4,8.0,5.0,40.747124051552795,-73.9916807413102,9.1,Fifty NYC-an Affinia hotel,4,8.5,1055,7.8
+232,"222 East 39th street, Murray Hill, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7167499037266,-73.99526696674,-999.0,Murray Hill Residence,-999,-999.0,-999,-999.0
+233,"270 West 43rd Street, New York City, NY 10036, United States of America",8.1,8.3,8.4,7.9,5.8,40.755104313896,-74.004688113928,9.0,Westin New York at Times Square,5,7.8,907,7.0
+234,"150 East 50th Street, Midtown East, New York City, NY 10022, United States of America",8.9,9.1,8.9,8.4,8.6,40.746122063555795,-73.9918007701635,9.3,San Carlos Hotel New York,5,9.2,797,8.2
+235,"60 East 54th Street, Midtown East, New York City, NY 10022, United States of America",9.1,9.4,9.0,8.8,9.3,40.7550172135821,-73.99248272180559,9.6,Hotel Elysee,5,9.5,590,8.4
+236,"39th Street and 9th Avenue, Hell's Kitchen, New York City, NY 10018, United States of America",5.9,5.8,6.5,5.3,7.5,40.711153737328,-74.01551518768309,7.0,NY Away - Two Bedroom Apartment - Times Square,5,5.7,19,5.2
+237,"6 West 32nd Street, New York City, NY 10001, United States of America",7.8,7.8,7.7,7.3,8.4,40.7326594936327,-73.9912864565849,8.9,"Nyma, The New York Manhattan Hotel",2,7.6,3432,7.5
+238,"234 East 46th Street, Midtown East, New York City, NY 10017, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7080752950259,-74.0078580791679,-999.0,AKA United Nations,5,-999.0,-999,-999.0
+239,"59 West 46th Street, New York City, NY 10036, United States of America",7.8,7.8,7.7,7.3,8.0,40.747389044717295,-73.9884627610444,9.2,The Hotel at Times Square,2,7.5,4447,7.6
+240,"242 West 76th Street, Upper West Side, New York City, NY 10023, United States of America",8.5,8.6,8.6,7.9,8.4,40.7482201387361,-73.98978401116992,9.1,The Milburn Hotel,2,8.6,262,7.9
+241,"455 Madison Avenue, Midtown East, New York City, NY 10022, United States of America",8.7,9.0,9.1,8.4,5.0,40.7509233926709,-73.9828053116798,9.6,Lotte New York Palace,5,8.5,1816,7.9
+242,"340 West 40th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.3,8.3,8.2,8.1,8.9,40.7482201387361,-74.0005105733871,8.8,Staybridge Suites - Times Square - New York City,3,8.6,2908,7.8
+243,"160 West 25th Street, Chelsea, New York City, NY 10001, United States of America",8.2,8.4,8.0,7.7,8.7,40.707497,-74.006408,8.7,Four Points by Sheraton Manhattan Chelsea,3,8.7,792,7.6
+244,"One Central Park West, Upper West Side, New York City, NY 10023, United States of America",8.9,9.3,9.1,8.7,9.1,40.7411292,-73.9893659949303,9.5,Trump International New York,5,9.0,490,7.7
+245,"653 11th Avenue at 48th, Hell's Kitchen, New York City, NY 10036, United States of America",8.6,9.2,9.0,8.7,7.8,40.742775166430505,-74.0163825452328,8.0,Kimpton Ink48 Hotel,4,8.9,547,7.9
+246,"130 West 46th Street, New York City, NY 10036, United States of America",8.8,9.1,9.0,8.6,8.6,40.750192167453704,-73.9933671802283,9.3,The Kimpton Muse Hotel,5,9.0,605,7.9
+247,"1567 Broadway, New York City, NY 10036, United States of America",7.8,7.9,7.8,7.3,6.5,40.7559617916405,-73.9893659949303,9.1,W New York - Times Square,5,8.0,1150,6.6
+248,"148 East 48th Street , Midtown East, New York City, NY 10017, United States of America",8.8,9.1,8.9,8.7,8.8,40.7446310559045,-73.9885570539673,9.1,Residence Inn by Marriott New York Manhattan/ Midtown Eastside,4,9.0,1305,8.2
+249,"44 West 63rd Street, Upper West Side, New York City, NY 10023, United States of America",7.4,7.5,7.1,6.8,4.3,40.7602078176284,-74.0075901562736,9.0,Empire Hotel,3,7.7,1525,6.5
+250,"343 West 39th Street, Hell's Kitchen, New York City, NY 10018, United States of America",7.9,8.1,7.6,7.4,8.7,40.7441084489311,-74.003662839532,8.6,Holiday Inn Express - Times Square,3,8.3,1931,7.2
+251,"126 Water Street, Wall Street - Financial District, New York City, NY 10005, United States of America",8.1,8.4,7.7,7.7,8.0,40.6611723392275,-74.0231819450855,8.6,Holiday Inn Express - Wall Street,2,8.5,908,7.6
+252,"21 West 37th Street, New York City, NY 10018, United States of America",8.3,8.4,7.9,7.7,8.7,40.743445136669294,-73.99248272180559,9.2,Fairfield Inn & Suites by Marriott New York Manhattan/Fifth Avenue,3,8.8,811,7.6
+253,"517 Lexington Avenue, Midtown East, New York City, NY 10017, United States of America",8.5,8.9,8.7,8.1,8.3,40.7453594543318,-73.9875947717583,9.0,Hotel 48LEX New York,5,8.8,233,7.7
+254,"230 West 54th Street, New York City, NY 10019, United States of America",8.2,8.3,7.9,7.5,4.1,40.7482201387361,-73.9933524280787,9.4,Ameritania at Times Square,3,8.3,1035,7.5
+255,"145 East 49th Street, Midtown East, New York City, NY 10022, United States of America",8.3,8.5,8.2,7.9,8.6,40.730655504151,-73.99305786011891,9.2,Best Western Plus Hospitality House Suites,5,8.7,315,7.7
+256,"312 West 37th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.8,9.0,8.9,8.8,8.8,40.7482201387361,-74.0013094806328,9.0,Homewood Suites Midtown Manhattan Times Square South,4,8.7,2845,8.2
+257,"303 Lexington Avenue, Murray Hill, New York City, NY 10016, United States of America",8.4,8.5,8.6,8.1,6.7,40.7318554975811,-73.9916807413102,9.0,Shelburne NYC-an Affinia hotel,4,8.5,836,7.9
+258,"201 East 24th Street, Kips Bay, New York City, 10010, United States of America",7.9,8.2,7.5,7.3,4.6,40.7147706033827,-74.00696202597649,8.4,The Marcel at Gramercy,2,8.5,585,7.2
+259,"145 East 39th Street, Murray Hill, New York City, NY 10016, United States of America",8.3,8.9,7.6,8.0,8.9,40.705383293676704,-73.9911483228207,9.1,Pod 39,1,8.4,7570,7.8
+260,"222 East 39th Street, Murray Hill, New York City, NY 10016, United States of America",8.6,8.8,8.7,8.5,9.4,40.7080752950259,-74.0079333214264,8.9,Oakwood at the Nash,2,8.4,203,8.3
+261,"125 East 50th Street, Midtown East, New York City, NY 10022, United States of America",8.2,8.5,8.3,7.7,5.3,40.7479723095851,-73.9853654801845,9.0,The Benjamin,5,8.4,631,7.5
+262,"3 Mitchell Place, Midtown East, New York City, 10017, United States of America",8.7,9.2,7.9,7.9,10.0,40.7461403521485,-73.9933524280787,9.2,Bridgestreet at Beekman Towers,3,9.2,6,8.8
+263,"45 West 81st Street, Upper West Side, New York City, NY 10024, United States of America",8.2,8.5,8.3,7.7,6.0,40.7452848470416,-73.9986222982407,9.2,Excelsior Hotel,3,7.9,751,7.6
+264,"330 West 38th Street Room 1606, Hell's Kitchen, New York City, NY 10018, United States of America",8.6,8.6,8.7,8.8,9.4,40.706389,-74.0148737096645,8.8,Apartment168 NYC,3,8.8,273,7.9
+265,"339 West 39th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.2,7.9,8.2,8.0,8.9,40.7493091828859,-74.0094316855183,9.0,Candlewood Suites NYC -Times Square,2,8.5,1993,7.7
+266,"27 Grand Street, SoHo, New York City, NY 10013, United States of America",8.5,8.7,8.7,8.3,9.1,40.6806723933518,-74.0327542935318,9.3,The James New York,5,8.7,293,7.5
+267,"135 East Houston Street, New York City, NY 10002 , United States of America",7.6,7.7,7.3,7.0,8.5,40.6905067084582,-74.012379348278,8.4,"Gatsby Hotel, An Ascend Hotel Collection Member",3,8.5,315,6.9
+268,"71 West 35th Street , New York City, NY 10001, United States of America",8.6,8.9,8.5,8.2,8.9,40.7363740729884,-73.9923419058323,9.5,Courtyard by Marriott New York Manhattan/Herald Square,4,8.8,977,7.8
+269,"Tishman Speyer, 101 West End Ave, Upper West Side, New York City, 10023, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7190524841916,-74.0104425865899,-999.0,NY Away - Lincoln Center One Bedroom One Bath,-999,-999.0,-999,-999.0
+270,"196 Grand Street, New York City, NY 10013, United States of America",9.1,9.7,9.3,8.8,9.2,40.6769191272736,-74.01602031646,9.3,NobleDEN Hotel,4,9.0,724,8.6
+271,"70 Park Avenue, Murray Hill, New York City, NY 10016, United States of America",8.3,8.3,8.3,7.8,8.5,40.7175211538223,-73.9933524280787,9.2,Iberostar 70 Park Avenue Hotel,3,8.6,760,7.6
+272,"75 Wall Street, Wall Street - Financial District, New York City, NY 10005, United States of America",8.7,8.9,8.8,8.7,8.9,40.6519292352124,-74.0447781049545,8.7,Andaz Wall Street - A Hyatt Hotel,4,8.9,225,8.1
+273,"37 West 24th Street, Chelsea, New York City, NY 10010, United States of America",7.7,7.9,7.3,6.8,8.4,40.714898463173704,-73.9995986223221,8.8,Wyndham Garden Hotel Manhattan Chelsea West,2,8.3,527,7.1
+274,"318 West 51st Street, Hell's Kitchen, New York City, NY 10019, United States of America",7.8,8.1,7.1,7.0,7.4,40.733478589128204,-74.0015505999328,9.1,Washington Jefferson at Times Square,2,8.5,966,7.1
+275,"815 Avenue of the Americas, Chelsea, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.72977581352,-73.9977464280625,-999.0,Hyatt House New York/Chelsea,3,-999.0,-999,-999.0
+276,"40 West 40th Street, New York City, NY 10018, United States of America",9.1,9.6,9.2,8.8,9.0,40.7408579491382,-73.994512,9.8,Bryant Park Hotel,5,9.4,698,8.1
+277,"80 Columbus Circle, Hell's Kitchen, New York City, NY 10023, United States of America",8.6,9.0,8.9,8.6,6.2,40.7255299826281,-74.0056094527245,9.4,Mandarin Oriental New York,5,8.9,218,7.0
+278,"325 West 33rd Street , Hell's Kitchen, New York City, NY 10001, United States of America",8.7,8.8,8.7,8.4,9.0,40.7408649877037,-74.01055544614779,9.2,Fairfield Inn & Suites by Marriott New York Midtown Manhattan/Penn Station,3,8.7,1127,8.1
+279,"180 Tenth Avenue, Chelsea, New York City, NY 10011, United States of America",8.6,8.9,8.7,8.2,9.7,40.7119689278563,-74.0554003044963,9.4,The High Line Hotel,5,8.8,259,7.7
+280,"243 West 55th Street, New York City, NY 10019, United States of America",8.2,8.3,7.8,7.4,8.0,40.76157318956471,-73.9905233681201,9.3,Moderne Hotel,3,8.9,474,7.6
+281,"70 Pine Street, Wall Street - Financial District, New York City, NY 10005, United States of America",9.2,9.1,9.5,9.1,9.7,40.632070025195496,-74.0343264861165,9.3,Q&A Residential Hotel,4,9.2,573,8.8
+282,"1295 Madison Avenue, Upper East Side, New York City, NY 10128, United States of America",8.0,8.4,7.8,7.5,8.3,40.7482201387361,-73.987877368927,8.7,Hotel Wales,4,8.3,405,7.2
+283,"15 West 45th Street, New York City, NY 10036, United States of America",7.6,7.9,7.0,7.0,7.7,40.747150377929295,-73.9945721626281,8.9,Holiday Inn Express Times Square - Fifth Avenue,3,7.8,1837,6.8
+284,"32 East 3rd Street, East Village, New York City, NY 10003, United States of America",9.2,9.7,9.4,9.3,9.5,40.6869197024192,-74.00898031890391,9.0,East Village Apartments,5,9.6,47,8.5
+285,"303 West 30 Street, Hell's Kitchen, New York City, NY 10001, United States of America",7.1,7.7,6.0,6.1,7.9,40.7062047279049,-74.01849355686849,8.3,Manhattan West Hotel,1,8.1,1226,6.3
+286,"West 42nd Street & 11th Avenue, Hell's Kitchen, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.74331650144379,-74.04509937277241,-999.0,La Casa De Mis Primos ADAM,-999,-999.0,-999,-999.0
+287,"299 Madison Avenue, Murray Hill, New York City, NY 10017, United States of America",9.3,9.7,9.2,9.2,9.4,40.711153737328,-74.0066764944427,9.8,Library Hotel,5,9.7,346,8.1
+288,"811 7th Avenue, 53rd Street, New York City, NY 10019 , United States of America",7.6,7.7,7.7,7.3,6.1,40.7583753092875,-73.9884627610444,8.9,Sheraton New York Times Square Hotel,5,7.4,1479,6.7
+289,"500 East 62nd Street, Upper East Side, New York City, 10065, United States of America",7.5,8.0,7.7,6.9,4.0,40.7452848470416,-73.9945721626281,7.5,Bentley Hotel,2,7.9,768,7.0
+290,"131 West 23rd Street, Chelsea, New York City, NY 10011, United States of America",8.9,9.0,8.6,8.4,8.4,40.7187923210136,-74.0079333214264,9.4,The Townhouse Inn of Chelsea,4,9.4,243,8.6
+291,"605 West 42nd Street, Hell's Kitchen, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.722752246675896,-74.0253093104952,-999.0,Global Luxury Suites at Sky,3,-999.0,-999,-999.0
+292,"103 East 29th Street, New York City, NY 10016, United States of America",7.3,7.3,6.8,6.3,39.0,40.694582842048796,-73.9970813423279,8.5,Hotel Deauville,1,8.1,227,6.8
+293,"346 West 46th Street, Hell's Kitchen, New York City, NY 10036, United States of America",9.3,9.6,9.3,9.1,9.3,40.7476816560211,-73.996606618166,9.7,The French Quarters,3,9.5,1476,8.8
+294,"431 Broome Street, SoHo, New York City, NY 10013, United States of America",9.2,9.6,9.2,8.8,9.3,40.706433011483895,-74.01148035376741,9.7,The Broome,5,9.5,340,8.1
+295,"136 Ludlow Street, Lower East Side, New York City, NY 10002, United States of America",6.7,6.9,6.5,6.2,8.3,40.6470312220504,-74.0071823342533,7.9,Redford Hotel,2,7.1,45,5.9
+296,"95 Wall Street, Wall Street - Financial District, New York City, 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.652894533670896,-74.0343656,-999.0,NY Away - Financial District 2-Bedrooms - 608,-999,-999.0,-999,-999.0
+297,"27 Barclay Street, Tribeca, New York City, NY 10007, United States of America",9.1,9.8,9.8,9.2,12.0,40.6612439,-74.0434913486042,8.8,Four Seasons Hotel New York Downtown,5,9.4,13,8.1
+298,"442 West 36th Street, Hell's Kitchen, New York City, NY 10018, United States of America",7.1,7.2,6.6,6.5,7.8,40.712325301293795,-74.023610111409,7.3,Hudson River Hotel,2,8.1,890,6.7
+299,"790 Eighth Avenue, New York City, NY 10019, United States of America",8.4,8.6,8.5,8.0,8.3,40.7552200172513,-73.9905461668968,9.2,Hilton Garden Inn Times Square,4,8.2,1462,7.7
+300,"Elderidge Street and East Broadway, Chinatown, New York City, 10002, United States of America",7.0,7.2,6.6,7.8,8.3,40.6681973547284,-74.01284287483409,7.8,Charming 2 Bedroom in the heart of Chinatown,-999,6.3,8,6.3
+301,"114 East 32nd Street, New York City, NY 10016, United States of America",9.2,9.6,9.3,9.1,9.9,40.725860810548,-73.9927705335095,9.2,The Marmara Park Avenue,5,9.6,79,8.7
+302,"37 East 64 Street, Upper East Side, New York City, NY 10065, United States of America",8.7,9.1,8.8,8.3,8.5,40.757965922154,-73.978447,9.4,Hôtel Plaza Athénée,5,9.1,394,7.7
+303,"501 Lexington Avenue, Midtown East, New York City, NY 10017, United States of America",8.3,8.3,8.1,7.6,8.8,40.744501020619005,-73.98480623960491,9.3,Roger Smith Hotel,4,8.7,603,7.8
+304,"150 E. 34th Street, Kips Bay, New York City, NY 10016, United States of America",8.2,8.4,8.3,7.6,5.2,40.735481449360705,-73.9933524280787,9.0,Dumont NYC-an Affinia hotel,3,8.2,269,7.6
+305,"234 West 42nd Street, New York City, NY 10036, United States of America",8.6,8.8,8.9,8.3,5.6,40.7512441359836,-73.99868398904809,9.4,Hilton Times Square,4,8.4,1646,7.6
+306,"15 Gold Street, Wall Street - Financial District, New York City, NY 10038, United States of America",8.9,9.2,9.0,8.6,8.3,40.647609576913794,-74.036302641034,8.7,Gild Hall - A Thompson Hotel,3,9.3,550,8.3
+307,"149 East 39th Street, Murray Hill, New York City, NY 10016, United States of America",8.4,8.1,8.5,7.7,5.2,40.7394958903476,-73.98265419072891,9.3,Murray Hill East Suites,1,8.6,124,8.3
+308,"12 West 44th Street, New York City, NY 10036, United States of America",7.3,7.5,6.7,6.6,4.8,40.7452848470416,-73.9923419058323,9.0,The Mansfield Hotel,3,7.6,885,6.5
+309,"133 West 44th Street, New York City, NY 10036, United States of America",8.4,8.6,8.6,8.0,9.4,40.7459826677441,-73.99256916931151,9.6,The Premier Hotel New York,4,8.2,472,7.6
+310,"164 East 87th Street, Upper East Side, New York City, NY 10128, United States of America",7.7,8.2,7.3,6.8,6.9,40.744425266693895,-73.9911483228207,8.6,The Franklin Hotel,2,8.5,518,7.0
+311,"201 Park Avenue South, New York City, NY 10003, United States of America",8.3,8.6,8.5,8.0,8.8,40.7080752950259,-74.0078580791679,9.3,W New York - Union Square,5,8.3,159,6.8
+312,"120 Allen Street, Lower East Side, New York City, NY 10002, United States of America",8.8,9.6,9.1,8.4,9.3,40.6834686788066,-74.00205522803009,9.1,Sago Hotel,4,9.0,49,7.8
+313,"538 West 58th Street, Hell's Kitchen, New York City, NY 10019, United States of America",8.7,9.6,8.9,8.2,8.3,40.724398960613996,-74.0079333214264,8.4,Fairfield Inn & Suites by Marriott New York Manhattan/Central Park,4,9.3,11,8.0
+314,"39 Avenue of the Americas, Tribeca, New York City, NY 10013, United States of America",8.3,8.6,8.1,7.8,8.2,40.71475029308571,-74.01624776422959,8.9,Hilton Garden Inn New York/Tribeca,2,8.7,456,7.5
+315,"343 West 16th Street, Chelsea, New York City, NY 10011, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7213884416101,-74.0319597730163,-999.0,Great apartment in Chelsea,2,-999.0,-999,-999.0
+316,"160 Bleecker Street, Greenwich Village, New York City, NY 10012, United States of America",8.9,9.5,8.8,8.3,10.0,40.6761600251955,-74.03223714232792,9.8,Greenwich Village Two Bedroom Apartment,4,8.8,10,8.5
+317,"108 West 24th Street, Chelsea, New York City, NY 10011, United States of America",8.5,8.7,8.4,8.1,8.5,40.7333046726171,-74.00267913937559,8.9,Hampton Inn Manhattan Chelsea,3,8.9,589,7.9
+318,"133 Greenwich Street, Wall Street - Financial District, New York City, NY 10006, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6991043466042,-74.03073999502651,-999.0,Courtyard by Marriott New York Downtown Manhattan/World Trade Center Area,3,-999.0,-999,-999.0
+319,"32 8th Avenue, Greenwich Village, New York City, NY 10014, United States of America",8.2,8.4,8.0,7.5,9.1,40.71505874605,-74.0232084026709,9.3,Incentra Village House,4,8.8,177,7.4
+320,"400 East 66th Street, Upper East Side, New York City, NY 10065, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7476256195858,-73.968969630619,-999.0,Global Luxury Suites at The Pearl,-999,-999.0,-999,-999.0
+321,"11 Rivington Street, New York City, NY 10002, United States of America",7.9,7.8,7.7,7.4,5.6,40.6782046521972,-74.0045660734177,8.4,Off SoHo Suites Hotel,4,8.1,371,7.9
+322,"525 Lexington Avenue at 49th Street, Midtown East, New York City, NY 10017, United States of America",8.0,8.3,8.0,7.6,4.7,40.7461274684357,-73.98681756109,8.9,New York Marriott East Side,4,8.2,614,7.2
+323,"107 Rivington Street, Lower East Side, New York City, NY 10002, United States of America",8.4,8.6,8.9,8.1,9.0,40.675019211858604,-74.0042562782764,8.7,Hotel on Rivington,5,8.3,279,7.6
+324,"714 Seventh Avenue, New York City, NY 10036, United States of America",8.4,8.6,8.6,8.1,154.0,40.7566576336914,-73.98555859923358,9.5,Renaissance New York Times Square Hotel,5,8.5,333,7.3
+325,"116 West 31st Street, Chelsea, New York City, NY 10001, United States of America",8.5,8.7,8.1,8.1,8.6,40.7400651754445,-74.0087516605853,9.2,Hampton Inn Madison Square Garden,3,8.9,770,7.8
+326,"120 Lafayette Street, SoHo, New York City, NY 10013, United States of America",8.3,8.4,7.7,7.7,8.6,40.6816191584141,-74.0317138179036,8.7,City Rooms NYC - SoHo,1,9.3,985,7.8
+327,"25 West 37th St , New York City, NY 10018, United States of America",8.7,9.0,8.6,8.2,9.2,40.7371761714826,-73.9937916398048,9.4,SpringHill Suites by Marriott New York Midtown Manhattan/Fifth Avenue,4,8.9,1531,7.9
+328,"8 Albany Street, Wall Street - Financial District, New York City, NY 10006, United States of America",8.3,8.6,8.6,8.0,6.2,40.6538716253383,-74.0502404675769,8.8,W New York - Downtown,4,8.3,193,7.4
+329,"276 Canal Street, Chinatown, New York City, NY 10013, United States of America",7.3,7.7,6.8,6.6,7.9,40.6448516002495,-74.0323246084984,8.2,SoHo Garden Hotel,2,7.9,422,6.8
+330,"401 East 60th Street, Upper East Side, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7546880894963,-73.98248758895491,-999.0,Global Luxury Suites at Bridge Tower Place,-999,-999.0,-999,-999.0
+331,"West 28th Street & Park Avenue, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6903128212688,-74.0030864998698,-999.0,Central Affordable Three Bedroom Apartment,-999,-999.0,-999,-999.0
+332,"196A Stanton Street, Lower East Side, New York City, NY 10002, United States of America",8.4,8.8,8.6,8.4,7.7,40.675372930784995,-74.00898031890391,8.1,Sanctuary NYC Retreats,4,8.5,378,8.1
+333,"33 Peck Slip, Wall Street - Financial District, New York City, NY 10038, United States of America",8.2,8.4,8.1,7.8,8.0,40.6227278174449,-74.0306612849236,8.7,Best Western Plus Seaport Inn Downtown,2,8.3,937,7.8
+334,"350 West 40th Street   , Hell's Kitchen, New York City, NY 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7471007858691,-74.01680847824359,-999.0,Doubletree By Hilton New York Times Square West,2,-999.0,-999,-999.0
+335,"52 Mulberry Street, Chinatown, New York City, NY 10013, United States of America",8.6,9.2,8.9,8.1,8.4,40.70628,-74.0138411521912,8.5,Hotel Mulberry,4,8.4,1036,8.2
+336,"151 East Houston Street, New York City, NY 10002, United States of America",8.2,8.4,7.7,7.6,8.0,40.652314506790205,-74.00961509782991,8.8,Hotel East Houston,2,9.0,1219,7.8
+337,"102 Greenwich Street, Wall Street - Financial District, New York City, NY 10006, United States of America",7.7,7.3,7.4,7.4,9.1,40.6581181624947,-74.0389152389556,8.3,RIFF Downtown,1,8.2,248,7.4
+338,"541 Lexington Avenue, Midtown East, New York City, NY 10022, United States of America",7.5,7.9,7.4,7.3,5.1,40.7237396622533,-74.0052051097155,8.5,W New York,4,7.7,503,6.5
+339,"145 East 50th Street, Midtown East, New York City, NY 10022, United States of America",9.0,9.2,9.2,8.9,6.9,40.724398960613996,-74.0079333214264,9.4,The Kimberly Hotel & Suites,5,9.0,500,8.5
+340,"146 West 46th Street Apartment 3A, New York City, NY 10036, United States of America",8.9,8.8,8.1,8.5,10.0,40.729837100000005,-73.9935761933256,9.8,Times Square Studio 46,4,9.3,29,8.7
+341,"687 Lexington Avenue, Midtown East, New York City, NY 10022, United States of America",8.8,9.2,8.8,8.2,5.1,40.7260366299775,-73.9916445314885,9.3,Fitzpatrick Manhattan,4,9.1,486,8.1
+342,"51 Nassau Street, Wall Street - Financial District, New York City, NY 10038, United States of America",7.8,8.1,7.4,7.2,7.9,40.6247012569252,-74.045941159129,8.5,Holiday Inn Wall Street,1,8.4,748,7.2
+343,"130 West 44th Street, New York City, NY 10036, United States of America",9.0,9.5,9.3,8.8,9.2,40.74834472488379,-73.99541705846791,9.5,"The Chatwal, a Luxury Collection Hotel, New York City",5,9.0,233,7.7
+344,"585 8th Avenue, Hell's Kitchen, New York City, NY 10018, United States of America",8.3,8.6,8.1,7.9,9.1,40.7418285462785,-73.99997124784471,8.9,Holiday Inn New York City - Times Square,4,8.6,437,7.6
+345,"518 West 27th Street, Chelsea, New York City, NY 10001, United States of America",7.9,8.6,7.6,7.6,8.1,40.7190573009701,-74.02640059590341,8.1,Hotel Americano,5,8.5,316,6.9
+346,"777 Sixth Avenue, Chelsea, New York City, 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7416122854505,-74.0047129681998,-999.0,Furnished Quarters at 777 Sixth Avenue,-999,-999.0,-999,-999.0
+347,"90 Washington Street, Wall Street - Financial District, New York City, NY 10006, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6622465306126,-74.0304923057556,-999.0,Global Luxury Suites at 90 Washington,-999,-999.0,-999,-999.0
+348,"38 West 31 street, New York City, 10001, United States of America",8.2,8.0,7.4,7.7,9.5,40.724398960613996,-74.0079333214264,9.3,Studios Midtown Manhattan,2,8.9,95,7.7
+349,"West 80th Street & Amsterdam Avenue, Upper West Side, New York City, NY 10024, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7658105834269,-74.00086851552159,-999.0,Upper West Side Duplex,-999,-999.0,-999,-999.0
+350,"3 West 51st Street, New York City, NY 10019, United States of America",7.9,8.2,7.3,6.8,8.9,40.749965605561705,-73.99134000000001,9.5,3 West Club,3,8.1,229,7.3
+351,"130 Duane Street, Tribeca, New York City, NY 10013, United States of America",8.6,8.8,8.3,8.1,9.2,40.680348687816,-74.0318085998297,9.1,Duane Street Hotel Tribeca,4,9.3,219,7.8
+352,"152 West 26th Street, Chelsea, New York City, NY 10001, United States of America",8.3,8.6,8.3,7.9,5.9,40.7229977800193,-74.0079333214264,8.7,Hilton New York Fashion District,3,8.6,633,7.6
+353,"80 Riverside Drive, Upper West Side, New York City, NY 10024, United States of America",7.2,7.2,6.1,6.1,8.2,40.749965605561705,-73.9986222982407,8.4,Riverside Tower Hotel,1,8.1,1920,7.2
+354,"212 East 42nd Street, Murray Hill, New York City, NY 10017, United States of America",8.3,8.7,8.7,8.1,5.4,40.7385735827856,-73.9893753826619,9.0,Westin New York Grand Central,4,8.0,469,7.5
+355,"356 west 39th street, Hell's Kitchen, New York City, 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.71361339999999,-74.0245817,-999.0,3 Bedroom modern apartment - Times Square,-999,-999.0,-999,-999.0
+356,"308 East 38th Street, Murray Hill, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7290659246084,-73.9972837520627,-999.0,Global Luxury Suites at The Montrose,-999,-999.0,-999,-999.0
+357,"308 E 38th St, Murray Hill, New York City, 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.687328,-74.0074978,-999.0,Murray Hill 2Beds 2Baths,-999,-999.0,-999,-999.0
+358,"21 East 52nd Street, Midtown East, New York City, NY 10022, United States of America",8.5,8.8,8.6,8.2,5.9,40.7438704961735,-73.9839365333318,9.4,Omni Berkshire Place,5,8.6,409,7.6
+359,"235 West 48th Street, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.758828066855,-73.9894098047807,-999.0,Global Luxury Suites at Ritz Plaza,-999,-999.0,-999,-999.0
+360,"250 East 50th Street, Midtown East, New York City, NY 10022, United States of America",7.7,7.5,7.5,7.6,8.7,40.7153011826453,-73.9995194971561,8.5,Midtown Lodging,1,8.0,165,7.4
+361,"224 East 47th Street, Midtown East, New York City, NY 10017, United States of America",7.2,7.2,6.0,6.8,7.3,40.7077304360061,-73.99577061647409,8.7,Vanderbilt YMCA,1,7.2,5358,7.1
+362,"1234 Broadway, New York City, NY 10001, United States of America",6.8,6.6,6.3,6.3,8.2,40.721903555600704,-74.0066597934094,9.0,Macy31 1 Bedroom Apartment Chelsea Manhattan,-999,6.2,109,6.7
+363,"15 East 17th Street, New York City, NY 10003, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.722257251551,-74.00114332992099,-999.0,Four Bedroom Apartment - Union Square,-999,-999.0,-999,-999.0
+364,"304 East 42nd Street, Murray Hill, New York City, NY 10017, United States of America",7.5,7.8,7.4,7.0,5.4,40.7426392214872,-73.9923419058323,8.5,Hilton Manhattan East,2,7.5,854,6.8
+365,"Two East 55th Street at Fifth Avenue, Midtown East, New York City, NY 10022, United States of America",8.9,9.6,9.2,8.7,9.7,40.750192167453704,-73.9836341142654,9.4,St. Regis New York,5,9.0,62,7.5
+366,"239 Third Avenue, Gramercy, New York City, NY 10003, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.713712703622,-73.9951845327351,-999.0,Two Bedroom Apartment - Murray Hill,-999,-999.0,-999,-999.0
+367,"20 Exchange Place, Wall Street - Financial District, New York City, NY 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6877122834269,-74.03321401866,-999.0,20 Exchange Place,-999,-999.0,-999,-999.0
+368,"246 Spring Street, SoHo, New York City, NY 10013, United States of America",8.6,9.1,9.1,8.7,3.0,40.710237940237,-74.0237582,8.9,Jet Luxury @ The Trump SoHo,5,8.5,96,7.4
+369,"365 Park Avenue South At 26th St., New York City, NY 10016, United States of America",9.3,9.7,9.6,9.0,9.7,40.719561924021605,-73.99258553132479,9.5,Hotel Giraffe,5,9.7,335,8.4
+370,"2 Ave and 55th Street, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6974159204129,-74.00898031890391,-999.0,East Side 3 bedroom 2 bathroom (7),-999,-999.0,-999,-999.0
+371,"317 West 14th Street, Chelsea, New York City, NY 10014, United States of America",8.8,9.1,8.4,8.2,9.4,40.7189880763453,-74.0300572022905,9.6,Chelsea Pines Inn,3,9.5,403,8.2
+372,"East 36th & 5th Ave, New York City, 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7343397348224,-73.9963692426682,-999.0,Stunning Apartment with Spectacular Views Near 5th Ave,5,-999.0,-999,-999.0
+373,"East 53rd Street & 3rd Avenue, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.70394281707821,-74.012379348278,-999.0,Renovated Two Bedroom Apartment Midtown East,4,-999.0,-999,-999.0
+374,"404 West 51st Street, Hell's Kitchen, New York City, NY 10009, United States of America",5.6,5.0,5.0,5.5,7.5,40.73503692790489,-74.00603255686849,7.7,Manhattan Lodging,1,4.8,11,5.2
+375,"337 West 39th Street, Hell's Kitchen, New York City, NY 10018, United States of America",8.3,8.6,8.1,7.9,8.6,40.7482201387361,-74.0003154426813,8.7,Hampton Inn Manhattan - Times Square South,3,8.7,666,7.7
+376,"235 West 56th Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7340456993083,-73.9984137116394,-999.0,Symphony House,-999,-999.0,-999,-999.0
+377,"725 Tenth Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",7.7,8.0,7.9,7.3,4.6,40.745701585073704,-74.01070028543471,8.2,The Skyline Hotel New York,3,7.7,852,7.4
+378,"11th Ave and 42nd Street, Hell's Kitchen, New York City, NY 10036, United States of America",9.1,9.1,9.6,9.4,9.2,40.728434,-74.0189393609762,9.2,La Casa De Mis Primos GABRIEL,-999,8.5,13,8.7
+379,"332 West 23rd Street, Chelsea, New York City, NY 10011, United States of America",8.0,8.2,7.3,7.0,8.4,40.6981723817681,-74.0304545522538,9.0,Leo House,1,8.0,3128,8.3
+380,"401 East 34th Street, New York City, 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.737360551709706,-73.98775544662699,-999.0,NY Away - Murray Hill 2 -Bedroom - N12M,-999,-999.0,-999,-999.0
+381,"350 west 43rd street, Hell's Kitchen, New York City, 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.749208700370104,-74.0058722973135,-999.0,Ivy Tower,-999,-999.0,-999,-999.0
+382,"160 West 56th Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7586963157974,-73.99004049422271,-999.0,Carnegie Hotel,5,-999.0,-999,-999.0
+383,"West 52 Street and 10th Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.745758256619894,-73.9957883472214,-999.0,Midtown West 4 bed 2 bath,-999,-999.0,-999,-999.0
+384,"45 West 35th Street, New York City, NY 10001, United States of America",8.6,8.9,8.6,8.2,8.8,40.724398960613996,-74.0079333214264,9.5,Hotel Metro,4,8.5,1065,8.0
+385,"1015 6th Avenue, New York City, NY 10018, United States of America",8.3,8.5,7.9,7.9,9.1,40.6871230028311,-74.02578268200159,9.5,TEN15NYC,3,8.0,194,7.9
+386,"154 Madison Street, New York City, NY 10002, United States of America",7.9,8.6,7.6,7.8,9.0,40.631415530492504,-74.0131887048483,7.4,Comfort Inn Lower East Side,1,8.6,1038,7.5
+387,"38 West 31st Street, New York City, NY 10001, United States of America",6.2,5.4,5.9,5.6,6.8,40.7052161930883,-74.00898031890391,8.2,Midtown Suite New York,1,5.9,838,6.0
+388,"5 Allen Street, Chinatown, New York City, 10002, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.644168335530296,-74.01693255211491,-999.0,Hotel Richland New York,1,-999.0,-999,-999.0
+389,"141 East 44th Street, Midtown East, New York City, NY 10017, United States of America",8.7,9.0,8.7,8.2,5.7,40.7445938742576,-73.9933524280787,9.4,Fitzpatrick Grand Central,4,9.0,655,8.0
+390,"61-63 Chrystie Street, Chinatown, New York City, NY 10002, United States of America",7.6,7.8,7.5,7.2,7.8,40.6400193251731,-74.01733003556721,7.7,Comfort Inn Manhattan Bridge,1,8.1,531,7.3
+391,"226 West 50th Street, New York City, NY 10019, United States of America",7.2,7.1,6.3,6.1,3.6,40.749965605561705,-73.9911483228207,9.1,Amsterdam Court Hotel,2,7.9,764,6.4
+392,"95 Henry Street, Chinatown, New York City, NY 10002, United States of America",8.4,9.0,8.7,8.4,8.8,40.66885842588071,-74.006408,7.4,Fairfield Inn & Suites New York Manhattan/Downtown East,3,8.7,929,8.3
+393,"31 East 31 Street, New York City, NY 10016, United States of America",8.0,8.3,8.1,7.6,9.5,40.7027251069198,-74.00898031890391,9.1,Luxury Three Bedroom Apartment on Park Ave & 31st Street - Midtown East,-999,7.7,37,7.2
+394,"32nd Street & Third Ave, Kips Bay, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7442312392673,-73.9817552268506,-999.0,The Gotham - Corporate Apartment,-999,-999.0,-999,-999.0
+395,"488 7th Avenue, New York City, NY 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7116255530181,-74.00781221687791,-999.0,Fantastic Luxurious One Bedroom - Near Macy's/MS Garden/Empire State Building,-999,-999.0,-999,-999.0
+396,"781 5th Avenue, New York City, NY 10022, United States of America",9.3,9.5,9.6,9.1,9.5,40.7521113087487,-73.98163117468359,9.8,The Sherry Netherland,5,9.6,104,8.4
+397,"343 West 44th Street, Hell's Kitchen, New York City, NY 10034, United States of America",8.2,8.1,7.8,7.7,8.6,40.749965605561705,-74.007511049242,9.1,Comfort Inn Times Square West,1,8.4,560,7.9
+398,"209 West 87 Street, Upper West Side, New York City, NY 10024, United States of America",7.6,8.5,6.9,6.9,7.6,40.7493091828859,-73.9911483228207,8.5,Belnord Hotel,1,7.3,2126,7.4
+399,"200 West 56th Street, New York City, NY 10019, United States of America",8.2,8.5,8.4,7.8,8.1,40.7568962212921,-73.9990031719207,9.3,The Manhattan Club,4,7.9,295,7.5
+400,"244 West 56th street, New York City, NY 10019, United States of America",7.7,7.7,7.2,6.9,7.8,40.74277145104279,-73.9967834099027,9.1,Da Vinci Hotel,1,7.8,695,7.4
+401,"130 East 57th Street, Midtown East, New York City, NY 10022, United States of America",7.9,8.1,7.6,7.5,86.0,40.7079270558163,-74.0072439238429,8.9,Renaissance New York Hotel 57,3,8.3,314,7.1
+402,"410 East 92nd Street, Upper East Side, New York City, NY 10128, United States of America",8.1,8.6,8.3,7.9,8.6,40.746860999999996,-73.98742206394671,7.7,Courtyard New York Manhattan/Upper East Side,3,8.4,858,7.6
+403,"East 36th & 5th Ave, Murray Hill, New York City, 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.00898031890391,-999.0,Apartment with stunning views near 5th Ave,-999,-999.0,-999,-999.0
+404,"32 Pearl Street, Wall Street - Financial District, New York City, NY 10004, United States of America",8.4,8.7,8.3,8.0,8.3,40.6519795160345,-74.03218574076,8.5,Hampton Inn Manhattan/Downtown- Financial District,2,8.7,298,7.8
+405,"548 West 48th Street, Hell's Kitchen, New York City, NY 10036, United States of America",7.6,8.0,7.5,7.3,7.8,40.7190433361723,-74.0201977534981,7.8,Comfort Inn Midtown West,3,8.0,361,7.2
+406,"50 Central Park South, New York City, NY 10019, United States of America",8.6,8.9,8.8,8.4,7.3,40.7583753092875,-73.98555859923358,9.4,"The Ritz-Carlton New York, Central Park",5,8.8,95,7.0
+407,"250 West 51st Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.748423338627504,-73.9945721626281,-999.0,Beauty Near Times Square,-999,-999.0,-999,-999.0
+408,"38 West 31 Street, New York City, NY 10001, United States of America",6.3,6.0,5.7,5.5,7.1,40.6958741950198,-74.00796158084559,8.8,Macy31 1 Bedroom Apartment Manhattan,-999,5.9,160,6.1
+409,"510 West 52nd street - 17L, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7153011826453,-74.01751982802399,-999.0,NY Away - Hells Kitchen/ Times Square 2 Bedroom 17L,-999,-999.0,-999,-999.0
+410,"147 West 43rd Street, New York City, NY 10036, United States of America",9.4,9.7,9.2,9.1,9.4,40.7213567285529,-73.99958521127691,9.9,Casablanca Hotel,5,9.8,457,8.6
+411,"2528 Broadway, Upper West Side, New York City, NY 10025 , United States of America",7.7,8.2,7.3,6.9,8.6,40.749965605561705,-73.9911483228207,8.4,Hotel Newton,1,7.8,1068,7.4
+412,"85 West Street at Albany Street, Wall Street - Financial District, New York City, NY 10006, United States of America",8.4,8.7,8.6,8.2,4.3,40.654734594753,-74.0595708042382,8.8,New York Marriott Downtown,4,8.4,739,7.5
+413,"88 Madison Avenue, New York City, NY 10016, United States of America",7.9,8.2,7.9,7.4,8.5,40.7220326386537,-73.9992184191944,8.8,"Carlton Hotel, Autograph Collection",4,8.2,316,7.2
+414,"5 West 63rd Street, Upper West Side, New York City, NY 10023, United States of America",7.0,6.6,5.8,6.3,7.0,40.742857436006105,-73.99577061647409,9.2,West Side YMCA,1,7.2,4754,7.1
+415,"150 Delancey Street, Lower East Side, New York City, NY 10002, United States of America",8.1,8.5,8.2,7.8,8.1,40.675716048374795,-74.00898031890391,8.1,Holiday Inn Lower East Side,3,8.7,326,7.6
+416,"152 East 55th Street, Midtown East, New York City, NY 10022, United States of America",8.5,8.9,8.3,7.9,9.3,40.7334588509248,-73.9911483228207,9.1,Carvi Hotel New York,4,8.9,312,7.7
+417,"10 Hanover Square, Wall Street - Financial District, New York City, 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6141391,-74.0532482856962,-999.0,NY Away - Financial District 3 Bedrooms - 17E,-999,-999.0,-999,-999.0
+418,"515 West 42nd Street, Hell's Kitchen, New York City, NY 10036, United States of America",7.4,7.7,7.2,6.8,4.5,40.7265632217598,-74.02128463619309,8.7,Travel Inn - Midtown Manhattan,1,6.9,1359,7.3
+419,"38 West 31st Street, New York City, NY 10001, United States of America",6.7,5.9,6.3,6.2,7.7,40.737284883966204,-74.0058264547864,8.5,Studio Plus - Cozy Apartments,2,6.9,260,6.1
+420,"401 East 57th St, Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.709814377365,-74.01385188102721,-999.0,NY Away - The ideal Family & Friends 4 Bedrooms / 4 Bathrooms in Manhattan,-999,-999.0,-999,-999.0
+421,"508 Canal Street, Tribeca, New York City, NY 10013, United States of America",8.8,8.4,8.7,8.4,9.7,40.68935921749,-74.0306817116394,9.6,The Canal Park Inn,4,9.6,33,8.3
+422,"229 Chrystie Street, New York City, NY 10002, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.64909649930829,-74.0138509977258,-999.0,Bridgestreet at the Chrystie,-999,-999.0,-999,-999.0
+423,"510 West 42nd Street, Hell's Kitchen, New York City, NY 10036, United States of America",8.2,8.5,8.2,8.3,8.4,40.7210100533531,-74.0260800719261,8.7,The Out NYC,4,8.2,1919,7.6
+424,"300 East 39th Street, Murray Hill, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.72961901151321,-73.9969472453527,-999.0,Global Luxury Suites at 300 East 39th Street,-999,-999.0,-999,-999.0
+425,"53rd street 349, New York City, NY 10019, United States of America",8.6,8.7,8.3,8.3,10.0,40.747074100000006,-73.9941000938416,9.6,Ground Floor Studio,5,9.0,13,7.9
+426,"67 Lexington Avenue, Kips Bay, New York City, NY 10010, United States of America",8.9,9.5,8.7,8.3,9.5,40.7204878644094,-74.00362327694891,9.0,Lex Hotel NYC,3,9.6,497,8.4
+427,"230 East 51st Street, Midtown East, New York City, NY 10022, United States of America",8.0,8.6,7.4,7.6,8.9,40.712988236006105,-73.9911483228207,8.9,Pod 51,1,7.9,6031,7.6
+428,"10 Hanover Square, Wall Street - Financial District, New York City, 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.686641450101796,-74.03265656575391,-999.0,Financial District at 10 Hanover Square – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+429,"155 E 29th Street, Kips Bay, New York City, 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7285788655662,-73.994974545998,-999.0,Kips Bay at Biltmore Plaza – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+430,"West 4th Street and 6th Avenue, Greenwich Village, New York City, 10014, United States of America",8.4,9.1,7.2,7.8,7.5,40.6992708204177,-74.0287957924028,9.7,Luxury Apartment - Greenwich Village With Shared Roofdeck & Terrace,-999,8.9,9,7.8
+431,"449 West 36th Street, Hell's Kitchen, New York City, NY 10018, United States of America",7.6,8.0,7.3,7.0,7.3,40.7181974871583,-74.0229801088572,7.7,36 Hudson Hotel,2,8.6,676,7.1
+432,"West 37th Street & 5th Avenue, New York City, NY 10018, United States of America",5.0,3.9,3.9,4.6,7.5,40.7102450995661,-73.9988631224753,9.3,Central Two Bedroom Apartment In Times Square,5,4.3,7,3.6
+433,"777 Sixth Avenue, Chelsea, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.727245759927705,-74.0150587754924,-999.0,Global Luxury Suites at 777 6th Avenue,-999,-999.0,-999,-999.0
+434,"Henry Street & Market Street, New York City, NY 10002, United States of America",8.0,9.5,8.6,8.6,3.0,40.663064699874795,-74.0137819899559,7.0,Renovated 3 Bedroom Loft Manhattan #44,-999,7.2,9,7.2
+435,"5 Allen Street, Chinatown, New York City, NY 10002, United States of America",7.9,8.6,7.9,7.7,8.2,40.63646971732361,-74.0134596079588,7.4,Howard Johnson SoHo,1,8.4,650,7.4
+436,"250 East 50th Street, Midtown East, New York City, 10022, United States of America",7.9,8.3,6.9,8.1,8.3,40.70844,-74.013689,9.1,Top Apartments in New York,2,7.5,13,7.5
+437,"West 36th Street & 9th Ave, Hell's Kitchen, New York City, 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7455599504937,-74.0165051480033,-999.0,2 Bedroom Apt in Hells' Kitchen,-999,-999.0,-999,-999.0
+438,"38 West 31st Street, New York City, NY 10001, United States of America",6.7,6.2,6.4,6.2,7.9,40.706732520866495,-74.00898031890391,8.6,Studio Plus - One-Bedroom APT,-999,6.5,54,6.2
+439,"West 34th Street & 10th Ave, Hell's Kitchen, New York City, NY 10001, United States of America",6.6,7.0,6.1,6.3,8.1,40.7499965208071,-74.02543825209659,7.8,Two Bedroom Apartment- West 34th Street,1,7.3,23,5.3
+440,"155 E 31st Street, Kips Bay, New York City, 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6869161176273,-73.99363797666649,-999.0,Midtown East at Windsor Court – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+441,"West 64th Street & West End Ave, Upper West Side, New York City, NY 10023, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0074955738355,-999.0,Luxurious Doorman Building 2 Bedroom With Gym - Lincoln Center,-999,-999.0,-999,-999.0
+442,"East 38th Street & 2nd Avenue, Murray Hill, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7290005186722,-73.9976297336598,-999.0,Luxury 2BR 2 BATH by Grand Central,-999,-999.0,-999,-999.0
+443,"279 East 44th Street, Midtown East, New York City, NY 10017, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7333812834269,-73.995225518399,-999.0,Global Luxury Suites at Olympia House,-999,-999.0,-999,-999.0
+444,"62 East 127th Street, East Harlem, New York City, NY 10035, United States of America",8.0,8.1,8.1,8.2,8.7,40.7887545373027,-73.963075680359,7.2,M&M and J Guesthouse,-999,8.7,138,7.8
+445,"123 East 15th Street, Gramercy, New York City, NY 10003, United States of America",7.2,7.0,6.4,6.2,4.8,40.6704446360061,-74.0093209865898,8.9,Seafarers International House,1,7.3,972,7.5
+446,"East 52nd Street & 2nd Avenue, Midtown East, New York City, NY 10022, United States of America",6.6,5.3,6.6,6.0,10.0,40.7274317591402,-73.9986222982407,8.8,Midtown East Studio,3,6.9,8,6.0
+447,"9 South William Street, Wall Street - Financial District, New York City, NY 10004, United States of America",8.8,9.2,9.0,8.4,9.1,40.627243061372496,-74.0389729842919,9.3,The Wall Street Inn,3,8.4,469,8.5
+448,"West 16th Street and 8th Ave, Chelsea, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.03988905277859,-999.0,2BD GARDEN OASIS in West Village!!,-999,-999.0,-999,-999.0
+449,"East 34th Street & Madison Avenue, New York City, NY 10016, United States of America",6.6,6.4,5.6,6.3,7.8,40.737742227853495,-73.99805437382659,8.7,Two Bedroom Apartment - Madison Avenue,2,7.0,30,5.4
+450,"3rd St and 1st Ave, East Village, New York City, NY 10003, United States of America",8.7,9.3,8.6,9.3,5.0,40.689526606897296,-74.01385188102721,8.6,East Village Lodging,-999,8.9,7,7.5
+451,"650 East 2nd Avenue, Murray Hill, New York City, 10016, United States of America",7.6,8.3,7.5,7.3,7.5,40.72748469667479,-73.9893753826619,8.3,Great Location Midtown East 35th Street and Third Ave,-999,7.5,10,6.5
+452,"46 West 17th Street, Chelsea, New York City, NY 10011, United States of America",6.7,6.8,6.2,5.9,7.1,40.684286937293,-74.01995434303001,8.3,Chelsea Inn,1,6.9,949,6.4
+453,"95 Wall Street, Wall Street - Financial District, New York City, NY 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6601784996299,-74.07414334554551,-999.0,Global Luxury Suites at 95 Wall,-999,-999.0,-999,-999.0
+454,"Fifth Avenue at Central Park South, New York City, NY 10019, United States of America",8.8,9.1,9.1,8.6,6.5,40.7555831,-73.98627009999998,9.6,The Plaza,5,8.7,441,7.4
+455,"120 West 21st Street, Chelsea, New York City, 10011, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.739501615618,-73.9984137116394,-999.0,Chelsea at 21Chelsea - A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+456,"1600 Broadway, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7567946343704,-73.9843437549594,-999.0,1600 Broadway,-999,-999.0,-999,-999.0
+457,"Columbus Avenue & West 100th Street, Upper West Side, New York City, NY 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7526284209899,-73.9933524280787,-999.0,The Ideal 3 Bedroom Getaway by Central Park UWS,-999,-999.0,-999,-999.0
+458,"9th Avenue & West 39th Street, Hell's Kitchen, New York City, NY 10018, United States of America",9.8,10.0,9.5,10.0,5.0,40.728434,-74.032708145678,10.0,Three Bedroom Apartment on 9th Avenue,-999,10.0,5,9.5
+459,"10 Hanover Square, Wall Street - Financial District, New York City, NY 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6866251834269,-74.03264583111908,-999.0,Global Luxury Suites at 10 Hanover Square,-999,-999.0,-999,-999.0
+460,"91 East Broadway, Chinatown, New York City, NY 10002, United States of America",7.4,8.1,7.2,7.0,7.1,40.633672663135705,-74.01628499858941,7.0,Hotel 91,1,7.8,1361,7.4
+461,"158 West 58th Street, New York City, NY 10019, United States of America",6.6,6.7,5.6,5.4,3.7,40.7380454995856,-73.9911483228207,8.9,Park Savoy Hotel,1,6.7,754,6.6
+462,"273 West 38th Street, New York City, NY 10018, United States of America",6.2,5.6,5.1,4.9,3.7,40.7160448062996,-74.01324949104509,8.3,Manhattan Broadway Hotel,2,7.5,1041,5.5
+463,"59 West 44th Street, New York City, NY 10036, United States of America",8.5,9.0,8.3,7.9,9.1,40.7052161930883,-74.0061888098717,9.4,"The Algonquin Hotel Times Square, Autograph Collection",5,8.7,193,7.4
+464,"800 6th Avenue, Chelsea, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7275922834269,-74.014295350171,-999.0,Global Luxury Suites at 800 6th Avenue,-999,-999.0,-999,-999.0
+465,"38 West 31st Street, New York City, NY 10001, United States of America",6.6,5.9,6.3,5.7,7.0,40.6959424253856,-74.01578295954191,8.6,Studio Apartments - West 31st Street,3,6.9,134,6.3
+466,"556 3rd Avenue, Murray Hill, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7296298834269,-74.00089717807279,-999.0,Oakwood Aurora Midtown East,-999,-999.0,-999,-999.0
+467,"116th Street and Lexington Avenue, East Harlem, New York City, NY 10029, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.721144622138,-73.98878311408609,-999.0,Shared Two Bedroom Apartment - Harlemville,-999,-999.0,-999,-999.0
+468,"260 West 54th Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7190433361723,-74.0016894042492,-999.0,The Marc,-999,-999.0,-999,-999.0
+469,"940 8th Avenue, New York City, NY 10019, United States of America",8.1,8.5,7.8,7.6,8.1,40.732688288348896,-74.00012408725351,9.4,Jazz on Columbus Circle Hostel,1,7.6,2572,7.8
+470,"70 West 45th Street, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7383424834269,-74.0059799913598,-999.0,Cassa Suites,-999,-999.0,-999,-999.0
+471,"500 West 30th Street, Chelsea, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7340852834269,-74.0253350699572,-999.0,Abington House,-999,-999.0,-999,-999.0
+472,"888 Sixth Avenue, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.742591635703,-73.9965590479878,-999.0,Oakwood 6th Avenue,-999,-999.0,-999,-999.0
+473,"650 East 35th Street, Kips Bay, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7256765913265,-73.9963692426682,-999.0,36th Street Midtown East Luxury Duplex Apartment,-999,-999.0,-999,-999.0
+474,"891 Amsterdam Avenue, Upper West Side, New York City, NY 10025, United States of America",8.4,8.6,8.0,8.6,7.7,40.7487052781307,-73.99577061647409,8.5,HI NYC Hostel,1,8.7,7629,8.2
+475,"38 West 31st Street, New York City, NY 10001, United States of America",6.6,5.8,7.3,5.8,10.0,40.7297959225279,-73.9950079512329,8.8,Studio-Plus Apartment,3,6.5,9,6.8
+476,"9th Avenue & 52nd Street , Hell's Kitchen, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7096477379087,-74.00926946455691,-999.0,Cozy Two Bedrooms near Times Sq - NYC,-999,-999.0,-999,-999.0
+477,"95 Wall Street, Wall Street - Financial District, New York City, 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.702687212433,-74.00898031890391,-999.0,Financial District at 95 Wall Street – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+478,"East 11th street & Ave C, East Village, New York City, NY 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.660064904419606,-74.0003959089518,-999.0,Beautiful Two Bedroom Apartment in East Village,-999,-999.0,-999,-999.0
+479,"235 W 48th Street, New York City, 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7565884124419,-73.9877838405152,-999.0,Times Square at Ritz Plaza – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+480,"38 W 31st St. , New York City, 10001, United States of America",8.5,8.3,8.1,7.5,9.5,40.7052161930883,-74.01385188102721,9.2,Today House,2,8.3,11,7.5
+481,"Malcolm X Blvd & West 123rd Street, Harlem, New York City, NY 10027, United States of America",8.8,8.8,8.6,8.9,10.0,40.706732520866495,-74.00898031890391,8.6,Two Bedroom Townhouse,-999,9.4,16,8.8
+482,"West 46th Street Between 6th and 7th avenue, New York City, NY 10036, United States of America",6.1,5.8,5.5,5.3,6.7,40.7052161930883,-74.0061888098717,8.5,Studio in Times Square,1,5.4,406,6.2
+483,"250 West 50th Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7573147577722,-73.98796118510549,-999.0,250W50 Midtown West,-999,-999.0,-999,-999.0
+484,"306 West 48th Street, Hell's Kitchen, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7430945834269,-74.01143411884671,-999.0,Global Luxury Suites at West 48th Street,-999,-999.0,-999,-999.0
+485,"Grand Street & Mott Street, New York City, NY 10013, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6393602725932,-74.0242446042855,-999.0,Little Italy Grand,-999,-999.0,-999,-999.0
+486,"250 West 51st Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.739704753721,-74.0024248037048,-999.0,Times Square Perfect Home,4,-999.0,-999,-999.0
+487,"235 West 56th Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7153011826453,-73.9995194971561,-999.0,Global Luxury Suites at Symphony House,-999,-999.0,-999,-999.0
+488,"East 55th Street & 2 Ave, Midtown East, New York City, NY 10022, United States of America",7.4,7.6,7.2,7.1,9.4,40.745758256619894,-73.9862586557865,8.3,Three-Bedroom Apartment with Two Bathrooms - East 55th Street,-999,7.3,25,6.8
+489,"38 West 31st Street, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7009460538878,-74.0042911173069,-999.0,Today House on Broadway,4,-999.0,-999,-999.0
+490,"38 West 31st Street, New York City, NY 10001, United States of America",7.1,7.0,6.9,6.8,8.8,40.7293658655647,-74.0129093233908,8.7,Manhattan Studio Apartments,3,6.9,136,6.8
+491,"38 West 31 Street , New York City, NY 10001, United States of America",6.4,6.0,6.2,5.8,6.6,40.695601902897,-74.0074546433418,8.5,Macy31 Loft Studio Chelsea Manhattan,-999,5.7,73,6.2
+492,"Varick and West Houston, Greenwich Village, New York City, 10014, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6971557276009,-74.03799330966459,-999.0,Modern 2b/1.5 Condo with Outdoor Space,-999,-999.0,-999,-999.0
+493,"East 55th Street & 2nd Avenue, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6974159204129,-73.9992897,-999.0,East Side 3 bed 2 bath (6),-999,-999.0,-999,-999.0
+494,"13 East 9th Street, Greenwich Village, New York City, 10003, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.696735938393296,-74.04646690966459,-999.0,Luxury Apartments Greenwich Village,-999,-999.0,-999,-999.0
+495,"222 East 34th Street, Kips Bay, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7269984834269,-74.00079733805892,-999.0,Anthem,-999,-999.0,-999,-999.0
+496,"East 27th and Park, Chelsea, New York City, 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7096477379087,-74.00926946455691,-999.0,Gramercy Park Two Bedroom Apartment,-999,-999.0,-999,-999.0
+497,"West 49th Street & 10th Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",6.7,7.2,5.6,6.4,8.8,40.763983734822396,-74.0075664400688,8.0,Two-Bedroom Apartment - 10th Avenue,-999,6.9,24,5.9
+498,"18 West 48th Street, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7395602834269,-74.00308092662691,-999.0,Centria,-999,-999.0,-999,-999.0
+499,"429 Park Avenue South, New York City, NY 10016, United States of America",7.6,7.8,6.8,6.9,8.0,40.7323974567825,-73.99753308732221,8.8,Clarion Hotel Park Avenue,2,7.8,369,7.3
+500,"339 West 53rd Street, Hell's Kitchen, New York City, 10019, United States of America",8.9,8.8,8.6,8.6,10.0,40.719494700000006,-73.9970711899559,9.8,Apartment near Times Square,1,9.0,14,8.8
+501,"305 West 50th Street, Hell's Kitchen, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7447124834269,-74.010282368426,-999.0,Longacre House,-999,-999.0,-999,-999.0
+502,"Columbus Avenue & West 100th Street, Upper West Side, New York City, NY 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7096477379087,-74.00926946455691,-999.0,The Ideal 2 Bedroom Getaway by Central Park UWS,-999,-999.0,-999,-999.0
+503,"355 west 41 street, Hell's Kitchen, New York City, 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0061888098717,-999.0,Studio In The Heart of Times Square,-999,-999.0,-999,-999.0
+504,"East 6th Street and 2nd Ave, East Village, New York City, 10003, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.693587162281496,-74.00898031890391,-999.0,East Village Studio,-999,-999.0,-999,-999.0
+505,"East 34 Street and Park Avenue, New York City, NY 10016, United States of America",7.3,7.6,6.9,6.7,9.5,40.6876756,-74.017236,9.0,Two Bedroom Apartment - East 34th Street,-999,7.9,22,5.7
+506,"9th Avenue & West 50th Street, Hell's Kitchen, New York City, NY 10019, United States of America",8.0,6.8,7.5,8.2,10.0,40.7476816560211,-74.0023716911674,9.7,"Midtown Two-Bedroom Apartment, Times Square West",-999,8.2,7,7.5
+507,"600 Washington, Greenwich Village, New York City, 10014, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6548221779786,-74.07228719474641,-999.0,Luxury Studio in the West Village,-999,-999.0,-999,-999.0
+508,"53rd street 349, New York City, NY 10019, United States of America",9.8,9.5,10.0,9.5,10.0,40.7471967212032,-73.988439,10.0,Times Square Studio,-999,10.0,5,9.5
+509,"788 Columbus Avenue - 15H, Upper West Side, New York City, 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7471945,-73.98820255158991,-999.0,NY Away - Central Park UWS 1-Bedroom - 15H,2,-999.0,-999,-999.0
+510,"Broadway and Amsterdam, Harlem, New York City, 10031, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.749208700370104,-73.9763955026865,-999.0,Stunning Two Bedroom In The Heart Of The City,-999,-999.0,-999,-999.0
+511,"38 West 31st Street, New York City, 10001, United States of America",7.3,7.2,6.8,7.0,8.4,40.7011539279049,-74.0075866846557,9.0,Green Holidays Apartments,2,7.4,108,6.6
+512,"300 West 30th Street, Hell's Kitchen, New York City, NY 10001, United States of America",6.5,5.5,6.0,5.7,7.4,40.7086237669579,-74.0266431017609,8.3,Riff Hotel Chelsea,1,7.3,1333,6.2
+513,"63 West 107th Street, Upper West Side, New York City, 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7171354,-73.9992897,-999.0,Central Park West Two Bedroom Apartment,-999,-999.0,-999,-999.0
+514,"235 West 56th Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7566128646194,-73.9885505,-999.0,Midtown West at The Symphony House - A Premier Furnished Apartment,3,-999.0,-999,-999.0
+515,"302 West 47th Street, Hell's Kitchen, New York City, NY 10036, United States of America",7.8,7.9,6.7,7.0,8.1,40.7482201387361,-73.9931857958437,9.3,Econo Lodge Times Square,1,8.5,600,7.5
+516,"3rd Avenue & East 39th Street, Murray Hill, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7237396622533,-74.0052051097155,-999.0,Studio Apartment - 39th Street,3,-999.0,-999,-999.0
+517,"305 W 50th Street, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7447124834269,-74.010282368426,-999.0,Times Square at Longacre House – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+518,"320 Pearl Street, Wall Street - Financial District, New York City, NY 10038, United States of America",8.0,8.5,7.9,7.6,8.2,40.6557809322638,-74.021629616618,8.4,Hampton Inn Seaport Financial District,2,8.7,180,7.3
+519,"354 EAST 8 STREET, East Village, New York City, 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6880497251307,-74.0031163394452,-999.0,Unique Three Bedrooms with Cozy Backyard,-999,-999.0,-999,-999.0
+520,"37th Street and Second Avenue, Murray Hill, New York City, NY 10016, United States of America",6.7,6.6,7.2,6.5,8.5,40.698220469084895,-73.989357,7.9,Self-Catering Apartment: East Side,4,6.0,37,5.9
+521,"377 Greenwich Street, Tribeca, New York City, NY 10013, United States of America",9.1,9.6,9.5,9.5,9.6,40.664561210132604,-74.0564896166325,9.2,The Greenwich Hotel,5,9.2,98,7.9
+522,"28 East 63rd Street, Upper East Side, New York City, NY 10065, United States of America",9.1,9.7,9.4,8.3,9.8,40.7521113087487,-73.9842664450407,9.5,Lowell Hotel,5,9.5,50,8.0
+523,"349 53rd street, New York City, 10019, United States of America",8.1,8.1,8.5,8.1,6.3,40.707497,-74.01744507180571,8.5,Full Studio Near The Central Park,-999,7.5,8,8.1
+524,"53rd Street and 9th Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",7.6,7.1,7.2,7.3,7.9,40.7052161930883,-74.0095578397588,9.1,Apartment in Central New York,-999,7.7,27,7.3
+525,"27 Eldridge St, Chinatown, New York City, 10002, United States of America",7.3,7.9,6.8,6.8,7.5,40.612568120412796,-74.0426199828033,7.7,Four Bedroom Apartment - Eldridge St. #38,-999,7.3,14,7.5
+526,"West 26th Street, Chelsea, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.0096701693115,-999.0,Chelsea Loft,-999,-999.0,-999,-999.0
+527,"40th Street and 9th Avenue, Hell's Kitchen, New York City, NY 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.747474027867,-73.9952922130158,-999.0,The Clive - Corporate Apartment,-999,-999.0,-999,-999.0
+528,"Harlem, New York City, 10027, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7471945,-73.9878481711639,-999.0,Two-Bedroom Apartment New York 3,-999,-999.0,-999,-999.0
+529,"Harlem, New York City, 10027, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7557878995844,-73.9822279661893,-999.0,Two-Bedroom Apartment New York 2,-999,-999.0,-999,-999.0
+530,"306 West 94th St, Upper West Side, New York City, 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7053127755049,-74.00791615247729,-999.0,Hotel Alexander,1,-999.0,-999,-999.0
+531,"116th and Lexington, East Harlem, New York City, NY 10029, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7472107382865,-73.98781187361071,-999.0,Harlemville Two Bedroom Apt,-999,-999.0,-999,-999.0
+532,"Harlem, New York City, 10027, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7471945,-73.9878481711639,-999.0,Two-Bedroom Apartment New York 1,-999,-999.0,-999,-999.0
+533,"West 48th Street & 10th Avenue, Hell's Kitchen, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7187648292071,-74.01589769430291,-999.0,Manhattan Studio in Hells Kitchen,3,-999.0,-999,-999.0
+534,"538 West 48th Street , Hell's Kitchen, New York City, NY 10036, United States of America",8.0,8.2,7.7,7.8,8.1,40.7562709513263,-74.0099814534188,8.1,Holiday Inn Express Manhattan Midtown West,3,8.7,339,7.4
+535,"529 W 48th Street, Hell's Kitchen, New York City, NY 10019, United States of America",7.6,7.3,7.8,7.5,2.5,40.7509294195265,-73.9978605508804,8.0,One-Bedroom Apartment in Hell's Kitchen,-999,8.0,10,7.0
+536,"38 West 31 Street   , New York City, NY 10001, United States of America",6.8,6.0,6.5,6.3,8.6,40.7190433361723,-74.0067762920537,8.8,Studio Plus - Couple's Studio,1,6.6,165,6.5
+537,"1600 Broadway, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7597568452716,-73.9906865087273,-999.0,Bridgestreet at 1600 Broadway,-999,-999.0,-999,-999.0
+538,"233 East 12th Street, East Village, New York City, NY 10003, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.722686358126005,-74.0031163394452,-999.0,Union Square Best Location 2 Bedroom Apt,-999,-999.0,-999,-999.0
+539,"38 West 31st Street, New York City, NY 10001, United States of America",6.9,6.3,6.9,6.2,8.1,40.7237396622533,-74.0065940883488,8.5,Studio Plus - Apartment Suites,1,6.9,42,6.6
+540,"116 John Street, Wall Street - Financial District, New York City, NY 10038, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6894939834269,-74.0296356538653,-999.0,116 John Street Apartments,-999,-999.0,-999,-999.0
+541,"West 25 Street and 6 Avenue, Chelsea, New York City, NY 10022, United States of America",7.3,7.9,6.7,7.5,7.5,40.7249247383933,-74.00810315528491,7.9,Three-Bedroom Apartment West 25th Street,-999,7.5,6,6.3
+542,"769 9th Avenue, Hell's Kitchen, New York City, NY 10036, United States of America",5.9,6.1,6.0,5.4,7.5,40.7314902464482,-74.00032959617691,8.0,Midtown Two Bedroom Apartment - Central Park,-999,4.6,20,5.3
+543,"271 West 11 Street, Greenwich Village, New York City, NY 10014, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.677389196300794,-74.0409125914016,-999.0,271 West 11th Street,-999,-999.0,-999,-999.0
+544,"71 Broadway, Wall Street - Financial District, New York City, 10006, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.655023264749296,-74.05204380835441,-999.0,Downtown - 71 Broadway – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+545,"Greenwich Street, SoHo, New York City, NY 10014, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7020970015146,-74.0366572898213,-999.0,onefinestay - Greenwich Street V private home,-999,-999.0,-999,-999.0
+546,"West 31st Street & Broadway, New York City, NY 10001, United States of America",6.3,5.8,5.4,5.8,7.5,40.7052161930883,-74.0061888098717,8.8,The Cozy Apartment,-999,5.0,6,6.7
+547,"Harlem, New York City, 10027, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7883273834269,-73.97046397895471,-999.0,Two-Bedroom Apartment New York 4,-999,-999.0,-999,-999.0
+548,"53rd Street and 9th Avenue , Hell's Kitchen, New York City, 10019, United States of America",8.7,8.3,8.5,8.5,7.5,40.709814377365,-74.0320546141336,9.5,Full Studio in Central New York,-999,8.8,10,8.5
+549,"Chelsea, New York City, 10011, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.727002185149395,-74.0222850295509,-999.0,Apartment New York 8817,-999,-999.0,-999,-999.0
+550,"West 48th Street & 8th Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7605253122348,-73.9879846572876,-999.0,La Casa De Mis Primos MIKE,-999,-999.0,-999,-999.0
+551,"Harlem, New York City, 10027, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7666991051386,-73.9885644521149,-999.0,One-Bedroom Apartment New York 1,-999,-999.0,-999,-999.0
+552,"414 West 46 Street, Hell's Kitchen, New York City, NY 10036, United States of America",9.4,9.6,9.1,8.8,9.8,40.7418907396366,-74.0129094198347,9.7,414 Hotel,4,9.9,387,8.9
+553,"205 East 45th Street, Midtown East, New York City, NY 10017, United States of America",7.2,7.3,7.1,6.6,7.2,40.707497,-74.006408,8.4,Wyndham Midtown 45,4,7.5,793,6.5
+554,"339 West 53rd Street, Hell's Kitchen, New York City, 10019, United States of America",8.0,7.5,7.9,7.5,9.2,40.7093,-74.0127,9.2,Great Full Studio in New York,-999,8.3,13,7.3
+555,"311 West 50th Street, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7449215834269,-74.0106850431848,-999.0,Midtown West at The Cameo – A Premier Furnished Apartment,-999,-999.0,-999,-999.0
+556,"W 57th Street & 7th Avenue, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6911154300489,-74.02247909416921,-999.0,CENTRAL PARK ADJACENT LUXURY CITY VIEWS SLEEPS 1-4,4,-999.0,-999,-999.0
+557,"318 West 22nd Street, Chelsea, New York City, NY 10011, United States of America",8.0,8.4,7.3,7.3,7.1,40.706732520866495,-74.028864558869,9.1,Colonial House Inn,2,8.6,348,7.4
+558,"38 West 31th Street, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.70394281707821,-74.0173506445186,-999.0,Chic Executive Studio,1,-999.0,-999,-999.0
+559,"160 Central Park South, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7471945,-73.9878481711639,-999.0,Luxurious Central Park South 2 Bedroom Apartment,-999,-999.0,-999,-999.0
+560,"370 8th Avenue, 3-5th Floor, Chelsea, New York City, NY 10001, United States of America",6.8,7.2,5.4,6.0,7.2,40.698577792267606,-74.02488281953809,8.3,Chelsea Pods,1,7.7,211,6.3
+561,"131 E 27 Street, New York City, 10016, United States of America",7.1,6.9,6.2,6.4,8.5,40.7203047345161,-73.9907453204427,9.0,Park Ave Apartments Midtown Next to Times Square,4,7.8,55,6.4
+562,"164 West 121 Street, Harlem, New York City, NY 10027, United States of America",8.3,8.2,8.2,8.3,7.7,40.706732520866495,-74.00898031890391,8.0,Richard's Place,-999,8.3,38,8.4
+563,"East 77th & 2nd Ave, Upper East Side, New York City, NY 10075, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7153011826453,-73.9995194971561,-999.0,New Modern 3 Bedroom Apartment Near Subway and Central Park,-999,-999.0,-999,-999.0
+564,"280 East 10th Street, East Village, New York City, 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.65187690710611,-74.01928119403058,-999.0,East Village Properties,-999,-999.0,-999,-999.0
+565,"5th Ave and 45th, Midtown East, New York City, 10017, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7366749834269,-74.0028513954037,-999.0,Ultra Modern large One Bedroom,-999,-999.0,-999,-999.0
+566,"790 7th Avenue, New York City, 10019, United States of America",8.1,8.0,8.2,7.5,10.0,40.74202732425879,-74.00362327694891,9.7,Executive Class at MTS Hotel,5,8.1,22,7.3
+567,"Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7564926663291,-73.9941000938416,-999.0,Apartment New York 2,-999,-999.0,-999,-999.0
+568,"233 East 12 Street, East Village, New York City, NY 10003, United States of America",7.2,7.9,6.6,6.3,8.2,40.6453286133092,-74.0278698134919,8.8,Best Location NYC in Union Square - Midtown East,-999,7.2,66,6.6
+569,"104 Lexington Avenue, New York City, 10016, United States of America",6.9,7.1,6.2,6.4,8.9,40.6858054187353,-73.9976924421492,7.9,Mid Town East 28th Street Apartments Next to Times Square,4,7.2,52,6.3
+570,"795 Columbus Avenue - 12E, Upper West Side, New York City, 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7061205377768,-74.00898031890391,-999.0,NY Away - Central Park Upper West Side Luxury 1 Bedroom 12E,-999,-999.0,-999,-999.0
+571,"225 West 134th Street, Harlem, New York City, NY 10030, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7270260294779,-74.00614555925141,-999.0,The Gadson Gallery Guest House (Harlem),-999,-999.0,-999,-999.0
+572,"Gramercy, New York City, 10003, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7348238323875,-73.9846077561378,-999.0,Holiday Home New York 8816,-999,-999.0,-999,-999.0
+573,"10th Avenue and West 50th Street, Hell's Kitchen, New York City, NY 10019, United States of America",8.7,8.6,8.4,8.8,9.2,40.753204347094005,-74.009020274834,9.6,La Casa de Mis Primos Arisa,-999,8.4,20,8.6
+574,"West 31st Street & Broadway, New York City, NY 10001, United States of America",6.6,5.4,5.8,5.8,10.0,40.7284087249379,-74.0075873423278,8.8,The Lovers Apartment,3,7.5,6,6.3
+575,"2nd Ave East 55 Street, Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6870656425461,-73.9893753826619,-999.0,East Side 3 Bedroom and 2 Bathroom Apartment (3),-999,-999.0,-999,-999.0
+576,"West 80th Street & Amsterdam Avenue, Upper West Side, New York City, NY 10024, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.71505874605,-74.0158568322659,-999.0,Three Bedroom Apartment - Upper West Side,-999,-999.0,-999,-999.0
+577,"9th Avenue and 38th Street, Hell's Kitchen, New York City, NY 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.69396293389671,-74.0422205999494,-999.0,Times Square West One Bedroom Apartment,-999,-999.0,-999,-999.0
+578,"302 East 45th Street, Midtown East, New York City, NY 10017, United States of America",6.4,6.1,5.9,6.0,7.5,40.7052161930883,-74.07389880725529,7.9,United Nations Apartment Hotel,3,6.4,203,6.1
+579,"31st Street & Park Avenue, New York City, NY 10016, United States of America",7.3,7.5,7.0,6.5,9.3,40.706732520866495,-74.00898031890391,9.5,Studio Apartment - East 31st Street #30,1,7.0,27,6.6
+580,"514 West 168th Street, Washington Heights, New York City, 10032, United States of America",8.5,9.2,8.5,8.5,9.6,40.709814377365,-74.01385188102721,7.9,Edge Hotel Washington Heights,2,9.1,230,7.9
+581,"Harlem, New York City, 10030, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7096477379087,-74.00926946455691,-999.0,One-Bedroom Apartment New York 2,-999,-999.0,-999,-999.0
+582,"417 East 57th Street, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.709814377365,-74.01385188102721,-999.0,Sutton Court Hotel Residences,1,-999.0,-999,-999.0
+583,"9 West 120th Street, Harlem, New York City, NY 10027, United States of America",8.7,8.9,8.3,8.6,9.4,40.719495653395796,-74.00781221687791,8.8,Historic Harlem Duplex,1,9.0,100,8.5
+584,"110 West 81st Street  , Upper West Side, New York City, NY 10024, United States of America",7.3,6.7,6.9,6.9,8.4,40.7459826677441,-73.99256916931151,9.0,Brownstone Bed and No Breakfast,-999,7.6,38,7.1
+585,"451 West 36th Street, Hell's Kitchen, New York City, NY 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.705331826301496,-74.0482154085983,-999.0,Times Square Amazing 2 Bedroom,-999,-999.0,-999,-999.0
+586,"514 West 136th Street, Harlem, New York City, NY 10031, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.742679297587294,-73.9862586557865,-999.0,Hamilton Heights: Renovated 3 Bedroom,-999,-999.0,-999,-999.0
+587,"102 Allen Street, Lower East Side, New York City, NY 10002, United States of America",7.7,7.9,7.6,7.4,8.9,40.62013126701871,-74.0357583926598,8.1,One Bedroom Apartment - Allen Street # 28,-999,7.8,25,7.4
+588,"West 148th Street, Harlem, New York City, 10031, United States of America",6.1,6.5,5.0,6.0,10.0,40.7096477379087,-74.00926946455691,6.5,Luxurious Three Bedroom Apartment,-999,6.3,5,6.0
+589,"Lexington Avenue & 28th Street, New York City, NY 10016, United States of America",7.6,8.2,6.9,6.7,7.3,40.721735616482,-73.9858871998686,9.2,Two Bedroom Apartment - Between Park Ave & Lexington Avenue - Midtown East,-999,7.8,65,6.6
+590,"349 West 53rd Street, Hell's Kitchen, New York City, NY 10019, United States of America",10.0,10.0,10.0,10.0,10.0,40.7471007858691,-73.9979908121674,10.0,Central Park Apartment with Backyard,-999,10.0,5,10.0
+591,"Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7153011826453,-73.9995194971561,-999.0,Apartment New York 3,-999,-999.0,-999,-999.0
+592,"Upper West Side, New York City, 10023, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7606985834269,-74.00204868614941,-999.0,Apartment New York 8815,-999,-999.0,-999,-999.0
+593,"30 East 31st STREET, New York City, 10016, United States of America",7.4,7.9,7.0,7.0,9.4,40.7096477379087,-74.00926946455691,8.4,Madison Avenue Luxury Two Bedroom Apartments Next to Times Square,-999,7.6,49,6.5
+594,"95 Wall Street, Wall Street - Financial District, New York City, NY 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6532890193889,-74.0428439096646,-999.0,Studio Apartment Wall Street,4,-999.0,-999,-999.0
+595,"30 East 130th Street, East Harlem, New York City, NY 10037, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0061888098717,-999.0,NY Away - Your Private Home in NYC,-999,-999.0,-999,-999.0
+596,"17 East 67th Street, Upper East Side, New York City, 10065, United States of America",8.0,8.5,7.8,8.1,10.0,40.714852394709396,-73.99285152554509,9.1,Studio between 5th Ave and Madison,2,6.9,8,7.5
+597,"235 West 48th Street, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7606192748693,-73.9862586557865,-999.0,Ritz Plaza,-999,-999.0,-999,-999.0
+598,"Various locations in Midtown, New York, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7221902558048,-73.9933895337296,-999.0,onefinestay - Midtown private homes,-999,-999.0,-999,-999.0
+599,"1335 Avenue of the Americas, New York City, NY 10019, United States of America",8.3,9.1,8.4,8.1,6.5,40.746860999999996,-73.9858053624629,8.9,Hilton Club New York,5,8.4,22,7.2
+600,"York Avenue & East 79th Street, Upper East Side, New York City, NY 10075, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.740123641874,-74.0031163394452,-999.0,Sunny Studio in the heart of the Upper East Side,2,-999.0,-999,-999.0
+601,"Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7426342834269,-73.99422122545741,-999.0,Apartment New York 4,-999,-999.0,-999,-999.0
+602,"368 8th Avenue, Chelsea, New York City, NY 10001, United States of America",8.3,8.9,7.4,7.6,9.2,40.698435836006205,-74.0248875865898,9.0,City Rooms NYC - Chelsea,1,9.3,683,7.7
+603,"301 East 94th Street, Upper East Side, New York City, NY 10128, United States of America",7.8,8.2,8.1,7.5,8.1,40.7198188804501,-74.00001939386141,7.4,The Marmara Manhattan,4,8.5,155,7.1
+604,"109 West 45th Street, New York City, NY 10036, United States of America",8.0,8.0,7.4,6.9,7.6,40.7497347666335,-73.9986222982407,9.4,Hotel St. James,2,8.5,821,7.9
+605,"Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0061888098717,-999.0,Apartment New York 5,-999,-999.0,-999,-999.0
+606,"West 148th Street & Broadway, Harlem, New York City, NY 10031, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.711153737328,-74.0066764944427,-999.0,Three Bedroom Apartment - West 148th Street,-999,-999.0,-999,-999.0
+607,"Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7514961363626,-73.9842664450407,-999.0,Apartment New York 1,-999,-999.0,-999,-999.0
+608,"225 East 17 Street, Gramercy, New York City, NY 10003, United States of America",7.9,8.2,7.3,7.0,7.0,40.6708149007811,-74.0025570988655,8.8,Hotel 17,1,7.8,1765,7.9
+609,"Various locations in Downtown West, New York, Chelsea, New York City, NY 10011, United States of America",8.4,8.6,8.3,8.3,10.0,40.719495653395796,-74.0344221832752,9.7,onefinestay – Downtown West private homes,-999,8.6,9,6.7
+610,"160 Central Park South, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.745758256619894,-73.98346527116391,-999.0,Magnificent Central Park South One Bedroom Apartment,-999,-999.0,-999,-999.0
+611,"313 West 136th Street, Harlem, New York City, NY 10030, United States of America",8.7,9.0,8.8,8.6,7.1,40.710294,-74.00673499999999,8.6,Allie's Inn Bed and Breakfast,1,8.5,101,8.5
+612,"West End Avenue & West 64th Street, Upper West Side, New York City, NY 10023, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7252995,-74.00878906913279,-999.0,"Luxurious Superior Two Bedroom Apartment wih Gym, Doorman, Lincoln Center",-999,-999.0,-999,-999.0
+613,"Canal Street & Mulberry Street, Chinatown, New York City, NY 10013, United States of America",6.7,5.8,5.6,6.7,7.5,40.6354502187353,-74.0302278421491,7.5,The Baxter House (sleeps 6),-999,7.8,9,7.0
+614,"Washington Street & Rector Street, Wall Street - Financial District, New York City, NY 10006, United States of America",8.8,7.8,8.5,8.8,8.8,40.622824927904894,-74.05749455686849,9.4,La Casa de Mis Primos NOE,-999,8.8,7,8.5
+615,"Maiden Lane & Broadway, Wall Street - Financial District, New York City, NY 10038, United States of America",8.5,8.6,8.2,8.9,10.0,40.6711666021949,-74.0443380568306,9.1,PermaGO FiDi,1,9.1,10,7.5
+616,"West 51 Street & 9 Avenue, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.00898031890391,-999.0,Times Square Suites - NYC,-999,-999.0,-999,-999.0
+617,"West 51st Street & 8th Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.727940356051604,-74.0032892449647,-999.0,La Casa De Mis Primos DAN,-999,-999.0,-999,-999.0
+618,"345 West 53rd Street, New York City, NY 10019, United States of America",9.0,8.8,9.2,9.2,10.0,40.747074100000006,-73.9978605508804,10.0,Apartment Best Location in New York,-999,8.8,6,8.3
+619,"Lexington Avennue & East 28th Street, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.709814377365,-74.01385188102721,-999.0,Best Location Midtown East,-999,-999.0,-999,-999.0
+620,"16th Street & 1st Ave, New York City, 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.694530146614795,-74.00898031890391,-999.0,Spacious 2 Bedroom in the Heart of Manhattan,-999,-999.0,-999,-999.0
+621,"East 13th Street and Avenue A, East Village, New York City, NY 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.709027638053996,-73.9923419058323,-999.0,Three Bedroom East Village Bungalow,-999,-999.0,-999,-999.0
+622,"53rd street 349, New York City, 10019, United States of America",9.4,9.7,9.5,9.5,10.0,40.709814377365,-74.01385188102721,9.7,Full Apartment in the Heart of New York,3,9.7,9,8.1
+623,"25th st and 6th ave, New York City, 10011, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.747368744717704,-73.995773,-999.0,NYC Apartment,-999,-999.0,-999,-999.0
+624,"Lenox Avenue and 123rd Street, Harlem, New York City, NY 10027, United States of America",5.9,5.9,5.9,5.7,2.5,40.6751126666704,-73.9725317806005,6.6,Luxury Living Suites,-999,5.7,11,5.7
+625,"113 Jane Street, Greenwich Village, New York City, NY 10014, United States of America",7.9,7.9,6.8,7.4,8.5,40.677531850617704,-74.0522691607475,9.0,The Jane,1,8.5,1695,7.8
+626,"350 East 62nd Street, Upper East Side, New York City, NY 10065, United States of America",6.9,7.1,7.1,5.8,2.0,40.706732520866495,-74.00898031890391,7.1,Amazing Studio near Central Park,3,7.9,6,6.3
+627,"250 West 50th Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.743943083291605,-74.009272396393,-999.0,One Bedroom Apartment Near Times Square,-999,-999.0,-999,-999.0
+628,"Allen Street & Delancey Street, New York City, NY 10013, United States of America",7.0,6.1,6.7,6.6,8.8,40.6390935383215,-74.02161764049279,7.7,The Allen House (sleeps 5),-999,7.9,13,6.9
+629,"West 50th and 10th Ave, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.0494784846558,-999.0,Hip and Trendy 3 Bedroom Near Times Square,-999,-999.0,-999,-999.0
+630,"9 E 7th St, East Village, New York City, 10023, United States of America",6.8,6.8,6.4,6.4,10.0,40.658984540214206,-74.0117930961859,8.2,Charming Studio in East Village,2,7.5,7,5.4
+631,"West 74th Street, Columbus and Central Park West, Upper West Side, New York City, NY 10023, United States of America",6.7,5.3,5.9,5.9,6.1,40.7400255857682,-74.0056637674571,9.2,The Rio Hostel and Hotel on Central Park,1,6.9,77,7.0
+632,"83 Mott Street, Chinatown, New York City, 10013, United States of America",7.9,8.2,7.3,8.2,9.2,40.634556836006105,-74.02950678658979,8.6,One Bedroom Apartment - Mott Street #16,2,7.8,11,7.5
+633,"150 West 51st Street, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7434666834269,-74.00630142303591,-999.0,Great one Bedroom in Time Square,-999,-999.0,-999,-999.0
+634,"Lexington Avenue & 28th Street, New York City, NY 10016, United States of America",7.3,8.2,6.5,6.7,8.2,40.7254610583275,-73.9978605508804,8.4,Two Bedroom Apartment - Midtown East,-999,7.3,91,6.7
+635,"108 Forsyth Street, New York City, NY 10002, United States of America",6.2,5.6,5.8,5.6,6.9,40.6416052169568,-74.01424115532,7.1,Windsor Hotel,1,6.8,728,6.1
+636,"West 48th Street and 9th Avenue, Hell's Kitchen, New York City, NY 10024, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7573569160338,-74.0068781375884,-999.0,One Bedroom Apartment - Midtown Manhattan Hells Kitchen,-999,-999.0,-999,-999.0
+637,"465 Central Park West, Upper West Side, New York City, NY 10025, United States of America",6.4,6.6,5.7,5.3,3.4,40.749965605561705,-73.9911483228207,7.3,Astor on the Park,1,7.3,940,6.1
+638,"36 West 106 Street, Upper West Side, New York City, NY 10025, United States of America",6.5,6.3,6.0,5.8,5.0,40.706732520866495,-74.00898031890391,7.6,Jazz on the Park Youth Hostel,1,7.0,851,6.4
+639,"Lincoln Center Vicinity, Upper West Side, New York City, NY 10023, United States of America",7.8,8.0,7.5,7.2,8.5,40.7052161930883,-74.0061888098717,9.3,Apartments Lincoln Center,1,7.5,26,7.1
+640,"275 Broome Street, New York City, NY 10002, United States of America",6.9,7.1,6.7,6.4,6.3,40.6378182187353,-74.0140962421492,7.9,Broome Street Apartment - Lower East Side #19,-999,6.9,14,6.2
+641,"East 13th Street and Avenue A, East Village, New York City, NY 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.697268317122294,-74.00614555925141,-999.0,NYC Perfect Retreat in East Village Two Bedroom,-999,-999.0,-999,-999.0
+642,"242 West 49th Street, New York City, NY 10019, United States of America",7.3,7.2,6.5,6.3,7.5,40.7482201387361,-73.9971455642128,9.3,Mayfair New York Times Square,2,7.9,946,6.9
+643,"105 West 118th Street, Harlem, New York City, NY 10026, United States of America",9.6,9.7,9.7,9.6,9.3,40.7079270558163,-74.0072439238429,9.2,Home NYC,1,9.8,112,9.3
+644,"258 W 97th Street, Upper West Side, New York City, NY 10025, United States of America",6.6,6.2,5.9,5.7,6.4,40.749965605561705,-73.9911483228207,7.9,Royal Park Hotel & Hostel,1,7.4,1938,6.4
+645,"756 Washington Street, Greenwich Village, New York City, NY 10014, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7364335845635,-74.01269455337301,-999.0,Highline West Village,-999,-999.0,-999,-999.0
+646,"Various locations in Downtown West, New York, Chelsea, New York City, NY 10011, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.718074580147096,-74.024975001812,-999.0,onefinestay – Downtown West private homes II,-999,-999.0,-999,-999.0
+647,"60 Henry Street, New York City, 10002, United States of America",8.7,10.0,9.0,9.0,10.0,40.6603304702887,-74.0195856547863,7.0,Three Bedroom Apartment - Henry Street #41,-999,9.0,5,8.0
+648,"Midtown East, New York City, 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0061888098717,-999.0,Aparthotel New York 8880,-999,-999.0,-999,-999.0
+649,"69 West 38th Street, New York City, NY 10018, United States of America",7.4,7.5,6.6,6.5,4.3,40.7056316473741,-74.0043675899508,9.0,Americana Inn,1,7.5,848,7.1
+650,"1876 3rd Avenue, East Harlem, New York City, NY 10029, United States of America",7.7,8.6,7.6,7.9,8.6,40.7096477379087,-74.00926946455691,6.7,Upper Yorkville Apartments,2,8.2,86,7.5
+651,"180 East 108th Street, East Harlem, New York City, NY 10029, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.00898031890391,-999.0,Jenny's Apartments - Upper East Side,-999,-999.0,-999,-999.0
+652,"102 West 57th Street, New York City, NY 10019, United States of America",9.3,9.5,9.4,9.0,9.7,40.751629,-73.9920123293996,9.7,West 57th Street by Hilton Club,5,9.2,38,8.8
+653,"106 West 120th Street, Harlem, New York City, NY 10027, United States of America",8.2,8.2,8.1,7.7,49.0,40.706732520866495,-74.00898031890391,8.2,Efuru Guest House,1,8.8,139,8.1
+654,"Various Locations in Midtown East, Midtown East, New York City, NY 10022, United States of America",5.6,5.6,5.2,5.2,7.7,40.7052161930883,-74.00898031890391,7.0,Superior Midtown East Apartments,4,6.0,64,4.7
+655,"East 58th Street & 3rd Avenue, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.719494700000006,-73.9900597,-999.0,Midtown East Apartment,-999,-999.0,-999,-999.0
+656,"120 East 31 Street, New York City, NY 10016, United States of America",8.0,8.6,7.4,7.3,7.7,40.6960117237072,-73.9944324537012,9.0,Hotel 31,1,8.1,1149,7.8
+657,"Delancey Street & Allen Street, New York City, NY 10002, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6837035232115,-74.0095603558197,-999.0,Sunny Three Bedroom Apartment Lower East Side,-999,-999.0,-999,-999.0
+658,"Various locations in Downtown East, New York, East Village, New York City, 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6849621597267,-74.0014734864235,-999.0,onefinestay – Downtown East private homes II,-999,-999.0,-999,-999.0
+659,"219 Avenue A, East Village, New York City, NY 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.654000599999996,-74.014548,-999.0,East Village: Newly Renovated 2 Bedroom,-999,-999.0,-999,-999.0
+660,"953 Columbus Ave, Upper West Side, New York City, 10025, United States of America",6.0,6.1,5.6,5.4,0.0,40.7111969220929,-74.01045821607109,6.9,1BD Apartment near Central Park,2,6.1,12,5.6
+661,"East 2nd Street and 1st Avenue, Lower East Side, New York City, NY 10002, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6846156876166,-74.0095603558197,-999.0,Large Three Bedroom Apartment - NYC,-999,-999.0,-999,-999.0
+662,"221 East 44th Street, Midtown East, New York City, NY 10017, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7382955483628,-73.9843288064003,-999.0,EVEN Hotel New York - Midtown East 44th,3,-999.0,-999,-999.0
+663,"102 Lexington Ave, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7242972834269,-74.00676287323991,-999.0,Midtown East Next to Times Square,-999,-999.0,-999,-999.0
+664,"Harlem, New York City, 10030, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.8122377701492,-73.9467091485858,-999.0,Apartment New York 8845,-999,-999.0,-999,-999.0
+665,"135 West 112th Street 4B, Harlem, New York City, NY 10026, United States of America",8.0,7.8,8.1,7.9,9.0,40.719495653395796,-73.9946600049735,7.9,Central Park North,-999,8.7,77,7.7
+666,"514 West 136th Street, Harlem, New York City, NY 10031, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0061888098717,-999.0,Hamilton Heights Lovely 2 Bedroom,-999,-999.0,-999,-999.0
+667,"Thompson Street & West Houston Street, SoHo, New York City, NY 10012, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.695144448589296,-74.037914227836,-999.0,One Bedroom- Village Apartment,-999,-999.0,-999,-999.0
+668,"Water Street & Maiden Lane, Wall Street - Financial District, New York City, NY 10005, United States of America",6.7,6.4,7.0,6.7,8.8,40.6661007234051,-74.02884851500859,7.7,Financial District Studio Apartment,4,5.8,16,6.3
+669,"488 Seventh Avenue, New York City, NY 10018, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0061888098717,-999.0,Ultra Luxurious Studio - Near Macy's & Empire State Building,-999,-999.0,-999,-999.0
+670,"180 West 135th Street, Harlem, New York City, NY 10030, United States of America",7.3,7.4,6.4,7.0,6.0,40.706732520866495,-74.00898031890391,7.4,Harlem YMCA,1,7.9,1359,7.7
+671,"West 137th Street & Frederick Douglass Blvd, Harlem, New York City, NY 10030, United States of America",8.3,8.4,7.9,8.0,10.0,40.706732520866495,-74.00898031890391,7.7,The Gallery House,1,9.4,30,8.2
+672,"Various Locations on Upper East Side, Upper East Side, New York City, NY 10128, United States of America",6.1,5.8,5.9,5.8,7.5,40.706732520866495,-74.00898031890391,7.2,Yorkville Apartments -Upper East Side,1,6.1,34,5.5
+673,"Eats 52 Street & 2nd avenue, Midtown East, New York City, NY 10022, United States of America",5.9,5.4,5.4,5.8,7.5,40.7045906,-74.0089036,7.9,NYC Best apartment near the UN,-999,5.5,6,5.0
+674,"38 West 31th Street 214, New York City, NY 10010, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6951995157455,-74.00734812435809,-999.0,Charming Studio,-999,-999.0,-999,-999.0
+675,"West 4th & Charles, Greenwich Village, New York City, 10014, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.717223594316,-74.0246843731495,-999.0,West Village Charm,-999,-999.0,-999,-999.0
+676,"Various Locations in Downtown East, New York, East Village, New York City, NY 10003, United States of America",8.3,8.4,8.4,7.7,9.5,40.6918348958573,-74.0091580152512,8.6,onefinestay – Downtown East private homes,-999,9.6,11,7.1
+677,"58 Henry Street, New York City, 10002, United States of America",8.2,8.2,7.9,8.6,10.0,40.6601946702887,-74.0159491277168,8.6,Two-Bedroom Apartment - Henry Street #42,-999,8.6,7,7.5
+678,"West 54th Street & 10th Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.748423338627504,-74.0014713442985,-999.0,La Casa De Mis Primos ROSY,-999,-999.0,-999,-999.0
+679,"248 Lenox Avenue , Harlem, New York City, NY 10027, United States of America",7.1,7.1,6.6,7.1,5.0,40.706732520866495,-74.00898031890391,7.6,The International Cozy Inn,2,7.7,26,6.5
+680,"144 West 120th Street, Harlem, New York City, NY 10027, United States of America",7.0,6.2,6.5,6.9,8.4,40.7426523713119,-73.9911483228207,7.5,Harlem 144 Apartment,-999,7.8,27,7.2
+681,"24st & 3rd Avenue, New York, NY, Kips Bay, New York City, 10010, United States of America",7.5,8.0,7.5,7.0,7.5,40.6723767730709,-74.018089190155,8.5,#1Midtown Manhattan Loft Style 2 Bedroom,-999,7.5,5,6.5
+682,"East 54th Street & Park Avenue, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7198188804501,-74.00001939386141,-999.0,Sephora Inn,1,-999.0,-999,-999.0
+683,"Broome Street & Forsyth Street, New York City, NY 10002, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6807982809813,-74.01665174232791,-999.0,Newly Renovated Three Bedroom Lower East Side,-999,-999.0,-999,-999.0
+684,"Various Locations near Times Square, Hell's Kitchen, New York City, NY 10019, United States of America",6.0,5.8,5.7,5.4,7.9,40.7471945,-74.00046676484641,7.7,Superior Times Square Apartments,3,6.3,90,5.2
+685,"50th Street between 10-11 Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",8.3,8.5,8.1,8.1,10.0,40.7373475873274,-74.0145356243277,9.1,Manhattan Studio Apartment mid-west,1,8.1,8,8.1
+686,"Various Locations in Downtown West, New York, Chelsea, New York City, NY 10011, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7045906,-74.0424281358719,-999.0,onefinestay - Downtown West private homes IV,-999,-999.0,-999,-999.0
+687,"460 West 141st Street, Harlem, New York City, NY 10031, United States of America",7.3,7.5,7.7,7.3,6.8,40.734638700000005,-73.9911483228207,7.1,Sugar Hill Harlem Inn,1,7.1,253,7.0
+688,"221 Avenue A, East Village, New York City, NY 10009, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6540087278795,-74.01440041838529,-999.0,East Village Amazing 2 Bedroom,-999,-999.0,-999,-999.0
+689,"106 Bowery 2FL, Chinatown, New York City, NY 10013, United States of America",5.9,5.7,4.9,5.1,7.1,40.62118529999999,-74.0477761999999,7.2,U.S. Pacific Hotel,1,6.5,897,6.2
+690,"313 E 54th Street, Midtown East, New York City, 10022, United States of America",7.6,7.6,7.4,7.0,10.0,40.731092156529705,-73.99159759283059,8.9,Midtown East Apartments,2,8.1,20,6.5
+691,"220 Bowery, New York City, NY 10012, United States of America",6.8,6.9,5.4,6.2,7.5,40.6449316582757,-74.0205037593842,7.9,The Bowery House,1,8.3,2036,6.3
+692,"309 West 14th Street, Chelsea, New York City, NY 10014, United States of America",6.4,5.7,5.9,5.6,4.6,40.6870122116529,-74.0351784788903,8.4,Hotel 309,1,6.8,1364,6.2
+693,"Various Locations, New York City, NY 10019, United States of America",6.7,6.4,6.6,6.5,6.6,40.719494700000006,-73.9900597,8.3,Apartments - Manhattan,-999,6.7,38,5.7
+694,"201 West 87th Street, Upper West Side, New York City, NY10024, United States of America",5.8,4.8,5.0,4.9,5.8,40.749965605561705,-73.9911483228207,7.7,Central Park West Hostel,1,6.6,887,5.7
+695,"73 East 3rd Street, East Village, New York City, NY 10003, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6515720360061,-74.01022738658979,-999.0,Interfaith East Village,1,-999.0,-999,-999.0
+696,"West 109th Street & Broadway, Upper West Side, New York City, NY 10025, United States of America",7.8,7.2,7.1,7.1,9.6,40.734638700000005,-73.9879897,8.6,Loft 109,1,9.5,18,7.2
+697,"West 46th Street & 10th Avenue, Hell's Kitchen, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7045906,-74.0264639630913,-999.0,Chic 2 Bedrooms Duplex near Times Square,-999,-999.0,-999,-999.0
+698,"West 118th Street & Malcolm X Boulevard, Harlem, New York City, NY 10026, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7471007858691,-73.99859748780729,-999.0,Two Bedroom Suite-Harlem,3,-999.0,-999,-999.0
+699,"1st Avenue & East 74th Street, Upper East Side, New York City, NY 10021, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.719887997981296,-73.9875947717583,-999.0,Stylish Upper East Side 2 bed 2 bath,-999,-999.0,-999,-999.0
+700,"230 West 101 Street, Upper West Side, New York City, NY 10025, United States of America",7.2,7.2,6.5,6.6,6.7,40.749965605561705,-73.9911483228207,7.9,Broadway Hotel & Hostel,1,8.0,3122,7.2
+701,"182 East 2nd Street 1D, East Village, New York City, NY 10009, United States of America",7.9,8.0,8.0,8.5,3.0,40.689559499999994,-74.00001939386141,8.5,East Village Comfortable / New Studio Apartment,1,8.0,5,6.3
+702,"38 W. 31st Street, New York City, 10001, United States of America",5.4,4.9,5.0,4.2,3.3,40.7091578105382,-73.9946589287848,8.1,The Grand NYC Apartments,1,5.3,266,5.2
+703,"12th Street and 3rd Avenue , East Village, New York City, NY 10003, United States of America",8.5,9.7,7.5,8.2,10.0,40.67992075738079,-74.0261484540453,10.0,Two Bedroom Luxury Apartment - Union Square,-999,7.9,7,7.9
+704,"Various locations in Downtown West, New York, New York City, NY 10011, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.663012175351795,-74.03049666434529,-999.0,onefinestay - Downtown West private homes III,-999,-999.0,-999,-999.0
+705,"West 21st Street, Unit 309, Chelsea, New York City, 10011, United States of America",9.3,10.0,8.0,9.0,10.0,40.7259152768052,-74.0308167763862,10.0,Sunny Chelsea Getaway,-999,9.5,5,9.0
+706,"100 Orchard Street, Lower East Side, New York City, NY 10002, United States of America",7.8,8.2,7.7,7.3,8.4,40.6383218235081,-74.0131109207869,8.3,Blue Moon Boutique Hotel,3,7.6,626,7.6
+707,"East 51st Street & 2nd Avenue, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.00898031890391,-999.0,Greenacre,-999,-999.0,-999,-999.0
+708,"Water Street and Maiden Lane, Wall Street - Financial District, New York City, NY 10005, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6181224694248,-74.0424355119467,-999.0,Studio Apartment - Financial District,3,-999.0,-999,-999.0
+709,"West 50th Street & 11th Avenue, Hell's Kitchen, New York City, NY 10019, United States of America",7.9,8.0,8.0,7.0,10.0,40.7481769586792,-74.00401816931151,8.8,Midtown West Self-Catering Apartment,-999,7.8,10,8.0
+710,"W 38th St and 6th Ave, New York City, 10018, United States of America",7.9,6.7,7.5,7.9,10.0,40.721144622138,-73.992016017437,9.2,Bryant Park Studio Apartment Times Square South,-999,8.5,6,7.5
+711,"East 53rd Street & 3rd Avenue, Midtown East, New York City, NY 10022, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.744971,-73.99859748780729,-999.0,Three Bedroom Suite Midtown East,-999,-999.0,-999,-999.0
+712,"West 84th Street & Central Park West, Upper West Side, New York City, NY 10024, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.719887997981296,-73.9831633865833,-999.0,New York Garden Duplex,-999,-999.0,-999,-999.0
+713,"8th Street and Avenue C, East Village, New York City, NY 10009, United States of America",7.2,6.8,7.3,7.1,10.0,40.699010703845,-74.0061888098717,7.3,Apartments at Avenue C,-999,6.8,11,7.7
+714,"W 31st & Broadway, New York City, NY 10001, United States of America",6.9,6.7,6.7,6.9,5.0,40.706732520866495,-74.00898031890391,8.3,The Nomad Suites,2,6.4,13,6.2
+715,"65 East 129th Street, East Harlem, New York City, 10035, United States of America",7.3,8.2,7.4,7.2,7.6,40.706732520866495,-74.01385188102721,6.1,The Park Ave North,1,7.9,253,7.3
+716,"Hamilton Heights, West Harlem, Harlem, New York City, NY 10032, United States of America",9.3,9.1,9.3,8.9,9.2,40.7190433361723,-74.0016894042492,9.6,Le Jardin Harlem NYC,2,9.8,11,9.3
+717,"Various locations in Uptown, NY, Harlem, New York City, NY 10027, United States of America",8.1,8.3,8.0,8.8,10.0,40.740123641874,-74.0032218368053,8.0,onefinestay – Uptown private homes,-999,8.8,10,6.8
+718,"38 West 31st Street, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.728366771318605,-73.9986222982407,-999.0,Tier31 by ABRIKIM,2,-999.0,-999,-999.0
+719,"426 West 160th Street, Washington Heights, New York City, NY 10032, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.718577293751004,-74.00017340000001,-999.0,Jumel Terrace Bed & Breakfast,-999,-999.0,-999,-999.0
+720,"Jones Street & West 4th Street, Greenwich Village, New York City, NY 10014, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7002113348224,-74.02770344006879,-999.0,West Village Penthouse,-999,-999.0,-999,-999.0
+721,"West 54th and Broadway, New York City, NY 10019, United States of America",6.7,6.8,6.8,7.2,10.0,40.7080752950259,-74.0078580791679,7.5,Times Square Bright Cozy & Luxurious Apartment - Times Square,-999,6.1,7,6.1
+722,"Broadway and West 31st, New York City, 10001, United States of America",6.5,6.5,6.0,6.0,8.9,40.706732520866495,-74.0138411521912,8.7,New York Apartments,2,6.2,94,5.7
+723,"38 West 31st Street, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7012669629343,-74.0172896939646,-999.0,Studio Plus - Midtown Spacious Apartment,-999,-999.0,-999,-999.0
+724,"West 47th & 9th Ave, New York City, NY 10036, United States of America",6.8,6.6,6.2,6.4,8.8,40.718068131356,-73.99804198912271,8.8,My City House,1,6.6,37,6.5
+725,"East 3rd Street and 1st Avenue, Lower East Side, New York City, NY 10002, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.684216295349295,-74.0061888098717,-999.0,East Village Beach Bungalow Getaway,1,-999.0,-999,-999.0
+726,"18 West 48th Street, Midtown East, New York City, NY 10036, United States of America",8.1,7.1,8.5,7.6,7.9,40.7534479547284,-73.97792369127271,9.6,Bridgestreet at Centria,-999,8.0,23,7.9
+727,"515 West 52nd Street, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7341646360061,-74.01657038658979,-999.0,NY Away - Hells Kitchen/ Times Square 1-Bedroom 12A,4,-999.0,-999,-999.0
+728,"49th Street & 8th Avenue, New York City, NY 10036, United States of America",7.4,6.9,7.9,6.5,7.5,40.7461779453509,-73.99248272180559,8.8,New York City Gottaspot,5,6.9,12,7.3
+729,"Broadway & Fulton, Tribeca, New York City, 10038, United States of America",9.2,9.0,9.1,9.1,9.7,40.623744062027605,-74.0502306818962,9.8,PermaGO City Hall,1,9.1,176,9.1
+730,"458 West 141st Street, Harlem, New York City, NY 10031, United States of America",6.7,6.7,6.9,6.3,6.6,40.706732520866495,-74.00898031890391,6.9,Sugar Hill Suites,2,7.0,120,6.4
+731,"New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7496984037732,-73.9933524280787,-999.0,Essex House 1,-999,-999.0,-999,-999.0
+732,"149 West 118th Street, Harlem, New York City, NY 10026, United States of America",8.2,8.0,7.8,8.1,9.7,40.7055689723946,-74.0071651339531,8.0,NYC Townhouse Apartment,1,9.2,31,7.8
+733,"West 109th Street & Broadway, Upper West Side, New York City, NY 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7471967212032,-73.9911637455226,-999.0,109th Street Apartment,2,-999.0,-999,-999.0
+734,"333 East 21st ST, Gramercy, New York City, 10010, United States of America",7.7,7.8,7.2,6.7,2.0,40.6930029063271,-74.00898031890391,8.9,GRAMERCY PARK SPACIOUS 1 BR APT,2,8.8,9,6.7
+735,"370 Eighth Avenue, 2nd Floor, Chelsea, New York City, 10001, United States of America",7.9,8.2,6.5,6.9,9.3,40.698592283235996,-74.02493306516341,8.9,Chelsea Interfaith Retreats,1,9.0,189,7.6
+736,"58 Henry Street, New York City, 10002, United States of America",6.9,7.9,6.3,7.1,10.0,40.6266654187353,-74.02179844214909,7.1,Renovated Studio Loft Downtown NYC #43,1,7.1,12,6.1
+737,"244 West 99th Street, Upper West Side, New York City, NY 10025, United States of America",8.7,8.3,8.8,8.0,6.3,40.706732520866495,-74.00898031890391,9.1,Hotel 99,1,8.9,16,9.1
+738,"West 46th and 10th Avenue, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.755131,-74.0153979112326,-999.0,Spacious 2 Bedrooms Apartment - Times Square,-999,-999.0,-999,-999.0
+739,"38 West 31st Street, New York City, NY 10001, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.705791885817,-74.000965137455,-999.0,Exclusive Studio,-999,-999.0,-999,-999.0
+740,"943 Columbus Avenue , Upper West Side, New York City, 10025, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.00898031890391,-999.0,Cozy Apartment Near Central Park,2,-999.0,-999,-999.0
+741,"3 Mitchell Place, Midtown East, New York City, 10017, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7190433361723,-74.0031163394452,-999.0,Beekman Tower,-999,-999.0,-999,-999.0
+742,"East 31st Street & Madison Avenue, New York City, NY 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.740123641874,-74.0031163394452,-999.0,31st Street and Madison Avenue Apartment,-999,-999.0,-999,-999.0
+743,"William Street and Fulton Street, Wall Street - Financial District, New York City, 10038, United States of America",8.7,8.7,8.8,8.4,8.6,40.6202597397191,-74.04621809721,9.3,PermaGO Wall Street,1,8.8,88,8.5
+744,"East 45th & 3rd Ave, Midtown East, New York City, NY 10017, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.709814377365,-74.01385188102721,-999.0,Charming Studio by Grand Central,-999,-999.0,-999,-999.0
+745,"235 West 107 Street, Upper West Side, New York City, NY 10025, United States of America",6.0,5.6,5.4,5.1,7.3,40.7179514,-73.99537480000001,7.3,Morningside Inn,1,6.8,75,5.5
+746,"East 117th & 2nd Ave, East Harlem, New York City, NY 10035, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7482201387361,-73.987877368927,-999.0,Harlem Three Bedroom Apartments,-999,-999.0,-999,-999.0
+747,"Various Locations, Chinatown, New York City, NY 10002, United States of America",6.4,6.5,5.6,6.2,8.3,40.6553954807524,-74.01158407330509,7.3,Hostel - Chrystie Street,1,6.5,136,6.6
+748,"527 West 143rd Street, Harlem, New York City, NY 10031, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7045906,-74.0089036,-999.0,Hamilton Heights: Luxurious 2 Bedroom Home,-999,-999.0,-999,-999.0
+749,"West 47th & 9th Ave, Hell's Kitchen, New York City, AK 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7052161930883,-74.0104202293957,-999.0,Euro - Lovely Apartment,-999,-999.0,-999,-999.0
+750,"511 East 6 Street, East Village, New York City, 10009, United States of America",6.4,4.3,6.6,5.7,1.0,40.681509412409,-74.0138411521912,8.1,Cozy Two Bedrooms,1,6.8,8,6.4
+751,"137 West 111th Street, Harlem, New York City, NY 10026, United States of America",7.1,7.7,6.8,6.6,8.2,40.706732520866495,-74.0138411521912,7.2,The Central Park North,1,7.2,436,7.0
+752,"836 2nd Avenue, Midtown East, New York City, NY 10017, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.685105320412895,-74.00898031890391,-999.0,Studio Apartment - United Nations Plaza,2,-999.0,-999,-999.0
+753,"51 Pitt Street, Lower East Side, New York City, 10002, United States of America",8.1,9.1,8.3,8.5,10.0,40.6783699960497,-74.006408,6.4,Lower East Side 3 Bedroom,-999,8.7,16,8.0
+754,"144 West 120th Street, Harlem, New York City, NY 10027, United States of America",7.0,6.9,6.6,6.7,9.0,40.706732520866495,-74.00898031890391,7.4,Harlem 144 Guest House,1,7.6,72,6.7
+755,"30 Park Avenue, Murray Hill, New York City, 10016, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7303680834269,-74.00469824180199,-999.0,30 Park Avenue,-999,-999.0,-999,-999.0
+756,"765 8th Avenue, Hell's Kitchen, New York City, NY 10036, United States of America",4.8,3.9,3.6,3.7,4.1,40.721765815861396,-74.00715373456491,7.8,New York Inn,1,5.8,512,4.3
+757,"266 West 71 Street, Upper West Side, New York City, NY 10023, United States of America",8.6,8.8,8.3,8.6,7.5,40.751092311559894,-73.99733886122699,8.7,Inn New York City,5,9.0,24,7.5
+758,"244 east 71 street, Upper East Side, New York City, 10021, United States of America",7.1,7.8,7.1,6.6,10.0,40.7439771831715,-73.9863176643848,8.6,Beautiful studio/East 71 street,2,6.1,20,6.5
+759,"160 Central Park South, New York, NY, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7045906,-74.00898031890391,-999.0,Sensational 3 Bedroom Apartment with direct park views,-999,-999.0,-999,-999.0
+760,"160 East 116th Street, East Harlem, New York City, NY 10029, United States of America",6.9,7.6,6.7,6.9,8.5,40.706732520866495,-74.00898031890391,7.0,Rostel,1,6.3,185,7.2
+761,"519 E 81st ST, Upper East Side, New York City, 10026, United States of America",7.2,7.7,6.6,7.0,6.3,40.721144622138,-73.99658516049391,8.2,Upper East Side Private Studio,1,7.9,15,6.1
+762,"81 Bowery 2ND Floor, Chinatown, New York City, 10002, United States of America",5.6,6.0,4.3,4.7,8.2,40.6343684155958,-74.0228780532636,7.1,Manhattan Bowery Lodge,1,5.9,256,5.7
+763,"505 W 181st Street, Washington Heights, New York City, 10033, United States of America",6.3,6.5,6.4,6.1,4.2,40.706732520866495,-74.00898031890391,6.3,Hotel Cliff,2,7.0,54,5.3
+764,"140 Hester Street, Chinatown, New York City, NY 10013, United States of America",4.7,4.3,3.7,3.9,5.7,40.635878246225296,-74.0252566337585,6.3,The SunBright,1,5.1,1472,5.0
+765,"538 West 47th Street, Hell's Kitchen, New York City, NY 10036, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.706732520866495,-74.00898031890391,-999.0,One Bedroom Apartment - Midtown NYC,-999,-999.0,-999,-999.0
+766,"46th Street and 9th Ave, Hell's Kitchen, New York City, AK 10036, United States of America",7.8,7.7,7.5,7.4,9.2,40.709792012435,-74.0322900563478,9.1,La Casa de Mis Primos KELLY,2,7.7,16,7.7
+767,"417 West 145th Street, Harlem, New York City, NY 10031, United States of America",8.2,9.1,8.1,8.3,7.7,40.706732520866495,-74.00898031890391,7.7,Lita's New York Apartments,3,9.0,72,7.3
+768,"38th Street & Madison Ave, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7270260294779,-74.00614555925141,-999.0,Apartments with Amazing Views near 5th Ave,-999,-999.0,-999,-999.0
+769,"West 50th and 10th Ave, Hell's Kitchen, New York City, NY 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.740123641874,-74.0115178400687,-999.0,Room in Shared Apartment Steps from Times Square,1,-999.0,-999,-999.0
+770,"35 East 76th Street, Upper East Side, New York City, NY 10021, United States of America",8.5,8.8,8.7,8.1,7.1,40.711153737328,-74.0066764944427,9.1,"The Carlyle, A Rosewood Hotel",5,8.8,99,7.3
+771,"West 22nd Street & 8th Ave, Chelsea, New York City, NY 10011, United States of America",7.2,7.9,6.7,7.1,7.5,40.706732520866495,-74.0105097588939,8.8,Studio at Chelsea,2,6.7,6,5.8
+772,"Broadway and Amsterdam, Harlem, New York City, 10031, United States of America",6.7,7.0,7.0,6.7,5.0,40.762861133145,-73.9894098047807,6.4,NYC Cozy & Spacious Apt,-999,6.4,9,7.0
+773,"94 Thompson Street Apartment PHT, SoHo, New York City, NY 10012, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.6978158152973,-74.0261391252777,-999.0,Three Bedroom Penthouse - Thompson Street,-999,-999.0,-999,-999.0
+774,"Various locations in Uptown, NY, Harlem, New York City, 10027, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7573569160338,-73.9699025452136,-999.0,onefinestay - Uptown private homes II,-999,-999.0,-999,-999.0
+775,"Broadway & Hamilton, Harlem, New York City, 10031, United States of America",7.2,7.5,7.2,7.5,7.5,40.7055689723946,-74.0071651339531,6.9,Lovely Two Bedroom Apt,-999,6.9,8,7.2
+776,"West 49th and 10th Ave, Hell's Kitchen, New York City, 10019, United States of America",-999.0,-999.0,-999.0,-999.0,-999.0,40.7505599478949,-74.01762135728521,-999.0,Amazing 2 Bedrooms at Theater District,-999,-999.0,-999,-999.0
+777,"101 Bowery, New York City, NY 10002, United States of America",4.6,3.7,3.7,3.8,6.2,40.636243159325396,-74.0235668420792,6.3,World Hotel,1,5.5,1907,4.7
+778,"224 East 13th Street, East Village, New York City, NY 10003, United States of America",8.3,8.5,7.5,7.6,9.0,40.665315069874,-74.00898031890391,9.0,East Village Homestay,1,8.9,28,8.0
+779,"143 Bowery, New York City, NY 10002, United States of America",5.0,4.2,4.0,4.1,5.6,40.63927220438929,-74.0220513939859,6.5,Bowery Grand Hotel,1,5.8,1197,5.2
+0,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,8.4,8.3,8.1,6.5,40.752207399999996,-73.8986805081367,8.4,LaGuardia Plaza Hotel,4,8.2,1524,7.6
+1,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8.0,8.3,8.2,7.9,7.9,40.7416933977985,-73.8669365644455,7.7,The Parc Hotel,5,8.5,999,7.5
+2,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,8.8,8.3,8.1,8.8,40.723288438665904,-73.8789188478158,7.0,Best Western Plus LaGuardia Airport Hotel,3,8.0,688,7.5
+3,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,8.0,7.9,7.5,7.9,40.6657215699411,-73.8067625463009,7.8,Crowne Plaza JFK Airport,5,8.0,1433,6.9
+4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,7.6,7.4,7.1,5.8,40.66560661941671,-73.8068282604218,7.7,Hilton New York JFK Airport Hotel,5,7.6,1561,6.4
+5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,7.1,6.7,6.4,7.5,40.55582004378589,-73.8410183787346,6.9,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,6.9,2981,6.5
+6,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,7.3,7.2,6.8,8.2,40.7320616386659,-74.0428676212654,6.7,Howard Johnson Long Island City,2,7.2,4347,7.2
+7,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,9.2,8.8,8.3,9.1,40.7279864386659,-74.0364851792458,8.1,Boro Hotel,5,8.8,846,8.0
+8,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,7.1,7.1,6.5,7.4,40.66560661941671,-73.815510571003,7.2,Radisson JFK Airport,4,7.3,1346,6.0
+9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,7.8,7.3,7.0,7.4,40.6627400362734,-73.799417764003,7.4,Best Western JFK Airport,3,8.0,1405,6.9
+10,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,8.3,8.0,8.2,8.7,40.72449997555071,-74.0139943672981,8.0,Paper Factory Hotel,5,8.3,1313,7.9
+11,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,8.2,8.2,7.6,8.0,40.66560661941671,-73.8070683181285,8.0,Hampton Inn NY-JFK Jamaica-Queens,4,8.0,1321,7.2
+12,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,9.2,8.4,8.1,8.2,40.7253678820797,-74.0287488698959,8.2,Nesva Hotel - New York City Vista,2,8.6,1106,8.5
+13,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,8.5,7.9,7.7,8.1,40.7415485381716,-73.8669365644455,7.7,Asiatic Hotel - Flushing,2,7.9,1094,7.8
+14,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,8.1,8.1,7.8,7.8,40.752207399999996,-73.94194300000001,6.9,Hotel de Point,2,8.1,1094,7.7
+0,"85 Flatbush Ave Extension, Brooklyn, Downtown Brooklyn, Brooklyn, NY 11201, United States of America",8.2,8.4,8.5,8.0,9.2,40.687515999999995,-74.0294036846558,8.1,Dazzler Brooklyn,4,8.4,1254,7.7
+1,"9 Beaver Street, Bushwick, Brooklyn, NY 11206, United States of America",7.8,8.1,8.0,7.6,8.5,40.6602749353684,-73.9985109865665,7.2,Bklyn House Hotel New York Brooklyn,3,8.5,758,7.5
+2,"85 Smith Street, Boerum Hill, Brooklyn, NY 11201, United States of America",8.7,9.2,8.8,8.6,9.2,40.6404000552038,-74.0222820639611,8.8,NU Hotel,5,9.0,606,8.0
+3,"228 Duffield Street, Downtown Brooklyn, Brooklyn, NY 11201, United States of America",7.9,8.5,8.2,7.8,7.4,40.6813031613788,-74.0296775508815,7.9,Sheraton Brooklyn New York,4,8.1,1806,7.2
+4,"77 Box Street, Brooklyn, NY 11222, United States of America",9.1,9.6,9.4,9.3,9.2,40.6914683416535,-73.98487195372591,8.1,The Box House Hotel,5,9.6,662,8.7
+5,"764 4th Avenue, Brooklyn, NY 11232, United States of America",8.0,8.5,7.9,7.8,8.4,40.6198058707368,-74.0577649731331,7.8,Best Western PLUS Prospect Park Hotel,2,8.3,1166,7.7
+6,"533 3rd Avenue, Brooklyn, NY 11215, United States of America",7.1,7.6,7.2,6.8,7.6,40.636679479710395,-74.0465680916004,6.9,La Quinta Inn & Suites Brooklyn Downtown,3,7.4,501,6.7
+7,"1199 Atlantic Ave Brooklyn, Bed-Stuy, Brooklyn, NY 11216, United States of America",8.7,9.4,9.2,9.0,9.2,40.6602749353684,-73.9985109865665,7.0,Brooklyn A Hotel,4,8.8,338,8.5
+8,"216 Duffield Street, Downtown Brooklyn, Brooklyn, NY 11201, United States of America",8.4,8.7,8.6,8.2,8.9,40.6602749353684,-74.0304869074517,8.4,Aloft Brooklyn,4,8.4,1376,7.9
+9,"370 4th Avenue, Brooklyn, NY 11215, United States of America",8.1,8.5,8.5,7.8,8.6,40.645966327402,-74.035313542574,7.8,Hotel Le Bleu,5,8.5,608,7.7
+10,"229 Duffield Street, Downtown Brooklyn, Brooklyn, NY 11201, United States of America",7.9,8.2,7.6,7.6,8.5,40.6602749353684,-74.029128994609,8.1,Hotel Indigo – Downtown Brooklyn/NY,4,8.4,863,7.3
+11,"251 North Henry Street, Brooklyn, NY 11222, United States of America",9.1,9.7,9.5,9.2,9.1,40.6912124972868,-73.98446727544071,8.1,Henry Norman Hotel,5,9.5,710,8.8
+12,"17 Seabring Street, Brooklyn, NY 11231, United States of America",7.4,7.6,7.8,7.3,7.3,40.659253634009296,-74.07258149573141,6.8,Comfort Inn Red Hook,2,7.6,499,7.2
+13,"279 Butler Street, Brooklyn, NY 11217, United States of America",7.3,7.7,7.3,7.0,7.4,40.658653255395606,-74.03594572821429,6.7,Red Lion Inn and Suites Brooklyn,3,7.8,850,7.0
+14,"214 Franklin Street, Brooklyn, NY 11222, United States of America",9.1,9.6,9.3,9.0,9.2,40.688998019431295,-73.987866640091,8.7,Franklin Guesthouse,5,9.4,97,8.4
