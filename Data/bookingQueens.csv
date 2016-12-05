@@ -1,121 +1,121 @@
-,Cleanliness,Comfort,Facilities,Free Wifi,Location,Staff,Value for money,address,avgscore,lat,lng,name,price,total_review
-0,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-1,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-2,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-3,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-4,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-5,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-6,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-7,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-8,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-9,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-10,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-11,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-12,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-13,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-14,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
-15,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-16,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-17,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-18,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-19,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-20,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-21,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-22,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-23,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-24,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-25,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-26,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-27,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-28,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-29,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
-30,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-31,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-32,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-33,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-34,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-35,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-36,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-37,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-38,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-39,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-40,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-41,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-42,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-43,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-44,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
-45,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-46,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-47,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-48,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-49,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-50,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-51,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-52,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-53,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-54,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-55,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-56,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-57,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-58,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-59,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
-60,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-61,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-62,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-63,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-64,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-65,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-66,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-67,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-68,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-69,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-70,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-71,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-72,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-73,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-74,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
-75,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-76,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-77,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-78,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-79,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-80,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-81,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-82,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-83,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-84,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-85,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-86,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-87,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-88,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-89,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
-90,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-91,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-92,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-93,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-94,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-95,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-96,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-97,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-98,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-99,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-100,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-101,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-102,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-103,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-104,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
-105,8.4,8.3,8.1,6.5,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,40.7522074,-73.8986805081367,LaGuardia Plaza Hotel,4,"1,524"
-106,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8,40.7416933977985,-73.8669365644455,The Parc Hotel,5,999
-107,8.8,8.3,8.1,8.8,7,8,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,40.7232884386659,-73.8789188478158,Best Western Plus LaGuardia Airport Hotel,3,688
-108,8,7.9,7.5,7.9,7.8,8,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,40.6657215699411,-73.8067625463009,Crowne Plaza JFK Airport,5,"1,433"
-109,7.6,7.4,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,40.6656066194167,-73.8068282604218,Hilton New York JFK Airport Hotel,5,"1,561"
-110,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.7,40.5558200437859,-73.8410183787346,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,981"
-111,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,40.7320616386659,-74.0428676212654,Howard Johnson Long Island City,2,"4,347"
-112,9.2,8.8,8.3,9.1,8.1,8.8,8,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,40.7279864386659,-74.0364851792458,Boro Hotel,5,846
-113,7.1,7.1,6.5,7.4,7.2,7.3,6,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,40.6656066194167,-73.815510571003,Radisson JFK Airport,4,"1,346"
-114,7.8,7.3,7,7.4,7.4,8,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,40.6627400362734,-73.799417764003,Best Western JFK Airport,3,"1,405"
-115,8.3,8,8.2,8.7,8,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,40.7244999755507,-74.0139943672981,Paper Factory Hotel,5,"1,313"
-116,8.2,8.2,7.6,8,8,8,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,40.6656066194167,-73.8070683181285,Hampton Inn NY-JFK Jamaica-Queens,4,"1,321"
-117,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,40.7253678820797,-74.0287488698959,Nesva Hotel - New York City Vista,2,"1,106"
-118,8.5,7.9,7.7,8.1,7.7,7.9,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,40.7415485381716,-73.8669365644455,Asiatic Hotel - Flushing,2,"1,094"
-119,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,40.7522074,-73.941943,Hotel de Point,2,"1,094"
+,Cleanliness,Comfort,Facilities,Free Wifi,Location,Staff,Value for money,address,avgscore,name,price,total_review,lat,lng
+0,8.4,8.3,8.1,6.6,8.4,8.2,7.6,"104-04 Ditmars Boulevard, Queens, NY 11369, United States of America",8.2,LaGuardia Plaza Hotel,4,"1,529",40.7671266,-73.8673029
+1,8.8,8.3,8.1,8.8,7.0,8.0,7.5,"112-26 Roosevelt Ave, Queens, NY 11368, United States of America",7.9,Best Western Plus LaGuardia Airport Hotel,3,701,40.75201089999999,-73.8536227
+2,8.3,8.2,7.9,7.9,7.7,8.5,7.5,"39-16 College Point Boulevard, Queens, NY 11354, United States of America",8.0,The Parc Hotel,4,980,40.7584721,-73.83470849999999
+3,8.0,7.9,7.5,7.9,7.9,8.0,6.9,"138-10 135th Avenue, Queens, NY 11436, United States of America",7.7,Crowne Plaza JFK Airport,5,"1,443",40.6676621,-73.7994425
+4,9.2,8.8,8.2,9.1,8.1,8.8,8.0,"38-28 27th Street, Queens, NY 11101, United States of America",8.5,Boro Hotel,5,863,40.7547005,-73.93570319999999
+5,7.3,7.2,6.8,8.2,6.7,7.2,7.2,"38-59 12th Street, Queens, NY 11101, United States of America",7.1,Howard Johnson Long Island City,2,"4,352",40.7565683,-73.9420318
+6,7.8,7.3,7.0,7.4,7.4,8.0,6.9,"14425 153rd Lane, Queens, NY 11434, United States of America",7.4,Best Western JFK Airport,3,"1,407",40.6656,-73.78464799999999
+7,7.7,7.5,7.1,5.8,7.7,7.6,6.4,"144-02 135th Avenue, Queens, NY 11436, United States of America",7.3,Hilton New York JFK Airport Hotel,5,"1,568",40.6674532,-73.7956991
+8,7.1,6.7,6.4,7.5,6.9,6.9,6.5,"15395 Rockaway Boulevard, Queens, NY 11434, United States of America",6.8,"Howard Johnson Inn-JFK Airport, Jamaica, Queens, NYC",1,"2,973",40.6686545,-73.7811485
+9,9.2,8.4,8.1,8.2,8.2,8.6,8.5,"39-12 29th Street, Queens, NY 11101, United States of America",8.5,Nesva Hotel - New York City Vista,2,"1,099",40.7533249,-73.935002
+10,8.5,7.9,7.7,8.1,7.7,7.8,7.8,"135-21 37 Avenue, Queens, NY 11354, United States of America",7.9,Asiatic Hotel - Flushing,2,"1,103",40.76126240000001,-73.83238829999999
+11,8.3,8.0,8.2,8.7,8.0,8.3,7.9,"37-06 36th Street, Queens, NY 11101, United States of America",8.1,Paper Factory Hotel,5,"1,314",40.7526096,-73.92748209999999
+12,7.1,7.1,6.5,7.4,7.2,7.3,6.0,"135-30 140th Street, Queens, NY 11436, United States of America",6.9,Radisson JFK Airport,4,"1,360",40.6673265,-73.7985137
+13,8.2,8.2,7.6,8.0,8.0,8.0,7.2,"144-10 135th Avenue, Queens, NY 11436, United States of America",7.9,Hampton Inn NY-JFK Jamaica-Queens,4,"1,332",40.667445,-73.79487200000001
+14,8.1,8.1,7.8,7.8,6.9,8.1,7.7,"20-07 127th Street, Queens, NY 11356, United States of America",7.8,Hotel de Point,2,"1,117",40.7811367,-73.841021
+15,8.2,7.9,7.6,7.7,7.2,8.3,7.6,"8-08 Queens Plaza South, Queens, NY 11101, United States of America",7.8,Ravel Hotel,5,983,40.7539223,-73.9494071
+16,8.1,7.9,7.7,8.2,6.5,8.2,7.4,"177-08 Liberty Avenue, Queens, NY 11433, United States of America",7.6,Sleep Inn JFK Airport,3,"1,198",40.7052728,-73.7821537
+17,7.8,7.5,7.2,8.0,7.6,8.1,6.7,"148-18 134th Street, Queens, NY 11430, United States of America",7.5,Hilton Garden Inn Queens/JFK,4,"1,330",40.6657526,-73.8062738
+18,7.0,6.9,6.8,7.1,6.9,7.5,6.9,"3805 Hunters Point Avenue, Queens, NY 11101, United States of America",7.0,Red Roof Inn Queens,2,"1,078",40.736868,-73.92792399999999
+19,6.9,7.0,6.6,7.8,6.9,6.9,6.5,"139-09 Archer Avenue , Queens, NY 11435, United States of America",6.8,Howard Johnson Jamaica Queens JFK Airport near AirTrain,2,980,40.6996768,-73.8111353
+20,8.8,8.8,8.6,8.5,8.3,8.8,8.0,"133-42 39th Avenue, Queens, NY 11354, United States of America",8.5,Hyatt Place Flushing/LGA Airport,5,407,40.7593849,-73.8326682
+21,7.9,7.5,7.3,8.1,7.2,7.7,6.9,"3627 Prince Street, Queens, NY 11354-4008, United States of America",7.4,Ramada Flushing Queens,3,413,40.761555,-73.832562
+22,7.9,7.8,7.4,8.3,7.6,7.7,6.7,"132-26 South Conduit Avenue, Queens, NY 11430 , United States of America",7.5,Sheraton JFK Airport Hotel,4,489,40.6657819,-73.8067085
+23,8.0,8.0,7.6,8.0,8.1,8.0,6.7,"9010 Ditmars Boulevard, Queens, NY 11369, United States of America",7.7,Courtyard by Marriott New York LaGuardia Airport,5,258,40.76922769999999,-73.87968149999999
+24,8.3,8.1,7.8,8.6,7.7,8.3,7.9,"3934 21 Street, Queens, NY 11101, United States of America",8.0,Best Western Plaza - Long Island City,1,"1,904",40.7557946,-73.9411404
+25,7.0,7.5,7.0,7.6,8.0,6.8,7.7,"40-34 Crescent Street, Queens, NY 11101, United States of America",7.3,Country Inn & Suites By Carlson Long Island City,1,"1,579",40.7527349,-73.9389672
+26,8.2,8.1,7.7,8.2,8.0,8.3,7.1,"145-11 North Conduit Avenue, Queens, NY 11436, United States of America",7.9,Courtyard by Marriott New York JFK Airport,5,495,40.6672795,-73.7942022
+27,7.0,7.0,6.6,7.7,7.5,6.9,6.8,"37-18 Queens Boulevard, Queens, NY 11101, United States of America",7.0,La Quinta Inn Queens,2,696,40.7437846,-73.92734639999999
+28,9.2,8.7,8.6,8.9,7.8,8.7,7.9,"29-15 Queens Plaza North, Queens, NY 11101, United States of America",8.5,Courtyard by Marriott Long Island City/New York Manhattan View,5,72,40.7498919,-73.9377215
+29,9.3,8.7,8.4,8.9,8.3,8.7,7.9,"92-77 Queens Blvd, Queens, 11374, United States of America",8.6,Wyndham Garden LaGuardia South,4,116,40.7317236,-73.8660883
+30,6.5,6.2,5.7,6.9,6.4,6.5,5.8,"151-20 Baisley Blvd, Queens, NY 11434, United States of America",6.2,Garden Inn & Suites - JFK,3,"1,072",40.66763840000001,-73.7864944
+31,9.2,8.4,8.2,8.8,8.4,9.0,8.4,"44-04 21st Street, Queens, NY 11101, United States of America",8.6,LIC Hotel,3,401,40.7494087,-73.9470496
+32,7.7,7.4,7.0,8.2,7.6,8.2,6.7,"153-70 South Conduit Avenue, Queens, NY 11434, United States of America",7.4,Holiday Inn Express Kennedy Airport,4,875,40.6660632,-73.784509
+33,8.2,7.8,7.7,8.4,7.8,8.4,7.0,"156-08 Rockaway Boulevard, Queens, NY 11434, United States of America",7.8,Fairfield Inn by Marriott JFK Airport,4,434,40.6665611,-73.7798723
+34,7.6,7.2,7.1,7.6,6.9,7.6,6.8,"137-72 Northern Blvd, Queens, NY 11354, United States of America",7.2,The One Boutique Hotel,4,798,40.7637506,-73.828491
+35,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"38-29 28 Street, Queens, 11101, United States of America",-999.0,Modern/Rustic Garden Apartment,5,-999,40.754169,-73.93467300000002
+36,8.3,8.1,7.6,8.5,7.6,8.0,7.8,"44-29 9th Street, Queens, NY 11101, United States of America",7.9,Wyndham Garden Long Island City / Manhattan View Hotel,2,767,40.7495972,-73.9518831
+37,6.9,6.7,6.4,6.7,7.3,6.6,6.3,"13351 39th Avenue, Queens, NY 11354, United States of America",6.7,Best Western Queens Court,2,190,40.759771,-73.832828
+38,9.4,9.2,9.1,8.9,8.5,9.2,8.6,"39-06 30th Street, Queens, NY 11101, United States of America",9.0,Home2 Suites Long Island City/Manhattan View,5,854,40.753023,-73.93406569999999
+39,8.5,8.3,8.0,8.8,7.8,8.6,8.4,"38-71 13 Street, Queens, NY 11101, United States of America",8.2,Sleep Inn - Long Island City,3,"2,163",40.7560444,-73.94137359999999
+40,8.5,8.6,8.1,8.8,7.4,8.4,7.8,"89-34 162nd Street, Queens, NY 11432, United States of America",8.1,Comfort Inn Jamaica Downtown,3,198,40.7057998,-73.7986234
+41,8.6,7.5,7.5,8.3,6.4,9.3,6.4,"26-32 Skillman Avenue, Queens, NY 11101, United States of America",7.6,Motel 6 Long Island City NY,3,7,40.7441834,-73.9408802
+42,8.1,7.9,7.5,5.4,7.9,7.9,6.8,"102-05 Ditmars Boulevard, Queens, NY 11369, United States of America",7.7,New York LaGuardia Airport Marriott,3,199,40.7689889,-73.86764629999999
+43,8.2,7.8,7.6,8.5,7.9,8.5,7.3,"221-17 Northern Boulevard, Queens, NY 11361, United States of America",7.9,Adria Hotel and Conference Center,3,266,40.76202199999999,-73.759912
+44,8.1,7.6,7.8,8.4,8.8,8.5,8.2,"42-24 Crescent Street, Queens, NY 11101, United States of America",8.2,Comfort Inn Long Island City,5,30,40.75004300000001,-73.9414199
+45,6.9,7.1,6.5,7.4,6.5,7.3,7.1,"33-17 Greenpoint Avenue, Queens, NY 11101, United States of America",6.9,City View Inn,3,372,40.7361379,-73.934203
+46,5.7,5.7,5.5,6.0,6.5,6.5,5.3,"82-20 Astoria Boulevard, Queens, NY 11370, United States of America",5.9,Airway Inn,4,286,40.7644111,-73.88677799999999
+47,8.7,8.7,8.2,8.6,8.6,8.4,7.6,"102-40 Ditmars Boulevard, Queens, NY 11369, United States of America",8.4,Hampton Inn New York - LaGuardia Airport,5,241,40.7679637,-73.8677142
+48,8.1,7.7,7.5,8.5,7.3,7.9,7.4,"249-05 Jericho Turnpike, Queens, NY 11426, United States of America",7.7,Bellerose Inn,1,196,40.7267974,-73.7156966
+49,8.1,7.7,7.5,8.3,8.0,8.4,7.7,"29-11 39th Avenue, Queens, NY 11101, United States of America",7.9,Hotel Vetiver / Manhattan Skyline,4,889,40.7533886,-73.9338863
+50,6.8,6.7,6.8,6.6,7.1,7.2,6.2,"36-31 Prince Street, Queens, NY 11354 , United States of America",6.8,Red Roof Inn Flushing New York - LaGuardia Airport,2,101,40.7614455,-73.8326479
+51,8.1,7.9,7.7,8.9,6.3,7.9,6.9,"4317 Rockaway Beach Blvd., Queens, NY 11692, United States of America",7.5,La Quinta Inn & Suites Far Rockaway,4,101,40.5937391,-73.77472139999999
+52,8.7,8.4,8.3,8.8,8.0,8.8,7.6,"45-20 Astoria Boulevard, Queens, NY 11103, United States of America",8.3,Fairfield Inn by Marriott New York LaGuardia Airport/Astoria,4,177,40.7680519,-73.9060801
+53,7.4,7.6,7.1,7.9,7.3,8.0,7.1,"18-30 Whitestone Expressway, Queens, NY 11357, United States of America",7.4,Extended Stay America - New York City - LaGuardia Airport,3,77,40.7828551,-73.8258939
+54,8.7,8.5,8.3,8.5,8.1,8.7,8.0,"29-27 40th Road, Queens, NY 11101, United States of America",8.4,Fairfield Inn & Suites by Marriott New York Queens/Queensboro Bridge,4,728,40.75139739999999,-73.9352006
+55,6.9,6.8,6.5,7.6,6.6,6.9,6.3,"137-08 Redding Street, Queens, NY 11417, United States of America",6.6,Days Inn & Suites - Ozone Park,1,282,40.6722366,-73.8440707
+56,7.8,7.7,7.5,6.8,7.5,7.7,6.8,"135-20 39th Avenue, Queens, NY 11354, United States of America",7.5,Sheraton Laguardia East Hotel,5,97,40.7596715,-73.83160529999999
+57,6.9,6.7,6.5,7.9,6.5,7.3,6.2,"111-26 Van Wyck Expressway, Queens, NY 11420, United States of America",6.7,La Quinta Inn & Suites JFK Airport,4,666,40.6836001,-73.8068397
+58,8.6,8.2,8.0,8.3,6.8,8.4,7.8,"52-34 Van Dam Street, Queens, NY 11101, United States of America",8.0,Fairfield Inn & Suites by Marriott New York Long Island City/Manhattan View,3,"1,004",40.7363106,-73.93673690000001
+59,7.9,7.5,7.2,7.7,7.6,8.0,7.1,"144-26 153rd Court, Jamaica, Queens, NY 11434, United States of America",7.6,Days Inn Jamaica - JFK Airport,1,"1,134",40.665628,-73.7842919
+60,7.8,7.5,7.3,7.5,7.3,7.8,7.3,"87-07 Van Wyck Expressway, Queens, NY 11435, United States of America",7.5,Best Western Jamaica Inn,2,385,40.7059063,-73.8172961
+61,6.5,6.6,6.2,7.0,6.7,6.8,6.4,"139-01 Jamaica Avenue, Queens, NY 11435, United States of America",6.5,Knights Inn - JFK Airport,1,728,40.7026093,-73.8125118
+62,7.0,7.1,6.5,7.5,6.6,7.5,6.6,"137-30 Redding Street, Queens, NY 11417, United States of America",6.9,Comfort Inn & Suites JFK Airport,2,675,40.6717202,-73.84428869999999
+63,8.0,7.8,7.4,8.1,7.8,8.0,7.1,"23-45 83rd Street, Queens, NY 11370, United States of America",7.7,Comfort Inn At LaGuardia Airport,2,230,40.7658467,-73.886262
+64,8.3,8.5,7.9,8.8,6.9,8.3,7.5,"60-30 Maurice Avenue, Queens, NY 11355, United States of America",7.9,Comfort Inn & Suites LaGuardia Airport,4,157,40.7293191,-73.9045841
+65,4.1,3.7,3.8,5.9,4.8,6.6,4.3,"33-53 Farrington Street, Queens, NY 11355, United States of America",4.4,Explore Hotel and Hostel,1,36,40.765334,-73.8317859
+66,6.1,6.3,5.9,6.1,6.1,6.5,5.3,"220-16 Jamaica Avenue, Queens, NY 11428, United States of America",6.0,Howard Johnson Inn Queens Village,2,106,40.71878299999999,-73.733576
+67,9.1,9.0,8.6,8.5,8.2,8.8,8.1,"112-15 Northern Boulevard , Queens, NY 11368, United States of America",8.6,SpringHill Suites by Marriott New York LaGuardia Airport,5,98,40.7582707,-73.8573766
+68,7.8,7.9,7.8,6.7,7.9,8.2,6.7,"37-10 114th Street, Queens, NY 11368, United States of America",7.7,Holiday Inn LaGuardia Airport at Citifield / Flushing,4,113,40.75452689999999,-73.85417749999999
+69,7.3,6.8,6.4,7.2,5.4,6.6,6.1,"9565 Tuckerton St, Queens, 11433-1043, United States of America",6.4,Days Inn & Suites Jamaica JFK Airport,2,154,40.6988817,-73.8006152
+70,6.7,6.6,6.1,7.6,7.0,7.1,6.5,"31-62 14th Street, Queens, NY 11106, United States of America",6.7,Super 8 Long Island City,3,86,40.76661319999999,-73.9336254
+71,7.9,7.6,7.0,7.8,7.0,7.4,6.3,"154-71 Brookville Boulevard, Queens, NY 11422, United States of America",7.2,Holiday Inn New York-JFK Airport Area,5,211,40.63963649999999,-73.7433968
+72,7.1,6.9,6.5,8.0,6.3,6.9,6.2,"112-23 Roosevelt Avenue, Queens, NY 11368, United States of America",6.7,Corona Hotel New York - LaGuardia Airport,2,444,40.7523905,-73.85377299999999
+73,5.7,5.7,5.5,6.3,6.6,5.8,5.9,"36-38 Main Street, Queens, NY 11354, United States of America",5.9,Flushing Hotel,1,624,40.7624771,-73.83169
+74,7.5,7.5,7.4,7.6,7.2,8.1,7.1,"133-43 37th Avenue, Queens, NY 11354, United States of America",7.5,Quality Inn Flushing,2,144,40.7608051,-73.8336672
+75,8.3,7.9,7.7,7.9,7.5,8.5,7.4,"220-33 Northern Boulevard, Queens, NY 11361, United States of America",7.9,Best Western Queens Gold Coast,3,162,40.7616248,-73.7607082
+76,6.2,6.4,6.0,7.1,6.9,6.3,5.8,"215-34 Northern Boulevard, Queens, NY 11361, United States of America",6.3,Anchor Inn,4,180,40.760452,-73.76605700000002
+77,5.7,5.6,5.4,6.6,6.4,6.4,5.6,"154 10 South Conduit Avenue, Queens, NY 11434, United States of America",5.9,JFK Inn,1,"1,381",40.6661927,-73.7821608
+78,8.7,8.5,8.2,8.6,7.3,8.6,7.7,"28-66 College Point Boulevard, Queens, NY 11354, United States of America",8.2,Fairfield Inn by Marriott New York LaGuardia Airport/Flushing,4,212,40.7715056,-73.8445145
+79,9.1,8.1,7.9,8.1,7.3,7.9,7.2,"3106 Linden Place, Queens, 11354, United States of America",7.9,Grandview Hotel New York,1,116,40.7691408,-73.83250799999999
+80,7.6,7.3,7.0,7.4,6.8,7.1,6.6,"109-17 Horace Harding Expressway , Queens, NY 11368, United States of America",7.1,Paris Suites Hotel New York,4,345,40.7382974,-73.85049
+81,8.3,8.0,7.6,8.2,7.6,7.7,7.4,"27-05 39th Avenue, Queens, NY 11101, United States of America",7.8,Four Points by Sheraton Long Island City,5,231,40.7543636,-73.9356671
+82,7.4,7.1,6.7,7.3,7.6,7.8,6.6,"135-33 38th Avenue, Queens, NY 11354 , United States of America",7.2,Howard Johnson Flushing,3,207,40.7607068,-73.8316079
+83,7.0,7.2,6.7,8.4,7.6,6.9,7.3,"53-05 Queens Boulevard, Queens, NY 11377, United States of America",7.1,Quality Inn Woodside Queens,2,634,40.7425493,-73.911502
+84,9.1,8.8,8.7,8.5,8.4,9.0,8.1,"29-21 41st Avenue   , Queens, NY 11101, United States of America",8.7,Hilton Garden Inn Long Island City-Manhattan View,3,439,40.7502177,-73.9368844
+85,8.7,8.5,8.2,7.2,8.0,8.4,7.8,"137-07 Northern Boulevard, Queens, NY 11354, United States of America",8.3,Marco LaGuardia Hotel by Lexington,4,144,40.7633784,-73.83093930000001
+86,6.4,6.2,6.1,6.2,7.1,6.3,6.2,"31-36 Queens Boulevard, Queens, NY 11101, United States of America",6.4,Days Inn - Long Island City,3,291,40.7450411,-73.9338515
+87,6.2,6.4,5.8,7.0,6.3,6.7,6.0,"151-67 North Conduit Avenue, Queens, NY 11434, United States of America",6.3,Super 8 Jamaica,1,520,40.667587,-73.7799974
+88,8.6,8.4,8.3,8.9,7.7,8.7,7.6,"59-40 55th Road, Queens, NY 11378, United States of America",8.2,Holiday Inn Express Maspeth,4,118,40.72640519999999,-73.907247
+89,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"33rd Street & Ditmars Boulevard, Queens, NY 11105, United States of America",-999.0,Astoria Apartment,5,-999,40.7753673,-73.9096139
+90,9.6,9.3,8.7,9.4,8.1,9.1,8.8,"32-22 137th ST, Queens, NY 11354, United States of America",8.9,Higher Suites,5,38,40.7672012,-73.83053629999999
+91,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"Broadway and 30th Street, Queens, NY 11106, United States of America",-999.0,Astoria Queens Town House,-999,-999,40.7623431,-73.9261873
+92,8.4,8.3,7.9,7.3,7.9,8.3,7.4,"39-05 29th Street, Queens, NY 11101, United States of America",8.0,Holiday Inn Long Island City - Manhattan View,5,235,40.7531975,-73.9343614
+93,7.6,7.3,6.9,7.5,7.1,7.8,6.8,"153-75 Rockaway Blvd, Queens, NY 11434, United States of America",7.2,Sleep Inn JFK Airport Rockaway Blvd Jamaica,2,313,40.6689506,-73.7815741
+94,8.8,8.4,8.6,9.3,8.3,8.8,8.3,"13-02 44th Avenue, Queens, NY 11101, United States of America",8.5,The Local Hostel NYC,1,931,40.7495622,-73.94770079999999
+95,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"31st Road & 21st Street, Queens, NY 11106, United States of America",-999.0,La Belle Idylle - Astoria,-999,-999,40.7666637,-73.9303784
+96,7.8,7.9,7.8,8.6,7.8,8.4,7.7,"11-01 43rd Avenue, Queens, NY 10009, United States of America",7.9,Z NYC Hotel,5,112,40.7520234,-73.9474364
+97,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"31st Road & Crescent Street, Queens, NY 11106, United States of America",-999.0,Anderson Minutes to Manhattan,-999,-999,40.7648201,-73.92706919999999
+98,8.1,7.6,7.6,8.2,7.6,8.6,7.2,"113-10 Horace Harding Expressway, Queens, NY 11368, United States of America",7.8,Holiday Inn Express LaGuardia Airport,5,89,40.7390987,-73.84855999999999
+99,7.9,7.3,7.1,7.2,7.5,7.6,7.1,"256-15 Jericho Turnpike, Queens, NY 11001, United States of America",7.4,Quality Inn Floral Park,3,96,40.7279941,-73.70804059999999
+100,8.3,7.9,7.7,7.9,7.8,7.9,8.2,"30-03 40th Avenue, Queens, NY 11101, United States of America",8.0,Quality Inn Long Island City,1,455,40.7520175,-73.9344799
+101,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"39-10 28th Street, Queens, NY 11101, United States of America",-999.0,Garden Chalet,-999,-999,40.7537148,-73.9355909
+102,6.6,6.7,6.1,7.1,6.3,6.8,6.3,"164-40 Hillside Avenue, Queens, NY 11432, United States of America",6.5,Ramada Jamaica/Queens,5,304,40.7089725,-73.7972558
+103,6.4,5.9,6.0,7.0,6.4,7.2,6.8,"138-46 Northern Blvd, Queens, NY 11354, United States of America",6.5,Flushing YMCA,1,343,40.7639017,-73.82643170000001
+104,7.2,7.5,7.5,8.3,8.9,7.8,7.5,"61-35 98th Street, Queens, NY 11374, United States of America",7.7,New York Queens Studio Apartment,-999,9,40.7339964,-73.8603743
+105,6.2,6.3,6.2,7.3,6.7,6.5,6.1,"138-05 Jamaica Avenue, Queens, NY 11435, United States of America",6.3,Lexington Inn at JFK Airport,-999,220,40.702503,-73.8151316
+106,4.0,4.0,3.8,5.0,4.5,4.5,3.5,"113-18  Rockaway Boulevard, Queens, NY 11420, United States of America",4.1,Econo Lodge South Ozone Park,-999,10,40.6767843,-73.82491510000001
+107,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"38-17 28th Street 1, Queens, NY 11101, United States of America",-999.0,New York Colonial House,-999,-999,40.7545192,-73.9347253
+108,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"22-01 41st Avenue , Queens, 11101, United States of America",-999.0,"The Vue Hotel, an Ascend Hotel Collection Member",-999,-999,40.753552,-73.941082
+109,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"51st Avenue & Jackson Avenue, Queens, NY 11101, United States of America",-999.0,"NYC 3 Bedroom 2 Bathroom Apartment, 5 min to Times Square",-999,-999,40.741941,-73.953879
+110,5.6,5.2,5.3,6.7,6.0,6.2,5.5,"34-50 Linden Place, Queens, NY 11354, United States of America",5.6,Flushing Motel,1,183,40.7652136,-73.8312732
+111,7.9,7.3,6.4,7.5,8.5,7.4,7.5,"25-42 33RD STREET, Queens, NY 11102, United States of America",7.5,Moblat Apartments-25-42,3,23,40.7687386,-73.9178809
+112,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"29-07 35th Avenue, Queens, NY 11106, United States of America",-999.0,Five Bedroom Home - Astoria,-999,-999,40.758871,-73.929603
+113,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,"6512 Ocean Avenue South, Queens, NY 11692, United States of America",-999.0,Arverne By The Sea,1,-999,40.5893701,-73.79386079999999
+114,9.2,9.2,9.6,7.5,9.2,9.2,8.8,"169 Beach 62nd Street, Queens, NY 11692, United States of America",9.2,Rockaway Beach House by JFK Airport,-999,6,40.5908109,-73.79129879999999
+115,7.1,6.7,6.2,7.6,6.3,6.7,6.2,"136-05 Cranston Street, Queens, NY 11434, United States of America",6.5,Rodeway Inn Near JFK Airport,1,343,40.6680333,-73.7830723
+116,9.3,9.3,9.0,10.0,8.5,9.8,9.3,"9727 105 St., Ozone Park, Queens, NY 11416, United States of America",9.2,Adria's Ozone Park Apartment,1,10,40.6875,-73.838336
+117,7.9,8.9,8.8,10.0,8.7,8.6,8.5,"98th Street and Horace Harding Expressway, Queens, NY 11374, United States of America",8.5,Studio Apartment - Rego Park,3,13,40.7348003,-73.86080919999999
+118,8.2,6.8,7.4,7.0,6.6,8.2,7.1,"62 Road & 136 Street, Queens, NY 11367, United States of America",7.4,AnYi LaGuardia Guesthouse,-999,22,40.7408414,-73.83011809999999
+119,7.9,7.3,7.5,8.1,8.2,7.8,7.8,"2909 Queens Plaza North, Queens, NY 11101, United States of America",7.8,Q4 Hotel and Hostel,1,221,40.7499591,-73.937469
