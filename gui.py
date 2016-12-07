@@ -301,13 +301,13 @@ class Overview(tk.Frame):
                                 p.heatmap_creator('hotels')
                             if w.get(w.curselection()) == 'Hotel'           
                             else
-                                p.heatmap_creator('Restaurant')
+                                p.heatmap_creator('restaurants')
                             if w.get(w.curselection()) == 'Restaurant'
                             else 
-                                p.heatmap_creator('Attractions')
+                                p.heatmap_creator('attractions')
                             if w.get(w.curselection()) == 'Attractions'
                             else 
-                                p.heatmap_creator('Museums')
+                                p.heatmap_creator('museums')
                             if w.get(w.curselection()) == 'Museums'
                             else
                                 print('haha'))

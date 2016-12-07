@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import os
 from sklearn.cluster import KMeans
 from Data.Read_data import *
-from sort import *
+from Sort.sort import *
 from geopy.distance import vincenty
 
 def distance(lat1,lng1,lat2,lng2):

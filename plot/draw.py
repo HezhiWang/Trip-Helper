@@ -1,5 +1,5 @@
-from rader_chart import * 
-from sort import *
+from plot.rader_chart import * 
+from Sort.sort import *
 import os
 import numpy as np
 import codecs
@@ -94,7 +94,6 @@ def plot_map(df):
             fh.close()
     #base = os.getcwd()
     #f=codecs.open('plot_map.html', 'r')
-
     new = 2
     base = os.getcwd()
     link = 'file://'+base+ '/plot_map.html' 

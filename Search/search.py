@@ -1,12 +1,9 @@
-from draw import *
-from sort import *
-from yelp_sort import *
-from heatmap import *
+from plot.draw import *
+from Sort.sort import *
+from Sort.yelp_sort import *
+from plot.heatmap import *
 import os
-
-
 import sys
-#sys.path.insert(0, '/1007-project-/Data')
 from Data.Read_data import *
 
 

@@ -1,1 +1,0 @@
-data = pd.read_csv('bookingQueens.csv',thousands=',')
