@@ -1,0 +1,361 @@
+,Address,Lat,Lng,Name,Avgscore
+0,"59th to 110th Street, Manhattan Borough, from Central Park West to 5th Avenue, New York City, NY 10022",40.783004999999996,-73.96536,Central Park,9.0
+1,"180 Greenwich St, World Trade Center, New York City, NY 10007-0089",40.71151,-74.01332,The National 9/11 Memorial & Museum,9.0
+2,"1000 5th Ave, New York City, NY 10028-0198",40.77943,-73.96324,The Metropolitan Museum of Art,10.0
+3,"30 Rockefeller Center, New York City, NY",40.758884,-73.979385,Top of the Rock Observation Deck,9.0
+4,"New York City, NY",40.748329999999996,-73.98568,Manhattan Skyline,10.0
+5,"New York City, NY 10014",40.739437,-74.0083,The High Line,9.0
+6,"New York City, NY",40.75797,-73.985535,Broadway,9.0
+7,"89 E 42nd Street, New York City, NY 10017-5503",40.752728000000005,-73.97723,Grand Central Terminal,9.0
+8,"350 Fifth Avenue, Between 33rd and 34th Streets, New York City, NY 10118-0110",40.748135,-73.9848,Empire State Building,9.0
+9,"Liberty Island, New York City, NY 10004",40.68976,-74.045135,Statue of Liberty,9.0
+10,"1 World Trade Center, One World Trade Center, New York City, NY 10007-0089",40.71324,-74.0132,One World Observatory - World Trade Center,9.0
+11,"460 Madison Avenue, New York City, NY 10022",40.758778,-73.97694,St. Patrick's Cathedral,9.0
+12,"1260 6th Avenue (Avenue of the Americas), Between 50th and 51st Streets, New York City, NY 10020",40.76,-73.98033000000001,Radio City Music Hall,9.0
+13,"45 Rockefeller Plaza, New York City, NY 10111-0100",40.758736,-73.97867600000001,Rockefeller Center,9.0
+14,"99 Margaret Corbin Drive, Fort Tryon Park, New York City, NY 10040",40.864834,-73.932014,The Met Cloisters,9.0
+15,"4 Penn Plaza, New York City, NY 10121-0078",40.750504,-73.99344,Madison Square Garden,9.0
+16,"Broadway, New York City, NY 10036",40.75889,-73.98512,Times Square,9.0
+17,"New York City, NY",40.756104,-73.98245,Fifth Avenue,9.0
+18,"14th Street and West of Broadway, New York City, NY",40.73028,-73.99819000000001,Greenwich Village,9.0
+19,"Broadway at 60th St, Frederick P. Rose Hall, New York City, NY 10019",40.76812,-73.98225,Jazz at Lincoln Center,9.0
+20,"225 Madison Avenue at 36th Street, New York City, NY 10016",40.748928,-73.9813,The Morgan Library & Museum,9.0
+21,"209 Broadway, b/t Fulton Street & Vesey Street, New York City, NY 10022",40.711773,-74.00939,St. Paul's Chapel,9.0
+22,"New York City, NY",40.73469,-74.00541,West Village,9.0
+23,"South of Houston Street, New York City, NY",40.724037,-73.99788000000001,SoHo,9.0
+24,"New York Harbor, New York City, NY 10017",40.6989,-74.03971999999999,Ellis Island,9.0
+25,"West 4th Street, Greenwich Village, New York City, NY 10001",40.730846,-73.99752,Washington Square Park,9.0
+26,"385 So. End Avenue, St. Josephäó»s Chapel, New York City, NY 10280",40.711628000000005,-74.01661,St Joseph's Chapel Catholic Memorial at Ground Zero,9.0
+27,"405 Lexington and 42nd St., New York City, NY 10174",40.75162,-73.9755,Chrysler Building,9.0
+28,"1047 Amsterdam Ave., New York City, NY 10025",40.8039,-73.96301,Cathedral Church of Saint John the Divine,9.0
+29,"New York City, NY",40.723007,-74.00063,Lower Manhattan,9.0
+30,"175 Fifth Ave., At 23rd St., New York City, NY 10010",40.741054999999996,-73.98971,Flatiron Building,9.0
+31,"New York Harbor, Ferry Terminal, New York City, NY 10004",40.68889,-74.01849,Governors Island National Monument,9.0
+32,"South Street and FDR Drive, New York City, NY 10002",40.70762,-73.99089000000001,Manhattan Bridge,9.0
+33,"Columbus and Amsterdam Ave., between 63rd and 85th Streets, New York City, NY",40.787279999999996,-73.97568000000001,Upper West Side,9.0
+34,"89 Broadway, New York City, NY 10006",40.708059999999996,-74.01218399999999,Trinity Church,9.0
+35,"89 E 42nd St, Grand Central Terminal, New York City, NY 10017-5503",40.75242,-73.97609,Grand Central Market,9.0
+36,"1 West 53rd St, New York City, NY 10019",40.760597,-73.976364,St. Thomas Church,9.0
+37,"World Trade Center, New York City, NY 10003",40.711735,-74.011444,The Oculus,9.0
+38,"Midpark at 72nd St. Transverse, Central Park, New York City, NY",40.77386,-73.97163,Bethesda Fountain,9.0
+39,"116th Street, New York City, NY 10027",40.80747,-73.96236,Columbia University,9.0
+40,"233 Broadway, New York City, NY 10007",40.71239,-74.0068,Woolworth Building,9.0
+41,"West of Eighth Avenue, New York City, NY 10014",40.740986,-74.007614,Meatpacking District,9.0
+42,"14th-17th Street, (Broadway and Park), New York City, NY 10001",40.735935,-73.99035,Union Square,8.0
+43,"230 Vesey St, New York City, NY 10281",40.713364,-74.01609,Brookfield Place - World Financial Center,9.0
+44,"New York City, NY",40.74473,-73.995186,Chelsea,9.0
+45,"W. Park Dr. and W. 72nd St., Central Park, New York City, NY",40.775677,-73.97531,"Strawberry Fields, John Lennon Memorial",8.0
+46,"Between 23rd and 26 streets, and Madison and Fifth Avenues, New York City, NY",40.742176,-73.98807,Madison Square Park,9.0
+47,"405 East 42nd Street, 1st Avenue, New York City, NY 10017",40.75055,-73.968414,United Nations Headquarters,8.0
+48,"Central Park, New York City, NY",40.77498,-73.96668000000001,Alice in Wonderland Statue,9.0
+49,"Manhattan, New York City, NY",40.757168,-73.97483000000001,Park Avenue,9.0
+50,"110th to 150th streets, New York City, NY",40.809303,-73.94699,Harlem,8.0
+51,"Wall Street, New York City, NY 10005",40.70608,-74.00896,Wall Street,8.0
+52,"2 E 91st Street, New York City, NY 10128",40.784454,-73.95798,"Cooper Hewitt, Smithsonian Design Museum",9.0
+53,"Mulberry Street, New York City, NY 10013",40.71914,-73.99733,Little Italy,8.0
+54,"Mid-Central Park at 79th Street, New York City, NY",40.77943,-73.969086,Belvedere Castle,8.0
+55,"1359 Ave of the Americas, New York City, NY",40.76305,-73.97821,Love Sculpture,8.0
+56,"Fulton & South Streets, Pier 17, New York City, NY 10038",40.707138,-74.00216999999999,South Street Seaport,8.0
+57,"42nd Street, New York City, NY",40.758057,-73.98564,42nd Street,9.0
+58,"New York City, NY",40.774975,-73.955025,Upper East Side,9.0
+59,"26 Wall Street, New York City, NY 10005-1996",40.707268,-74.01023,Federal Hall,8.0
+60,"Broadway & 59th Street, New York City, NY 10019",40.768153999999996,-73.98216,Columbus Circle,8.0
+61,"New York City, NY",40.70476,-74.01018,Stone Street Historic District,9.0
+62,"26 Broadway, New York City, NY 10004",40.705826,-74.013115,Charging Bull (Wall Street Bull),7.0
+63,"New York City, NY",40.718494,-74.0067,TriBeCa,8.0
+64,"State Street at Pearl Street, Battery Park, New York City, NY 10004",40.702065000000005,-74.01501,Sea Glass Carousel,9.0
+65,"290 Vesey Street, New York City, NY 10281-1032",40.71474,-74.01602,Irish Hunger Memorial,9.0
+66,"1657 Broadway, New York City, NY 10019-6700",40.76251,-73.98371999999999,Times Square Church,9.0
+67,"263 Mulberry St, New York City, NY 10012",40.75673,-73.98727,St. Patrick's Old Cathedral,9.0
+68,"20 Broad St., New York City, NY 10005",40.70742,-74.010666,New York Stock Exchange,7.0
+69,"180 Greenwich St, New York City, NY 10007-0089",40.711773,-74.01312,World Trade Center Memorial Foundation,9.0
+70,"100 Bedford St, Corner Grove, New York City, NY 10014-5304",40.73253,-74.00554,Friends Building,8.0
+71,"725 Fifth Avenue, New York City, NY 10022-2519",40.762478,-73.97403,Trump Tower,7.0
+72,"7th Ave & West 32nd St, New York City, NY 10001",40.75079,-73.99219000000001,Pennsylvania Station,7.0
+73,"Canal Street to Bayard Street, New York City, NY",40.718613,-73.99736,Chinatown,7.0
+74,"Broadway at south end of City Hall Park, New York City, NY",40.713159999999995,-74.00638599999999,City Hall Park Visitor Information Center,8.0
+75,"Brooklyn to Manhattan lower East Side, New York City, NY",40.708115,-73.95707,Williamsburg Bridge,9.0
+76,"59th Street and York Avenue, New York City, NY",40.757767,-73.95681,Queensboro Bridge,8.0
+77,"122nd St. And Riverside Dr, New York City, NY 10027",40.813396000000004,-73.96313,General Grant National Memorial,8.0
+78,"Central Park, 85th Street to 96th Street, New York City, NY 10128",40.78378,-73.96387,Jacqueline Kennedy Onassis Reservoir,9.0
+79,"1832 Madison Ave, New York City, NY 10035-2707",40.802479999999996,-73.94365,Bethel Gospel Assembly,9.0
+80,"278 Spring Street, New York City, NY 10013",40.725567,-74.006935,New York City Fire Museum,9.0
+81,"1 West 72nd Street, New York City, NY 10023-3486",40.77578,-73.97608000000001,The Dakota,8.0
+82,"1 Herald Square, at 34th Street and Sixth Avenue, New York City, NY 10001-2902",40.75028,-73.98775,Herald Square,8.0
+83,"New York City, NY",40.716007,-73.98303,Lower East Side,8.0
+84,"Hudson River, Piers 59-62, between 17th and 23rd streets, New York City, NY 10011",40.74613,-74.00901999999999,Chelsea Piers,8.0
+85,"Duane and Elk Streets, next to 290 Broadway, New York City, NY",40.714703,-74.004326,African Burial Ground National Monument,9.0
+86,"14 N Moore St, TriBeCa, New York City, NY 10013-2413",40.7198,-74.0066,GhostBusters Firestation,8.0
+87,"59 W 44th St, New York, New York City, NY 10036-6638",40.75602,-73.982605,Algonquin Hotel,8.0
+88,"179th Street and Riverside Drive, New York City, NY 10033",40.8518,-73.95308,George Washington Bridge,8.0
+89,"54 Pearl St, New York City, NY 10004-4300",40.703434,-74.01129,Fraunces Tavern Museum,9.0
+90,"Central Park Lake, (at 74th Street), New York City, NY 10021",40.77485,-73.96946,Loeb Boathouse,8.0
+91,"414 W 141st St, At the intersection of Hamilton Terrace, New York City, NY 10031-9138",40.82136,-73.94733000000001,Hamilton Grange National Memorial,9.0
+92,"Riverside Drive at 120th Street, 91 Claremont Ave, New York City, NY",40.811695,-73.9626,Riverside Church,9.0
+93,"111th St., Queens, NY, Flushing Meadows Corona Park, Queens, New York City, NY",40.744205,-73.85181,Unisphere,9.0
+94,"Between Houston Street, Bowery, & 14th Street, New York City, NY",40.724109999999996,-73.9926,East Village,8.0
+95,"44 Maiden Lane, New York City, NY 10045",40.708667999999996,-74.009,Federal Reserve Bank of New York,8.0
+96,"32nd Street, New York City, NY",40.747658,-73.986435,Koreatown,8.0
+97,"28 East 20th Street, between Broadway and Park Avenue South, New York City, NY 10003",40.738857,-73.98917,Theodore Roosevelt Birthplace National Historic Site,9.0
+98,"New York City, NY",40.756313,-73.98651,Brazil NY Tour,10.0
+99,"1904 Surf Avenue, Located in Brooklyn, NY not New York City, NY, New York City, NY 11224",40.574806,-73.9845,Brooklyn Cyclones Baseball - MCU Park,9.0
+100,"Fifth Avenue From 82nd to 105th Streets, New York City, NY",40.774475,-73.96632,Museum Mile,9.0
+101,"109 E. 50th St., at Park Ave., New York City, NY 10022",40.75747,-73.97372,St. Bartholomew's Church,9.0
+102,"1697 Broadway, New York City, NY 10019",40.763909999999996,-73.98285,Ed Sullivan Theater,8.0
+103,"Upper East Side at 81st Street., Central Park, New York City, NY",40.779503000000005,-73.965294,Cleopatra's Needle,8.0
+104,"1912 Adam Clayton Powell Jr Blvd, New York City, NY 10026-2815",40.803127,-73.95307,First Corinthian Baptist Church,8.0
+105,"New York City, NY",-999.0,-999.0,Central Park's Literary Walk,9.0
+106,"6th Ave., and 49th and 50th Sts., New York City, NY",40.759440000000005,-73.97922,General Electric Building,9.0
+107,"70 Washington Square South, New York City, NY",40.72956,-73.99611999999999,New York University,8.0
+108,"1073 Avenue of the Americas, New York City, NY 10018-3701",40.754059999999996,-73.98491,Kinokuniya Book Stores of America,9.0
+109,"802 Broadway at 10th Street, New York City, NY 10003",40.731846000000004,-73.99133,Grace Church,9.0
+110,"188 Grand St, New York City, NY 10013-3729",40.7195,-73.99709,Alleva Dairy,9.0
+111,"Between 45th and 47th Streets, Broadway and Seventh Avenue, New York City, NY",40.758564,-73.98465,Duffy Square,9.0
+112,"74th Street near Fifth Ave, Central Park, New York City, NY 10021",40.773785,-73.96607,Hans Christian Andersen Statue,9.0
+113,"124 Liberty St., New York City, NY 10006",40.709922999999996,-74.01335,FDNY Memorial Wall,9.0
+114,"421 8th Ave (between 31st & 33rd St), New York City, NY 10001",40.751265999999994,-73.99404,James A. Farley Post Office,8.0
+115,"2344 Arthur Ave, New York City, NY 10458",40.85416,-73.88817,Arthur Avenue Retail Market,9.0
+116,"226 W 44th St, Discovery Times Square, New York City, NY 10036-3906",40.757652,-73.98711999999999,The Art of the Brick by Nathan Sawaya,10.0
+117,"60 Lincoln Center Plaza, New York City, NY",40.772265999999995,-73.98267,The Juilliard School,9.0
+118,"44th Street and Broadway, New York City, NY 10112",40.75725,-73.98578,Good Morning America Studios,9.0
+119,"City Hall Park, New York City, NY 10001",40.7132,-74.005936,Tweed Courthouse,8.0
+120,"Midpark between 66th and 72nd Sts., New York City, NY",40.77115,-73.96393,The Mall,9.0
+121,"American Museum of Natural History, New York City, NY 10024",40.780766,-73.97268000000001,Rose Center for Earth and Space,9.0
+122,"Between West 26th Street and 42nd Streets, New York City, NY",40.757220000000004,-73.9898,Seventh Avenue,9.0
+123,"Chambers and Centre streets, New York City, NY",40.712795,-74.004906,The Municipal Building,8.0
+124,"40 Lincoln Center Plaza, at Amsterdam Avenue, New York City, NY 10023-7486",40.77348,-73.98481,New York Public Library for the Performing Arts,9.0
+125,"No. 19 Washington Square, New York City, NY",40.730824,-73.99733,No. 19 Washington Square,9.0
+126,"139 West 46th St, New York City, NY 10036-8502",40.758392,-73.98382,Church of Saint Mary the Virgin,9.0
+127,"Pier 17, New York City, NY",40.705925,-74.00317,Pier 17,7.0
+128,"60 Centre St, New York City, NY 10007-1402",40.714325,-74.00147,New York City Supreme Court,8.0
+129,"770 Riverside Dr, New York City, NY 10032-7535",40.83401,-73.94808,Trinity Church Cemetery & Mausoleum,9.0
+130,"123 W. 43rd St, New York City, NY",40.756115,-73.9845,Town Hall,8.0
+131,"1 Bowling Green, New York City, NY",40.70433,-74.01398,United States Custom House,9.0
+132,"2081 Adam Clayton Powell Jr Blvd, New York City, NY 10027-4931",40.808296,-73.94870999999999,Greater Refuge Temple,9.0
+133,"200 Park Av., New York City, NY (Formerly Pan Am Building)",40.751575,-73.97962,MetLife Building,7.0
+134,"Washington Square Park, New York City, NY",40.730553,-73.99736,Washington Square Arch,8.0
+135,"26 Wall St., Battery Park, New York City, NY 10004",40.703583,-74.01636500000001,Castle Clinton National Monument,7.0
+136,"39 Battery Place, (at Nassau St.), New York City, NY 10280",40.706540000000004,-74.01675,Skyscraper Museum,7.0
+137,"East Drive at 67th Street, Central Park, New York City, NY",40.77424,-73.98113000000001,Balto Statue,9.0
+138,"Broadway and Murray St, City Hall Park, New York City, NY 10007",40.71306,-74.0072,New York City Hall,8.0
+139,"Columbus Ave and Broadway, New York City, NY",40.77212,-73.983,Lincoln Square,9.0
+140,"New York City, NY",40.749107,-73.97078,Tudor City,8.0
+141,"1395 Lexington Ave, New York City, NY 10128",40.782990000000005,-73.95273,92nd Street Y Tisch Center for the Arts,9.0
+142,"133 Canal Street, New York City, NY 10002",40.716045,-73.996315,Mahayana Buddhist Temple,7.0
+143,"1 E. 65th St., At Fifth Ave., New York City, NY",40.768055,-73.96995,Temple Emanu-El,9.0
+144,"55 Water Street, New York City, NY",40.703022,-74.01023,New York City Vietnam Veterans Memorial Plaza,8.0
+145,"Between John and Fulton Streets, New York City, NY 10038",40.69178,-73.98821,Fulton Center,9.0
+146,"230 Park Ave, New York City, NY 10169-0005",40.754265000000004,-73.976974,Helmsley Building,9.0
+147,"100 Centre St, New York City, NY 10013-4308",40.715565000000005,-74.00046,New York City Criminal Court,8.0
+148,"Christopher St at Hudson River, New York City, NY",40.733166,-74.01383,Pier 45,9.0
+149,"1 Randalls Island Park, Wards Island, New York City, NY 10035",40.786186,-73.932304,Randall's Island Park,8.0
+150,"Fort Washington Park, Hudson River Greenway, New York City, NY 10032",40.85005,-73.94681,Little Red Lighthouse,8.0
+151,"New York City, NY",40.84232,-73.93027,The High Bridge,8.0
+152,"Marine Midland Plaza 140 Broadway, New York City, NY",40.70863,-74.01003,Red Cube,8.0
+153,"34 W 51st St, New York City, NY 10020-1600",40.759686,-73.97848,FDNY Fire Zone,8.0
+154,"421 E 61st St, New York City, NY 10065-8736",40.760406,-73.95993,Mount Vernon Hotel Museum & Garden,9.0
+155,"300 W 57th St, New York City, NY 10019-3741",40.766684999999995,-73.9835,Hearst Tower,9.0
+156,"220 E. 42nd St., New York City, NY",40.75006,-73.973175,Daily News Building,8.0
+157,"375 Park Ave S, New York, New York City, NY 10016-8801",40.758922999999996,-73.973015,Seagram Building,8.0
+158,"34th Street, New York City, NY",40.75159,-73.99206,34th Street,9.0
+159,"22 Barclay St, near the World Trade Center, New York City, NY 10007-2705",40.712364,-74.00957,St. Peter's Church,8.0
+160,"79 East 4th Street, New York City, NY 10003",40.726634999999995,-73.98999,New York Theater Workshop,10.0
+161,"Battery Park, Manhattan, New York City, NY",40.703953000000006,-74.0175,American Merchant Marines Memorial,8.0
+162,"2880 Broadway, New York City, NY",40.805172,-73.965775,Tom's Diner,7.0
+163,"420 W 145th St, New York City, NY 10031-5202",40.824333,-73.946045,Convent Avenue Baptist Church,10.0
+164,"55 Central Park W, New York City, NY 10023-6076",40.77237,-73.97910999999999,Ghostbusters Building,8.0
+165,"285 Fulton St, New York, NY 10007, New York City, NY 10007",40.71157,-74.01021,Freedom Tower,10.0
+166,"West 26th Street, Pier 66 Hudson River Park, New York City, NY 10001",40.752125,-74.00905,Pier 66 Maritime,9.0
+167,"652 Lexington Ave, New York City, NY 10022-4533",40.75958,-73.970566,Central Synagogue,9.0
+168,"121 Wooster St., New York City, NY 10012",40.72507,-74.00048000000001,Bowery,8.0
+169,"East 88th Street and East End Avenue, New York City, NY 10128",40.77623,-73.94382,Gracie Mansion,9.0
+170,"Central Park, New York City, NY",40.76763,-73.97847,Bethesda Arcade,9.0
+171,"Avenues A, B, C, and D, between Houston and 23rd, New York City, NY",40.72803,-73.98432,Alphabet City,8.0
+172,"New York City, NY",-999.0,-999.0,Barrymore Theater,8.0
+173,"Broadway, New York City, NY",40.837340000000005,-73.94258,Trip to Bountiful,9.0
+174,"1 West 29th Street, New York City, NY 10001",40.7455,-73.98698,Marble Collegiate Church,9.0
+175,"40 West 40th St, New York City, NY 10018",40.752857,-73.9839,American Standard Building,9.0
+176,"Riverside Drive, New York City, NY",40.81621,-73.962036,Riverside Drive,9.0
+177,"14th St and 8th Av, Subway Station, New York City, NY",40.739742,-74.002525,Life Underground,8.0
+178,"1160 Amsterdam Ave, Morningside Heights Campus, New York City, NY 10027-7003",40.807858,-73.960945,Saint Paul Chapel,9.0
+179,"1 Madison Ave., New York City, NY",40.742634,-73.9885,Metropolitan Life Insurance Tower,8.0
+180,"141 Wooster St, New York City, NY 10012-3163",40.725970000000004,-73.99973,The New York Earth Room,8.0
+181,"353 W 14th St, New York City, NY 10014-5001",40.74085,-74.0047,New Gansevoort Market,9.0
+182,"980 Park Avenue, New York City, NY 10028",40.778904,-73.95883,The Church of St. Ignatius Loyola,10.0
+183,"222 W 23rd St, New York, New York City, NY 10011-2393",40.74422,-73.99717,Chelsea Hotel,7.0
+184,"515 West 125th Street, New York City, NY",40.81411,-73.95666999999999,Antioch Baptist Church New York,8.0
+185,"New York City, NY",40.71897,-74.05091999999999,Orchard Street,7.0
+186,"Elizabeth Street, New York City, NY",40.720634000000004,-73.99497,Elizabeth Street,9.0
+187,"37 West 44th St, New York City, NY 10036",40.75566,-73.9816,New York Yacht Club,9.0
+188,"90-14 Rockaway Beach Blvd, Between 90th and 91st streets, New York City, NY",40.5871,-73.814476,Rockaways,8.0
+189,"15 Gramercy Park South, New York City, NY 10003",40.736614,-73.985275,The National Arts Club,10.0
+190,"East 7th Street to Astor Place, Cooper Square, New York City, NY",40.728485,-73.990654,Cooper Union Foundation Building,8.0
+191,"1 East 29th St, at Fifth Avenue, New York City, NY 10016-7405",40.7453,-73.98684,Church of the Transfiguration,9.0
+192,"1047 Amsterdam Ave, New York City, NY 10025-1747",40.804348,-73.96508,Peace Fountain - Friedensbrunnen,9.0
+193,"405 W 59th St, New York City, NY 10019-1104",40.769474,-73.985344,Church of St. Paul the Apostle,9.0
+194,"4881 Broadway, (at 204th St), New York City, NY 10034",40.867306,-73.92288,Dyckman Farmhouse Museum,8.0
+195,"Liberty St., New York City, NY",40.709927,-74.01218399999999,Zuccotti Park,8.0
+196,"Pearl & Fulton Street, South Street Seaport, New York City, NY 10038",40.707440000000005,-74.00405,Titanic Memorial Park,8.0
+197,"321 E 42nd St, New York City, NY 10017-5908",40.749634,-73.97143,Ford Foundation Building,8.0
+198,"135 W 31st St, New York City, NY 10001-3403",40.748737,-73.99064,Church of St. Francis of Assisi,9.0
+199,"Central park, New York City, NY",40.76763,-73.97847,Jose de San Martin Statue,8.0
+200,"Confucius Plaza, Bowery, New York City, NY",40.71414,-73.99741,Statue of Confucius,7.0
+201,"Battery Park, New York City, NY 10004",40.70286,-74.01432,The Sphere,9.0
+202,"810 7th Ave, b/t 53rd St & 52nd St, New York City, NY 10019-5818",40.764140000000005,-73.98662,Hope Sculpture,8.0
+203,"500 J F Kennedy Blvd E, New York City, NY",-999.0,-999.0,Lincoln Tunnel,7.0
+204,"240 E 26th St, New York City, NY 10010-2436",40.739807,-73.98016,Holographic Studios,9.0
+205,"New York City, NY",40.78472,-73.95611,Carnegie Hill,9.0
+206,"140-6 West 137th Street, New York City, NY 10030",40.81595,-73.94203,Mother African Methodist Episcopal Zion Church,8.0
+207,"7 State St, Our Lady of the Rosary Church, New York City, NY 10004-1500",40.70261,-74.01368000000001,Shrine of St. Elizabeth Ann Seton,8.0
+208,"210 W 31st St, New York City, NY 10001-2802",40.749072999999996,-73.99280999999999,St. John the Baptist Church,9.0
+209,"515 Malcolm X Blvd, Harlem, New York City, NY 10037-1801",40.814479999999996,-73.94094,Schomburg Center for Research in Black Culture,9.0
+210,"8 Spruce St, 8 Beekman St, New York City, NY 10038-1556",40.710884,-74.005615,Frank Gehry Building,9.0
+211,"Broadway and 24th Street, New York City, NY 10010",40.742309999999996,-73.98935,William Jenkins Worth Monument,8.0
+212,"71 W 23rd St, New York City, NY 10010-4102",40.742912,-73.99233000000001,Grand Masonic Lodge of New York,9.0
+213,"88th Street, New York City, NY 10128",40.78148,-73.95625,Church of the Holy Trinity,9.0
+214,"Between Cypress Ave, The Bronx and Hoyt Ave, Queens, New York City, NY",40.70264,-73.91046,Robert F. Kennedy Bridge,8.0
+215,"225 West 99th St, at Amsterdam Avenue, New York City, NY 10025-5014",40.79616,-73.96909000000001,Church of St. Michael,8.0
+216,"East Drive, Opposite 83rd Street, New York City, NY",40.78155,-73.96300500000001,Alexander Hamilton Statue,8.0
+217,"Bl Malcom X Harlem, New York City, NY",40.81005,-73.94373,Mt Olivet Baptist Church,8.0
+218,"East 79th Street, Pat Hoffman Friedman Playground, New York City, NY",40.773340000000005,-73.955055,Group of Bears Statue,8.0
+219,"184 E 76th St, New York City, NY 10021-2819",40.772503,-73.95954,St. Jean Baptiste Roman Catholic Church,10.0
+220,"4140 Broadway, New York City, NY 10033-3701",40.84636,-73.93821,United Palace,9.0
+221,"132 Odell Clark Pl, New York City, NY 10030-2303 (Formerly 132 West 138th Street)",40.816914000000004,-73.94152,Abyssinian Baptist Church,5.0
+222,"New York City, NY",40.728127,-74.007225,Hudson Street,7.0
+223,"1711 Third Avenue, New York City, NY 10029",40.785484000000004,-73.94858599999999,The New York Mosque,10.0
+224,"Murly Square, Greenwich Avenue W 11th, New York City, NY",40.736540000000005,-74.0011,Tiles For America,10.0
+225,"131 East Tenth St, New York City, NY",40.730340000000005,-73.98711,St. Mark's-in-the-Bowery Church,8.0
+226,"Governors Island, New York Harbor, New York City, NY",40.70108,-74.01163000000001,Castle Williams,8.0
+227,"15 East 97th St, New York City, NY 10219",40.788277,-73.954094,St. Nicholas Russian Orthodox Cathedral,9.0
+228,"547 W 27th St, 4th Floor, New York City, NY 10001-5511",40.75122,-74.004395,Aperture Foundation Gallery,9.0
+229,"Central Park, 59thSt. betw. 7th Ave & Columbus Circle, New York City, NY",40.768784000000004,-73.97381999999999,Gotham Carriages,8.0
+230,"250 E Houston St, Red Square Rooftop, New York City, NY 10002-1034",40.722076,-73.98484,Statue of Lenin,8.0
+231,"75 1/2 Bedford St, New York City, NY 10014-4011",40.731384000000006,-74.00499,75 1/2 Bedford Street,8.0
+232,"280 Broome St, New York City, NY 10002-3702",40.718579999999996,-73.99118,Kehila Kedosha Janina,10.0
+233,"2 E 90th St, New York City, NY 10128-0603",40.78385,-73.95841999999999,The Episcopal Church of The Heavenly Rest,8.0
+234,"551 Fifth Ave., New York City, NY",40.755590000000005,-73.97913,Fred F. French Building,8.0
+235,"51 W 52nd St, New York City, NY 10019-6119",40.760715000000005,-73.97813000000001,CBS Building,7.0
+236,"Riverside Drive and 93rd Street, New York City, NY",40.79403,-73.9763,Joan of Arc Memorial,9.0
+237,"520 Park Ave, New York City, NY 10065-8001",40.7638,-73.96974,Christ Church,8.0
+238,"West 72nd street, New York City, NY",40.778729999999996,-73.98192,Wagner Cove,9.0
+239,"132 West 116th Street, New York City, NY 10026",40.802279999999996,-73.95163000000001,Canaan Baptist Church of Christ,9.0
+240,"701 Fort Washington Ave, New York City, NY",40.85817,-73.93548,Shrine of Frances Xavier Cabrini,9.0
+241,"6 Pennyfield Avenue, New York City, NY 10465",40.805225,-73.79151999999999,Maritime Industry Museum at Fort Schuyler,10.0
+242,"No. 7 Washington Square, New York City, NY",40.73117,-73.99618000000001,No. 7 Washington Square,8.0
+243,"West 59 St., Central Park West, New York City, NY",40.772290000000005,-73.97887,Monumento a Cristobal Colon,8.0
+244,"869 Lexington Avenue, New York City, NY 10065",40.76612,-73.96505,Church of Saint Vincent Ferrer,10.0
+245,"225 Malcolm X Blvd, New York City, NY 10027-6341",40.805515,-73.9474,Ebenezer Gospel Tabernacle,9.0
+246,"11 East 52nd Street, New York City, NY 10022",40.759570000000004,-73.97525999999999,Austrian Cultural Forum,9.0
+247,"16 W 26th St, New York City, NY 10010-2010",40.744009999999996,-73.98986,Saint Sava Serbian Orthodox Cathedral,8.0
+248,"59 Park Avenue at 38th Street, New York City, NY 10016",40.749573,-73.97941999999999,Church of Our Savior,7.0
+249,"211 Central Park W, New York City, NY 10024-6020",40.782578,-73.971886,Beresford,8.0
+250,"25 Carmine St, New York City, NY 10014-4423",40.730315999999995,-74.002975,Our Lady of Pompeii,8.0
+251,"630 2nd Ave, New York City, NY 10016-4806",40.744984,-73.97516,St. Vartan Armenian Cathedral,9.0
+252,"150 E 36th St # 158, New York City, NY 10016-3504",40.747128000000004,-73.97804000000001,Sniffen Court Historic District,9.0
+253,"W. 138th and W. 139th Sts. between Adam Clayton Powell Jr. and Frederick Douglass Blvds., Harlem, New York City, NY",40.8181,-73.9436,Strivers' Row,8.0
+254,"601 Lexington Ave, New York City, NY 10022-6004",40.758484,-73.97025,Citicorp Center,6.0
+255,"171 E 121st St, New York City, NY 10035-3524",40.80154,-73.93839,Elmendorf Reformed Church,10.0
+256,"Between Hudson St. and 7th Ave. S, New York City, NY",40.733227,-74.00303000000001,St. Luke's Place,9.0
+257,"79th Street, East Side of the Turtle Pond, New York City, NY",40.77885,-73.96835,King Jagiello Monument,6.0
+258,"51 Christopher St # 53, New York, New York City, NY 10014-3530",40.73363,-74.00225999999999,51-53 Christopher Street,7.0
+259,"529 West 121th St, between Broadway and Amsterdam avenues, New York City, NY 10027-5901",40.810959999999994,-73.96067,Corpus Christi Church,10.0
+260,"10 E 130th St, Harlem, New York City, NY 10037-3707",40.80914,-73.93930999999999,Kelly Temple,10.0
+261,"20 Cardinal Hayes Pl, New York City, NY 10007-1798",40.71328,-74.00232,St Andrew Church,7.0
+262,"1 Chase Manhattan Plz, Between Pine, Liberty, Nassau, and William Streets, New York City, NY 10005-1401",40.707905,-74.00954,One Chase Manhattan Plaza,8.0
+263,"111 Worth St Apt 4G, New York City, NY 10013-4017",40.716133,-74.00365,Foley Square,8.0
+264,"New York City, NY",-999.0,-999.0,Sixth Avenue (Avenue of the Americas),8.0
+265,"41st Street, New York City, NY 10017",40.750187,-73.97511,Library Way,9.0
+266,"East 43rd Street, Between Madison and Fifth, New York City, NY 10017",40.752132,-73.97556999999999,The Kneeling Fireman,10.0
+267,"Ave of the Americas & W 47th St, New York City, NY 10036",40.75792,-73.98165999999999,Diamond District,10.0
+268,"110th Street and Fifth Ave., New York City, NY 10029",40.79718,-73.94904,Dana Discovery Center,8.0
+269,"New York City, NY",-999.0,-999.0,Pier 54,8.0
+270,"143 E 43rd St, New York City, NY 10017-4007",40.7519,-73.97446,Church of Saint Agnes,7.0
+271,"328 W 14th St, between Seventh and Eighth Avenues, in the Greenwich Village section of Manhattan in New York City., New York City, NY 10014-5002",40.7401,-74.00408,Church of Our Lady of Guadalupe,7.0
+272,"28 Greene St, Soho, New York City, NY 10013-2524",40.7212,-74.00246,Queen of Greene Street,8.0
+273,"211 W 141st St, New York City, NY 10030-1707",40.819607,-73.94166,Church of St Charles Borromeo,10.0
+274,"147 W 144th St, Harlem, New York City, NY 10030-1301",40.820877,-73.93879,Cathedral Church of St. Thomas the Apostle,10.0
+275,"115th Off Pleasant Avenue, New York City, NY 10029",40.794715999999994,-73.93339499999999,Church of Our Lady of Mount Carmel,10.0
+276,"3 Henry Street, corner of Oliver St at Chatham Sq, New York City, NY 10038",40.71286,-73.99776,Mariners' Temple Baptist Church,10.0
+277,"17 State St, New York City, NY 10004",40.702884999999995,-74.01398499999999,New York Unearthed,9.0
+278,"44 John Street, New York City, NY",40.709133,-74.0081,John Street United Methodist Church,9.0
+279,"Bleecker St, New York City, NY 10014",40.73316,-74.00411,Father Demo Square,9.0
+280,"619 Lexington Ave, New York City, NY 10022-4613",40.758564,-73.97038,Saint Peteräó»s Church,7.0
+281,"7 W 55th St, New York City, NY 10019-4902",40.76208,-73.97525,Fifth Avenue Presbiterian Church,8.0
+282,"135 East 96th Street, New York City, NY 10128",40.786373,-73.95142,St. Francis de Sales Church,9.0
+283,"553 W 51st St, New York City, NY 10019-5004",40.766384,-73.99351,Irish Arts Center,9.0
+284,"325 Bowery, Corner of the Bowery and 2nd Street, New York City, NY 10003-8962",40.725628,-73.992,Joey Ramone Place,8.0
+285,"41 1/2 2nd Ave, New York City, NY 10003-8632",40.72524,-73.99035,New York Marble Cemetery,7.0
+286,"Sixth Avenue, New York City, NY",40.742905,-73.9928,East Village,7.0
+287,"209 Madison Avenue, New York City, NY 10016",40.7486,-73.98201999999999,Church of the Incarnation,8.0
+288,"New York City, NY",-999.0,-999.0,American Immigrant Wall of Honor,9.0
+289,"337 E 74th St, New York City, NY 10021-3792",40.769665,-73.95628,Holy Trinity Greek Orthodox Cathedral,9.0
+290,"60 E 66th St, New York City, NY 10065-6540",40.767414,-73.96741999999999,Adam Baumgold Gallery,9.0
+291,"1573 Madison Ave, New York City, NY 10029-3819",40.793746999999996,-73.94856999999999,Graffiti Hall of Fame,8.0
+292,"432 W 44th St, New York City, NY 10036-5205",40.76021,-73.99331,The Actors Studio,9.0
+293,"435 W Broadway, New York City, NY 10012-5902",40.72554,-74.00091,Franklin Bowles Gallery NYC,9.0
+294,"Broadway, New York City, NY",40.69887,-73.93862,Canyon of Heroes,9.0
+295,"New York City, NY",-999.0,-999.0,World Trade Center Station (PATH),8.0
+296,"18 West 53rd Street New York, NY, 10019, New York City, NY 10019",40.7609,-73.97736,53rd Street Public Library,10.0
+297,"330 Hudson St, Ground Floor, New York City, NY 10013",40.727108,-74.007225,Cadillac House,10.0
+298,"West side of Lower Manhattan, New York City, NY",40.72795,-73.95318,Greenwich Village,10.0
+299,"Broadway at 73rd St, Verdi Square, New York City, NY",-999.0,-999.0,Giuseppe Verdi Monument,10.0
+300,"82-30 Cypress Hills Street, Ridgewood, Queens, New York, New York City, NY 11385",40.69363,-73.884445,"Machpelah Cemetery, site of Houdini's grave",10.0
+301,"30 E 7th St, New York City, NY 10003-8254",40.728413,-73.989876,St. George Ukrainian Catholic Church,10.0
+302,"310 E 42nd St, New York City, NY 10017-5905",40.749348,-73.971855,Church of the Covenant,10.0
+303,"6 1/2 Avenue, Pedestrian Arcade, New York City, NY 10019",-999.0,-999.0,6 1/2 Avenue,10.0
+304,"47 E 65th St # 49, Hunter College, New York City, NY 10065-6508",40.76712,-73.96768,Roosevlet House,10.0
+305,"37 Walker St, New York City, NY 10013-3513",40.719143,-74.004074,SUMO,10.0
+306,"165 Waverly Pl, 2F, New York City, NY 10014-6837",40.73368,-74.00133000000001,The Northern Dispensary,10.0
+307,"1345 Avenue of the Americas, 30th Floor, New York City, NY 10105-0302",40.76299,-73.979065,"Rubenstein Communications, Inc.",10.0
+308,"2320 Frederick Douglass Blvd et 125th, New York City, NY 10027-3613",40.810159999999996,-73.951195,United House of Prayer for All People,10.0
+309,"7-11 Willet St, New York City, NY 10002",40.715540000000004,-73.98331999999999,Bialystoker Synagogue,10.0
+310,"3080 Broadway, New York City, NY 10027-4650",40.81187,-73.96068000000001,The Jewish Theological Seminary,10.0
+311,"140 West St., New York City, NY",40.713802,-74.013,New York Telephone Company Building,10.0
+312,"Madison Avenue, New York City, NY",40.777637,-73.96115999999999,Crystal District,9.0
+313,"428 Lafayette St # 434, New York City, NY 10003-6914",40.72918,-73.99247,Colonnade Row,9.0
+314,"2226 Adam Clayton Powell Jr Blvd, New York City, NY 10027-7892",40.813057,-73.9458,Shiloh Baptist Church,8.0
+315,"Fifth Avenue at 42nd Street, New York City, NY 10018-2788",40.753479999999996,-73.98088,Stephen A. Schwarzman Building,8.0
+316,"Chase Manhattan Bank Plaza, New York City, NY",40.70732,-74.00959,Jean Dubuffet - Group of Four Trees,7.0
+317,"102 W 116th St, New York City, NY 10026-2500",40.80206,-73.95019,Masjid Malcolm Shabazz Mosque,7.0
+318,"371 Sixth Avenue, New York City, NY 10014",40.732613,-74.00054,St. Joseph's Church in Greenwich Village,7.0
+319,"667 Madison Avenue, At 61st Street, New York City, NY 10065",40.764590000000005,-73.97049,Lady Liberty,8.0
+320,"61 Henry Street, New York City, NY 10002",40.71308,-73.99494,First Chinese Presbyterian Church of New York City,8.0
+321,"East 60th Street and FDR Drive, Andrew Haswell Green Park, New York City, NY 10021",40.75907,-73.9586,East River Roundabout,8.0
+322,"62nd Street, New York City, NY",40.7711,-73.98339,Gapstow Bridge,8.0
+323,"28th Street and Fifth Avenue, Between Fifth and Sixth Avenues, New York City, NY 10001",40.744686,-73.987305,Tin Pan Alley,8.0
+324,"103 Street and FDR Drive, New York City, NY 10029",40.785595,-73.94018,Wards Island Pedestrian Bridge,8.0
+325,"865 Madison Avenue, New York City, NY 10021",40.771164,-73.96557,St. James Episcopal church,8.0
+326,"West Street, Pier 25, New York City, NY 10013",40.721924,-74.01194,Lilac,8.0
+327,"329 W 42nd St, New York City, NY 10036-6907",40.758179999999996,-73.99116,Holy Cross Church,8.0
+328,"122 E 88th St, New York City, NY 10128-1141",40.780846000000004,-73.955124,Immanuel Lutheran Church,8.0
+329,"61 Gramercy Park N, New York City, NY 10010-5406",40.738929999999996,-73.9868,Calvary-St. George,8.0
+330,"210 Joralemon St, New York City, NY",40.691990000000004,-73.99039,Brooklyn Municipal Building,8.0
+331,"331 Riverside Dr, New York City, NY 10025-9114",40.80168,-73.970184,New York Buddhist Church,8.0
+332,"155 Sullivan St, New York City, NY 10012-3001",40.72718,-74.00123599999999,St. Anthony of Padua,8.0
+333,"10 Leroy St, Manhattanäó»s Greenwich Village, New York City, NY 10014-3905",40.7308,-74.0032,Cosby House,8.0
+334,"249 W 132nd St, Harlem, New York City, NY 10027-7896",40.814243,-73.94653000000001,Saint Paul Baptist Church,8.0
+335,"550 W 155th St, New York City, NY 10032-7899",40.832127,-73.94525,Church of the Intercession,8.0
+336,"West 122nd at Fifth Avenue, Marcus Garvey Park, New York City, NY 10027",40.79718,-73.94904,Harlem FIre Watchtower,8.0
+337,"37 W 57th St, 2nd floor, New York City, NY 10019-3411",40.76409,-73.97595,Edward Tyler Nahem Fine Art,8.0
+338,"19th Street Between 3rd Ave. & Irving Pl, Gramercy Park, New York City, NY 10003",40.73764,-73.98611,Block Beautiful,8.0
+339,"East 127th Street between Fifth and Madison Avenues., New York City, NY",40.807037,-73.93969,Langston Hughes House,8.0
+340,"133 Macdougal St, New York City, NY 10012-1076",40.730755,-74.00001,Provincetown Playhouse,8.0
+341,"1 North End Ave., New York City, NY",40.71452,-74.01685,New York Mercantile Exchange,8.0
+342,"Near 42nd Street and Fifth Avenue, Behind New York Public Library, New York City, NY 10017",40.753487,-73.98088,William Cullen Bryant Statue,6.0
+343,"111 Worth St Apt 4G, Foley Square, New York City, NY 10013-4017",40.71434,-74.00261,Triumph of the Human Spirit,6.0
+344,"New York City, NY",-999.0,-999.0,Bond Street,6.0
+345,"110 Park Avenue / 85th St., New York City, NY",40.7513,-73.97859,Park Avenue Christian Church,7.0
+346,"411 East 66th Street, & 1st Avenue, New York City, NY 10065",40.76381,-73.95809,St. John Nepomucene,6.0
+347,"242 W 41st St, New York City, NY 10036-7203",40.756029999999996,-73.98937,The Times Center,6.0
+348,"New York City, NY 10467",-999.0,-999.0,Throgs Neck Bridge,6.0
+349,"530 W 22nd St, New York City, NY 10011-1108",40.747402,-74.00614,Sikkema Jenkins Company,6.0
+350,"60 William St, New York City, NY 10005-1503",40.707015999999996,-74.00872,Our Lady of Victory Church,6.0
+351,"815 2nd Ave # 7, New York City, NY 10017",40.75085,-73.97183000000001,Episcopal Church Center,6.0
+352,"171 Riverside Dr, New York City, NY 10024",40.791695000000004,-73.97878,Soldiers' and Sailors Monument New York,6.0
+353,"64 Mott St, Chinatown, New York City, NY 10013-4811",40.71602,-73.99801,Eastern States Buddhist Temple of America,5.0
+354,"Seventh Avenue, New York City, NY",40.753209999999996,-73.98902,Mount Neboh Baptist Church,5.0
+355,"141 W 115th St, New York City, NY 10026-2999",40.8024,-73.95206999999999,Memorial Baptist Church,4.0
+356,"2605 Frederick Douglass Blvd, New York City, NY 10030-2142",40.818996000000006,-73.945076,Tatiana Pages Gallery,-1998.0
+357,"18 W 77th St, New York City, NY 10024-5101",40.779675,-73.97439,"Leo Costelli Gallery, new york city, usa",2.0
+358,"113 Baxter Street / 109 Mulberry Street, New York City, NY 10012",40.71765,-73.99854,Church of The Most Precious Blood,-1998.0
+359,"60 e 2nd, New York City, NY",40.72461,-73.98895999999999,New York City Marble Cemetery,-1998.0
