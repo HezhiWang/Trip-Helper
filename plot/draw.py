@@ -94,10 +94,11 @@ def plot_map(df):
             fh.close()
     #base = os.getcwd()
     #f=codecs.open('plot_map.html', 'r')
-    new = 2
+    #new = 2
     base = os.getcwd()
-    link = 'file://'+base+ '/plot_map.html' 
-    webbrowser.open(link,new=new)
+    link = 'file://' + base + '/plot/plot_map.html' 
+    #webbrowser.open(link,new=new)
+    webbrowser.open_new_tab(link)
     #chromedriver = os.path.abspath("Downloads/chromedriver")        
     """
     chromedriver = '/Users/wanghezhi/Downloads/chromedriver'

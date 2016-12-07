@@ -52,8 +52,10 @@ def draw_heatmap(csv_name):
     high_gradient = [(255, 255, 255,0),(255, 255, 0, 1),(255, 170, 0, 1),(255, 85, 0, 1), (255, 0, 0,1)]
     med_gradient = [(255, 255, 255,0),  (255, 255, 0, 1), (170, 255, 0, 1), (85,255,0,1), (0,255,0,1)]
     low_gradient = [(255, 255, 255,0),  (0,255,255,1), (0,170,255,1), (0,85,255,1), (0,0,255,1)]
-    center_lat = places["Lat"].mean()
-    center_long = places["Lng"].mean()
+    #center_lat = places["Lat"].mean()
+    #center_long = places["Lng"].mean()
+    center_lat = 40.7128
+    center_long = -74.0059
     the_map = gmplot.GoogleMapPlotter(center_lat, center_long, 11)
     high_coordinates, med_coordinates, low_coordinates = rank_coordinates(places)
     
@@ -67,9 +69,12 @@ def draw_heatmap(csv_name):
     if len(low_coordinates[0]) > 0 :
         the_map.heatmap(low_coordinates[0], low_coordinates[1], threshold=10, radius=25, gradient=low_gradient)
     
-    new = 2
+    the_map.draw(csv_name + "_heatmap.html")
+
+    #new = 2
     base = os.getcwd()
-    link = 'file://'+base+ csv_name + "_heatmap.html" 
-    webbrowser.open(link,new=new)
+    link = 'file://'+base+ '/'+csv_name + "_heatmap.html" 
+    #webbrowser.open(link,new=new)
+    webbrowser.open_new(link)
 
 #draw_heatmap("hotels")
