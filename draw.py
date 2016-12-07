@@ -4,7 +4,7 @@ import os
 import numpy as np
 import codecs
 import matplotlib
-import os
+import webbrowser
 from selenium import webdriver
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
@@ -72,34 +72,40 @@ def print_to_rtf(df, filename):
     rtf.write(r'}\n\x00')
     rtf.close()
 
-def plot_map(f):
-        '''f is the dataframe(sorted nearby locations) with lat & lng'''
-        fhand = codecs.open('location.js','w', "utf-8")
-        fhand.write("myData = [\n")
-        count = 0
-        output= []
+def plot_map(df):
+    '''df is the dataframe(sorted nearby locations) with lat & lng'''
+    fh = codecs.open('locations.js','w', "utf-8")
+    fh.write("locations = [\n")
+    count = 0
+    output= []
 
-        for i in range(f.shape[0]):
+    for i in range(df.shape[0]):
+        lat = df['Lat'].iloc[i]
+        lng = df['Lng'].iloc[i]
+        name = df['Name'].iloc[i]
+        address = df['Address'].iloc[i].strip()
         
-            lat = f['Lat'].iloc[i]
-            lng = f['Lng'].iloc[i]
-            name = f['Name'].iloc[i]
-            address = f['Address'].iloc[i].strip()
-            try:
-                count += 1
-                if count > 1 : fhand.write(",\n")
-                output = "["+str(lat)+","+str(lng)+", \""+name+"\", "+ "\""+str(address)+"\"]"
-                fhand.write(output)
-            except:
-                continue
+        output = "["+str(lat)+","+str(lng)+", \""+name+"\", "+ "\""+str(address)+"\"]"
+        fh.write(output)
+        if i < df.shape[0]-1:
+            fh.write(",\n")
+        else:
+            fh.write("\n];\n")
+            fh.close()
+    #base = os.getcwd()
+    #f=codecs.open('plot_map.html', 'r')
 
-        fhand.write("\n];\n")
-        fhand.close()
-
-        chromedriver = "/Users/wanghezhi/Downloads/chromedriver"
-        os.environ["webdriver.chrome.driver"] = chromedriver
-        driver = webdriver.Chrome(chromedriver)
-        base = os.getcwd()
-        link = 'file://'+base+ '/hotel_addr_plot.html'
-        driver.get(link)
-
+    new = 2
+    base = os.getcwd()
+    link = 'file://'+base+ '/plot_map.html' 
+    webbrowser.open(link,new=new)
+    #chromedriver = os.path.abspath("Downloads/chromedriver")        
+    """
+    chromedriver = '/Users/wanghezhi/Downloads/chromedriver'
+    #os.environ["webdriver.chrome.driver"] = chromedriver
+    #os.environ["webdriver.chrome.driver"] = chromedriver
+    driver = webdriver.Chrome(chromedriver)
+    base = os.getcwd()
+    link = 'file://'+base+ '/plot_map.html'
+    driver.get(link)
+    """

@@ -8,10 +8,10 @@ def plot_map(df):
 	output= []
 
 	for i in range(df.shape[0]):
-		lat = df['lat'].iloc[i]
-		lng = df['lng'].iloc[i]
-		name = df['name'].iloc[i]
-		address = df['address'].iloc[i].strip()
+		lat = df['Lat'].iloc[i]
+		lng = df['Lng'].iloc[i]
+		name = df['Name'].iloc[i]
+		address = df['Address'].iloc[i].strip()
 		
 		output = "["+str(lat)+","+str(lng)+", \""+name+"\", "+ "\""+str(address)+"\"]"
 		fh.write(output)

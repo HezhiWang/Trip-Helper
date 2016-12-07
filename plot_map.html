@@ -6,7 +6,7 @@
     <link href="http://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer_compiled.js"></script>
-    <script src="location.js"></script>
+    <script src="locations.js"></script>
     <script>
 /* This code is adapted from pythonlearn.com. The original code is from Dr. Charles Severance */
       function initialize() {
@@ -21,9 +21,9 @@
 
         i = 0;
         var markers = [];
-        for ( pos in myData ) {
+        for ( pos in locations ) {
             i = i + 1;
-            var row = myData[pos];
+            var row = locations[pos];
 		    window.console && console.log(row);
         // set the marker
             var newLatlng = new google.maps.LatLng(row[0], row[1]);
