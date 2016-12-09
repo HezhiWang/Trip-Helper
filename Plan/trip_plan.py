@@ -52,7 +52,7 @@ def trip_planer(time, bugdet, degree):
 	path = os.getcwd()
 	travel_data = pd.read_csv(path + '/Data/trip_plan.csv', encoding = 'latin1') 
 	#travel_data = travel_data[travel_data['lat'] != -999]
-
+	df = df.replace(to_replace= '-999', value='N.A.')
 	hotel, restaurant, museum, attraction = Read_data()
 
 
@@ -95,11 +95,11 @@ def trip_planer(time, bugdet, degree):
 
 	recommented_center = center_points[recommendation_order, :]
 
-	f = open('myfile','w')
+	f = open('Travel_Plan.txt','w')
 
 	for i, item in enumerate(recommented_center):
 		hotel_sorted = sort_within(hotel, item[0], item[1], 2, 'Price', bugdet_list)[:2]
-		#restaurant_sorted = sort_within(restaurant, item[0], item[1], 3, 'ctg', bugdet)[:3]//////////////////////////////
+		restaurant_sorted = sort_within(restaurant, item[0], item[1], 3)[:3]
 
 		f.write('Day '+ str(i+1) + '\n')
 		f.write('Attractions: ' + '\n')

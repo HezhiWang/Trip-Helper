@@ -11,6 +11,18 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 def draw_rader_chart_hotel(lat, lng, df):
+    """
+    This function call the method in class 'ComplexRadar' to draw the rader chart for each recommend hotel,
+    and create a pdf with hotels name and rader chart.
+
+    Parameters:
+        lat: float
+        lng: float
+        df: Dataframe
+
+    Return:
+        create a pdf file
+    """
     variables_hotel = ("Avgscore", "Clean", "Comfort", "Facilities", "Free_Wifi", "Staff", "Value_for_money",
             "Location", "Price")
     ranges_hotel = [(5, 10), (5, 10), (5, 10), (5, 10), (5, 10), 
@@ -36,6 +48,18 @@ def draw_rader_chart_hotel(lat, lng, df):
 
 
 def draw_rader_chart_restaurant(lat, lng, df):
+    """
+    This function call the method in class 'ComplexRadar' to draw the rader chart for each recommend restaurant,
+    and create a pdf with restaurants name and rader chart.
+
+    Parameters:
+        lat: float
+        lng: float
+        df: Dataframe
+
+    Return:
+        create a pdf file
+    """
     variables_restaurant = ('number_of_price', 'Reviews', 'score_of_review', 'Distance')
     ranges_restaurant = [(0.00001, 5), (0.00001, 5), (0.00001, 5), (0.00001, 10)]
 
@@ -55,57 +79,3 @@ def draw_rader_chart_restaurant(lat, lng, df):
         pp.savefig(fname = path + '/Recommendation_restaurants.pdf', bbox_inches = 'tight')
         plt.clf()
     pp.close()
-
-def print_to_rtf(df, filename):
-    '''print sorted museums/attractions to rtf file ,filename =='museum' or 'attraction' '''
-    
-    # replace - "-999" -> "NA"
-    df = df.replace(to_replace= '-999', value='N.A.')
-    # open file
-    try:
-        path = os.path.abspath("Results_recommendations")
-        rtf = open(path + filename+'.rtf', 'w')
-        # header info
-        rtf.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
-        for i in range(df.shape[0]):
-            rtf.write(r'\ \b {} \b0 \line \ \b Rating:\b0 {} \t \b Reviews:\b0 {} \line'.format(df['Name'].iloc[i],
-                   df['rating'].iloc[i], df['total_review'].iloc[i]))
-            rtf.write(r'\ \b Details: \b0 {} \line\ \b Description: \b0 {} \line'.format(df['detail'].iloc[i],
-                                                                        df['description'].iloc[i]))
-            rtf.write(r'\line')
-        rtf.write(r'}\n\x00')
-    except IOError:
-        print("Error: can\'t find file or read data")
-    else:
-        print("Written content in the file successfully")
-        rtf.close()
-
-def plot_map(df):
-    '''df is the dataframe(sorted nearby locations) with lat & lng'''
-    path = os.path.abspath("plot")
-    try:
-        fh = codecs.open(path + '/locations.js','w', "utf-8")
-        fh.write("locations = [\n")
-        count = 0
-        output= []
-
-        for i in range(df.shape[0]):
-            lat = df['Lat'].iloc[i]
-            lng = df['Lng'].iloc[i]
-            name = df['Name'].iloc[i]
-            address = df['Address'].iloc[i].strip()
-            
-            output = "["+str(lat)+","+str(lng)+", \""+name+"\", "+ "\""+str(address)+"\"]"
-            fh.write(output)
-            if i < df.shape[0]-1:
-                fh.write(",\n")
-            else:
-                fh.write("\n];\n")
-                fh.close()
-        base = os.getcwd()
-        link = 'file://' + base + '/plot/plot_map.html' 
-        webbrowser.open_new_tab(link)
-    except IOError:
-        print("Error: can\'t find file or read data")          
-    except webbrowser.Error:
-        print("Error: can't open web browser.")

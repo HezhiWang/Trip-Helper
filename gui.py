@@ -10,6 +10,8 @@ import pandas as pd
 from Search.search import *
 from exception import * 
 from Plan.trip_plan import *
+from Overview.plot_heatmap import *
+
 """
 Reference: https://pythonprogramming.net/organizing-gui/
 I learned the stuff in the above tutorial and write the following code to build our GUI
@@ -440,16 +442,15 @@ class Overview(tk.Frame):
         try:
             if (not w.curselection()):
                 raise IndexError
-
-            p = Page_creator()                        
+                       
             if w.get(w.curselection()) == 'Hotel': 
-                p.heatmap_creator('hotels')
+                heatmap_creator('hotels')
             elif w.get(w.curselection()) == 'Restaurant':
-                p.heatmap_creator('restaurants')
-            elif w.get(w.curselection()) == 'Attractions':
-                p.heatmap_creator('attractions')
+                heatmap_creator('restaurants')
+            elif w.get(w.cursselection()) == 'Attractions':
+                heatmap_creator('attractions')
             elif w.get(w.curselection()) == 'Museums':
-                p.heatmap_creator('museums')    
+                heatmap_creator('museums')    
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the item in the listbox")  
 
