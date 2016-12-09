@@ -106,28 +106,28 @@ def trip_planer(time, bugdet, degree):
 		restaurant_sorted = sort_within(restaurant, item[0], item[1], 3)
 		recommended_restaurant = restaurant_sorted.reindex(np.random.permutation(restaurant_sorted.index))[:3]
 
-		f.write(r'\qc \b Day{} \b0 \qc0 \line'.format(str(i+1)))
-		f.write(r'\b Attractions: \b0 \line')
+		f.write(r' \b {:*^100} \b0 \line\ '.format('DAY'+str(i+1)))
+		f.write(r'\b Attractions: \b0 \line\ ')
 		for x in index_list[recommendation_order[i]]:
-			f.write(r'{} \line'.format(recommended_attraction.iloc[x]['name']))
-			f.write(r'Address: \enspace {} \line'.format(recommended_attraction.iloc[x]['address']))
-			f.write(r'Description: \enspace {} \line'.format(recommended_attraction.iloc[x]['description']))
-			f.write(r'Detail: \enspace {} \line \line'.format(recommended_attraction.iloc[x]['detail']))
+			f.write(r'{} \line\ '.format(recommended_attraction.iloc[x]['name']))
+			f.write(r'Address: \enspace {} \line\ '.format(recommended_attraction.iloc[x]['address']))
+			f.write(r'Description: \enspace {} \line\ '.format(recommended_attraction.iloc[x]['description']))
+			f.write(r'Detail: \enspace {} \line \line\ '.format(recommended_attraction.iloc[x]['detail']))
 
-		f.write(r'\b Hotel: \b0 \line')
+		f.write(r'\b Hotel: \b0 \line\ ')
 		for x in range(2):
-			f.write(r'{} \line'.format(recommended_hotel.iloc[x]['name']))
-			f.write(r'Address: \enspace {} \line'.format(recommended_hotel.iloc[x]['address']))
-			f.write(r'Score: \enspace {} \line \line'.format(recommended_hotel.iloc[x]['Avgscore']))
-			f.write(r'Reviews: \enspace {} \line'.format(recommended_hotel.iloc[x]['Total_review']))
+			f.write(r'{} \line\ '.format(recommended_hotel.iloc[x]['Name']))
+			f.write(r'Address: \enspace {} \line\ '.format(recommended_hotel.iloc[x]['Address']))
+			f.write(r'Score: \enspace {} \line \line\ '.format(recommended_hotel.iloc[x]['Avgscore']))
+			f.write(r'Reviews: \enspace {} \line\ '.format(recommended_hotel.iloc[x]['Total_review']))
 
-		f.write(r'\b Restaurant: \b0 \line')
+		f.write(r'\b Restaurant: \b0 \line\ ')
 		for x in range(3):
-			f.write(r'{} \line'.format(recommended_restaurant.iloc[x]['name']))
-			f.write(r'Address: \enspace {} \line'.format(recommended_restaurant.iloc[x]['address']))
-			f.write(r'Score: \enspace {} \line'.format(recommended_restaurant.iloc[x]['Avgscore']))
-			f.write(r'Reviews: \enspace {} \line'.format(recommended_restaurant.iloc[x]['Total_review']))
-		f.write(r'\line \line')
+			f.write(r'{} \line\ '.format(recommended_restaurant.iloc[x]['Name']))
+			f.write(r'Address: \enspace {} \line\ '.format(recommended_restaurant.iloc[x]['Address']))
+			f.write(r'Score: \enspace {} \line\ '.format(recommended_restaurant.iloc[x]['Avgscore']))
+			f.write(r'Reviews: \enspace {} \line\ '.format(recommended_restaurant.iloc[x]['Total_review']))
+		f.write(r'\line\ \line\ ')
 
 	f.write(r'}\n\x00')
 	f.close()
