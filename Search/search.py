@@ -16,8 +16,6 @@ class Page_creator:
 		self.museum = museum
 		self.attraction = attraction
 
-
-
 	def Hotel_page_creator(self, lat, lng, price, value):
 		#path = os.getcwd() + '/Data/bookingNYC.csv'
 		#data_hotel = pd.read_csv(path, thousands = ',', encoding = 'latin1')

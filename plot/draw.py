@@ -20,6 +20,7 @@ def draw_rader_chart_hotel(lat, lng, df):
     data = list(zip(df.Avgscore, df.Cleanliness, df.Comfort, df.Facilities, df['Free Wifi'], df.Staff, df['Value for money'], df.Location, df.Price))
     information = list(zip(df.Name))
 
+    path = os.path.abspath("Results_recommendations")
     pp = PdfPages('Recommendation_hotels.pdf')
 
     for i in range(len(data)):
@@ -29,7 +30,7 @@ def draw_rader_chart_hotel(lat, lng, df):
         rader.fill(data[i], alpha=0.2)
         text = 'Hotel Name: ' + str(information[i][0])
         fig.text(0, 0.9, text, fontsize=15, fontweight='bold', color = 'blue')
-        pp.savefig(bbox_inches='tight')
+        pp.savefig(fname = path + '/Recommendation_hotels.pdf', bbox_inches = 'tight')
         plt.clf()
     pp.close()
 
@@ -41,6 +42,7 @@ def draw_rader_chart_restaurant(lat, lng, df):
     data = list(zip(df['number_of_price'], df['Reviews'], df['Avgscore'], df['Distance']))
     information = list(zip(df['Name']))
 
+    path = os.path.abspath("Results_recommendations")
     pp = PdfPages('Recommendation_restaurants.pdf')
 
     for i in range(len(data)):
@@ -50,7 +52,7 @@ def draw_rader_chart_restaurant(lat, lng, df):
         rader.fill(data[i], alpha=0.2)
         text = 'Restaurant Name: ' + str(information[i][0])
         fig.text(0, 0.9, text, fontsize=15, fontweight='bold', color = 'blue')
-        pp.savefig(bbox_inches='tight')
+        pp.savefig(fname = path + '/Recommendation_restaurants.pdf', bbox_inches = 'tight')
         plt.clf()
     pp.close()
 
@@ -60,7 +62,8 @@ def print_to_rtf(df, filename):
     # replace - "-999" -> "NA"
     df = df.replace(to_replace= '-999', value='N.A.')
     # open file
-    rtf = open(filename+'.rtf', 'w')
+    path = os.path.abspath("Results_recommendations")
+    rtf = open(path + filename+'.rtf', 'w')
     # header info
     rtf.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
     for i in range(df.shape[0]):
@@ -74,7 +77,8 @@ def print_to_rtf(df, filename):
 
 def plot_map(df):
     '''df is the dataframe(sorted nearby locations) with lat & lng'''
-    fh = codecs.open('locations.js','w', "utf-8")
+    path = os.path.abspath("plot")
+    fh = codecs.open(path + '/locations.js','w', "utf-8")
     fh.write("locations = [\n")
     count = 0
     output= []
@@ -97,7 +101,6 @@ def plot_map(df):
     #new = 2
     base = os.getcwd()
     link = 'file://' + base + '/plot/plot_map.html' 
-    #webbrowser.open(link,new=new)
     webbrowser.open_new_tab(link)
     #chromedriver = os.path.abspath("Downloads/chromedriver")        
     """
