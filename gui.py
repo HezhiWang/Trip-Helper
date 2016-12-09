@@ -88,7 +88,7 @@ class StartPage(tk.Frame):
         #window.title("Join")
         #window.geometry("300x100")
         #window.configure(background='white')
-
+        """
         try:
             path = os.getcwd()
             file = path + "/nyc skyline.jpg"
@@ -100,7 +100,7 @@ class StartPage(tk.Frame):
             p.pack(side = "bottom")
         except IOError:
             pass
-
+        """
 
 
 class Search(tk.Frame): 
