@@ -68,14 +68,15 @@ def trip_planer(time, bugdet, degree):
 	elif (bugdet == 3):
 		bugdet_list = [5]
 
-	recommented_attraction = travel_data.iloc[:total_num_attractions, :]
+	recommended_attraction = travel_data.iloc[:total_num_attractions, :]
+	recommended_attraction = recommended_attraction.replace(to_replace= '-999', value='N.A.')
 
 	cordinate_data = []
 
-	for i in range(recommented_attraction.shape[0]):
+	for i in range(recommended_attraction.shape[0]):
 		temp = []
-		temp.append(recommented_attraction['lat'].iloc[i])
-		temp.append(recommented_attraction['lng'].iloc[i])
+		temp.append(recommended_attraction['lat'].iloc[i])
+		temp.append(recommended_attraction['lng'].iloc[i])
 		cordinate_data.append(temp)
 
 	kmeans = KMeans(n_clusters = time, random_state = 0).fit(cordinate_data)
@@ -93,54 +94,43 @@ def trip_planer(time, bugdet, degree):
 	center_points = np.asarray(center_points)
 	recommendation_order = np.random.permutation(time)
 
-	recommented_center = center_points[recommendation_order, :]
+	recommended_center = center_points[recommendation_order, :]
 
-	f = open('Travel_Plan.txt','w')
+	f = open('Trip_Plan.rtf','w')
+	f.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
 
-	for i, item in enumerate(recommented_center):
-		hotel_sorted = sort_within(hotel, item[0], item[1], 2, 'Price', bugdet_list)[:2]
-		restaurant_sorted = sort_within(restaurant, item[0], item[1], 3)[:3]
+	for i, item in enumerate(recommended_center):
+		hotel_sorted = sort_within(hotel, item[0], item[1], 2, 'Price', bugdet_list)
+		recommended_hotel = hotel_sorted.reindex(np.random.permutation(hotel_sorted.index))[:2]
 
-		f.write('Day '+ str(i+1) + '\n')
-		f.write('Attractions: ' + '\n')
+		restaurant_sorted = sort_within(restaurant, item[0], item[1], 3)
+		recommended_restaurant = restaurant_sorted.reindex(np.random.permutation(restaurant_sorted.index))[:3]
+
+		f.write(r'\qc \b Day{} \b0 \qc0 \line'.format(str(i+1)))
+		f.write(r'\b Attractions: \b0 \line')
 		for x in index_list[recommendation_order[i]]:
-			f.write(recommented_attraction.iloc[x]['name'] + '\n')
-			f.write(recommented_attraction.iloc[x]['address'] + '\n')
-			f.write(recommented_attraction.iloc[x]['description'] + '\n')
-			f.write(recommented_attraction.iloc[x]['detail'] + '\n\n')
+			f.write(r'{} \line'.format(recommended_attraction.iloc[x]['name']))
+			f.write(r'Address: \enspace {} \line'.format(recommended_attraction.iloc[x]['address']))
+			f.write(r'Description: \enspace {} \line'.format(recommended_attraction.iloc[x]['description']))
+			f.write(r'Detail: \enspace {} \line \line'.format(recommended_attraction.iloc[x]['detail']))
 
-	
+		f.write(r'\b Hotel: \b0 \line')
+		for x in range(2):
+			f.write(r'{} \line'.format(recommended_hotel.iloc[x]['name']))
+			f.write(r'Address: \enspace {} \line'.format(recommended_hotel.iloc[x]['address']))
+			f.write(r'Score: \enspace {} \line \line'.format(recommended_hotel.iloc[x]['Avgscore']))
+			f.write(r'Reviews: \enspace {} \line'.format(recommended_hotel.iloc[x]['Total_review']))
+
+		f.write(r'\b Restaurant: \b0 \line')
+		for x in range(3):
+			f.write(r'{} \line'.format(recommended_restaurant.iloc[x]['name']))
+			f.write(r'Address: \enspace {} \line'.format(recommended_restaurant.iloc[x]['address']))
+			f.write(r'Score: \enspace {} \line'.format(recommended_restaurant.iloc[x]['Avgscore']))
+			f.write(r'Reviews: \enspace {} \line'.format(recommended_restaurant.iloc[x]['Total_review']))
+		f.write(r'\line \line')
+
+	f.write(r'}\n\x00')
 	f.close()
-
-
-
-
-
-
-
-	"""
-	for t in range(time):
-		#index_list.append(labels[labels == i].tolist())
-		f.write('Day '+ str(t) + '\n')
-		f.write('Attractions: ' + '\n')
-		for x in index_list[t]:
-			f.write(recommented_attraction.iloc[x]['name'] + '\n')
-			f.write(recommented_attraction.iloc[x]['address'] + '\n')
-			f.write(recommented_attraction.iloc[x]['description'] + '\n')
-			f.write(recommented_attraction.iloc[x]['detail'] + '\n\n')
-		f.write('Restaurants: ' + '\n')
-		for i in range(2):
-			f.write(restaurant_sorted.iloc[i]['Name'] + '\n')			
-			f.write(restaurant_sorted.iloc[i]['Address'] + '\n')
-			f.write(restaurant_sorted.iloc[i]['Avgscore'] + '\n')
-		f.write('Hotels: ' + '\n')
-		for i in range(3):
-			f.write(hotel_sorted.iloc[i]['Name'] + '\n')			
-			f.write(hotel_sorted.iloc[i]['Address'] + '\n')
-			f.write(hotel_sorted.iloc[i]['Avgscore'] + '\n')
-	f.close()
-
-	"""
 
 
 
