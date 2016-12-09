@@ -52,7 +52,7 @@ def trip_planer(time, bugdet, degree):
 	path = os.getcwd()
 	travel_data = pd.read_csv(path + '/Data/trip_plan.csv', encoding = 'latin1') 
 	#travel_data = travel_data[travel_data['lat'] != -999]
-	df = df.replace(to_replace= '-999', value='N.A.')
+
 	hotel, restaurant, museum, attraction = Read_data()
 
 
@@ -116,15 +116,15 @@ def trip_planer(time, bugdet, degree):
 
 		f.write(r'\b Hotel: \b0 \line')
 		for x in range(2):
-			f.write(r'{} \line'.format(recommended_hotel.iloc[x]['name']))
-			f.write(r'Address: \enspace {} \line'.format(recommended_hotel.iloc[x]['address']))
+			f.write(r'{} \line'.format(recommended_hotel.iloc[x]['Name']))
+			f.write(r'Address: \enspace {} \line'.format(recommended_hotel.iloc[x]['Address']))
 			f.write(r'Score: \enspace {} \line \line'.format(recommended_hotel.iloc[x]['Avgscore']))
 			f.write(r'Reviews: \enspace {} \line'.format(recommended_hotel.iloc[x]['Total_review']))
 
 		f.write(r'\b Restaurant: \b0 \line')
 		for x in range(3):
-			f.write(r'{} \line'.format(recommended_restaurant.iloc[x]['name']))
-			f.write(r'Address: \enspace {} \line'.format(recommended_restaurant.iloc[x]['address']))
+			f.write(r'{} \line'.format(recommended_restaurant.iloc[x]['Name']))
+			f.write(r'Address: \enspace {} \line'.format(recommended_restaurant.iloc[x]['Address']))
 			f.write(r'Score: \enspace {} \line'.format(recommended_restaurant.iloc[x]['Avgscore']))
 			f.write(r'Reviews: \enspace {} \line'.format(recommended_restaurant.iloc[x]['Total_review']))
 		f.write(r'\line \line')
