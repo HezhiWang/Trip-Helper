@@ -148,53 +148,6 @@ class trip_plan:
 		return index_list, center_points	
 
 
-"""
-	def write_trip_plan_to_rtf(self, index_list, recommendation_order, recommended_center, recommended_attraction):	
-		try:
-			path = os.path.abspath('Results')
-			f = open(path + '/Trip_Plan.rtf','w')
-			f.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
-
-			for i, item in enumerate(recommended_center):
-				hotel_sorted = sort_within(hotel, item[0], item[1], 2, 'Price', bugdet_list)
-				recommended_hotel = hotel_sorted.reindex(np.random.permutation(hotel_sorted.index))[:2]
-
-				restaurant_sorted = sort_within(restaurant, item[0], item[1], 3)
-				recommended_restaurant = restaurant_sorted.reindex(np.random.permutation(restaurant_sorted.index))[:3]
-
-				f.write(r' \b {:*^100} \b0 \line\ '.format('DAY'+str(i+1)))
-				f.write(r'\b Attractions: \b0 \line\ ')
-				for x in index_list[recommendation_order[i]]:
-					f.write(r'{} \line\ '.format(recommended_attraction.iloc[x]['name']))
-					f.write(r'Address: \enspace {} \line\ '.format(recommended_attraction.iloc[x]['address']))
-					f.write(r'Description: \enspace {} \line\ '.format(recommended_attraction.iloc[x]['description']))
-					f.write(r'Detail: \enspace {} \line \line\ '.format(recommended_attraction.iloc[x]['detail']))
-
-				f.write(r'\b Hotel: \b0 \line\ ')
-				for x in range(2):
-					f.write(r'{} \line\ '.format(recommended_hotel.iloc[x]['Name']))
-					f.write(r'Address: \enspace {} \line\ '.format(recommended_hotel.iloc[x]['Address']))
-					f.write(r'Score: \enspace {} \line\ '.format(recommended_hotel.iloc[x]['Avgscore']))
-					f.write(r'Reviews: \enspace {} \line\ \line\ '.format(recommended_hotel.iloc[x]['Total_review']))
-
-				f.write(r'\b Restaurant: \b0 \line\ ')
-				for x in range(3):
-
-					f.write(r'{} \line\ '.format(recommended_restaurant.iloc[x]['Name']))
-					f.write(r'Address: \enspace {} \line\ '.format(recommended_restaurant.iloc[x]['Address']))
-					f.write(r'Score: \enspace {} \line\ '.format(recommended_restaurant.iloc[x]['Avgscore']))
-					f.write(r'Reviews: \enspace {} \line\ \line\ '.format(recommended_restaurant.iloc[x]['Total_review']))
-				f.write(r'\line\ \line\ ')
-
-			f.write(r'}\n\x00')
-		except IOError:
-			print("Error: can\'t find file or read data")
-		else:
-			print("Written content in the file successfully")		
-			f.close()
-"""
-
-
 
 
 
