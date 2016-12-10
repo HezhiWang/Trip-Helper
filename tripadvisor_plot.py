@@ -130,9 +130,9 @@ class overview_plot:
             axarr[1].set_xticks(ind + width)
             axarr[1].set_xticklabels(('African', 'Asian', 'Cafe_bar', 'Chinese'
 
-        plt.show()
-        path = os.path.abspath('Results')
-        plt.savefig(path + '/' + filename + '_rating_scores_bar.png')    
-        plt.close()
+            plt.show()
+            path = os.path.abspath('Results')
+            plt.savefig(path + '/' + filename + '_rating_scores_bar.png')    
+            plt.close()
 
       

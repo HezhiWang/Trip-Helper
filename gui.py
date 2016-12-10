@@ -10,6 +10,7 @@ import pandas as pd
 from Search.search import *
 from exception import * 
 from Plan.trip_plan import *
+from Plot.tripadvisor_
 from Overview.plot_heatmap import *
 
 """
@@ -38,7 +39,8 @@ class GUI(tk.Tk):
 
         self.frames = {}
 
-        for F in (StartPage, Restaurant, Hotel, Attractions, Museums, Search, Plan, Overview, Plan_secondPage, Plan_ThirdPage):
+        for F in (StartPage, Restaurant, Hotel, Attractions, Museums, Search, Plan, Overview, 
+                    Plan_secondPage, Plan_ThirdPage, Overview_hotel, Overview_restaurant, Overview_attractions, Overview_museums):
 
             frame = F(container, self)
 
@@ -416,7 +418,7 @@ class Overview(tk.Frame):
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
-        label = tk.Label(self, text="Overview!!!", font=("Verdana", 20))
+        label = tk.Label(self, text="Overview", font=("Verdana", 20))
         label.pack(pady=100,padx=100)   
         
         w = tk.Listbox(self)
@@ -427,16 +429,16 @@ class Overview(tk.Frame):
         w.insert(4, 'Museums')
         w.pack(pady=50,padx=100, anchor = CENTER)
 
-        button1 = tk.Button(self, text="Show the heatmap", width = 20,
-                            command = lambda: self.check_click4(w))
+        button1 = tk.Button(self, text = "Show plots!", width = 20,
+                            command = lambda: self.check_click4(w, controller))
 
-        button1.pack(pady=10,padx=20) 
+        button1.pack(side = LEFT, pady = 10, padx = 120) 
         
-        button3 = tk.Button(self, text="Back to Home",
-                            command=lambda: controller.show_frame(StartPage, 0, 0))
-        button3.pack(pady=10,padx=20) 
+        button3 = tk.Button(self, text = "Back to Home",
+                            command = lambda: controller.show_frame(StartPage, 0, 0))
+        button3.pack(side = LEFT, pady = 10, padx = 120) 
 
-    def check_click4(self, w):
+    def check_click4(self, w, controller):
         """
         This function let user choose what they want to overview from 'Restaurant', 'hotel', 'museum', 'attraction',
         and plot their heatmap in a html file, and open it automaticlly.
@@ -450,17 +452,73 @@ class Overview(tk.Frame):
         try:
             if (not w.curselection()):
                 raise IndexError
-                       
-            if w.get(w.curselection()) == 'Hotel': 
-                heatmap_creator('hotels')
-            elif w.get(w.curselection()) == 'Restaurant':
-                heatmap_creator('restaurants')
+
+            if w.get(w.curselection()) == 'Restaurant':
+                controller.show_frame(Overview_restaurant, lat, logi)                                       
+            elif w.get(w.curselection()) == 'Hotel':
+                controller.show_frame(Overview_hotel, lat, logi)
             elif w.get(w.curselection()) == 'Attractions':
-                heatmap_creator('attractions')
+                controller.show_frame(Overview_attractions, lat, logi)
             elif w.get(w.curselection()) == 'Museums':
-                heatmap_creator('museums')    
+                controller.show_frame(Overview_museums, lat, logi)   
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the item in the listbox")  
+
+class Overview_hotel(tk.Frame):
+    def __init__(self, parent, controller):
+        # constructor to bulid the label, listbox, button in the Search page in GUI
+        tk.Frame.__init__(self, parent)
+
+        label = tk.Label(self, text="Restaurant Overview", font=("Verdana", 20))
+        label.pack(pady=100,padx=100) 
+
+        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 10, bg='blue',
+                            command=lambda: controller.show_frame(Search, 0, 0))
+        button1.pack(pady=10,padx=10)
+
+        button2 = tk.Button(self, text="Show density figure", height = 2, width = 10, bg='red',
+                            command=lambda: controller.show_frame(Plan, 0, 0))
+        button2.pack(pady=10,padx=10) 
+
+        button3 = tk.Button(self, text="Show pie figure", height = 2, width = 10, bg='yellow',
+                            command=lambda: controller.show_frame(Overview, 0, 0))
+        button3.pack(pady=10,padx=10) 
+
+        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 20, bg='blue',
+                            command=lambda: controller.show_frame(Search, 0, 0))
+        button4.pack(pady=10,padx=10)
+
+        button5 = tk.Button(self, text="Show average rating bar figure", height = 2, width = 20, bg='red',
+                            command=lambda: controller.show_frame(Plan, 0, 0))
+        button5.pack(pady=10,padx=10)
+
+        button6 = tk.Button(self, text="Back to Overview", height = 2, width = 10, bg='red',
+                            command=lambda: controller.show_frame(Overview, 0, 0))
+        button6.pack(pady=10,padx=10)
+
+class Overview_restaurant(tk.Frame):
+    def __init__(self, parent, controller):
+        # constructor to bulid the label, listbox, button in the Search page in GUI
+        tk.Frame.__init__(self, parent)
+
+        label = tk.Label(self, text="Overview", font=("Verdana", 20))
+        label.pack(pady=100,padx=100)         
+
+class Overview_attractions(tk.Frame):
+    def __init__(self, parent, controller):
+        # constructor to bulid the label, listbox, button in the Search page in GUI
+        tk.Frame.__init__(self, parent)
+
+        label = tk.Label(self, text="Overview", font=("Verdana", 20))
+        label.pack(pady=100,padx=100)         
+
+class Overview_museums(tk.Frame):
+    def __init__(self, parent, controller):
+        # constructor to bulid the label, listbox, button in the Search page in GUI
+        tk.Frame.__init__(self, parent)
+
+        label = tk.Label(self, text="Overview", font=("Verdana", 20))
+        label.pack(pady=100,padx=100)         
 
 class Restaurant(tk.Frame):
     """ 

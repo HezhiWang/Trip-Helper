@@ -100,16 +100,16 @@ class trip_plan:
 		return d
 
 	def generate_combined_dataset(self, d1,d2):
-    '''
-    This is to generate a combined and sorted dataset of museums and attractions for trip planning
+	    '''
+	    This is to generate a combined and sorted dataset of museums and attractions for trip planning
 
-    Parameters:
-    	d1: dataframe
-    	d2: dataframe
+	    Parameters:
+	    	d1: dataframe
+	    	d2: dataframe
 
-    	Return:
-    		combined_df
-    '''
+	    	Return:
+	    		combined_df
+	    '''
 
 	    combined_df = pd.concat([d1,d2],ignore_index=True)
 	    combined_df = combined_df.drop_duplicates(subset=['name'],keep='first')
