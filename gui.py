@@ -117,7 +117,7 @@ class Search(tk.Frame):
 
         root = tk.Frame.__init__(self,parent)
         label = tk.Label(self, text="Welcome to NYC", font=("Verdana", 20))
-        label.pack(pady=50,padx=100)
+        label.pack(pady=80,padx=100)
 
         label = tk.Label(self, text="Please enter your location (you could look at those examples), then click 'Enter'", font=("Verdana", 16))
         label.pack(pady=20,padx=20)
@@ -235,13 +235,13 @@ class Plan(tk.Frame):
         label1.pack(pady=20,padx=40)
         w1 = tk.Listbox(self)
         w1.pack(pady=20)
-        w1.insert(1, '1 Day')
-        w1.insert(2, '2 Day')
-        w1.insert(3, '3 Day')
-        w1.insert(4, '4 Day')
-        w1.insert(5, '5 Day')
-        w1.insert(6, '6 Day')
-        w1.insert(7, '7 Day')
+        w1.insert(1, '1 Days')
+        w1.insert(2, '2 Days')
+        w1.insert(3, '3 Days')
+        w1.insert(4, '4 Days')
+        w1.insert(5, '5 Days')
+        w1.insert(6, '6 Days')
+        w1.insert(7, '7 Days')
 
         button1 = tk.Button(self, text="Go to next Perference",
                             command=lambda: self.check_click(controller, w1))
@@ -273,19 +273,19 @@ class Plan(tk.Frame):
         try:
             if (not w1.curselection()):
                 raise IndexError  
-            if w1.get(w1.curselection()) == '1 Day': 
+            if w1.get(w1.curselection()) == '1 Days': 
                 self.combined_function(1, controller, w1)
-            elif w1.get(w1.curselection()) == '2 Day':
+            elif w1.get(w1.curselection()) == '2 Days':
                 self.combined_function(2, controller, w1)
-            elif w1.get(w1.curselection()) == '3 Day':
+            elif w1.get(w1.curselection()) == '3 Days':
                 self.combined_function(3, controller, w1)
-            elif w1.get(w1.curselection()) == '4 Day':
+            elif w1.get(w1.curselection()) == '4 Days':
                 self.combined_function(4, controller, w1)
-            elif w1.get(w1.curselection()) == '5 Day':
+            elif w1.get(w1.curselection()) == '5 Days':
                 self.combined_function(5, controller, w1)
-            elif w1.get(w1.curselection()) == '6 Day':
+            elif w1.get(w1.curselection()) == '6 Days':
                 self.combined_function(6, controller, w1)
-            elif w1.get(w1.curselection()) == '7 Day':
+            elif w1.get(w1.curselection()) == '7 Days':
                 self.combined_function(7, controller, w1)
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the item in the listbox")  
@@ -398,9 +398,11 @@ class Plan_ThirdPage(tk.Frame):
             if (not w.curselection()):
                 raise IndexError  
             elif w.get(w.curselection()) == 'Tight schedule':     
-                trip_planer(Time, Bugdet, 2)
+                t = trip_plan(Time, Bugdet, 2)
+                t.trip_planer(Time, Bugdet, 2)
             elif w.get(w.curselection()) == 'Flexible schedule':                         
-                trip_planer(Time, Bugdet, 1)  
+                t = trip_plan(Time, Bugdet, 1)  
+                t.trip_planer(Time, Bugdet, 1)
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the item in the listbox")        
 
@@ -487,7 +489,7 @@ class Restaurant(tk.Frame):
         w.insert(8, 'LatinAmerican')
         w.insert(9, 'Cafe_bar')
         w.insert(10, 'African')
-        w.insert(11, 'MiddleEa')
+        w.insert(11, 'MiddleEastern')
         w.insert(12, 'Other')  
 
         p = Page_creator()
@@ -526,32 +528,37 @@ class Restaurant(tk.Frame):
             p = Page_creator()
 
             if w.get(w.curselection()) == 'Chinese':
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Chinese')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Chinese')
             elif w.get(w.curselection()) == 'Japanese':
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Japanese')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Japanese')
             elif w.get(w.curselection()) == 'Asian':
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Asian')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Asian')
             elif w.get(w.curselection()) == 'Italian':    
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Italian')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Italian')
             elif w.get(w.curselection()) == 'French':
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'French')  
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'French')  
             elif w.get(w.curselection()) == 'US':                 
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'US')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'US')
             elif w.get(w.curselection()) == 'European':                
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'European')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'European')
             elif w.get(w.curselection()) == 'LatinAmerican':
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'LatinAmerican')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'LatinAmerican')
             elif w.get(w.curselection()) == 'Cafe_bar':                
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Cafe_bar')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Cafe_bar')
             elif w.get(w.curselection()) == 'African':                
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'African')
-            elif w.get(w.curselection()) == 'MiddleEa':                
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'MiddleEa')
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'African')
+            elif w.get(w.curselection()) == 'MiddleEastern':                
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'MiddleEastern')
             elif w.get(w.curselection()) == 'Other':                
-                p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Other') 
+                df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Other') 
+
+            if df.empty:
+                raise DataframeEmptyError
 
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the item in the listbox")  
+        except DataframeEmptyError:
+            messagebox.showwarning("Error", "")
 
     def check_botton2(self, w):
         """
@@ -590,8 +597,8 @@ class Restaurant(tk.Frame):
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'Cafe_bar')
             elif w.get(w.curselection()) == 'African':
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'African')
-            elif w.get(w.curselection()) == 'MiddleEa':                
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'MiddleEa')
+            elif w.get(w.curselection()) == 'MiddleEastern':                
+                p.Restaurant_page_creator(lat, logi, 'ctg', 'MiddleEastern')
             elif w.get(w.curselection()) == 'Other':                
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'Other') 
 

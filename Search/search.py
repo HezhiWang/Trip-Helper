@@ -23,7 +23,17 @@ class Page_creator:
 		self.attraction = attraction
 
 	def Hotel_page_creator(self, lat, lng, price, value):
-		#This method create a pdf file with rader chart containing ten near recommendated hotels.
+		"""
+		This method create a pdf file with rader chart containing ten near recommendated hotels.
+		Parameters:
+			lat: float
+			lng: float
+			price: string
+			value: int
+
+		Return:
+			df: Dataframe
+		"""
 		if (value == 1):
 			value_list = [1,2]
 		elif (value == 2):
@@ -31,13 +41,28 @@ class Page_creator:
 		elif (value == 3):
 			value_list = [5]
 		df = sort_within(self.hotel, lat, lng, 1.5, price, value_list)
+		if (df.empty):
+			return df
 		draw_rader_chart_hotel(lat, lng, df)
+		return df
 
 	def Restaurant_page_creator(self, lat, lng, category, value):
-		#This method create a pdf file with rader chart containing ten near recommendated Restaurants.
+		"""
+		This method create a pdf file with rader chart containing ten near recommendated Restaurants.
+		Parameters:
+			lat: float
+			lng: float
+			category: string
+			value: string
+		Return:
+			df: Dataframe
+		"""
 		yelp_category(self.restaurant)
 		df = sort_within(self.restaurant, lat, lng, 1.5, category, value)
+		if (df.empty):
+			return df
 		draw_rader_chart_restaurant(lat, lng, df)
+		return df
 
 	def Museum_rtf_creator(self): 
 		#This method create a rtf file with rader chart containing ten near recommendated museums.
@@ -54,15 +79,34 @@ class Page_creator:
 		"""
 		This method create a html file, and it will automatically open in google chorme. 
 		And ten recommendated restaurants will be marked in the google map.
+		Parameters:
+			lat: float
+			lng: float
+			category: string
+			value: string
+		Return:
+			df: Dataframe		
 		"""
 		yelp_category(self.restaurant)
 		df = sort_within(self.restaurant, lat, lng, 1.5, category, value)
+		if (df.empty):
+			return df
 		plot_map(df)
+		return df
 
 	def plot_recommendations_for_hotels_in_map(self, lat, lng, price, value):
 		"""
 		This method create a html file, and it will automatically open in google chorme. 
 		And ten recommendated hotels will be marked in the google map.
+
+		Parameters:
+			lat: float
+			lng: float
+			price: string
+			value: int
+
+		Return:
+			df: Dataframe
 		"""
 		if (value == 1):
 			value_list = [1,2]
@@ -71,7 +115,10 @@ class Page_creator:
 		elif (value == 3):
 			value_list = [5]
 		df = sort_within(self.hotel, lat, lng, 1.5, price, value_list)
+		if (df.empty):
+			return df
 		plot_map(df)
+		return df
 
 	def plot_recommendations_for_museums_in_map(self):
 		"""
