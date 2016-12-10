@@ -2,9 +2,12 @@ import numpy as np
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-import seaborn as sns # improves plot aesthetics
+import seaborn as sns
 from geopy.distance import vincenty
 
+"""
+This code to draw the rader chart is gettint from http://datascience.stackexchange.com/questions/6084/how-do-i-create-a-complex-radar-chart
+"""
 def _invert(x, limits):
     """inverts a value x on a scale from
     limits[0] to limits[1]"""
@@ -67,26 +70,3 @@ class ComplexRadar():
     def fill(self, data, *args, **kw):
         sdata = _scale_data(data, self.ranges)
         self.ax.fill(self.angle, np.r_[sdata, sdata[0]], *args, **kw)
-"""
-def draw(lat1, logi1):
-    variables = ("S1", "S2", "S3", "s4", "S5", "S6", "S7",
-            "Price", "distance")
-    d = distance_between_twopoints(lat1, logi1, 40.758854, -73.83081)
-    data = (8.4, 8.2, 7.9, 7.5, 9.2, 8.1, 7.5, 3, 7076)
-    ranges = [(5, 10), (5, 10), (5, 10), (0.01, 10), (0.01, 10), 
-            (0.01, 10), (0.01, 10), (0.01, 5),
-            (1, 10000)] 
-
-    fig1 = plt.figure(figsize=(8, 8))
-    radar = ComplexRadar(fig1, variables, ranges)
-    print(radar)
-    print(data)
-    radar.plot(data)
-    radar.fill(data, alpha=0.3)
-    plt.show()  
-
-draw(40.74, -73.98)
-"""
-
-
-
