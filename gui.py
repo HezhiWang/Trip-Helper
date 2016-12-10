@@ -117,7 +117,7 @@ class Search(tk.Frame):
 
         root = tk.Frame.__init__(self,parent)
         label = tk.Label(self, text="Welcome to NYC", font=("Verdana", 20))
-        label.pack(pady=80,padx=100)
+        label.pack(pady=50,padx=100)
 
         label = tk.Label(self, text="Please enter your location (you could look at those examples), then click 'Enter'", font=("Verdana", 16))
         label.pack(pady=20,padx=20)
@@ -185,8 +185,14 @@ class Search(tk.Frame):
             lat = float(entries[0].get())
             global logi 
             logi = float(entries[1].get())
+            if (-73.929 < logi or logi < -74.018):
+                raise Invalidinput
+            if (40.854 < lat or lat < 40.700):
+                raise Invalidinput
         except ValueError:
-            messagebox.showwarning("Error", "Invalid input, please enter your correct langitude and latitude")  
+            messagebox.showwarning("Error", "Invalid input, please enter your correct longitude and latitude")  
+        except Invalidinput:
+            messagebox.showwarning("Error", "Invalid input, your input longitude and latitude is out of NYC")
 
     def button_command(self, w, controller):
         """
@@ -447,7 +453,7 @@ class Overview(tk.Frame):
                 heatmap_creator('hotels')
             elif w.get(w.curselection()) == 'Restaurant':
                 heatmap_creator('restaurants')
-            elif w.get(w.cursselection()) == 'Attractions':
+            elif w.get(w.curselection()) == 'Attractions':
                 heatmap_creator('attractions')
             elif w.get(w.curselection()) == 'Museums':
                 heatmap_creator('museums')    

@@ -32,8 +32,8 @@ def draw_rader_chart_hotel(lat, lng, df):
     data = list(zip(df.Avgscore, df.Cleanliness, df.Comfort, df.Facilities, df['Free Wifi'], df.Staff, df['Value for money'], df.Location, df.Price))
     information = list(zip(df.Name))
 
-    path = os.path.abspath("Results_recommendations")
-    pp = PdfPages('Recommendation_hotels.pdf')
+    path = os.path.abspath("Results")
+    pp = PdfPages(filename = path + '/Recommendation_hotels.pdf')
 
     for i in range(len(data)):
         fig = plt.figure(i, figsize=(4, 6))
@@ -42,7 +42,7 @@ def draw_rader_chart_hotel(lat, lng, df):
         rader.fill(data[i], alpha=0.2)
         text = 'Hotel Name: ' + str(information[i][0])
         fig.text(0, 0.9, text, fontsize=15, fontweight='bold', color = 'blue')
-        pp.savefig(fname = path + '/Recommendation_hotels.pdf', bbox_inches = 'tight')
+        pp.savefig(bbox_inches = 'tight')
         plt.clf()
     pp.close()
 
@@ -66,8 +66,8 @@ def draw_rader_chart_restaurant(lat, lng, df):
     data = list(zip(df['number_of_price'], df['Reviews'], df['Avgscore'], df['Distance']))
     information = list(zip(df['Name']))
 
-    path = os.path.abspath("Results_recommendations")
-    pp = PdfPages('Recommendation_restaurants.pdf')
+    path = os.path.abspath("Results")
+    pp = PdfPages(filename = path + '/Recommendation_restaurants.pdf')
 
     for i in range(len(data)):
         fig = plt.figure(i, figsize=(4, 6))
@@ -76,6 +76,6 @@ def draw_rader_chart_restaurant(lat, lng, df):
         rader.fill(data[i], alpha=0.2)
         text = 'Restaurant Name: ' + str(information[i][0])
         fig.text(0, 0.9, text, fontsize=15, fontweight='bold', color = 'blue')
-        pp.savefig(fname = path + '/Recommendation_restaurants.pdf', bbox_inches = 'tight')
+        pp.savefig(bbox_inches = 'tight')
         plt.clf()
     pp.close()

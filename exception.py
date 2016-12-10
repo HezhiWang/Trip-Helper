@@ -7,6 +7,14 @@ class NoclickError(Error):
    """Raised when user haven't choose an item in the listbox"""
    pass
 
+class Invalidinput(Error):
+  #Raised when user' input beyond the latitude and longitude of NYC
+  pass
+
+
+
+
+
 """
 class ValueTooLargeError(Error):
    #Raised when the input value is too large

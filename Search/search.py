@@ -30,13 +30,13 @@ class Page_creator:
 			value_list = [3,4]
 		elif (value == 3):
 			value_list = [5]
-		df = sort_within(self.hotel, lat, lng, 3, price, value_list)
+		df = sort_within(self.hotel, lat, lng, 1.5, price, value_list)
 		draw_rader_chart_hotel(lat, lng, df)
 
 	def Restaurant_page_creator(self, lat, lng, category, value):
 		#This method create a pdf file with rader chart containing ten near recommendated Restaurants.
 		yelp_category(self.restaurant)
-		df = sort_within(self.restaurant, lat, lng, 2, category, value)
+		df = sort_within(self.restaurant, lat, lng, 1.5, category, value)
 		draw_rader_chart_restaurant(lat, lng, df)
 
 	def Museum_rtf_creator(self): 
@@ -56,7 +56,7 @@ class Page_creator:
 		And ten recommendated restaurants will be marked in the google map.
 		"""
 		yelp_category(self.restaurant)
-		df = sort_within(self.restaurant, lat, lng, 3, category, value)
+		df = sort_within(self.restaurant, lat, lng, 1.5, category, value)
 		plot_map(df)
 
 	def plot_recommendations_for_hotels_in_map(self, lat, lng, price, value):
@@ -70,7 +70,7 @@ class Page_creator:
 			value_list = [3,4]
 		elif (value == 3):
 			value_list = [5]
-		df = sort_within(self.hotel, lat, lng, 3, price, value_list)
+		df = sort_within(self.hotel, lat, lng, 1.5, price, value_list)
 		plot_map(df)
 
 	def plot_recommendations_for_museums_in_map(self):

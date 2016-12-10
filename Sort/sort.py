@@ -37,23 +37,22 @@ def sort_within(df, centerlat, centerlng, distance_within, given_filter = None, 
 			ind.append(i)
 	df_within = df.ix[ind]
 
-	if not given_filter:
+	if (not given_filter):
 		df_sub = df_within.sort_values(by = ['Avgscore','Total_review'], ascending=[False, False])
 		df_sorted = df_sub[:3]	
 		return df_sorted
-	
 	else:
 		if (given_filter == 'Price'):
 			df_sub = df_within[df_within[given_filter].isin(value)]
 			df_sorted = df_sub.sort_values(by = ['Avgscore','Total_review'], ascending=[False, False])
-		if (given_filter == 'ctg'):
-			df['Distance'] = df.apply(lambda x: distance(x['Lat'],x['Lng'],centerlat,centerlng), axis = 1)
-			df['Reviews'] = df.apply(lambda x: review_transform(x['Total_review']), axis = 1)
+		elif (given_filter == 'ctg'):
+			df_within['Distance'] = df.apply(lambda x: distance(x['Lat'],x['Lng'],centerlat,centerlng), axis = 1)
+			df_within['Reviews'] = df.apply(lambda x: review_transform(x['Total_review']), axis = 1)
 			df_sub = df_within[df_within[given_filter]==value]
 			df_sorted = df_sub.sort_values(by = ['Avgscore','Total_review'], ascending=[False, False])
 		
-	if (df_sorted.shape[0] > 10):
-		df_sorted = df_sorted[:10]
+		if (df_sorted.shape[0] > 10):
+			df_sorted = df_sorted[:10]
 	return df_sorted
 
 

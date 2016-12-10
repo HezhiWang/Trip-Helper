@@ -28,8 +28,8 @@ def print_to_rtf(df, filename):
     df = df.replace(to_replace= '-999', value='N.A.')
     # open file
     try:
-        path = os.path.abspath("Results_recommendations")
-        rtf = open(path + filename+'.rtf', 'w')
+        path = os.path.abspath("Results")
+        rtf = open(path + '/' + filename+'.rtf', 'w')
         # header info
         rtf.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
         for i in range(df.shape[0]):
