@@ -41,9 +41,19 @@ def plot_rating_bar(df,filename):
     plt.title(filename + ' ratings')
     plt.show()
     path = os.path.abspath('Results')
-    plt.savefig(path + '/' + filename + '_ratings_bar.png')
+    plt.savefig(path + '/' + filename + '_ratings_counts_bar.png')
 
 def price_transform(price):
+    """
+    This function tranform the parameter price to three categories: Economy hotel, Commercial hotel,
+    Luxury hotel. 
+
+    Parameter:
+        price: int
+
+    Return:
+        String: Economy hotel, Commercial hotel, Luxury hotel. 
+    """
     if (1 == price or 2 == price):
         return 'Economy hotel'
     elif (3 == price or 4 == price ):
@@ -60,15 +70,43 @@ def plot_bar_chart(self, filename):
 
         value_column = ['Avgscore', 'Cleanliness', 'Comfort', 'Facilities', 'Free Wifi', 'Location', 'Staff', 'Value for money']
         df_mean = df[value_column].groupby(df['category']).mean().T
+
+        df_mean.plot(kind = 'bar', alpha = 0.7)
+        plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+        plt.xlabel('Rating Category')
+        plt.ylabel('Average')
+        plt.title('Bar chart')  
+
+        plt.show()        
+        path = os.path.abspath('Results')
+        plt.savefig(path + '/' + filename + '_rating_scores_bar.png')
+        plt.close()
+
     elif (filename == 'restaurant'):
         df = self.restaurant
-        yelp_category(df)        
+        yelp_category(df)  
 
-    value_column = ['Avgscore', 'Cleanliness', 'Comfort', 'Facilities', 'Free Wifi', 'Location', 'Staff', 'Value for money']
-    df_mean = df[value_column].groupby(df['category']).mean().T
+        value_column = ['Total_review', 'Avgscore']
+        df_mean = df[value_column].groupby(df['ctg']).mean()  
 
-    df_mean.plot(kind = 'bar', alpha = 0.7)
-    plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-    plt.xlabel('Rating Category')
-    plt.ylabel('Average')
-    plt.title('Bar chart')        
+        f, axarr = plt.subplots(2, sharex=True)
+
+        ind = np.arange(12)
+        width = 0.35
+        rects1 = axarr[0].bar(ind, df_mean['Total_review'], width, color='r', label = 'Total reviews')
+        axarr[0].set_xticks(ind + width)
+        axarr[0].legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+        axarr[0].set_xticklabels(('African', 'Asian', 'Cafe_bar', 'Chinese', 'European', 'French', 'Italian', 'Japanese', 'LatinAmerican', 'MiddleEastern', 'Other', 'US'), rotation = 'vertical')
+        axarr[0].set_title('Restaurant Bar chart')
+
+        rects2 = axarr[1].bar(ind, df_mean['Avgscore'], width, color='b', label = 'Average Score')
+        axarr[1].set_xticks(ind + width)
+        axarr[1].set_xticklabels(('African', 'Asian', 'Cafe_bar', 'Chinese', 'European', 'French', 'Italian', 'Japanese', 'LatinAmerican', 'MiddleEastern', 'Other', 'US'), rotation = 'vertical')
+        axarr[1].legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+
+        plt.show()
+        path = os.path.abspath('Results')
+        plt.savefig(path + '/' + filename + '_rating_scores_bar.png')    
+        plt.close()
+
+      
