@@ -23,11 +23,13 @@ class overview_plot:
             median = np.median(reviews)
             ax = reviews.plot(kind='kde')
             ax.set_xlim([0,max(reviews)])
+            text = 'mean=%.2f \n std=%.2f \n median=%.2f'%(mean, std, median)
+            ax.text(0.65, 0.95, text, transform=ax.transAxes, fontsize=12, verticalalignment='top', bbox=props)
             plt.xlabel('number of reviews')
             plt.ylabel('density')
             plt.title(filename+'_reviews_density_plot')
-            plt.text(60000, 0.00010,'mean={:.2f} \n std={:.2f} \n median={:.2f}'.format(mean,std,median))
             plt.savefig('Results/' + filename + '_reviews_density.png')
+            plt.show()
             plt.close()
 
     def plot_rating_bar(self, filename):
@@ -44,7 +46,9 @@ class overview_plot:
             plt.ylabel('ratio')
             plt.text(0.5, 0.5,'mean={:.2f}, std={:.2f}'.format(mean,std))
             plt.title(filename + ' ratings')
+            plt.show()
             plt.savefig('Results/' + filename + '_ratings_bar.png')
+            plt.close()
 
     def plot_pie(self, filename):
         '''
@@ -61,6 +65,7 @@ class overview_plot:
             plt.title('Pie chart for restaurants by category')
             plt.savefig('../Results/pie_chart_' + filename + '.png')
             plt.show()
+            plt.close()
         if filename == 'hotel':
             df = self.hotel
             df['category'] = df['Price'].apply(self.price_transform)
@@ -69,6 +74,7 @@ class overview_plot:
             plt.title('Pie chart for hotels by category')
             plt.savefig('../Results/pie_chart_' + filename + '.png')
             plt.show()
+            plt.close()
 
     def price_transform(price):
         """
