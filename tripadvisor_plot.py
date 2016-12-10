@@ -1,30 +1,76 @@
-def plot_review_density(df,filename):
-    '''density plot of all reviews, filename == 'museum' or 'attraction' ''' 
-    reviews = df[df['total_review']>=0]['total_review']
-    mean = np.mean(reviews)
-    std = np.std(reviews)
-    median = np.median(reviews)
-    ax1 = reviews.plot(kind='kde')
-    ax1.set_xlim([0,max(reviews)])
-    plt.xlabel('number of reviews')
-    plt.ylabel('density')
-    plt.title(filename+'_reviews_density_plot')
-    plt.text(60000, 0.00010,'mean={:.2f} \n std={:.2f} \n median={:.2f}'.format(mean,std,median))
-    plt.savefig(filename+'_reviews_density.png')
+from Data.Read_data import *
+from Sort.yelp_sort import *
 
-def plot_rating_bar(df,filename):
-    '''plot barplot of rating filename == 'museum' or 'attraction' '''
-    rating = df[df['rating']!= -999]['rating']
-    mean = np.mean(rating)
-    std = np.std(rating)
-    ax = rating.value_counts().plot(kind='bar')
-    counts = ax.get_yticks()  
-    tot = sum(count)
-    ax.set_yticklabels(['{:2.1f}%'.format(x/tot*100) for x in counts])
-    plt.xlabel('rating')
-    plt.ylabel('ratio')
-    plt.text(0.5, 0.5,'mean={:.2f}, std={:.2f}'.format(mean,std))
-    plt.title(filename+' ratings')
-    plt.savefig(filename+'_ratings_bar.png')
+class overview_plot:
+    '''
+    This class deals with plotting figures in overview section. 
+    It reads our source data, plot barplot, piechart, densityplot on different conditions
+    '''
+    def __init__(self):
+        hotel, restaurant, museum, attraction = Read_data()
+        self.hotel = hotel
+        self.restaurant = restaurant
+        self.museum = museum
+        self.attraction = attraction
+
+    def plot_review_density(self, filename):
+        '''density plot of reviews, filename == 'museum','attraction','restaurant','hotel' '''
+        for df in [self.hotel, self.restaurant, self.museum, self.attraction]:
+            reviews = df[df['Total_review']>=0]['Total_review']
+            mean = np.mean(reviews)
+            std = np.std(reviews)
+            median = np.median(reviews)
+            ax = reviews.plot(kind='kde')
+            ax.set_xlim([0,max(reviews)])
+            plt.xlabel('number of reviews')
+            plt.ylabel('density')
+            plt.title(filename+'_reviews_density_plot')
+            plt.text(60000, 0.00010,'mean={:.2f} \n std={:.2f} \n median={:.2f}'.format(mean,std,median))
+            plt.savefig('Results/' + filename + '_reviews_density.png')
+            plt.close()
+
+    def plot_rating_bar(self, filename):
+        '''plot barplot of rating, filename == 'museum' or 'attraction','restaurant','hotel' '''
+        for df in [self.hotel, self.restaurant, self.museum, self.attraction]:
+            rating = df[df['Avgscore']!= -999]['Avgscore']
+            mean = np.mean(rating)
+            std = np.std(rating)
+            ax = rating.value_counts().plot(kind='bar')
+            counts = ax.get_yticks()  
+            tot = sum(count)
+            ax.set_yticklabels(['{:2.1f}%'.format(x/tot*100) for x in counts])
+            plt.xlabel('rating')
+            plt.ylabel('ratio')
+            plt.text(0.5, 0.5,'mean={:.2f}, std={:.2f}'.format(mean,std))
+            plt.title(filename + ' ratings')
+            plt.savefig('Results/' + filename + '_ratings_bar.png')
+
+    def plot_pie(self, filename):
+        '''
+        plot pie chart for 'restaurant' and 'hotel'
+        if filename = 'restaurant', plot pie chart by category
+        if filename = 'hotel', plot pie chart by price
+
+        '''
+        if filename == 'restaurant':
+            yelp_category(self.restaurant)
+            plt.figure(figsize=(8,8))
+            self.restaurant['ctg'].value_counts().plot(kind='pie',autopct='%1.1f%%')
+            plt.axis('equal')
+            plt.title('Pie chart for restaurants by category')
+            plt.savefig('../Results/pie_chart_' + filename + '.png')
+            plt.show()
+        if filename == 'hotel':
+            df = self.hotel
+            df['category'] = df['Price'].apply(self.price_transform)
+            df['category'].value_counts().plot(kind='pie',autopct='%1.1f%%')
+            plt.axis('equal')
+            plt.title('Pie chart for hotels by category')
+            plt.savefig('../Results/pie_chart_' + filename + '.png')
+            plt.show()
+
+
+
+
 
 
