@@ -77,14 +77,14 @@ def write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center,
             f.write(r' \b {:*^100} \b0 \line\ '.format('DAY'+str(i+1)))
             f.write(r'\b Attractions: \b0 \line\ ')
             for x in index_list[recommendation_order[i]]:
-                f.write(r'{} \line\ '.format(recommended_attraction.iloc[x]['name']))
+                f.write(r'\b {} \b \line\ '.format(recommended_attraction.iloc[x]['name']))
                 f.write(r'Address: \enspace {} \line\ '.format(recommended_attraction.iloc[x]['address']))
                 f.write(r'Description: \enspace {} \line\ '.format(recommended_attraction.iloc[x]['description']))
                 f.write(r'Detail: \enspace {} \line \line\ '.format(recommended_attraction.iloc[x]['detail']))
 
             f.write(r'\b Hotel: \b0 \line\ ')
             for x in range(2):
-                f.write(r'{} \line\ '.format(recommended_hotel.iloc[x]['Name']))
+                f.write(r'\b {} \b \line\ '.format(recommended_hotel.iloc[x]['Name']))
                 f.write(r'Address: \enspace {} \line\ '.format(recommended_hotel.iloc[x]['Address']))
                 f.write(r'Score: \enspace {} \line\ '.format(recommended_hotel.iloc[x]['Avgscore']))
                 f.write(r'Reviews: \enspace {} \line\ \line\ '.format(recommended_hotel.iloc[x]['Total_review']))
@@ -92,7 +92,7 @@ def write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center,
             f.write(r'\b Restaurant: \b0 \line\ ')
             for x in range(3):
 
-                f.write(r'{} \line\ '.format(recommended_restaurant.iloc[x]['Name']))
+                f.write(r'\b {} \b \line\ '.format(recommended_restaurant.iloc[x]['Name']))
                 f.write(r'Address: \enspace {} \line\ '.format(recommended_restaurant.iloc[x]['Address']))
                 f.write(r'Score: \enspace {} \line\ '.format(recommended_restaurant.iloc[x]['Avgscore']))
                 f.write(r'Reviews: \enspace {} \line\ \line\ '.format(recommended_restaurant.iloc[x]['Total_review']))
