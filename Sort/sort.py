@@ -60,12 +60,12 @@ def sort_museums_or_attractions(df):
     '''for museums/attractions with ratings higher than 3.5 and total number of reviews 
     more than 1000, sort by rating and total reviews both descending.
     '''
-    mask1 = df['rating']>=3.5
-    mask2 = df['total_review']>=1000
+    mask1 = df['Avgscore']>=3.5
+    mask2 = df['Total_review']>=1000
     mask = pd.concat((mask1, mask2), axis=1)
     ind_sub = mask.all(axis=1)
     df_sub = df.ix[ind_sub]
-    df_sorted = df_sub.sort_values(by=['rating','total_review'],ascending=[False,False])
+    df_sorted = df_sub.sort_values(by=['Avgscore','Total_review'],ascending=[False,False])
     return df_sorted
 
 

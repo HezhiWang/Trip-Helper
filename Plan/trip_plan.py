@@ -99,6 +99,23 @@ class trip_plan:
 		d = vincenty(add1, add2).miles
 		return d
 
+	def generate_combined_dataset(self, d1,d2):
+    '''
+    This is to generate a combined and sorted dataset of museums and attractions for trip planning
+
+    Parameters:
+    	d1: dataframe
+    	d2: dataframe
+
+    	Return:
+    		combined_df
+    '''
+
+	    combined_df = pd.concat([d1,d2],ignore_index=True)
+	    combined_df = combined_df.drop_duplicates(subset=['name'],keep='first')
+	    combined_df = sort_trip(combined_df).reset_index(drop=True)
+	    return combined_df
+
 	def revised_kmeans(self, index_list, order_list, cordinate_data, center_points, time, degree):
 		"""
 		This method revises the Kmeans method to return k nearest neighboorhoods that each clusters have the same number of elements.

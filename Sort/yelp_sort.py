@@ -44,6 +44,7 @@ def yelp_category(df):
       for k,v in category.items():
           if x in v:
               return k
+              
   df['ctg'] = df['first_category'].apply(categorize)
   df.drop(['first_category'], axis = 1)
 
