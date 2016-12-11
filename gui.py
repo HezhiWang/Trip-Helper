@@ -10,7 +10,7 @@ import pandas as pd
 from Search.search import *
 from exception import * 
 from Plan.trip_plan import *
-from Plot.tripadvisor_
+from Plot.overview_plot import *
 from Overview.plot_heatmap import *
 
 """
@@ -86,27 +86,6 @@ class StartPage(tk.Frame):
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button3.pack(pady=10,padx=10) 
 
-        #add a jpg figure to GUI reference: http://stackoverflow.com/questions/23901168/how-do-i-insert-a-jpeg-image-into-a-python-tkinter-window
-        
-        #window = tk.Tk()
-        #window.title("Join")
-        #window.geometry("300x100")
-        #window.configure(background='white')
-        """
-        try:
-            path = os.getcwd()
-            file = path + "/nyc skyline.jpg"
-
-            img = ImageTk.PhotoImage(PIL.Image.open(file))
-
-            p = tk.Label(self, image = img)
-            #p.image = img
-            p.pack(side = "bottom")
-        except IOError:
-            pass
-        """
-
-
 class Search(tk.Frame): 
     """
     This class bulids the first page in the 'Search' function. User will first enter their current latitude and longitude, then choose 
@@ -119,7 +98,7 @@ class Search(tk.Frame):
 
         root = tk.Frame.__init__(self,parent)
         label = tk.Label(self, text="Welcome to NYC", font=("Verdana", 20))
-        label.pack(pady=80,padx=100)
+        label.pack(pady=50,padx=100)
 
         label = tk.Label(self, text="Please enter your location (you could look at those examples), then click 'Enter'", font=("Verdana", 16))
         label.pack(pady=20,padx=20)
@@ -409,12 +388,10 @@ class Plan_ThirdPage(tk.Frame):
             messagebox.showwarning("Error", "Please select one of the item in the listbox")        
 
 class Overview(tk.Frame):   
-    
     """ 
     This class builds the frame 'Overview' to let users overview the informaiton from 'Restaurant', 'hotel', 'museum', 'attraction', and plot 
     our analysis into heatmap, histogram, and boxplot
     """
-
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
@@ -465,60 +442,139 @@ class Overview(tk.Frame):
             messagebox.showwarning("Error", "Please select one of the item in the listbox")  
 
 class Overview_hotel(tk.Frame):
+    """
+    This class could plot five kinds of figures: heatmap, density figure, pie figure, number_of_rating_bar_figure, 
+    rating_bar_figure.
+    """
+    def __init__(self, parent, controller):
+        # constructor to bulid the label, listbox, button in the Search page in GUI
+        tk.Frame.__init__(self, parent)
+
+        label = tk.Label(self, text="Hotel Overview", font=("Verdana", 20))
+        label.pack(pady=100,padx=100) 
+
+        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
+                            command=lambda: draw_heatmap('hotel'))
+        button1.pack(pady=10,padx=10)
+
+        o = overview_plot()
+
+        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+                            command=lambda: o.plot_review_density('hotel'))
+        button2.pack(pady=10,padx=10) 
+
+        button3 = tk.Button(self, text="Show pie figure", height = 2, width = 25, bg='yellow',
+                            command=lambda: o.plot_pie('hotel'))
+        button3.pack(pady=10,padx=10) 
+
+        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+                            command=lambda: o.plot_rating_bar('hotel'))
+        button4.pack(pady=10,padx=10)
+
+        button5 = tk.Button(self, text="Show average rating bar figure", height = 2, width = 25, bg='red',
+                            command=lambda: o.plot_bar_chart('hotel'))
+        button5.pack(pady=10,padx=10)
+
+        button6 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
+                            command=lambda: controller.show_frame(Overview, 0, 0))
+        button6.pack(pady=10,padx=10)
+
+class Overview_restaurant(tk.Frame):
+    """
+    This class could plot five kinds of figures: heatmap, density figure, pie figure, number_of_rating_bar_figure, 
+    rating_bar_figure.
+    """
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
 
         label = tk.Label(self, text="Restaurant Overview", font=("Verdana", 20))
-        label.pack(pady=100,padx=100) 
+        label.pack(pady=100,padx=100)        
 
-        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 10, bg='blue',
-                            command=lambda: controller.show_frame(Search, 0, 0))
+        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
+                            command=lambda: draw_heatmap('restaurant'))
         button1.pack(pady=10,padx=10)
 
-        button2 = tk.Button(self, text="Show density figure", height = 2, width = 10, bg='red',
-                            command=lambda: controller.show_frame(Plan, 0, 0))
+        o = overview_plot()
+
+        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+                            command=lambda: o.plot_review_density('restaurant'))
         button2.pack(pady=10,padx=10) 
 
-        button3 = tk.Button(self, text="Show pie figure", height = 2, width = 10, bg='yellow',
-                            command=lambda: controller.show_frame(Overview, 0, 0))
+        button3 = tk.Button(self, text="Show pie figure", height = 2, width = 25, bg='yellow',
+                            command=lambda: o.plot_pie('restaurant'))
         button3.pack(pady=10,padx=10) 
 
-        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 20, bg='blue',
-                            command=lambda: controller.show_frame(Search, 0, 0))
+        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+                            command=lambda: o.plot_rating_bar('restaurant'))
         button4.pack(pady=10,padx=10)
 
-        button5 = tk.Button(self, text="Show average rating bar figure", height = 2, width = 20, bg='red',
-                            command=lambda: controller.show_frame(Plan, 0, 0))
+        button5 = tk.Button(self, text="Show average rating bar figure", height = 2, width = 25, bg='red',
+                            command=lambda: o.plot_bar_chart('restaurant'))
         button5.pack(pady=10,padx=10)
 
-        button6 = tk.Button(self, text="Back to Overview", height = 2, width = 10, bg='red',
+        button6 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button6.pack(pady=10,padx=10)
 
-class Overview_restaurant(tk.Frame):
-    def __init__(self, parent, controller):
-        # constructor to bulid the label, listbox, button in the Search page in GUI
-        tk.Frame.__init__(self, parent)
-
-        label = tk.Label(self, text="Overview", font=("Verdana", 20))
-        label.pack(pady=100,padx=100)         
 
 class Overview_attractions(tk.Frame):
+    """
+    This class could plot five kinds of figures: heatmap, density figure, number_of_rating_bar_figure.
+    """    
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
 
-        label = tk.Label(self, text="Overview", font=("Verdana", 20))
-        label.pack(pady=100,padx=100)         
+        label = tk.Label(self, text="Attraction Overview", font=("Verdana", 20))
+        label.pack(pady=100,padx=100)    
+
+        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
+                            command=lambda: draw_heatmap('attraction'))
+        button1.pack(pady=10,padx=10)
+
+        o = overview_plot()
+
+        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+                            command=lambda: o.plot_review_density('attraction'))
+        button2.pack(pady=10,padx=10) 
+
+        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+                            command=lambda: o.plot_rating_bar('attraction'))
+        button4.pack(pady=10,padx=10)
+
+        button4 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
+                            command=lambda: controller.show_frame(Overview, 0, 0))
+        button4.pack(pady=10,padx=10)           
 
 class Overview_museums(tk.Frame):
+    """
+    This class could plot five kinds of figures: heatmap, density figure, number_of_rating_bar_figure.
+    """    
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
 
-        label = tk.Label(self, text="Overview", font=("Verdana", 20))
-        label.pack(pady=100,padx=100)         
+        label = tk.Label(self, text=" Museum Overview", font=("Verdana", 20))
+        label.pack(pady=100,padx=100)  
+
+        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
+                            command=lambda: draw_heatmap('museum'))
+        button1.pack(pady=10,padx=10)
+
+        o = overview_plot()
+
+        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+                            command=lambda: o.plot_review_density('museum'))
+        button2.pack(pady=10,padx=10) 
+
+        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+                            command=lambda: o.plot_rating_bar('museum'))
+        button4.pack(pady=10,padx=10)
+
+        button4 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
+                            command=lambda: controller.show_frame(Overview, 0, 0))
+        button4.pack(pady=10,padx=10)        
 
 class Restaurant(tk.Frame):
     """ 
