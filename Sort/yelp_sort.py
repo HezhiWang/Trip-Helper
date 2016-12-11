@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 
 def yelp_category(df):
+  '''
+  Categorize each restaurant in yelp_data.csv by its first category to 12 country regions
+  '''
   Chinese = ['Shanghainese','Taiwanese','HotPot','Chinese','Szechuan','DimSum','Cantonese']
   Japanese = ['Japanese','SushiBars','Izakaya','Ramen']
   Asian = ['Filipino','Indian','Thai','Cambodian','AsianFusion','Korean',
@@ -38,13 +41,17 @@ def yelp_category(df):
               'Cafe_bar':Cafe_bar, 'African':African, 'MiddleEastern':MiddleEastern,
               'Other':Other}
 
-  df['first_category'] = df['category'].apply(lambda x: x.split(',')[0])
-
   def categorize(x):
-      for k,v in category.items():
-          if x in v:
-              return k
-              
+    '''
+    For a given category "x", search in the category dictionary and return which region it belongs to.
+    '''
+      for region,region_list in category.items():
+          if x in region_list:
+              return region
+
+  # for the original categories of each restaurant, get the first one
+  df['first_category'] = df['category'].apply(lambda x: x.split(',')[0])
+  # add a column to record the region category each restaurant is in.            
   df['ctg'] = df['first_category'].apply(categorize)
   df.drop(['first_category'], axis = 1)
 
