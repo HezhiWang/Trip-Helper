@@ -1,32 +1,29 @@
-import urllib
-import json
-import requests
 import pandas as pd
-import codecs
 from geopy.distance import vincenty
 
-def distance(lat1,lng1,lat2,lng2):
+def distance(lat1, lng1, lat2, lng2):
+	'''
+	Calculate the distance (miles) between 2 locations given their latitudes and longitudes
+	'''
     add1 = (lat1,lng1)
     add2 = (lat2,lng2)
     d = vincenty(add1, add2).miles
     return d
 
-def review_transform(num):
-	if (num >= 1000):
-		return 5
-	elif (700 <= num < 1000):
-		return 4
-	elif (400 <= num < 700):
-		return 3
-	elif (100 <= num < 400):
-		return 2
-	elif (num < 100):
-		return 1
-
 def sort_within(df, centerlat, centerlng, distance_within, given_filter = None, value = None):
 	'''
-	find index of locations in dataframe df that's within a given distance of a given center 
-	and have with the given value of the given filter, and then sort by score and total reviews
+	Find index of locations in dataframe that's within a distance from a center, 
+	and then sort by score and total reviews both descending.
+	if a filter is given, select a subset before sorting.
+
+	Parameters:
+	df: input dataframe of locations
+	centerlat: latitude of the center
+	centerlng: longitude of the center
+	distance_within: the maximum distance from the center to a certain location
+	given_filter: select a subset of the dataframe by the filter before sorting. If None, sort directly.
+	value: select a subset of the dataframe satisfying "given_filter == value". If None, sort directly.
+
 	'''
 	ind = []
 	for i in range(0,df.shape[0]):
@@ -56,9 +53,26 @@ def sort_within(df, centerlat, centerlng, distance_within, given_filter = None, 
 	return df_sorted
 
 
+def review_transform(num):
+	'''
+	Transform reviews(num) by range for plotting radar chart.
+	'''
+	if (num >= 1000):
+		return 5
+	elif (700 <= num < 1000):
+		return 4
+	elif (400 <= num < 700):
+		return 3
+	elif (100 <= num < 400):
+		return 2
+	elif (num < 100):
+		return 1
+
 def sort_museums_or_attractions(df):
-    '''for museums/attractions with ratings higher than 3.5 and total number of reviews 
+    '''
+    for museums/attractions with ratings higher than 3.5 and total number of reviews 
     more than 1000, sort by rating and total reviews both descending.
+    This is to generate search results for search museum/attraction part.
     '''
     mask1 = df['Avgscore']>=3.5
     mask2 = df['Total_review']>=1000
