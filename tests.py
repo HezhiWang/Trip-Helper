@@ -2,6 +2,7 @@ import unittest
 from Sort.sort import *
 from Sort.yelp_sort import *
 from Data.Read_data import *
+from Search.search import *
 
 class tests(unittest.TestCase):
 
@@ -29,7 +30,7 @@ class tests(unittest.TestCase):
 		"""
 		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
 
-		hotel_comlumns = ['Unnamed: 0', 'Address', 'Avgscore', 'Cleanliness', 'Comfort', \
+		hotel_columns = ['Unnamed: 0', 'Address', 'Avgscore', 'Cleanliness', 'Comfort', \
 				'Facilities', 'Free Wifi', 'Location', 'Price', 'Staff', 'Total_review', \
 				'Value for money', 'Lat', 'Lng', 'Name']
 		restaurant_columns = ['Address', 'category', 'Lat', 'Lng', 'number_of_price', \
@@ -41,7 +42,7 @@ class tests(unittest.TestCase):
 		attraction_columns = ['Unnamed: 0', 'Address', 'description', 'detail', 'Lat', 'Lng', 'Name', \
 				'Avgscore', 'Total_review']
 		
-		self.assertEqual(hotel_comlumns, data_hotel.columns.tolist())
+		self.assertEqual(hotel_columns, data_hotel.columns.tolist())
 		self.assertEqual(restaurant_columns, data_restaurant.columns.tolist())
 		self.assertEqual(museum_columns, data_museum.columns.tolist())
 		self.assertEqual(attraction_columns, data_attraction.columns.tolist())
@@ -87,7 +88,9 @@ class tests(unittest.TestCase):
 			self.assertTrue(distance(df2.iloc[i]['Lat'], df2.iloc[i]['Lng'], 40.748817, -73.985428) <= 1.5)
 
 	def test_sort_museums_or_attractions(self):
-
+		"""
+		This method tests the sort function 'sort_museums_or_attraction' by variaties of perspectives.
+		"""
 		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
 
 		df1 = sort_museums_or_attractions(data_museum)
@@ -113,7 +116,22 @@ class tests(unittest.TestCase):
 			if (df2.iloc[i]['Avgscore'] == df2.iloc[i+1]['Avgscore']):
 				self.assertTrue(df2.iloc[i]['Total_review'] >= df2.iloc[i+1]['Total_review'])
 
-	
+	def test_yelp_category(self):
+		"""
+		This method tests the 'yelp_category' function in the Sort directory.
+		"""
+		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
+		yelp_category(data_restaurant)
+
+		restaurant_data_columns = ['Address', 'category', 'Lat', 'Lng', 'number_of_price', 
+							'Total_review', 'Name', 'Avgscore', 'first_category', 'ctg']
+
+		Category = ['Chinese','Japanese','Asian','Italian', 'French', 'US', \
+					'European', 'LatinAmerican', 'Cafe_bar', 'African', 'MiddleEastern', 'Other']
+		self.assertEqual(restaurant_data_columns, data_restaurant.columns.tolist())
+
+		self.assertEqual(len(data_restaurant['ctg'].value_counts().index.tolist()), len(Category))
+
 
 if __name__ == "__main__":
     unittest.main()
