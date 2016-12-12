@@ -98,7 +98,7 @@ class Search(tk.Frame):
 
         root = tk.Frame.__init__(self,parent)
         label = tk.Label(self, text="Welcome to NYC", font=("Verdana", 20))
-        label.pack(pady=50,padx=100)
+        label.pack(pady=30,padx=100)
 
         label = tk.Label(self, text="Please enter your location (you could look at those examples)", font=("Verdana", 16))
         label.pack(pady=20,padx=20)
@@ -120,10 +120,7 @@ class Search(tk.Frame):
         ents.append(e2)
 
         e2.pack()
-        """
-        button2 = tk.Button(self, text = 'Enter', command = lambda: self.fetch(ents))
-        button2.pack(pady=20, padx=20)
-        """
+
         label4 = tk.Label(self, text="Examples:", font=16, anchor='w', justify=LEFT)
         label4.pack(pady=30,padx=20)        
         label4 = tk.Label(self, text="Empire State Buliding, Latitude: 40.748817, Longitude: -73.985428", font=LARGE_FONT, anchor='w', justify=LEFT)
@@ -142,37 +139,15 @@ class Search(tk.Frame):
         w.insert(3, 'Attractions')
         w.insert(4, 'Museums')
 
-        button1 = tk.Button(self, text = "Search",
+        button1 = tk.Button(self, text = "Search", width = 15,
                             command = lambda: self.button_command(w, controller, ents))
 
-        button1.pack(side = LEFT, pady=20,padx=70)
+        button1.pack(side = LEFT, pady=20,padx=120)
 
-        button1 = tk.Button(self, text="Back to Home",
+        button1 = tk.Button(self, text="Back to Home", width = 15,
                             command=lambda: controller.show_frame(StartPage, 0, 0))
-        button1.pack(side = RIGHT, pady=20,padx = 70) 
-    """
-    def fetch(self, entries):
-        This function record the input longitude and latitude from users.
+        button1.pack(side = LEFT, pady=20,padx = 120) 
 
-        Parameters: 
-            entries: tk.Entry()
-
-        Execptions:
-            catch ValueError exceptions
-        try:
-            global lat 
-            lat = float(entries[0].get())
-            global logi 
-            logi = float(entries[1].get())
-            if (-73.929 < logi or logi < -74.018):
-                raise Invalidinput
-            if (40.854 < lat or lat < 40.700):
-                raise Invalidinput
-        except ValueError:
-            messagebox.showwarning("Error", "Invalid input, please enter your correct longitude and latitude")  
-        except Invalidinput:
-            messagebox.showwarning("Error", "Invalid input, your input longitude and latitude is out of NYC")
-    """
     def button_command(self, w, controller, entries):
         """
         This function pass the stuff chosen by users from the listbox and go to its corresponding page.
@@ -418,12 +393,12 @@ class Overview(tk.Frame):
         w.insert(4, 'Museums')
         w.pack(pady=50,padx=100, anchor = CENTER)
 
-        button1 = tk.Button(self, text = "Show plots!", width = 20,
+        button1 = tk.Button(self, text = "Show plots!", width = 15,
                             command = lambda: self.check_click4(w, controller))
 
         button1.pack(side = LEFT, pady = 10, padx = 120) 
         
-        button3 = tk.Button(self, text = "Back to Home",
+        button3 = tk.Button(self, text = "Back to Home", width = 15,
                             command = lambda: controller.show_frame(StartPage, 0, 0))
         button3.pack(side = LEFT, pady = 10, padx = 120) 
 
