@@ -63,7 +63,7 @@ class GUI(tk.Tk):
 class StartPage(tk.Frame):
     
     """
-    This class bulid in the first page of the GUI
+    This class bulid the Home page of the GUI
     """
 
     def __init__(self, parent, controller):
@@ -71,7 +71,7 @@ class StartPage(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
 
         root = tk.Frame.__init__(self,parent)
-        label = tk.Label(self, text="Welcome to NYC", font=("Verdana", 20))
+        label = tk.Label(self, text="Welcome to NYC!", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
  
         button1 = tk.Button(self, text="Search", height = 2, width = 10, bg='blue',
@@ -97,22 +97,22 @@ class Search(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
 
         root = tk.Frame.__init__(self,parent)
-        label = tk.Label(self, text="Welcome to NYC", font=("Verdana", 20))
-        label.pack(pady=50,padx=100)
+        label = tk.Label(self, text="Welcome to NYC! ", font=("Verdana", 20))
+        label.pack(pady=35,padx=100)
 
-        label = tk.Label(self, text="Please enter your location (you could look at those examples)", font=("Verdana", 16))
-        label.pack(pady=20,padx=20)
-
+        label = tk.Label(self, text="Please Enter Your Location: ", font=("Verdana", 16))
+        label.pack(pady=5,padx=10)
+        
         ents = []
 
-        label1 = tk.Label(self, text="Latitude", font=LARGE_FONT, anchor='w')
+        label1 = tk.Label(self, text="Latitude", font=("Arial Black", 16), anchor='w')
         label1.pack()
         
         e1 = tk.Entry(self)
         e1.pack()
         ents.append(e1)
 
-        label2 = tk.Label(self, text="Longitude", font=LARGE_FONT, anchor='w')
+        label2 = tk.Label(self, text="Longitude", font=("Arial Black", 16), anchor='w')
         label2.pack()
         
         e2 = tk.Entry(self)
@@ -120,12 +120,17 @@ class Search(tk.Frame):
         ents.append(e2)
 
         e2.pack()
+
+        
         """
         button2 = tk.Button(self, text = 'Enter', command = lambda: self.fetch(ents))
         button2.pack(pady=20, padx=20)
         """
+    
+        label = tk.Label(self, text="Your latitude should be in [40.700, 40.854] and longitude in [-74.018, -73.929]", font=("Verdana", 12))
+        label.pack()
         label4 = tk.Label(self, text="Examples:", font=16, anchor='w', justify=LEFT)
-        label4.pack(pady=30,padx=20)        
+        label4.pack()        
         label4 = tk.Label(self, text="Empire State Buliding, Latitude: 40.748817, Longitude: -73.985428", font=LARGE_FONT, anchor='w', justify=LEFT)
         label4.pack()
         label5 = tk.Label(self, text="Central Park, Latitude: 40.785091, Longitude: -73.968285", font=LARGE_FONT, anchor='w', justify=LEFT)
@@ -133,21 +138,21 @@ class Search(tk.Frame):
         label5 = tk.Label(self, text="Washington Square Park, Latitude: 40.730824, Longitude: -73.997330", font=LARGE_FONT, anchor='w', justify=LEFT)
         label5.pack() 
 
-        label3 = tk.Label(self, text="Please choose what you want to know, then click 'search'", font=("Verdana", 16), anchor='w')
+        label3 = tk.Label(self, text="Please select a type, then click 'search':", font=("Verdana", 16), anchor='w')
         label3.pack(pady=30,padx=20)
         w = tk.Listbox(self)
         w.pack()
         w.insert(1, 'Restaurant')
         w.insert(2, 'Hotel')
-        w.insert(3, 'Attractions')
-        w.insert(4, 'Museums')
+        w.insert(3, 'Attraction')
+        w.insert(4, 'Museum')
 
         button1 = tk.Button(self, text = "Search",
                             command = lambda: self.button_command(w, controller, ents))
 
         button1.pack(side = LEFT, pady=20,padx=70)
 
-        button1 = tk.Button(self, text="Back to Home",
+        button1 = tk.Button(self, text="Back to Homepage",
                             command=lambda: controller.show_frame(StartPage, 0, 0))
         button1.pack(side = RIGHT, pady=20,padx = 70) 
     """
@@ -199,16 +204,16 @@ class Search(tk.Frame):
                 controller.show_frame(Restaurant, lat, logi)                                       
             elif w.get(w.curselection()) == 'Hotel':
                 controller.show_frame(Hotel, lat, logi)
-            elif w.get(w.curselection()) == 'Attractions':
+            elif w.get(w.curselection()) == 'Attraction':
                 controller.show_frame(Attractions, lat, logi)
-            elif w.get(w.curselection()) == 'Museums':
+            elif w.get(w.curselection()) == 'Museum':
                 controller.show_frame(Museums, lat, logi) 
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")    
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")    
         except ValueError:
             messagebox.showwarning("Error", "Invalid input, please enter your correct longitude and latitude")  
         except Invalidinput:
-            messagebox.showwarning("Error", "Invalid input, your input longitude and latitude is out of NYC")
+            messagebox.showwarning("Error", "Invalid input, your longitude and latitude is out of range")
 
 
 class Plan(tk.Frame):     
@@ -221,14 +226,14 @@ class Plan(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
 
         tk.Frame.__init__(self, parent)
-        label = tk.Label(self, text="Bulid you travel plan!!!", font=("Verdana", 20))
+        label = tk.Label(self, text="Customize Your Travel Plan", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
-        label1 = tk.Label(self, text="Please choose the travel time:", font=("Verdana", 16), anchor='w')
+        label1 = tk.Label(self, text="Please choose your travel time:", font=("Verdana", 16), anchor='w')
         label1.pack(pady=20,padx=40)
         w1 = tk.Listbox(self)
         w1.pack(pady=20)
-        w1.insert(1, '1 Days')
+        w1.insert(1, '1 Day')
         w1.insert(2, '2 Days')
         w1.insert(3, '3 Days')
         w1.insert(4, '4 Days')
@@ -236,11 +241,11 @@ class Plan(tk.Frame):
         w1.insert(6, '6 Days')
         w1.insert(7, '7 Days')
 
-        button1 = tk.Button(self, text="Go to next Perference",
+        button1 = tk.Button(self, text="Next Page >>",
                             command=lambda: self.check_click(controller, w1))
         button1.pack(side = LEFT, pady=10,padx=120) 
 
-        button2 = tk.Button(self, width = 15, text="Back to Home",
+        button2 = tk.Button(self, width = 15, text="Back to Homepage",
                             command=lambda: controller.show_frame(StartPage, 0, 0))
         button2.pack(side = LEFT, pady=10,padx=120)  
 
@@ -266,7 +271,7 @@ class Plan(tk.Frame):
         try:
             if (not w1.curselection()):
                 raise IndexError  
-            if w1.get(w1.curselection()) == '1 Days': 
+            if w1.get(w1.curselection()) == '1 Day': 
                 self.combined_function(1, controller, w1)
             elif w1.get(w1.curselection()) == '2 Days':
                 self.combined_function(2, controller, w1)
@@ -281,7 +286,7 @@ class Plan(tk.Frame):
             elif w1.get(w1.curselection()) == '7 Days':
                 self.combined_function(7, controller, w1)
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")  
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")  
 
 
 class Plan_secondPage(tk.Frame):
@@ -297,19 +302,19 @@ class Plan_secondPage(tk.Frame):
         label1.pack(pady=100,padx=100)
         w = tk.Listbox(self, font = 15)
         w.pack()
-        w.insert(1, 'Economy')
-        w.insert(2, 'Ordinary')
-        w.insert(3, 'Luxury')
+        w.insert(1, 'Tight')
+        w.insert(2, 'Moderate')
+        w.insert(3, 'Adequate')
 
-        button1 = tk.Button(self, text="Go to next Perference",
+        button1 = tk.Button(self, text="Next Page >>",
                             command=lambda: self.check_click1(controller, w))
         button1.pack(side = LEFT, padx=50) 
 
-        button2 = tk.Button(self, text="Back to previous page",
+        button2 = tk.Button(self, text="Back to Previous Page <<",
                             command=lambda: controller.show_frame(Plan, 0, 0))
         button2.pack(side = LEFT, padx=50)  
 
-        button3 = tk.Button(self, text="Back to home page",
+        button3 = tk.Button(self, text="Back to Homepage",
                             command=lambda: controller.show_frame(StartPage, 0, 0))
         button3.pack(side = LEFT, padx=50)
 
@@ -335,14 +340,14 @@ class Plan_secondPage(tk.Frame):
             if (not w.curselection()):
                 raise IndexError  
             
-            if w.get(w.curselection()) == 'Economy':           
+            if w.get(w.curselection()) == 'Tight':           
                 self.combined_function1(1, controller)
-            elif w.get(w.curselection()) == 'Ordinary':
+            elif w.get(w.curselection()) == 'Moderate':
                 self.combined_function1(2, controller)
-            elif w.get(w.curselection()) == 'Luxury':
+            elif w.get(w.curselection()) == 'Adequate':
                 self.combined_function1(3, controller) 
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox") 
+            messagebox.showwarning("Error", "Please select one of the items in the listbox") 
 
 class Plan_ThirdPage(tk.Frame):
     """
@@ -356,22 +361,22 @@ class Plan_ThirdPage(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
 
         tk.Frame.__init__(self, parent)
-        label1 = tk.Label(self, text="Please choose your ", font=("Verdana", 20), anchor='w')
+        label1 = tk.Label(self, text="Please choose your preferred time arrangement:", font=("Verdana", 20), anchor='w')
         label1.pack(pady=100,padx=100)
         w = tk.Listbox(self, font = 15)
         w.pack()
-        w.insert(1, 'Tight schedule')
-        w.insert(2, 'Flexible schedule')
+        w.insert(1, 'Tight Schedule')
+        w.insert(2, 'Flexible Schedule')
 
-        button1 = tk.Button(self, text="Bulid your travel plan...",
+        button1 = tk.Button(self, text="Get your travel plan !",
                             command=lambda: self.check_click2(w))
         button1.pack(side = LEFT, pady=10,padx=50) 
 
-        button2 = tk.Button(self, text="Back to previous page",
+        button2 = tk.Button(self, text="Back to previous page <<",
                             command=lambda: controller.show_frame(Plan_secondPage, 0, 0))
         button2.pack(side = LEFT, pady=20,padx=50)  
 
-        button3 = tk.Button(self, text="Back to home page",
+        button3 = tk.Button(self, text="Back to Homepage",
                             command=lambda: controller.show_frame(StartPage, 0, 0))
         button3.pack(side = LEFT, pady=20,padx=50) 
 
@@ -390,14 +395,14 @@ class Plan_ThirdPage(tk.Frame):
         try:
             if (not w.curselection()):
                 raise IndexError  
-            elif w.get(w.curselection()) == 'Tight schedule':     
+            elif w.get(w.curselection()) == 'Tight Schedule':     
                 t = trip_plan(Time, Bugdet, 2)
                 t.trip_planer(Time, Bugdet, 2)
-            elif w.get(w.curselection()) == 'Flexible schedule':                         
+            elif w.get(w.curselection()) == 'Flexible Schedule':                         
                 t = trip_plan(Time, Bugdet, 1)  
                 t.trip_planer(Time, Bugdet, 1)
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")        
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")        
 
 class Overview(tk.Frame):   
     """ 
@@ -414,16 +419,16 @@ class Overview(tk.Frame):
 
         w.insert(1, 'Hotel')
         w.insert(2, 'Restaurant')
-        w.insert(3, 'Attractions')
-        w.insert(4, 'Museums')
+        w.insert(3, 'Attraction')
+        w.insert(4, 'Museum')
         w.pack(pady=50,padx=100, anchor = CENTER)
 
-        button1 = tk.Button(self, text = "Show plots!", width = 20,
+        button1 = tk.Button(self, text = "Show Plots!", width = 20,
                             command = lambda: self.check_click4(w, controller))
 
         button1.pack(side = LEFT, pady = 10, padx = 120) 
         
-        button3 = tk.Button(self, text = "Back to Home",
+        button3 = tk.Button(self, text = "Back to Homepage",
                             command = lambda: controller.show_frame(StartPage, 0, 0))
         button3.pack(side = LEFT, pady = 10, padx = 120) 
 
@@ -446,12 +451,12 @@ class Overview(tk.Frame):
                 controller.show_frame(Overview_restaurant, lat, logi)                                       
             elif w.get(w.curselection()) == 'Hotel':
                 controller.show_frame(Overview_hotel, lat, logi)
-            elif w.get(w.curselection()) == 'Attractions':
+            elif w.get(w.curselection()) == 'Attraction':
                 controller.show_frame(Overview_attractions, lat, logi)
-            elif w.get(w.curselection()) == 'Museums':
+            elif w.get(w.curselection()) == 'Museum':
                 controller.show_frame(Overview_museums, lat, logi)   
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")  
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")  
 
 class Overview_hotel(tk.Frame):
     """
@@ -462,7 +467,7 @@ class Overview_hotel(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
 
-        label = tk.Label(self, text="Hotel Overview", font=("Verdana", 20))
+        label = tk.Label(self, text="NYC Hotel Overview", font=("Verdana", 20))
         label.pack(pady=100,padx=100) 
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
@@ -471,23 +476,23 @@ class Overview_hotel(tk.Frame):
 
         o = overview_plot()
 
-        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 40, bg='red',
                             command=lambda: o.plot_review_density('hotel'))
         button2.pack(pady=10,padx=10) 
 
-        button3 = tk.Button(self, text="Show pie figure", height = 2, width = 25, bg='yellow',
+        button3 = tk.Button(self, text="Show pie figure by price level", height = 2, width = 40, bg='yellow',
                             command=lambda: o.plot_pie('hotel'))
         button3.pack(pady=10,padx=10) 
 
-        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 40, bg='blue',
                             command=lambda: o.plot_rating_bar('hotel'))
         button4.pack(pady=10,padx=10)
 
-        button5 = tk.Button(self, text="Show average rating bar figure", height = 2, width = 25, bg='red',
+        button5 = tk.Button(self, text="Show bar figure of average rating by price level", height = 2, width = 40, bg='red',
                             command=lambda: o.plot_bar_chart('hotel'))
         button5.pack(pady=10,padx=10)
 
-        button6 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
+        button6 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 40, bg='red',
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button6.pack(pady=10,padx=10)
 
@@ -500,7 +505,7 @@ class Overview_restaurant(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
 
-        label = tk.Label(self, text="Restaurant Overview", font=("Verdana", 20))
+        label = tk.Label(self, text="NYC Restaurant Overview", font=("Verdana", 20))
         label.pack(pady=100,padx=100)        
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
@@ -509,23 +514,23 @@ class Overview_restaurant(tk.Frame):
 
         o = overview_plot()
 
-        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 40, bg='red',
                             command=lambda: o.plot_review_density('restaurant'))
         button2.pack(pady=10,padx=10) 
 
-        button3 = tk.Button(self, text="Show pie figure", height = 2, width = 25, bg='yellow',
+        button3 = tk.Button(self, text="Show pie figure by category", height = 2, width = 40, bg='yellow',
                             command=lambda: o.plot_pie('restaurant'))
         button3.pack(pady=10,padx=10) 
 
-        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 40, bg='blue',
                             command=lambda: o.plot_rating_bar('restaurant'))
         button4.pack(pady=10,padx=10)
 
-        button5 = tk.Button(self, text="Show average rating bar figure", height = 2, width = 25, bg='red',
+        button5 = tk.Button(self, text="Show bar figure of average rating by price level", height = 2, width = 40, bg='red',
                             command=lambda: o.plot_bar_chart('restaurant'))
         button5.pack(pady=10,padx=10)
 
-        button6 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
+        button6 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 40, bg='red',
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button6.pack(pady=10,padx=10)
 
@@ -538,7 +543,7 @@ class Overview_attractions(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
 
-        label = tk.Label(self, text="Attraction Overview", font=("Verdana", 20))
+        label = tk.Label(self, text="NYC Attraction Overview", font=("Verdana", 20))
         label.pack(pady=100,padx=100)    
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
@@ -547,15 +552,15 @@ class Overview_attractions(tk.Frame):
 
         o = overview_plot()
 
-        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 25, bg='red',
                             command=lambda: o.plot_review_density('attraction'))
         button2.pack(pady=10,padx=10) 
 
-        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 25, bg='blue',
                             command=lambda: o.plot_rating_bar('attraction'))
         button4.pack(pady=10,padx=10)
 
-        button4 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
+        button4 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 25, bg='red',
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button4.pack(pady=10,padx=10)           
 
@@ -567,7 +572,7 @@ class Overview_museums(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
 
-        label = tk.Label(self, text=" Museum Overview", font=("Verdana", 20))
+        label = tk.Label(self, text="NYC Museum Overview", font=("Verdana", 20))
         label.pack(pady=100,padx=100)  
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
@@ -576,15 +581,15 @@ class Overview_museums(tk.Frame):
 
         o = overview_plot()
 
-        button2 = tk.Button(self, text="Show density figure", height = 2, width = 25, bg='red',
+        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 25, bg='red',
                             command=lambda: o.plot_review_density('museum'))
         button2.pack(pady=10,padx=10) 
 
-        button4 = tk.Button(self, text="Show number of rating bar figure", height = 2, width = 25, bg='blue',
+        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 25, bg='blue',
                             command=lambda: o.plot_rating_bar('museum'))
         button4.pack(pady=10,padx=10)
 
-        button4 = tk.Button(self, text="Back to Overview", height = 2, width = 25, bg='red',
+        button4 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 25, bg='red',
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button4.pack(pady=10,padx=10)        
 
@@ -597,10 +602,10 @@ class Restaurant(tk.Frame):
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
-        label = tk.Label(self, text="Restaurants!!!", font=("Verdana", 20))
+        label = tk.Label(self, text="Find Nearby Restaurants", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
-        label1 = tk.Label(self, text="Please choose the category of the restaurant you want to search, then click 'search'", font=("Verdana", 16), anchor='w')
+        label1 = tk.Label(self, text="Please choose a category, then click 'search'", font=("Verdana", 16), anchor='w')
         label1.pack(pady=40,padx=40)
 
         w = tk.Listbox(self)
@@ -610,27 +615,27 @@ class Restaurant(tk.Frame):
         w.insert(3, 'Asian')
         w.insert(4, 'Italian')
         w.insert(5, 'French')
-        w.insert(6, 'US')    
+        w.insert(6, 'American')    
         w.insert(7, 'European')
         w.insert(8, 'LatinAmerican')
-        w.insert(9, 'Cafe_bar')
+        w.insert(9, 'Cafe & Bar')
         w.insert(10, 'African')
         w.insert(11, 'MiddleEastern')
         w.insert(12, 'Other')  
 
         p = Page_creator()
 
-        button1 = tk.Button(self, text="Show the map", width = 10,
+        button1 = tk.Button(self, text="Show the Map", width = 10,
                             command=lambda: self.check_botton1(w))
 
         button1.pack(side = LEFT, pady=20,padx=60)
 
-        button2 = tk.Button(self, text="Show the recommendations", width = 20, anchor=CENTER,
+        button2 = tk.Button(self, text="Show Recommendations", width = 20, anchor=CENTER,
                             command = lambda: self.check_botton2(w))
 
         button2.pack(side = LEFT, pady=20,padx=60)
 
-        button3 = tk.Button(self, text="Back to Search", width = 10,
+        button3 = tk.Button(self, text="Back to Search <<", width = 20,
                             command=lambda: controller.show_frame(Search, 0, 0))
 
         button3.pack(side = LEFT, pady=20,padx=60)
@@ -663,13 +668,13 @@ class Restaurant(tk.Frame):
                 df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Italian')
             elif w.get(w.curselection()) == 'French':
                 df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'French')  
-            elif w.get(w.curselection()) == 'US':                 
+            elif w.get(w.curselection()) == 'American':                 
                 df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'US')
             elif w.get(w.curselection()) == 'European':                
                 df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'European')
             elif w.get(w.curselection()) == 'LatinAmerican':
                 df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'LatinAmerican')
-            elif w.get(w.curselection()) == 'Cafe_bar':                
+            elif w.get(w.curselection()) == 'Cafe & Bar':                
                 df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'Cafe_bar')
             elif w.get(w.curselection()) == 'African':                
                 df = p.plot_recommendations_for_restaurants_in_map(lat, logi, 'ctg', 'African')
@@ -682,7 +687,7 @@ class Restaurant(tk.Frame):
                 raise DataframeEmptyError
 
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")  
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")  
         except DataframeEmptyError:
             messagebox.showwarning("Error", "")
 
@@ -713,13 +718,13 @@ class Restaurant(tk.Frame):
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'Italian')
             elif w.get(w.curselection()) == 'French':                
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'French')  
-            elif w.get(w.curselection()) == 'US':                 
+            elif w.get(w.curselection()) == 'American':                 
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'US')
             elif w.get(w.curselection()) == 'European':                
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'European')
             elif w.get(w.curselection()) == 'LatinAmerican':
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'LatinAmerican')
-            elif w.get(w.curselection()) == 'Cafe_bar':                
+            elif w.get(w.curselection()) == 'Cafe & Bar':                
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'Cafe_bar')
             elif w.get(w.curselection()) == 'African':
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'African')
@@ -729,7 +734,7 @@ class Restaurant(tk.Frame):
                 p.Restaurant_page_creator(lat, logi, 'ctg', 'Other') 
 
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")
 
 class Hotel(tk.Frame):
     """ 
@@ -740,44 +745,44 @@ class Hotel(tk.Frame):
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
-        label = tk.Label(self, text="Hotel!!!", font=("Verdana", 20))
+        label = tk.Label(self, text="Find Nearby Hotels", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
-        label1 = tk.Label(self, text="Please choose the price range of your hotel, then click 'search'", font=("Verdana", 16), anchor='w')
+        label1 = tk.Label(self, text="Please choose a price level, then click 'search'", font=("Verdana", 16), anchor='w')
         label1.pack(pady=40,padx=40)
 
         w = tk.Listbox(self)
         w.pack()
-        w.insert(1, 'Economy hotel')
-        w.insert(2, 'Commercial hotel')
-        w.insert(3, 'Luxury hotel')
+        w.insert(1, 'Cheap')
+        w.insert(2, 'Moderate')
+        w.insert(3, 'Luxury')
 
         p = Page_creator()
 
-        button1 = tk.Button(self, text="Show the map", width = 10,
+        button1 = tk.Button(self, text="Show the Map", width = 10,
                             command=lambda: self.check_botton3(w))
 
         button1.pack(side = LEFT, pady=20,padx=60)
 
-        button2 = tk.Button(self, text="Show the recommendations", width = 20,
+        button2 = tk.Button(self, text="Show Recommendations", width = 20,
                             command =
                             lambda: 
                                 p.Hotel_page_creator(lat, logi, 'Price', 1)
-                            if w.get(w.curselection()) == 'Economy hotel'           
+                            if w.get(w.curselection()) == 'Cheap'          
                             else
                                 p.Hotel_page_creator(lat, logi, 'Price', 2)
-                            if w.get(w.curselection()) == 'Commercial hotel'
+                            if w.get(w.curselection()) == 'Moderate'
                             else 
                                 p.Hotel_page_creator(lat, logi, 'Price', 3)
-                            if w.get(w.curselection()) == 'Luxury hotel'
+                            if w.get(w.curselection()) == 'Luxury'
                             else 
                                 print('haha'))
         
         button2.pack(side = LEFT, pady=20,padx=60)
 
-        button3 = tk.Button(self, text="Back to Search", width = 10,
+        button3 = tk.Button(self, text="Back to Search <<", width = 20,
                             command=lambda: controller.show_frame(Search, 0, 0))
-        button3.pack(side = LEFT, pady=20,padx=60)
+        button3.pack(side = LEFT, pady=20, padx=60)
 
     def check_botton3(self, w):
         """
@@ -797,15 +802,15 @@ class Hotel(tk.Frame):
 
             p = Page_creator()
 
-            if w.get(w.curselection()) == 'Economy hotel':
+            if w.get(w.curselection()) == 'Cheap':
                 p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 1)
-            elif w.get(w.curselection()) == 'Commercial hotel':                    
+            elif w.get(w.curselection()) == 'Moderate':                    
                 p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 2)
-            elif w.get(w.curselection()) == 'Luxury hotel':                
+            elif w.get(w.curselection()) == 'Luxury':                
                 p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 3)
                               
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")
        
     def check_botton4(self, w):
         """
@@ -826,15 +831,15 @@ class Hotel(tk.Frame):
 
             p = Page_creator()
 
-            if w.get(w.curselection()) == 'Economy hotel':
+            if w.get(w.curselection()) == 'Cheap':
                 p.Hotel_page_creator(lat, logi, 'Price', 1)
-            if w.get(w.curselection()) == 'Commercial hotel':
+            if w.get(w.curselection()) == 'Moderate':
                 p.Hotel_page_creator(lat, logi, 'Price', 2)
-            if w.get(w.curselection()) == 'Luxury hotel':                 
+            if w.get(w.curselection()) == 'Luxury':                 
                 p.Hotel_page_creator(lat, logi, 'Price', 3)
                       
         except IndexError:
-            messagebox.showwarning("Error", "Please select one of the item in the listbox")
+            messagebox.showwarning("Error", "Please select one of the items in the listbox")
 
 class Attractions(tk.Frame):
     """
@@ -845,20 +850,20 @@ class Attractions(tk.Frame):
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
-        label = tk.Label(self, text="Attractions!!!", font=("Verdana", 20))
+        label = tk.Label(self, text="Find NYC Attractions", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
         p = Page_creator()
 
-        button1 = tk.Button(self, text="Show the recommendations",
+        button1 = tk.Button(self, text="Show Recommendations",
                             command=lambda: p.Attraction_rtf_creator())
         button1.pack(pady=30,padx=20) 
 
-        button2 = tk.Button(self, text="Show the map",
+        button2 = tk.Button(self, text="Show the Map",
                             command=lambda: p.plot_recommendations_for_attractions_in_map())
         button2.pack(pady=30,padx=20)
 
-        button3 = tk.Button(self, text="Back to Search",
+        button3 = tk.Button(self, text="Back to Search <<",
                             command=lambda: controller.show_frame(Search, 0, 0))
         button3.pack(pady=30,padx=20)
 
@@ -871,20 +876,20 @@ class Museums(tk.Frame):
     def __init__(self, parent, controller):
         # constructor to bulid the label, listbox, button in the Search page in GUI
         tk.Frame.__init__(self, parent)
-        label = tk.Label(self, text="Museums!!!", font=("Verdana", 20))
+        label = tk.Label(self, text="Find NYC Museums", font=("Verdana", 20))
         label.pack(pady=100,padx=100)
 
         p = Page_creator()
 
-        button1 = tk.Button(self, text="Show the recommendations",
+        button1 = tk.Button(self, text="Show Recommendations",
                             command=lambda: p.Museum_rtf_creator())
         button1.pack(pady=30,padx=20) 
 
-        button2 = tk.Button(self, text="Show the map",
+        button2 = tk.Button(self, text="Show the Map",
                             command=lambda: p.plot_recommendations_for_museums_in_map())
         button2.pack(pady=30,padx=20)
 
-        button3 = tk.Button(self, text="Back to Search",
+        button3 = tk.Button(self, text="Back to Search <<",
                             command=lambda: controller.show_frame(Search, 0, 0))
         button3.pack(pady=30,padx=20)
 
