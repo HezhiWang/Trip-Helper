@@ -451,29 +451,29 @@ class Overview_hotel(tk.Frame):
         label = tk.Label(self, text="NYC Hotel Overview", font=("Verdana", 20))
         label.pack(pady=100,padx=100) 
 
-        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
+        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 35, bg='blue',
                             command=lambda: draw_heatmap('hotels'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
 
-        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 40, bg='red',
+        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 35, bg='red',
                             command=lambda: o.plot_review_density('hotel'))
         button2.pack(pady=10,padx=10) 
 
-        button3 = tk.Button(self, text="Show pie figure by price level", height = 2, width = 40, bg='yellow',
+        button3 = tk.Button(self, text="Show pie figure by price level", height = 2, width = 35, bg='yellow',
                             command=lambda: o.plot_pie('hotel'))
         button3.pack(pady=10,padx=10) 
 
-        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 40, bg='blue',
+        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 35, bg='blue',
                             command=lambda: o.plot_rating_bar('hotel'))
         button4.pack(pady=10,padx=10)
 
-        button5 = tk.Button(self, text="Show bar figure of average rating by price level", height = 2, width = 40, bg='red',
+        button5 = tk.Button(self, text="Show bar figure of average rating by price level", height = 2, width = 35, bg='red',
                             command=lambda: o.plot_bar_chart('hotel'))
         button5.pack(pady=10,padx=10)
 
-        button6 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 40, bg='red',
+        button6 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 35, bg='red',
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button6.pack(pady=10,padx=10)
 
@@ -489,29 +489,29 @@ class Overview_restaurant(tk.Frame):
         label = tk.Label(self, text="NYC Restaurant Overview", font=("Verdana", 20))
         label.pack(pady=100,padx=100)        
 
-        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
+        button1 = tk.Button(self, text="Show heatmap", height = 2, width = 35, bg='blue',
                             command=lambda: draw_heatmap('restaurants'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
 
-        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 40, bg='red',
+        button2 = tk.Button(self, text="Show density figure of reviews", height = 2, width = 35, bg='red',
                             command=lambda: o.plot_review_density('restaurant'))
         button2.pack(pady=10,padx=10) 
 
-        button3 = tk.Button(self, text="Show pie figure by category", height = 2, width = 40, bg='yellow',
+        button3 = tk.Button(self, text="Show pie figure by category", height = 2, width = 35, bg='yellow',
                             command=lambda: o.plot_pie('restaurant'))
         button3.pack(pady=10,padx=10) 
 
-        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 40, bg='blue',
+        button4 = tk.Button(self, text="Show bar figure of ratings", height = 2, width = 35, bg='blue',
                             command=lambda: o.plot_rating_bar('restaurant'))
         button4.pack(pady=10,padx=10)
 
-        button5 = tk.Button(self, text="Show bar figure of average rating by price level", height = 2, width = 40, bg='red',
+        button5 = tk.Button(self, text="Show bar figure of average rating by price level", height = 2, width = 35, bg='red',
                             command=lambda: o.plot_bar_chart('restaurant'))
         button5.pack(pady=10,padx=10)
 
-        button6 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 40, bg='red',
+        button6 = tk.Button(self, text="Back to Previous Page <<", height = 2, width = 35, bg='red',
                             command=lambda: controller.show_frame(Overview, 0, 0))
         button6.pack(pady=10,padx=10)
 
