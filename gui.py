@@ -748,16 +748,7 @@ class Hotel(tk.Frame):
         button2 = tk.Button(self, text="Show Recommendations", width = 20,
                             command =
                             lambda: 
-                                p.Hotel_page_creator(lat, logi, 'Price', 1)
-                            if w.get(w.curselection()) == 'Cheap'          
-                            else
-                                p.Hotel_page_creator(lat, logi, 'Price', 2)
-                            if w.get(w.curselection()) == 'Moderate'
-                            else 
-                                p.Hotel_page_creator(lat, logi, 'Price', 3)
-                            if w.get(w.curselection()) == 'Luxury'
-                            else 
-                                print('haha'))
+                                self.check_botton4(w))
         
         button2.pack(side = LEFT, pady=20,padx=60)
 
