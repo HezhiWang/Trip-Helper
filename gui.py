@@ -8,7 +8,7 @@ import matplotlib.pyplot
 from tkinter import messagebox
 import pandas as pd
 from Search.search import *
-from exception import * 
+from Exception.exception import * 
 from Plan.trip_plan import *
 from Plot.overview_plot import *
 from Overview.plot_heatmap import *
@@ -97,6 +97,7 @@ class Search(tk.Frame):
         # constructor to bulid the label, listbox, button in the Search page in GUI
 
         root = tk.Frame.__init__(self,parent)
+
         label = tk.Label(self, text="Welcome to NYC! ", font=("Verdana", 20))
         label.pack(pady=35,padx=100)
 
@@ -147,37 +148,16 @@ class Search(tk.Frame):
         w.insert(3, 'Attraction')
         w.insert(4, 'Museum')
 
-        button1 = tk.Button(self, text = "Search",
+        button1 = tk.Button(self, text = "Search", width = 15,
                             command = lambda: self.button_command(w, controller, ents))
 
-        button1.pack(side = LEFT, pady=20,padx=70)
+        button1.pack(side = LEFT, pady=20,padx=120)
 
-        button1 = tk.Button(self, text="Back to Homepage",
+
+        button1 = tk.Button(self, text="Back to Homepage", width = 15,
                             command=lambda: controller.show_frame(StartPage, 0, 0))
-        button1.pack(side = RIGHT, pady=20,padx = 70) 
-    """
-    def fetch(self, entries):
-        This function record the input longitude and latitude from users.
+        button1.pack(side = LEFT, pady=20,padx = 120) 
 
-        Parameters: 
-            entries: tk.Entry()
-
-        Execptions:
-            catch ValueError exceptions
-        try:
-            global lat 
-            lat = float(entries[0].get())
-            global logi 
-            logi = float(entries[1].get())
-            if (-73.929 < logi or logi < -74.018):
-                raise Invalidinput
-            if (40.854 < lat or lat < 40.700):
-                raise Invalidinput
-        except ValueError:
-            messagebox.showwarning("Error", "Invalid input, please enter your correct longitude and latitude")  
-        except Invalidinput:
-            messagebox.showwarning("Error", "Invalid input, your input longitude and latitude is out of NYC")
-    """
     def button_command(self, w, controller, entries):
         """
         This function pass the stuff chosen by users from the listbox and go to its corresponding page.
@@ -423,12 +403,13 @@ class Overview(tk.Frame):
         w.insert(4, 'Museum')
         w.pack(pady=50,padx=100, anchor = CENTER)
 
+
         button1 = tk.Button(self, text = "Show Plots!", width = 20,
                             command = lambda: self.check_click4(w, controller))
-
         button1.pack(side = LEFT, pady = 10, padx = 120) 
         
-        button3 = tk.Button(self, text = "Back to Homepage",
+
+        button3 = tk.Button(self, text = "Back to Homepage",width = 15,
                             command = lambda: controller.show_frame(StartPage, 0, 0))
         button3.pack(side = LEFT, pady = 10, padx = 120) 
 
@@ -471,7 +452,7 @@ class Overview_hotel(tk.Frame):
         label.pack(pady=100,padx=100) 
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('hotel'))
+                            command=lambda: draw_heatmap('hotels'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
@@ -509,7 +490,7 @@ class Overview_restaurant(tk.Frame):
         label.pack(pady=100,padx=100)        
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('restaurant'))
+                            command=lambda: draw_heatmap('restaurants'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
@@ -547,7 +528,7 @@ class Overview_attractions(tk.Frame):
         label.pack(pady=100,padx=100)    
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('attraction'))
+                            command=lambda: draw_heatmap('attractions'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
@@ -576,7 +557,7 @@ class Overview_museums(tk.Frame):
         label.pack(pady=100,padx=100)  
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('museum'))
+                            command=lambda: draw_heatmap('museums'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
