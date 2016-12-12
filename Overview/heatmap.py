@@ -85,10 +85,11 @@ def draw_heatmap(csv_name):
         the_map.heatmap(low_coordinates[0], low_coordinates[1], threshold=10, radius=25, gradient=low_gradient)
     
     # The heatmap is drawn here
-    the_map.draw(csv_name + "_heatmap.html")
+    path = os.path.abspath('Overview')
+    the_map.draw(path + '/' + csv_name + "_heatmap.html")
 
     # Here the heatmap is opened up in the user's browser
-    base = os.getcwd()
+    base = os.path.abspath('Overview')
     link = 'file://'+base+ '/'+csv_name + "_heatmap.html" 
     webbrowser.open_new(link)
 

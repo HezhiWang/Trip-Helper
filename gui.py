@@ -8,7 +8,7 @@ import matplotlib.pyplot
 from tkinter import messagebox
 import pandas as pd
 from Search.search import *
-from exception import * 
+from Exception.exception import * 
 from Plan.trip_plan import *
 from Plot.overview_plot import *
 from Overview.plot_heatmap import *
@@ -441,7 +441,7 @@ class Overview_hotel(tk.Frame):
         label.pack(pady=100,padx=100) 
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('hotel'))
+                            command=lambda: draw_heatmap('hotels'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
@@ -479,7 +479,7 @@ class Overview_restaurant(tk.Frame):
         label.pack(pady=100,padx=100)        
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('restaurant'))
+                            command=lambda: draw_heatmap('restaurants'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
@@ -517,7 +517,7 @@ class Overview_attractions(tk.Frame):
         label.pack(pady=100,padx=100)    
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('attraction'))
+                            command=lambda: draw_heatmap('attractions'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
@@ -546,7 +546,7 @@ class Overview_museums(tk.Frame):
         label.pack(pady=100,padx=100)  
 
         button1 = tk.Button(self, text="Show heatmap", height = 2, width = 25, bg='blue',
-                            command=lambda: draw_heatmap('museum'))
+                            command=lambda: draw_heatmap('museums'))
         button1.pack(pady=10,padx=10)
 
         o = overview_plot()
