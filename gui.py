@@ -98,7 +98,7 @@ class Search(tk.Frame):
 
         root = tk.Frame.__init__(self,parent)
 
-        label = tk.Label(self, text="Welcome to NYC! ", font=("Verdana", 20))
+        label = tk.Label(self, text="Search Nearby Locations", font=("Verdana", 20))
         label.pack(pady=35,padx=100)
 
         label = tk.Label(self, text="Please Enter Your Location: ", font=("Verdana", 16))
