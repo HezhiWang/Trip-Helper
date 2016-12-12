@@ -4,7 +4,7 @@ from Sort.yelp_sort import *
 from Data.Read_data import *
 from Search.search import *
 
-class tests(unittest.TestCase):
+class tests_sort(unittest.TestCase):
 
 	"""Unit-testing class that allows us to run tests with expected outcomes
 	Run the test in the project's root directory
@@ -47,27 +47,31 @@ class tests(unittest.TestCase):
 		self.assertEqual(museum_columns, data_museum.columns.tolist())
 		self.assertEqual(attraction_columns, data_attraction.columns.tolist())
 	
-	def test_sort_within(self):
+	def test_sort_within_rows(self):
 		"""
-		This method tests the function sort_within in the sort.py in Sort directory by different perspectives.
+		This method tests the return dataframe contains the respected number of rows.
 		"""
 		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
 
 		df1 = sort_within(data_hotel, 40.748817, -73.985428, 1.5, 'Price', [1])
 
-		"""
-		This part tests the return dataframe contains the respected number of rows.
-		"""
 		yelp_category(data_restaurant)
 		df2 = sort_within(data_restaurant, 40.748817, -73.985428, 1.5, 'ctg', 'Chinese')
 		
 		self.assertTrue(df1.shape[0] <= 10)
 		self.assertTrue(df2.shape[0] <= 10)
 
+	def test_sort_within_sort_algorithm(self):
 		"""
-		This part tests the sort_winthin method sort correctly. First, sort by 'Avgscore' column.
+		This method tests the sort_winthin method sort correctly. First, sort by 'Avgscore' column.
 		If two values in the 'Avgscore' column are same, we compare their 'Total_review' values.
 		"""
+		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
+
+		df1 = sort_within(data_hotel, 40.748817, -73.985428, 1.5, 'Price', [1])
+
+		yelp_category(data_restaurant)
+		df2 = sort_within(data_restaurant, 40.748817, -73.985428, 1.5, 'ctg', 'Chinese')
 
 		for i in range(df1.shape[0]-1):
 			self.assertTrue(df1.iloc[i]['Avgscore'] >= df1.iloc[i+1]['Avgscore'])
@@ -77,37 +81,52 @@ class tests(unittest.TestCase):
 			if (df2.iloc[i]['Avgscore'] == df2.iloc[i+1]['Avgscore']):
 				self.assertTrue(df2.iloc[i]['Total_review'] >= df2.iloc[i+1]['Total_review'])
 
+
+	def test_sort_within_distance(self):
+		"""
+		This method tests the distance between each hotel or restaurant in the return dataframe and the center points
+		is less than or equal to the parameter 'distance_within'. In this test, this parameter is 1.5
+		"""		
 		cordinate_list1 = []
 		cordinate_list2 = []
-		"""
-		This part tests the distance between each hotel or restaurant in the return dataframe and the center points
-		is less than or equal to the parameter 'distance_within'. In this test, this parameter is 1.5
-		"""
+
+		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
+
+		df1 = sort_within(data_hotel, 40.748817, -73.985428, 1.5, 'Price', [1])
+
+		yelp_category(data_restaurant)
+		df2 = sort_within(data_restaurant, 40.748817, -73.985428, 1.5, 'ctg', 'Chinese')		
+
 		for i in range(df1.shape[0]):
 			self.assertTrue(distance(df1.iloc[i]['Lat'], df1.iloc[i]['Lng'], 40.748817, -73.985428) <= 1.5)
 			self.assertTrue(distance(df2.iloc[i]['Lat'], df2.iloc[i]['Lng'], 40.748817, -73.985428) <= 1.5)
 
-	def test_sort_museums_or_attractions(self):
+	def test_sort_museums_or_attractions_sort_algorithm(self):
 		"""
-		This method tests the sort function 'sort_museums_or_attraction' by variaties of perspectives.
+		This method tests the sort function 'sort_museums_or_attraction' by variaties of perspectives. It tests the return 
+		dataframe of the function 'sort_museums_or_attractions' has the following propetis:
+		columns 'Avgscore' >= 3.5, column 'Total_review' >= 1000
 		"""
 		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
 
 		df1 = sort_museums_or_attractions(data_museum)
 		df2 = sort_museums_or_attractions(data_attraction)
 
-		"""
-		This part tests the return dataframe of the function 'sort_museums_or_attractions' has the following propetis:
-		columns 'Avgscore' >= 3.5, column 'Total_review' >= 1000
-		"""
 		self.assertTrue((df1['Avgscore'] >= 3.5).all())
 		self.assertTrue((df1['Total_review'] >= 1000).all())
 		self.assertTrue((df2['Avgscore'] >= 3.5).all())
 		self.assertTrue((df2['Total_review'] >= 1000).all())
 
+	def test_sort_museums_or_attractions_sort_descending(self):
 		"""
-		This part tests the function 'sort_museums_or_attractions' sort by rating and total reviews both descending.
+		This method tests the function 'sort_museums_or_attractions' sort by rating and total reviews both descending.
 		"""
+
+		data_hotel, data_restaurant, data_museum, data_attraction = Read_data()
+
+		df1 = sort_museums_or_attractions(data_museum)
+		df2 = sort_museums_or_attractions(data_attraction)
+				
 		for i in range(df1.shape[0]-1):
 			self.assertTrue(df1.iloc[i]['Avgscore'] >= df1.iloc[i+1]['Avgscore'])
 			if (df1.iloc[i]['Avgscore'] == df1.iloc[i+1]['Avgscore']):
@@ -115,6 +134,8 @@ class tests(unittest.TestCase):
 			self.assertTrue(df2.iloc[i]['Avgscore'] >= df2.iloc[i+1]['Avgscore'])
 			if (df2.iloc[i]['Avgscore'] == df2.iloc[i+1]['Avgscore']):
 				self.assertTrue(df2.iloc[i]['Total_review'] >= df2.iloc[i+1]['Total_review'])
+
+class test_yelp_sort(unittest.TestCase):
 
 	def test_yelp_category(self):
 		"""

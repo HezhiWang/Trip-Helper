@@ -2,10 +2,8 @@ from Plot.rader_chart import *
 from Sort.sort import *
 import os
 import numpy as np
-import codecs
 import matplotlib
 import webbrowser
-from selenium import webdriver
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
@@ -45,7 +43,7 @@ def draw_rader_chart_hotel(lat, lng, df):
         pp.savefig(bbox_inches = 'tight')
         plt.clf()
     pp.close()
-
+    webbrowser.open_new('file://' + path + '/Recommendation_hotels.pdf')
 
 def draw_rader_chart_restaurant(lat, lng, df):
     """
@@ -79,3 +77,5 @@ def draw_rader_chart_restaurant(lat, lng, df):
         pp.savefig(bbox_inches = 'tight')
         plt.clf()
     pp.close()
+
+    webbrowser.open_new('file://' + path + '/Recommendation_restaurants.pdf')

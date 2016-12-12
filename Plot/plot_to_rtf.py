@@ -3,10 +3,8 @@ from Sort.sort import *
 from Data.Read_data import *
 import os
 import numpy as np
-import codecs
 import matplotlib
 import webbrowser
-from selenium import webdriver
 
 def print_to_rtf(df, filename):
 
@@ -40,6 +38,9 @@ def print_to_rtf(df, filename):
                                                                         df['description'].iloc[i]))
             rtf.write(r'\line')
         rtf.write(r'}\n\x00')
+
+        webbrowser.open_new('file://' + path + '/' + filename + '.rtf')
+
     except IOError:
         print("Error: can\'t find file or read data")
     else:
@@ -64,7 +65,7 @@ def write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center,
     try:
         hotel, restaurant, museum, attraction = Read_data()
         path = os.path.abspath('Results')
-        f = open(path + '/Trip_Plan.rtf','w')
+        f = open(path + '/Trip_Plan_{}d.rtf'.format(len(recommended_center)),'w')
         f.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
 
         for i, item in enumerate(recommended_center):
@@ -99,8 +100,10 @@ def write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center,
             f.write(r'\line\ \line\ ')
 
         f.write(r'}\n\x00')
+        
     except IOError:
         print("Error: can\'t find file or read data")
     else:
         print("Written content in the file successfully")       
         f.close()
+    webbrowser.open_new('file://' + path + '/Trip_Plan_{}d.rtf'.format(len(recommended_center)))

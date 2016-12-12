@@ -99,10 +99,10 @@ class Search(tk.Frame):
         root = tk.Frame.__init__(self,parent)
 
         label = tk.Label(self, text="Search Nearby Locations", font=("Verdana", 20))
-        label.pack(pady=35,padx=100)
+        label.pack(pady=50,padx=100)
 
         label = tk.Label(self, text="Please Enter Your Location: ", font=("Verdana", 16))
-        label.pack(pady=5,padx=10)
+        label.pack(pady=10,padx=10)
         
         ents = []
 
@@ -129,7 +129,7 @@ class Search(tk.Frame):
         """
     
         label = tk.Label(self, text="Your latitude should be in [40.700, 40.854] and longitude in [-74.018, -73.929]", font=("Verdana", 12))
-        label.pack()
+        label.pack(pady=10,padx=10)
         label4 = tk.Label(self, text="Examples:", font=16, anchor='w', justify=LEFT)
         label4.pack()        
         label4 = tk.Label(self, text="Empire State Buliding, Latitude: 40.748817, Longitude: -73.985428", font=LARGE_FONT, anchor='w', justify=LEFT)
@@ -404,7 +404,7 @@ class Overview(tk.Frame):
         w.pack(pady=50,padx=100, anchor = CENTER)
 
 
-        button1 = tk.Button(self, text = "Show Plots!", width = 20,
+        button1 = tk.Button(self, text = "Show Plots!", width = 15,
                             command = lambda: self.check_click4(w, controller))
         button1.pack(side = LEFT, pady = 10, padx = 120) 
         

@@ -2,10 +2,8 @@ from Plot.rader_chart import *
 from Sort.sort import *
 import os
 import numpy as np
-import codecs
 import matplotlib
 import webbrowser
-from selenium import webdriver
 
 def plot_map(df):
     '''
