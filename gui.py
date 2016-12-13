@@ -670,7 +670,7 @@ class Restaurant(tk.Frame):
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the items in the listbox")  
         except DataframeEmptyError:
-            messagebox.showwarning("Error", "")
+            messagebox.showwarning("Error", "No such restaurants around you")
 
     def check_botton2(self, w):
         """
@@ -690,32 +690,37 @@ class Restaurant(tk.Frame):
 
             p = Page_creator()           
             if w.get(w.curselection()) == 'Chinese':
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'Chinese')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'Chinese')
             elif w.get(w.curselection()) == 'Japanese':
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'Japanese')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'Japanese')
             elif w.get(w.curselection()) == 'Asian':
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'Asian')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'Asian')
             elif w.get(w.curselection()) == 'Italian':                
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'Italian')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'Italian')
             elif w.get(w.curselection()) == 'French':                
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'French')  
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'French')  
             elif w.get(w.curselection()) == 'American':                 
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'US')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'US')
             elif w.get(w.curselection()) == 'European':                
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'European')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'European')
             elif w.get(w.curselection()) == 'LatinAmerican':
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'LatinAmerican')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'LatinAmerican')
             elif w.get(w.curselection()) == 'Cafe & Bar':                
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'Cafe_bar')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'Cafe_bar')
             elif w.get(w.curselection()) == 'African':
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'African')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'African')
             elif w.get(w.curselection()) == 'MiddleEastern':                
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'MiddleEastern')
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'MiddleEastern')
             elif w.get(w.curselection()) == 'Other':                
-                p.Restaurant_page_creator(lat, logi, 'ctg', 'Other') 
+                df = p.Restaurant_page_creator(lat, logi, 'ctg', 'Other') 
+
+            if df.empty:
+                raise DataframeEmptyError
 
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the items in the listbox")
+        except DataframeEmptyError:
+            messagebox.showwarning("Error", "No such restaurants around you")
 
 class Hotel(tk.Frame):
     """ 
@@ -775,14 +780,20 @@ class Hotel(tk.Frame):
             p = Page_creator()
 
             if w.get(w.curselection()) == 'Cheap':
-                p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 1)
+                df = p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 1)
             elif w.get(w.curselection()) == 'Moderate':                    
-                p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 2)
+                df = p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 2)
             elif w.get(w.curselection()) == 'Luxury':                
-                p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 3)
-                              
+                df = p.plot_recommendations_for_hotels_in_map(lat, logi, 'Price', 3)
+
+            if df.empty:
+                raise DataframeEmptyError
+
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the items in the listbox")
+        except DataframeEmptyError:
+            messagebox.showwarning("Error", "No such hotels around you")
+
        
     def check_botton4(self, w):
         """
@@ -804,14 +815,19 @@ class Hotel(tk.Frame):
             p = Page_creator()
 
             if w.get(w.curselection()) == 'Cheap':
-                p.Hotel_page_creator(lat, logi, 'Price', 1)
-            if w.get(w.curselection()) == 'Moderate':
-                p.Hotel_page_creator(lat, logi, 'Price', 2)
-            if w.get(w.curselection()) == 'Luxury':                 
-                p.Hotel_page_creator(lat, logi, 'Price', 3)
-                      
+                df = p.Hotel_page_creator(lat, logi, 'Price', 1)
+            elif w.get(w.curselection()) == 'Moderate':
+                df = p.Hotel_page_creator(lat, logi, 'Price', 2)
+            elif w.get(w.curselection()) == 'Luxury':                 
+                df = p.Hotel_page_creator(lat, logi, 'Price', 3)
+
+            if df.empty:
+                raise DataframeEmptyError
+
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the items in the listbox")
+        except DataframeEmptyError:
+            messagebox.showwarning("Error", "No such hotels around you")
 
 class Attractions(tk.Frame):
     """
