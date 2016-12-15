@@ -33,7 +33,7 @@ def print_to_rtf(df, filename):
         rtf.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
         for i in range(df.shape[0]):
             rtf.write(r'\ \b {} \b0 \line \ \b Rating:\b0 {} \t \b Reviews:\b0 {} \line'.format(df['Name'].iloc[i],
-                   df['rating'].iloc[i], df['total_review'].iloc[i]))
+                   df['Avgscore'].iloc[i], df['Total_review'].iloc[i]))
             rtf.write(r'\ \b Details: \b0 {} \line\ \b Description: \b0 {} \line'.format(df['detail'].iloc[i],
                                                                         df['description'].iloc[i]))
             rtf.write(r'\line')
