@@ -3,6 +3,7 @@ from Sort.sort import *
 from Sort.yelp_sort import *
 from Data.Read_data import *
 from Search.search import *
+from Plan.trip_plan import *
 
 class tests_sort(unittest.TestCase):
 
@@ -154,7 +155,24 @@ class test_yelp_sort(unittest.TestCase):
 		self.assertEqual(len(data_restaurant['ctg'].value_counts().index.tolist()), len(Category))
 
 		
+class test_trip_plan(unittest.TestCase):
 
+	def test_revised_kmeans(self):
+		"""
+		This method test our trip planer method in the trip_plan.py in Plan directory by testing we recommented the expected number
+		of attractions. Wanning: when implement this text, it will automatically open the result rtf file.
+		"""
+		t = trip_plan(4, 2, 2)
+		index_list, center_points, cordinate_data = t.trip_planer()
+		self.assertEqual(len(index_list), 4)
+		self.assertEqual(len(center_points), 4)
+		self.assertEqual(len(cordinate_data), 4*4)
+
+		t1 = trip_plan(5, 2, 1)
+		index_list, center_points, cordinate_data = t1.trip_planer()
+		self.assertEqual(len(index_list), 5)
+		self.assertEqual(len(center_points), 5)
+		self.assertEqual(len(cordinate_data), 5*2)
 
 if __name__ == "__main__":
     unittest.main()
