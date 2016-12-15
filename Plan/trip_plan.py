@@ -21,7 +21,7 @@ class trip_plan:
 		self.bugdet = bugdet
 		self.degree = degree
 
-	def trip_planer(self, time, bugdet, degree):
+	def trip_planer(self):
 		"""
 		This function first read data 'trip_plan.csv'. Then, we use Kmeans algorithm to calculate the optimal center points 
 		of each day, and use revised_kmeans algorithm to make every clusters have the same number of elements. Finally, we 
@@ -39,50 +39,53 @@ class trip_plan:
 			print("Error: can\'t find file or read data")
 
 		#calculate the total_num_attractions based on 
-		if (degree == 1):
-			total_num_attractions = time * 2
-		elif (degree == 2):
-			total_num_attractions = time * 4
+		if (self.degree == 1):
+			total_num_attractions = self.time * 2
+		elif (self.degree == 2):
+			total_num_attractions = self.time * 4
 
 		#transform input parameter budget to a reasonable list
-		if (bugdet == 1):
+		if (self.bugdet == 1):
 			bugdet_list = [1,2]
-		elif (bugdet == 2):
+		elif (self.bugdet == 2):
 			bugdet_list = [3,4]
-		elif (bugdet == 3):
+		elif (self.bugdet == 3):
 			bugdet_list = [5]
 
 		recommended_attraction = travel_data.iloc[:total_num_attractions, :]
 		recommended_attraction = recommended_attraction.replace(to_replace= '-999', value='N.A.')
 
+		#get cordinate_data into a list of list
 		cordinate_data = []
-
 		for i in range(recommended_attraction.shape[0]):
 			temp = []
 			temp.append(recommended_attraction['lat'].iloc[i])
 			temp.append(recommended_attraction['lng'].iloc[i])
 			cordinate_data.append(temp)
 
-		kmeans = KMeans(n_clusters = time, random_state = 0).fit(cordinate_data)
+		#call Kmeans method
+		kmeans = KMeans(n_clusters = self.time, random_state = 0).fit(cordinate_data)
 		
 		a = pd.Series(kmeans.labels_)
 		index_list = {}
-		for i in range(time):
+		for i in range(self.time):
 			index_list[i] = (a[a == i].index.tolist())
 		order_list = sorted(index_list, key=lambda k: len(index_list[k]), reverse = True)
-
 		center_points = kmeans.cluster_centers_
 
-		index_list, center_points = self.revised_kmeans(index_list, order_list, cordinate_data, center_points, time, degree)
+		#call revised_kmeans method
+		index_list, center_points = self.revised_kmeans(index_list, order_list, cordinate_data, center_points, self.time, self.degree)
 
 		center_points = np.asarray(center_points)
-		
-		recommendation_order = np.random.permutation(time)
+		recommendation_order = np.random.permutation(self.time)
 		recommended_center = center_points[recommendation_order, :]
 
+		#write the result into rtf file
 		write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center, recommended_attraction, bugdet_list)
 
-	def distance(self, lat1,lng1,lat2,lng2):
+		return index_list, center_points, cordinate_data
+
+	def distance(self, lat1, lng1, lat2, lng2):
 		"""
 		This method calculate the distance of two cordinates in miles.
 		Parameters:
