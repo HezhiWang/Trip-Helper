@@ -68,10 +68,10 @@ def write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center,
         f.write(r'{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}')
 
         for i, item in enumerate(recommended_center):
-            hotel_sorted = sort_within(hotel, item[0], item[1], 2, 'Price', bugdet_list)
+            hotel_sorted = sort_within(hotel, item[0], item[1], 3, 'Price', bugdet_list)
             recommended_hotel = hotel_sorted.reindex(np.random.permutation(hotel_sorted.index))[:2]
 
-            restaurant_sorted = sort_within(restaurant, item[0], item[1], 3)
+            restaurant_sorted = sort_within(restaurant, item[0], item[1], 2)
             recommended_restaurant = restaurant_sorted.reindex(np.random.permutation(restaurant_sorted.index))[:3]
 
             f.write(r' \b {:*^100} \b0 \line\ '.format('DAY'+str(i+1)))
