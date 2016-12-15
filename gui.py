@@ -375,10 +375,10 @@ class Plan_ThirdPage(tk.Frame):
                 raise IndexError  
             elif w.get(w.curselection()) == 'Tight Schedule':     
                 t = trip_plan(Time, Bugdet, 2)
-                t.trip_planer(Time, Bugdet, 2)
+                t.trip_planer()
             elif w.get(w.curselection()) == 'Flexible Schedule':                         
                 t = trip_plan(Time, Bugdet, 1)  
-                t.trip_planer(Time, Bugdet, 1)
+                t.trip_planer()
         except IndexError:
             messagebox.showwarning("Error", "Please select one of the items in the listbox")        
 
