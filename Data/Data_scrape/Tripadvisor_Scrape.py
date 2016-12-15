@@ -47,13 +47,12 @@ for i in range(0,9):
         for t in msoup.find_all('h1',class_='heading_name'):
             name = t.text.strip()
             namelist.append(name)
-            print(name)
 
         #find address & lat & lng
         for t in msoup.find_all('span',class_='format_address'):
             address = t.text.strip()[9:]
             addrlist.append(address)
-            print(address)
+            
         latlng = msoup.find_all('div',class_='mapContainer')
         if latlng:
             for t in latlng:
@@ -64,7 +63,7 @@ for i in range(0,9):
             lat = -999
         lnglist.append(lng)
         latlist.append(lat)
-        print('lat',lat,'lng',lng)
+        
         
         #find number of reviews
         reviews = msoup.find_all('span',class_='rate sprite-rating_rr rating_rr') 
@@ -75,7 +74,7 @@ for i in range(0,9):
         else:
             totalreview = -999
         reviewlist.append(totalreview)    
-        print('reviews:',totalreview)
+        
               
         #find visitor rating 
         
@@ -126,8 +125,7 @@ for i in range(0,9):
             description = '-999'
         time_feelist.append(time_fee)
         descriptionlist.append(description)
-        print(time_fee)
-        print(description)
+       
 
 d = {'name':namelist,'address':addrlist,'lat':latlist, 'lng':lnglist, 'rating':ratinglist, 'detail':time_feelist,'total_review':reviewlist,'description':descriptionlist} 
 museum = pd.DataFrame(d)
