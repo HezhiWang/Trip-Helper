@@ -38,14 +38,13 @@ def print_to_rtf(df, filename):
                                                                         df['description'].iloc[i]))
             rtf.write(r'\line')
         rtf.write(r'}\n\x00')
-
-        webbrowser.open_new('file://' + path + '/' + filename + '.rtf')
-
+        
     except IOError:
         print("Error: can\'t find file or read data")
     else:
         print("Written content in the file successfully")
         rtf.close()
+        webbrowser.open_new('file://' + path + '/' + filename + '.rtf')
 
 def write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center, recommended_attraction, bugdet_list): 
     """
@@ -106,4 +105,4 @@ def write_trip_plan_to_rtf(index_list, recommendation_order, recommended_center,
     else:
         print("Written content in the file successfully")       
         f.close()
-    webbrowser.open_new('file://' + path + '/Trip_Plan_{}d.rtf'.format(len(recommended_center)))
+        webbrowser.open_new('file://' + path + '/Trip_Plan_{}d.rtf'.format(len(recommended_center)))
