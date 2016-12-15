@@ -38,7 +38,10 @@ $ python -m unittest discover
 
 ## How to use
 This application allows users to,
+
 1. **Search** for places of interest by entering their latitude and longitude and specify their preferences.
+
 2. **Plan** a trip to NYC by selecting their preferred budget, time and schedule to access a customized trip plan including recommendations for attractions, restaurants and hotels.
+
 3. **Overview** certain visualized stats about NYC attractions, museums, restaurants and hotels, including heat map, bar chart, pie chart etc.
 
