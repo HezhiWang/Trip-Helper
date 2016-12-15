@@ -11,14 +11,14 @@ Storm Avery Ross [https://github.com/sar516] (https://github.com/sar516) Netid: 
 
 ## Dependencies
 - Python = 3.5
-- tkinter == 8.5.18
-- geopy == 1.11.0
-- gmplot == 1.1.1
-- seaborn == 0.7.1
-- numpy == 1.11.1
-- pandas == 0.18.1
-- matplotlib == 1.5.3
-- sklearn == 0.18.1
+- [tkinter](https://docs.python.org/3/library/tk.html) == 8.5.18
+- [geopy](https://pypi.python.org/pypi/geopy/1.11.0) == 1.11.0
+- [gmplot](https://pypi.python.org/pypi/gmplot/1.1.1) == 1.1.1
+- [seaborn](https://pypi.python.org/pypi/seaborn/) == 0.7.1
+- [numpy](https://pypi.python.org/pypi/numpy/1.11.1) == 1.11.1
+- [pandas](http://pandas.pydata.org/pandas-docs/version/0.18.1/) == 0.18.1
+- [matplotlib](http://matplotlib.org/) == 1.5.3
+- [sklearn](http://scikit-learn.org/stable/) == 0.18.1
 
 if any of the packages are missing, type in your command line(MAC OS X)
 ```sh
