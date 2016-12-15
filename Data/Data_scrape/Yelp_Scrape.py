@@ -2,6 +2,9 @@
 This module is a webscraper that gets information of restaurants in NYC from yelp.com.
 It uses urllib to open urls and read the source html , and beautifulsoup to extract information,
 including name, address, scores, reviews and latitudes & longitudes.
+Every time when you implement this code, there will have some random advertisements and I have to handle them differently at each time.
+This code doesn't include the above part but I handeled this every time I implement this code. 
+Besides that, to get more data from yelp.com, I need to change the base website every time I implement this code. 
 '''
 import urllib.request
 from bs4 import BeautifulSoup
