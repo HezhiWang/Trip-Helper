@@ -85,12 +85,10 @@ for i in range(0, 52):
                 locscorelist.append(locscore)
                 avgscorelist.append(avgscore)
                 
-    print(i)
 
 d = {'Name':namelist, 'Price':pricelist, 'Address':addrlist,'Lat':latlist,'Lng':lnglist,'Avgscore':avgscorelist, 'Locscore':locscorelist,'Total_review':treviewlist} 
 bookingDB = pd.DataFrame(d)
 bookingDB.to_csv('bookingNYC.csv')
-print(bookingDB)
 
 
 
