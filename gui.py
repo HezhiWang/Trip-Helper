@@ -1,6 +1,4 @@
 import tkinter as tk
-from PIL import ImageTk, Image
-import PIL.Image
 from tkinter import *
 import matplotlib
 matplotlib.use('TkAgg')
