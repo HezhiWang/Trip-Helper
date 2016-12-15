@@ -1,7 +1,7 @@
 # New York City Trip Helper
-========
+++++++++++
 
-This is the final project for DS-GA 1007 Programming for Data Science.
+This is the final project for **DS-GA 1007 Programming for Data Science** .
 ## Contributors
 
 Hezhi Wang [https://github.com/HezhiWang] (https://github.com/HezhiWang) Netid: hw1567
