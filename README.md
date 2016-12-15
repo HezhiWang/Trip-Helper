@@ -26,6 +26,7 @@ $ pip install <package>==<version>
 ```
 
 ## How to run
+The application runs smoothly on MAC OS X.
 
 Switch to the directory of the application, and run on command line(MAC OS X):
 ```sh
