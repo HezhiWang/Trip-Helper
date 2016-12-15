@@ -1,5 +1,4 @@
 # New York City Trip Helper
-++++++++++
 
 This is the final project for **DS-GA 1007 Programming for Data Science** .
 ## Contributors
