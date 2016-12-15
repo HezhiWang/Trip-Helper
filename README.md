@@ -4,7 +4,9 @@ This is the final project for **DS-GA 1007 Programming for Data Science** .
 ## Contributors
 
 Hezhi Wang [https://github.com/HezhiWang] (https://github.com/HezhiWang) Netid: hw1567
+
 Han Zhao [https://github.com/hzhao16] (https://github.com/hzhao16) Netid: hz1411
+
 Storm Avery Ross [https://github.com/sar516] (https://github.com/sar516) Netid: sar516
 
 ## Dependencies
